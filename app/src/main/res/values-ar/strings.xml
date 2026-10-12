@@ -56,6 +56,7 @@
     <string name="location_privacy">يُستخدم موقعك مرة واحدة فقط لإيجاد أقرب منطقة؛ ولا يُحفظ ولا يُرسل.</string>
     <string name="location_unavailable">الموقع غير متاح. اختر منطقتك يدويًا.</string>
     <string name="location_not_found">لا توجد منطقة في قاعدة البيانات قريبة من موقعك. اختر المنطقة الأقرب مناخيًا.</string>
+    <string name="location_searching">جارٍ تحديد موقعك…</string>
     <string name="region">المنطقة</string>
     <string name="country">البلد</string>
     <string name="search_hint">ابحث عن نبات (الاسم، الاسم العلمي…)</string>

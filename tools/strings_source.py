@@ -68,6 +68,7 @@ S = {
 "location_not_found": ("Aucune région de la base n'est proche de votre position. Choisissez la région la plus proche climatiquement.",
   "No region in the database is close to your location. Choose the climatically closest region.",
   "لا توجد منطقة في قاعدة البيانات قريبة من موقعك. اختر المنطقة الأقرب مناخيًا."),
+"location_searching": ("Recherche de votre position…", "Finding your location…", "جارٍ تحديد موقعك…"),
 "region": ("Région", "Region", "المنطقة"),
 "country": ("Pays", "Country", "البلد"),
 # Home

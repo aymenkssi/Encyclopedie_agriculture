@@ -56,6 +56,7 @@
     <string name="location_privacy">Your location is used once to find the nearest region; it is neither stored nor sent.</string>
     <string name="location_unavailable">Location unavailable. Please choose your region manually.</string>
     <string name="location_not_found">No region in the database is close to your location. Choose the climatically closest region.</string>
+    <string name="location_searching">Finding your location…</string>
     <string name="region">Region</string>
     <string name="country">Country</string>
     <string name="search_hint">Search a plant (name, scientific name…)</string>

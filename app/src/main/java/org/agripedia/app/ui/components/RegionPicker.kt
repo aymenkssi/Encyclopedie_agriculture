@@ -41,6 +41,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
+import androidx.core.location.LocationManagerCompat
 import org.agripedia.app.R
 import org.agripedia.app.ui.tr
 import org.agripedia.core.engine.RegionLocator
@@ -60,11 +61,22 @@ fun RegionPickerDialog(catalog: Catalog, currentRegionId: String?, onDismiss: ()
     val notFound = stringResource(R.string.location_not_found)
     val unavailable = stringResource(R.string.location_unavailable)
 
-    fun locate() {
-        val loc = lastKnownLocation(context)
+    var locating by remember { mutableStateOf(false) }
+    val searching = stringResource(R.string.location_searching)
+
+    fun useLocation(loc: Location?) {
+        locating = false
         if (loc == null) { message = unavailable; return }
         val nearest = RegionLocator.nearest(catalog, loc.latitude, loc.longitude)
         if (nearest == null) message = notFound else { onPick(nearest.first); onDismiss() }
+    }
+
+    fun locate() {
+        lastKnownLocation(context)?.let { useLocation(it); return }
+        // No cached fix: ask once for a fresh coarse location.
+        locating = true
+        message = searching
+        if (!requestCurrentLocation(context) { useLocation(it) }) useLocation(null)
     }
 
     val permission = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
@@ -94,7 +106,7 @@ fun RegionPickerDialog(catalog: Catalog, currentRegionId: String?, onDismiss: ()
                     }
                     Text(stringResource(R.string.location_privacy), style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(vertical = 6.dp))
-                    message?.let { Text(it, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall) }
+                    message?.let { Text(it, color = if (locating) MaterialTheme.colorScheme.onSurfaceVariant else MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall) }
                     HorizontalDivider(Modifier.padding(vertical = 6.dp))
                 }
                 LazyColumn(Modifier.heightIn(max = 380.dp)) {
@@ -120,6 +132,17 @@ fun RegionPickerDialog(catalog: Catalog, currentRegionId: String?, onDismiss: ()
         },
         confirmButton = { TextButton(onClick = onDismiss) { Text(stringResource(R.string.close)) } },
     )
+}
+
+/** One-shot coarse location request; returns false when no provider is enabled. */
+@SuppressLint("MissingPermission")
+private fun requestCurrentLocation(context: Context, onResult: (Location?) -> Unit): Boolean {
+    if (ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) return false
+    val lm = context.getSystemService(LocationManager::class.java) ?: return false
+    val provider = listOf(LocationManager.NETWORK_PROVIDER, LocationManager.GPS_PROVIDER, LocationManager.PASSIVE_PROVIDER)
+        .firstOrNull { runCatching { lm.isProviderEnabled(it) }.getOrDefault(false) } ?: return false
+    LocationManagerCompat.getCurrentLocation(lm, provider, android.os.CancellationSignal(), ContextCompat.getMainExecutor(context)) { onResult(it) }
+    return true
 }
 
 @SuppressLint("MissingPermission")

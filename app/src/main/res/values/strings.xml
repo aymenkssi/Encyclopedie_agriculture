@@ -56,6 +56,7 @@
     <string name="location_privacy">Votre position est utilisée une seule fois pour trouver la région la plus proche ; elle n\'est ni enregistrée ni transmise.</string>
     <string name="location_unavailable">Position indisponible. Choisissez votre région manuellement.</string>
     <string name="location_not_found">Aucune région de la base n\'est proche de votre position. Choisissez la région la plus proche climatiquement.</string>
+    <string name="location_searching">Recherche de votre position…</string>
     <string name="region">Région</string>
     <string name="country">Pays</string>
     <string name="search_hint">Rechercher une plante (nom, nom scientifique…)</string>
