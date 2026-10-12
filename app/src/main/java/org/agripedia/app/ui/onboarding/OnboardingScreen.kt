@@ -63,7 +63,7 @@ fun OnboardingScreen(k: Knowledge, vm: AppViewModel, onDone: () -> Unit) {
         val region = regionId?.let { k.catalog.regionsById[it] }
         vm.container.userRepository.saveProfile(UserProfile(region?.countryId, region?.id, experience, farm, farm.defaultMethod))
         vm.container.settings.setOnboardingDone(true)
-        onDone()
+        kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Main.immediate) { onDone() }
     }
 
     Column(Modifier.fillMaxSize().padding(24.dp)) {

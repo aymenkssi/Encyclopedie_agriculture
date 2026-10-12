@@ -221,7 +221,7 @@ fun GardenDetailScreen(k: Knowledge, appVm: AppViewModel, nav: Nav, gardenId: St
     }
     if (newPlot) PlotEditorDialog(k, onDismiss = { newPlot = false }) { name, area, soil, method -> scope.launch { users.savePlot(gardenId, name, area, soil, method) } }
     if (confirmDelete && g != null) ConfirmDialog(stringResource(R.string.delete_garden), stringResource(R.string.delete_garden_text), stringResource(R.string.delete),
-        onConfirm = { scope.launch { users.deleteGarden(g); nav.back() } }, onDismiss = { confirmDelete = false })
+        onConfirm = { scope.launch { users.deleteGarden(g); kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Main.immediate) { nav.back() } } }, onDismiss = { confirmDelete = false })
     if (addCrop) AddCropDialog(k, appVm.container, fixedGardenId = gardenId, onDismiss = { addCrop = false }, onAdded = { addCrop = false })
 }
 
@@ -300,7 +300,7 @@ fun CropDetailScreen(k: Knowledge, appVm: AppViewModel, nav: Nav, cropId: String
         }
     }
     if (confirmDelete && c != null) ConfirmDialog(stringResource(R.string.delete_crop), stringResource(R.string.delete_crop_text), stringResource(R.string.delete),
-        onConfirm = { scope.launch { users.deleteCrop(c); nav.back() } }, onDismiss = { confirmDelete = false })
+        onConfirm = { scope.launch { users.deleteCrop(c); kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Main.immediate) { nav.back() } } }, onDismiss = { confirmDelete = false })
     if ((newNote || editNote != null) && c != null) NoteEditorDialog(
         initial = editNote, onDismiss = { newNote = false; editNote = null },
         onSave = { title, body -> scope.launch { users.saveNote(editNote, title, body, c.plantId, c.id) }; newNote = false; editNote = null },

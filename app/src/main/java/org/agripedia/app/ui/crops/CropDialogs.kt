@@ -141,10 +141,12 @@ fun AddCropDialog(
                     val id = users.addCrop(gid, plotId, p, null, method ?: p.methods.first(), start!!, date, stage, quantity, plan) { a ->
                         context.getString(R.string.task_title_auto, activityLabel(context, a), p.displayName(lang))
                     }
-                    if (plan && org.agripedia.app.notifications.Reminders.needsPermission(context)) {
-                        notifPermission.launch(android.Manifest.permission.POST_NOTIFICATIONS)
+                    kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Main.immediate) {
+                        if (plan && org.agripedia.app.notifications.Reminders.needsPermission(context)) {
+                            notifPermission.launch(android.Manifest.permission.POST_NOTIFICATIONS)
+                        }
+                        onAdded(id)
                     }
-                    onAdded(id)
                 }
             }) { Text(stringResource(R.string.add)) }
         },
