@@ -1,0 +1,1517 @@
+{
+ "countries": [
+  {
+   "id": "FR",
+   "hemisphere": "north",
+   "names": {
+    "fr": "France",
+    "en": "France",
+    "ar": "فرنسا"
+   },
+   "regions": [
+    {
+     "id": "fr-idf",
+     "countryId": "FR",
+     "names": {
+      "fr": "Île-de-France (Paris)",
+      "en": "Île-de-France (Paris)",
+      "ar": "إيل دو فرانس (باريس)"
+     },
+     "latitude": 48.86,
+     "longitude": 2.35,
+     "altitudeM": 35,
+     "climateZoneId": "temperate_oceanic",
+     "koppen": "Cfb",
+     "monthlyMeanTempC": [
+      5.0,
+      5.6,
+      8.8,
+      11.5,
+      15.2,
+      18.3,
+      20.5,
+      20.3,
+      16.9,
+      13.0,
+      8.3,
+      5.5
+     ],
+     "monthlyMinTempC": [
+      2.7,
+      2.8,
+      5.3,
+      7.3,
+      10.9,
+      13.8,
+      15.8,
+      15.7,
+      12.7,
+      9.6,
+      5.8,
+      3.4
+     ],
+     "monthlyPrecipMm": [
+      51,
+      41,
+      48,
+      52,
+      63,
+      50,
+      62,
+      53,
+      47,
+      62,
+      52,
+      58
+     ],
+     "dominantSoilIds": [
+      "silty",
+      "loamy",
+      "calcareous"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "id": "fr-bre",
+     "countryId": "FR",
+     "names": {
+      "fr": "Bretagne (Rennes)",
+      "en": "Brittany (Rennes)",
+      "ar": "بريتاني (رين)"
+     },
+     "latitude": 48.11,
+     "longitude": -1.68,
+     "altitudeM": 36,
+     "climateZoneId": "temperate_oceanic",
+     "koppen": "Cfb",
+     "monthlyMeanTempC": [
+      5.6,
+      6.1,
+      8.7,
+      10.6,
+      14.1,
+      17.0,
+      19.0,
+      18.9,
+      16.3,
+      12.9,
+      8.7,
+      6.0
+     ],
+     "monthlyMinTempC": [
+      2.6,
+      2.4,
+      4.0,
+      5.3,
+      8.6,
+      11.3,
+      13.2,
+      13.0,
+      10.9,
+      8.5,
+      5.0,
+      2.9
+     ],
+     "monthlyPrecipMm": [
+      67,
+      52,
+      51,
+      51,
+      60,
+      45,
+      48,
+      46,
+      52,
+      77,
+      73,
+      74
+     ],
+     "dominantSoilIds": [
+      "loamy",
+      "silty"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "id": "fr-paca",
+     "countryId": "FR",
+     "names": {
+      "fr": "Provence (Marseille)",
+      "en": "Provence (Marseille)",
+      "ar": "بروفانس (مرسيليا)"
+     },
+     "latitude": 43.3,
+     "longitude": 5.37,
+     "altitudeM": 30,
+     "climateZoneId": "mediterranean",
+     "koppen": "Csa",
+     "monthlyMeanTempC": [
+      7.5,
+      8.5,
+      11.3,
+      14.0,
+      18.0,
+      22.0,
+      24.8,
+      24.4,
+      20.6,
+      16.6,
+      11.5,
+      8.2
+     ],
+     "monthlyMinTempC": [
+      3.6,
+      4.2,
+      6.6,
+      9.2,
+      13.0,
+      16.6,
+      19.3,
+      19.1,
+      15.9,
+      12.4,
+      7.6,
+      4.5
+     ],
+     "monthlyPrecipMm": [
+      51,
+      32,
+      30,
+      58,
+      44,
+      25,
+      9,
+      26,
+      64,
+      74,
+      60,
+      48
+     ],
+     "dominantSoilIds": [
+      "calcareous",
+      "clay",
+      "loamy"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": [
+      12,
+      1,
+      2
+     ]
+    },
+    {
+     "id": "fr-als",
+     "countryId": "FR",
+     "names": {
+      "fr": "Alsace (Strasbourg)",
+      "en": "Alsace (Strasbourg)",
+      "ar": "الألزاس (ستراسبورغ)"
+     },
+     "latitude": 48.58,
+     "longitude": 7.75,
+     "altitudeM": 150,
+     "climateZoneId": "temperate_oceanic",
+     "koppen": "Cfb",
+     "monthlyMeanTempC": [
+      1.9,
+      3.1,
+      7.0,
+      10.6,
+      15.0,
+      18.4,
+      20.3,
+      19.9,
+      15.8,
+      11.1,
+      5.9,
+      2.8
+     ],
+     "monthlyMinTempC": [
+      -1.3,
+      -0.9,
+      2.0,
+      4.8,
+      9.2,
+      12.4,
+      14.4,
+      13.9,
+      10.3,
+      6.8,
+      2.6,
+      -0.4
+     ],
+     "monthlyPrecipMm": [
+      34,
+      33,
+      40,
+      49,
+      82,
+      73,
+      74,
+      62,
+      61,
+      56,
+      49,
+      49
+     ],
+     "dominantSoilIds": [
+      "silty",
+      "loamy"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "MA",
+   "hemisphere": "north",
+   "names": {
+    "fr": "Maroc",
+    "en": "Morocco",
+    "ar": "المغرب"
+   },
+   "regions": [
+    {
+     "id": "ma-rsk",
+     "countryId": "MA",
+     "names": {
+      "fr": "Rabat-Salé-Kénitra",
+      "en": "Rabat-Salé-Kénitra",
+      "ar": "الرباط - سلا - القنيطرة"
+     },
+     "latitude": 34.02,
+     "longitude": -6.84,
+     "altitudeM": 75,
+     "climateZoneId": "mediterranean",
+     "koppen": "Csa",
+     "monthlyMeanTempC": [
+      12.9,
+      13.6,
+      15.0,
+      16.1,
+      18.4,
+      20.8,
+      22.8,
+      23.2,
+      22.2,
+      19.7,
+      16.3,
+      13.8
+     ],
+     "monthlyMinTempC": [
+      8.1,
+      8.6,
+      9.8,
+      11.0,
+      13.4,
+      16.0,
+      18.1,
+      18.4,
+      17.3,
+      14.6,
+      11.3,
+      8.9
+     ],
+     "monthlyPrecipMm": [
+      77,
+      74,
+      56,
+      57,
+      24,
+      7,
+      0.5,
+      1,
+      8,
+      49,
+      92,
+      96
+     ],
+     "dominantSoilIds": [
+      "sandy",
+      "clay",
+      "loamy"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": []
+    },
+    {
+     "id": "ma-mar",
+     "countryId": "MA",
+     "names": {
+      "fr": "Marrakech-Safi",
+      "en": "Marrakech-Safi",
+      "ar": "مراكش - آسفي"
+     },
+     "latitude": 31.63,
+     "longitude": -8.01,
+     "altitudeM": 466,
+     "climateZoneId": "semi_arid",
+     "koppen": "BSh",
+     "monthlyMeanTempC": [
+      12.0,
+      13.8,
+      16.6,
+      18.3,
+      21.8,
+      25.0,
+      28.8,
+      28.8,
+      25.3,
+      21.5,
+      16.3,
+      12.8
+     ],
+     "monthlyMinTempC": [
+      5.6,
+      7.4,
+      9.6,
+      11.4,
+      14.5,
+      17.4,
+      20.8,
+      21.1,
+      18.7,
+      14.9,
+      9.9,
+      6.7
+     ],
+     "monthlyPrecipMm": [
+      32,
+      38,
+      38,
+      39,
+      24,
+      4,
+      1,
+      3,
+      7,
+      24,
+      41,
+      31
+     ],
+     "dominantSoilIds": [
+      "loamy",
+      "calcareous"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": [
+      12,
+      1
+     ]
+    },
+    {
+     "id": "ma-sms",
+     "countryId": "MA",
+     "names": {
+      "fr": "Souss-Massa (Agadir)",
+      "en": "Souss-Massa (Agadir)",
+      "ar": "سوس - ماسة (أكادير)"
+     },
+     "latitude": 30.42,
+     "longitude": -9.6,
+     "altitudeM": 20,
+     "climateZoneId": "semi_arid",
+     "koppen": "BSh",
+     "monthlyMeanTempC": [
+      14.0,
+      15.0,
+      16.5,
+      17.4,
+      19.0,
+      20.6,
+      22.3,
+      22.5,
+      21.6,
+      20.3,
+      17.6,
+      14.9
+     ],
+     "monthlyMinTempC": [
+      7.9,
+      9.2,
+      11.0,
+      12.4,
+      14.6,
+      16.5,
+      18.0,
+      18.2,
+      17.0,
+      14.9,
+      11.6,
+      8.6
+     ],
+     "monthlyPrecipMm": [
+      47,
+      33,
+      28,
+      15,
+      3,
+      0.3,
+      0.1,
+      1,
+      6,
+      22,
+      39,
+      46
+     ],
+     "dominantSoilIds": [
+      "sandy",
+      "loamy"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": []
+    },
+    {
+     "id": "ma-fm",
+     "countryId": "MA",
+     "names": {
+      "fr": "Fès-Meknès",
+      "en": "Fès-Meknès",
+      "ar": "فاس - مكناس"
+     },
+     "latitude": 34.03,
+     "longitude": -5.0,
+     "altitudeM": 414,
+     "climateZoneId": "mediterranean",
+     "koppen": "Csa",
+     "monthlyMeanTempC": [
+      10.1,
+      11.4,
+      13.6,
+      15.3,
+      19.2,
+      23.4,
+      27.2,
+      27.3,
+      23.6,
+      19.1,
+      14.0,
+      10.8
+     ],
+     "monthlyMinTempC": [
+      4.1,
+      5.0,
+      6.7,
+      8.4,
+      11.6,
+      15.0,
+      18.0,
+      18.1,
+      15.8,
+      12.0,
+      7.6,
+      4.9
+     ],
+     "monthlyPrecipMm": [
+      66,
+      70,
+      65,
+      65,
+      37,
+      11,
+      2,
+      3,
+      15,
+      46,
+      74,
+      82
+     ],
+     "dominantSoilIds": [
+      "clay",
+      "loamy",
+      "calcareous"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": [
+      12,
+      1,
+      2
+     ]
+    },
+    {
+     "id": "ma-dt",
+     "countryId": "MA",
+     "names": {
+      "fr": "Drâa-Tafilalet (Errachidia)",
+      "en": "Drâa-Tafilalet (Errachidia)",
+      "ar": "درعة - تافيلالت (الرشيدية)"
+     },
+     "latitude": 31.93,
+     "longitude": -4.43,
+     "altitudeM": 1040,
+     "climateZoneId": "arid_desert",
+     "koppen": "BWh",
+     "monthlyMeanTempC": [
+      9.0,
+      11.6,
+      15.1,
+      18.6,
+      22.7,
+      28.0,
+      31.7,
+      30.6,
+      25.6,
+      19.6,
+      13.3,
+      9.5
+     ],
+     "monthlyMinTempC": [
+      2.0,
+      4.4,
+      7.7,
+      11.0,
+      15.0,
+      19.7,
+      23.1,
+      22.6,
+      18.2,
+      12.6,
+      6.5,
+      2.6
+     ],
+     "monthlyPrecipMm": [
+      8,
+      8,
+      13,
+      9,
+      9,
+      4,
+      2,
+      7,
+      13,
+      13,
+      13,
+      7
+     ],
+     "dominantSoilIds": [
+      "sandy",
+      "calcareous"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": [
+      12,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "DZ",
+   "hemisphere": "north",
+   "names": {
+    "fr": "Algérie",
+    "en": "Algeria",
+    "ar": "الجزائر"
+   },
+   "regions": [
+    {
+     "id": "dz-alg",
+     "countryId": "DZ",
+     "names": {
+      "fr": "Alger (littoral)",
+      "en": "Algiers (coast)",
+      "ar": "الجزائر العاصمة (الساحل)"
+     },
+     "latitude": 36.75,
+     "longitude": 3.06,
+     "altitudeM": 25,
+     "climateZoneId": "mediterranean",
+     "koppen": "Csa",
+     "monthlyMeanTempC": [
+      11.6,
+      12.1,
+      13.8,
+      15.8,
+      18.8,
+      22.6,
+      25.4,
+      26.1,
+      23.6,
+      20.1,
+      15.6,
+      12.8
+     ],
+     "monthlyMinTempC": [
+      7.6,
+      7.9,
+      9.4,
+      11.2,
+      14.2,
+      17.8,
+      20.6,
+      21.3,
+      19.0,
+      15.6,
+      11.6,
+      8.9
+     ],
+     "monthlyPrecipMm": [
+      90,
+      79,
+      62,
+      55,
+      38,
+      12,
+      3,
+      8,
+      29,
+      62,
+      90,
+      103
+     ],
+     "dominantSoilIds": [
+      "clay",
+      "loamy"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": []
+    },
+    {
+     "id": "dz-sti",
+     "countryId": "DZ",
+     "names": {
+      "fr": "Sétif (Hauts Plateaux)",
+      "en": "Sétif (High Plateaus)",
+      "ar": "سطيف (الهضاب العليا)"
+     },
+     "latitude": 36.19,
+     "longitude": 5.41,
+     "altitudeM": 1080,
+     "climateZoneId": "semi_arid",
+     "koppen": "BSk",
+     "monthlyMeanTempC": [
+      4.8,
+      5.9,
+      9.0,
+      11.9,
+      16.9,
+      22.4,
+      26.0,
+      25.5,
+      20.6,
+      15.6,
+      9.6,
+      5.8
+     ],
+     "monthlyMinTempC": [
+      0.0,
+      0.6,
+      3.0,
+      5.6,
+      9.9,
+      14.6,
+      18.1,
+      18.0,
+      14.4,
+      9.8,
+      4.7,
+      1.3
+     ],
+     "monthlyPrecipMm": [
+      35,
+      30,
+      37,
+      38,
+      40,
+      20,
+      9,
+      15,
+      35,
+      32,
+      33,
+      39
+     ],
+     "dominantSoilIds": [
+      "clay",
+      "calcareous"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "id": "dz-bsk",
+     "countryId": "DZ",
+     "names": {
+      "fr": "Biskra (Ziban)",
+      "en": "Biskra (Ziban)",
+      "ar": "بسكرة (الزيبان)"
+     },
+     "latitude": 34.85,
+     "longitude": 5.73,
+     "altitudeM": 87,
+     "climateZoneId": "arid_desert",
+     "koppen": "BWh",
+     "monthlyMeanTempC": [
+      11.8,
+      13.8,
+      17.4,
+      20.9,
+      26.0,
+      31.0,
+      34.1,
+      33.5,
+      28.6,
+      22.8,
+      16.7,
+      12.6
+     ],
+     "monthlyMinTempC": [
+      6.4,
+      7.9,
+      11.1,
+      14.6,
+      19.6,
+      24.5,
+      27.6,
+      27.4,
+      23.1,
+      17.4,
+      11.3,
+      7.4
+     ],
+     "monthlyPrecipMm": [
+      17,
+      12,
+      15,
+      12,
+      11,
+      4,
+      1,
+      3,
+      13,
+      15,
+      15,
+      12
+     ],
+     "dominantSoilIds": [
+      "sandy",
+      "calcareous"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": []
+    }
+   ]
+  },
+  {
+   "id": "TN",
+   "hemisphere": "north",
+   "names": {
+    "fr": "Tunisie",
+    "en": "Tunisia",
+    "ar": "تونس"
+   },
+   "regions": [
+    {
+     "id": "tn-tun",
+     "countryId": "TN",
+     "names": {
+      "fr": "Tunis (Nord)",
+      "en": "Tunis (North)",
+      "ar": "تونس (الشمال)"
+     },
+     "latitude": 36.81,
+     "longitude": 10.18,
+     "altitudeM": 4,
+     "climateZoneId": "mediterranean",
+     "koppen": "Csa",
+     "monthlyMeanTempC": [
+      11.5,
+      12.0,
+      13.9,
+      16.4,
+      20.6,
+      25.0,
+      28.1,
+      28.5,
+      25.6,
+      21.4,
+      16.3,
+      12.7
+     ],
+     "monthlyMinTempC": [
+      7.3,
+      7.6,
+      9.2,
+      11.4,
+      15.0,
+      19.0,
+      21.9,
+      22.6,
+      20.4,
+      16.5,
+      11.8,
+      8.6
+     ],
+     "monthlyPrecipMm": [
+      59,
+      57,
+      47,
+      38,
+      23,
+      10,
+      3,
+      8,
+      33,
+      66,
+      56,
+      67
+     ],
+     "dominantSoilIds": [
+      "clay",
+      "loamy",
+      "calcareous"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": []
+    },
+    {
+     "id": "tn-sfx",
+     "countryId": "TN",
+     "names": {
+      "fr": "Sfax (Centre-Est)",
+      "en": "Sfax (Centre-East)",
+      "ar": "صفاقس (الوسط الشرقي)"
+     },
+     "latitude": 34.74,
+     "longitude": 10.76,
+     "altitudeM": 20,
+     "climateZoneId": "semi_arid",
+     "koppen": "BSh",
+     "monthlyMeanTempC": [
+      12.0,
+      13.1,
+      15.3,
+      17.8,
+      21.2,
+      25.0,
+      27.5,
+      28.0,
+      26.2,
+      22.4,
+      17.2,
+      13.2
+     ],
+     "monthlyMinTempC": [
+      6.9,
+      7.7,
+      9.8,
+      12.5,
+      16.0,
+      19.8,
+      22.2,
+      22.8,
+      21.0,
+      16.9,
+      11.6,
+      8.1
+     ],
+     "monthlyPrecipMm": [
+      18,
+      18,
+      24,
+      20,
+      12,
+      4,
+      1,
+      5,
+      23,
+      38,
+      22,
+      19
+     ],
+     "dominantSoilIds": [
+      "sandy",
+      "calcareous"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": []
+    }
+   ]
+  },
+  {
+   "id": "EG",
+   "hemisphere": "north",
+   "names": {
+    "fr": "Égypte",
+    "en": "Egypt",
+    "ar": "مصر"
+   },
+   "regions": [
+    {
+     "id": "eg-cai",
+     "countryId": "EG",
+     "names": {
+      "fr": "Le Caire et Delta du Nil",
+      "en": "Cairo and Nile Delta",
+      "ar": "القاهرة ودلتا النيل"
+     },
+     "latitude": 30.04,
+     "longitude": 31.24,
+     "altitudeM": 23,
+     "climateZoneId": "arid_desert",
+     "koppen": "BWh",
+     "monthlyMeanTempC": [
+      14.0,
+      15.2,
+      17.7,
+      21.4,
+      25.0,
+      27.5,
+      28.4,
+      28.3,
+      26.5,
+      23.8,
+      19.2,
+      15.4
+     ],
+     "monthlyMinTempC": [
+      9.0,
+      9.8,
+      11.8,
+      14.9,
+      18.2,
+      20.8,
+      22.3,
+      22.5,
+      20.8,
+      18.1,
+      14.1,
+      10.4
+     ],
+     "monthlyPrecipMm": [
+      5,
+      4,
+      4,
+      1,
+      0.5,
+      0,
+      0,
+      0,
+      0,
+      1,
+      3,
+      6
+     ],
+     "dominantSoilIds": [
+      "clay",
+      "silty"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": []
+    }
+   ]
+  },
+  {
+   "id": "SN",
+   "hemisphere": "north",
+   "names": {
+    "fr": "Sénégal",
+    "en": "Senegal",
+    "ar": "السنغال"
+   },
+   "regions": [
+    {
+     "id": "sn-dkr",
+     "countryId": "SN",
+     "names": {
+      "fr": "Dakar et Niayes",
+      "en": "Dakar and Niayes",
+      "ar": "داكار ونياي"
+     },
+     "latitude": 14.72,
+     "longitude": -17.47,
+     "altitudeM": 24,
+     "climateZoneId": "semi_arid",
+     "koppen": "BSh",
+     "monthlyMeanTempC": [
+      21.3,
+      20.8,
+      21.1,
+      21.7,
+      22.9,
+      25.5,
+      27.0,
+      27.3,
+      27.5,
+      27.4,
+      25.8,
+      23.3
+     ],
+     "monthlyMinTempC": [
+      18.4,
+      17.7,
+      18.0,
+      18.6,
+      20.0,
+      22.9,
+      24.6,
+      24.7,
+      24.6,
+      24.4,
+      22.6,
+      20.1
+     ],
+     "monthlyPrecipMm": [
+      1,
+      1,
+      0,
+      0,
+      0.5,
+      10,
+      70,
+      150,
+      145,
+      40,
+      2,
+      2
+     ],
+     "dominantSoilIds": [
+      "sandy"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": [],
+     "rainySeasonMonths": [
+      7,
+      8,
+      9,
+      10
+     ]
+    },
+    {
+     "id": "sn-kao",
+     "countryId": "SN",
+     "names": {
+      "fr": "Kaolack (Bassin arachidier)",
+      "en": "Kaolack (Groundnut Basin)",
+      "ar": "كاولاك (حوض الفول السوداني)"
+     },
+     "latitude": 14.15,
+     "longitude": -16.07,
+     "altitudeM": 7,
+     "climateZoneId": "tropical_savanna",
+     "koppen": "Aw",
+     "monthlyMeanTempC": [
+      24.6,
+      26.7,
+      28.9,
+      30.0,
+      30.8,
+      30.0,
+      28.4,
+      27.5,
+      27.6,
+      28.4,
+      27.3,
+      25.0
+     ],
+     "monthlyMinTempC": [
+      16.5,
+      18.4,
+      20.5,
+      21.6,
+      23.3,
+      24.6,
+      23.9,
+      23.3,
+      23.1,
+      23.0,
+      20.4,
+      17.4
+     ],
+     "monthlyPrecipMm": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      45,
+      140,
+      220,
+      165,
+      50,
+      1,
+      0
+     ],
+     "dominantSoilIds": [
+      "sandy"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": [],
+     "rainySeasonMonths": [
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CA",
+   "hemisphere": "north",
+   "names": {
+    "fr": "Canada",
+    "en": "Canada",
+    "ar": "كندا"
+   },
+   "regions": [
+    {
+     "id": "ca-qc",
+     "countryId": "CA",
+     "names": {
+      "fr": "Québec (région de Montréal)",
+      "en": "Quebec (Montreal area)",
+      "ar": "كيبيك (منطقة مونتريال)"
+     },
+     "latitude": 45.5,
+     "longitude": -73.57,
+     "altitudeM": 36,
+     "climateZoneId": "temperate_continental",
+     "koppen": "Dfb",
+     "monthlyMeanTempC": [
+      -9.7,
+      -7.7,
+      -2.0,
+      6.4,
+      13.4,
+      18.6,
+      21.2,
+      20.1,
+      15.5,
+      8.5,
+      1.9,
+      -5.3
+     ],
+     "monthlyMinTempC": [
+      -14.0,
+      -12.2,
+      -6.4,
+      1.4,
+      7.8,
+      13.2,
+      16.1,
+      14.8,
+      10.3,
+      4.0,
+      -1.4,
+      -9.3
+     ],
+     "monthlyPrecipMm": [
+      87,
+      70,
+      80,
+      83,
+      81,
+      87,
+      89,
+      94,
+      83,
+      87,
+      95,
+      90
+     ],
+     "dominantSoilIds": [
+      "clay",
+      "loamy"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "BR",
+   "hemisphere": "south",
+   "names": {
+    "fr": "Brésil",
+    "en": "Brazil",
+    "ar": "البرازيل"
+   },
+   "regions": [
+    {
+     "id": "br-sp",
+     "countryId": "BR",
+     "names": {
+      "fr": "São Paulo (plateau)",
+      "en": "São Paulo (plateau)",
+      "ar": "ساو باولو (الهضبة)"
+     },
+     "latitude": -23.55,
+     "longitude": -46.63,
+     "altitudeM": 760,
+     "climateZoneId": "humid_subtropical",
+     "koppen": "Cwa",
+     "monthlyMeanTempC": [
+      22.4,
+      22.7,
+      22.1,
+      20.3,
+      17.9,
+      16.8,
+      16.3,
+      17.6,
+      18.5,
+      19.8,
+      20.6,
+      21.6
+     ],
+     "monthlyMinTempC": [
+      18.7,
+      18.8,
+      18.2,
+      16.3,
+      13.8,
+      12.4,
+      11.7,
+      12.7,
+      14.2,
+      15.9,
+      16.9,
+      17.9
+     ],
+     "monthlyPrecipMm": [
+      290,
+      250,
+      215,
+      90,
+      75,
+      55,
+      45,
+      40,
+      80,
+      125,
+      145,
+      200
+     ],
+     "dominantSoilIds": [
+      "clay"
+     ],
+     "climateStatus": "to_verify",
+     "sourceIds": [
+      "climate-approx",
+      "koppen-beck2018"
+     ],
+     "notes": {
+      "fr": "Normales approximatives d'une station représentative ; les conditions locales (altitude, relief, littoral) peuvent fortement différer.",
+      "en": "Approximate normals of a representative station; local conditions (altitude, relief, coast) may differ strongly.",
+      "ar": "معدلات تقريبية لمحطة تمثيلية؛ قد تختلف الظروف المحلية (الارتفاع، التضاريس، الساحل) اختلافًا كبيرًا."
+     },
+     "frostMonths": [],
+     "rainySeasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+     ]
+    }
+   ]
+  }
+ ]
+}

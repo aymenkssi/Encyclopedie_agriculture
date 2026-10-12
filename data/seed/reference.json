@@ -1,0 +1,72 @@
+{
+  "categories": [
+    {"id": "vegetable", "order": 1, "names": {"fr": "Légumes", "en": "Vegetables", "ar": "الخضروات"}},
+    {"id": "fruit", "order": 2, "names": {"fr": "Fruits", "en": "Fruits", "ar": "الفواكه"}},
+    {"id": "legume", "order": 3, "names": {"fr": "Légumineuses", "en": "Legumes (pulses)", "ar": "البقوليات"}},
+    {"id": "cereal", "order": 4, "names": {"fr": "Céréales", "en": "Cereals", "ar": "الحبوب"}},
+    {"id": "aromatic", "order": 5, "names": {"fr": "Aromatiques et médicinales", "en": "Herbs and medicinal plants", "ar": "النباتات العطرية والطبية"}},
+    {"id": "industrial", "order": 6, "names": {"fr": "Cultures industrielles", "en": "Industrial crops", "ar": "المحاصيل الصناعية"}},
+    {"id": "other", "order": 7, "names": {"fr": "Autres cultures", "en": "Other crops", "ar": "محاصيل أخرى"}}
+  ],
+  "climateZones": [
+    {"id": "temperate_oceanic", "koppen": ["Cfb", "Cfc"],
+     "names": {"fr": "Tempéré océanique", "en": "Temperate oceanic", "ar": "معتدل محيطي"},
+     "description": {"fr": "Hivers doux et humides, étés tempérés, pluies réparties sur l'année.", "en": "Mild wet winters, temperate summers, rainfall spread over the year.", "ar": "شتاء معتدل ورطب، صيف معتدل، وأمطار موزعة على مدار السنة."}},
+    {"id": "temperate_continental", "koppen": ["Dfa", "Dfb", "Dwb"],
+     "names": {"fr": "Tempéré continental", "en": "Temperate continental", "ar": "معتدل قاري"},
+     "description": {"fr": "Hivers froids avec gel prolongé, étés chauds ; saison de culture courte.", "en": "Cold winters with prolonged frost, warm summers; short growing season.", "ar": "شتاء بارد مع صقيع طويل، وصيف دافئ؛ موسم زراعي قصير."}},
+    {"id": "mediterranean", "koppen": ["Csa", "Csb"],
+     "names": {"fr": "Méditerranéen", "en": "Mediterranean", "ar": "متوسطي"},
+     "description": {"fr": "Étés chauds et secs, hivers doux et pluvieux ; irrigation estivale souvent nécessaire.", "en": "Hot dry summers, mild rainy winters; summer irrigation often required.", "ar": "صيف حار وجاف، وشتاء معتدل وممطر؛ غالبًا ما يلزم الري صيفًا."}},
+    {"id": "semi_arid", "koppen": ["BSh", "BSk"],
+     "names": {"fr": "Semi-aride (steppe)", "en": "Semi-arid (steppe)", "ar": "شبه جاف (سهوب)"},
+     "description": {"fr": "Pluies faibles et irrégulières ; cultures pluviales risquées sans irrigation d'appoint.", "en": "Low, irregular rainfall; rain-fed crops are risky without supplementary irrigation.", "ar": "أمطار قليلة وغير منتظمة؛ الزراعة البعلية محفوفة بالمخاطر دون ري تكميلي."}},
+    {"id": "arid_desert", "koppen": ["BWh", "BWk"],
+     "names": {"fr": "Aride (désertique)", "en": "Arid (desert)", "ar": "جاف (صحراوي)"},
+     "description": {"fr": "Pluies très rares ; toute culture dépend de l'irrigation (oasis, vallées irriguées).", "en": "Very rare rainfall; all crops depend on irrigation (oases, irrigated valleys).", "ar": "أمطار نادرة جدًا؛ كل زراعة تعتمد على الري (الواحات والأودية المسقية)."}},
+    {"id": "humid_subtropical", "koppen": ["Cfa", "Cwa", "Cwb"],
+     "names": {"fr": "Subtropical humide", "en": "Humid subtropical", "ar": "شبه استوائي رطب"},
+     "description": {"fr": "Étés chauds et humides, hivers doux ; saison des pluies marquée dans certaines régions.", "en": "Hot humid summers, mild winters; marked rainy season in some regions.", "ar": "صيف حار ورطب، شتاء معتدل؛ موسم أمطار واضح في بعض المناطق."}},
+    {"id": "tropical_savanna", "koppen": ["Aw", "As"],
+     "names": {"fr": "Tropical à saison sèche", "en": "Tropical savanna (wet and dry)", "ar": "مداري بموسم جاف"},
+     "description": {"fr": "Températures élevées toute l'année, alternance d'une saison des pluies et d'une saison sèche.", "en": "High temperatures all year, alternating rainy and dry seasons.", "ar": "حرارة مرتفعة طوال السنة مع تعاقب موسم ممطر وموسم جاف."}},
+    {"id": "tropical_humid", "koppen": ["Af", "Am"],
+     "names": {"fr": "Tropical humide", "en": "Tropical humid", "ar": "مداري رطب"},
+     "description": {"fr": "Chaud et humide toute l'année ; forte pression des maladies fongiques.", "en": "Hot and humid all year; strong fungal disease pressure.", "ar": "حار ورطب طوال السنة؛ ضغط مرتفع للأمراض الفطرية."}}
+  ],
+  "soilTypes": [
+    {"id": "sandy", "names": {"fr": "Sableux", "en": "Sandy", "ar": "رملية"}, "description": {"fr": "Léger, se réchauffe vite, draine bien mais retient peu l'eau et les nutriments.", "en": "Light, warms quickly, drains well but holds little water and nutrients.", "ar": "خفيفة، تسخن بسرعة، جيدة الصرف لكنها تحتفظ بقليل من الماء والعناصر الغذائية."}},
+    {"id": "loamy", "names": {"fr": "Limoneux-équilibré (franc)", "en": "Loam", "ar": "طميية متوازنة"}, "description": {"fr": "Mélange équilibré de sable, limon et argile ; convient à la plupart des cultures.", "en": "Balanced mix of sand, silt and clay; suits most crops.", "ar": "مزيج متوازن من الرمل والطمي والطين؛ يناسب معظم المحاصيل."}},
+    {"id": "clay", "names": {"fr": "Argileux", "en": "Clay", "ar": "طينية"}, "description": {"fr": "Lourd, fertile, retient l'eau ; se travaille difficilement et se réchauffe lentement.", "en": "Heavy, fertile, water-retentive; hard to work and slow to warm.", "ar": "ثقيلة وخصبة وتحتفظ بالماء؛ صعبة الحراثة وبطيئة التسخين."}},
+    {"id": "silty", "names": {"fr": "Limoneux", "en": "Silty", "ar": "غرينية"}, "description": {"fr": "Fertile et doux, mais sensible au tassement et à la battance.", "en": "Fertile and soft, but prone to compaction and crusting.", "ar": "خصبة وناعمة، لكنها معرضة للانضغاط وتكوّن القشرة السطحية."}},
+    {"id": "calcareous", "names": {"fr": "Calcaire", "en": "Calcareous", "ar": "كلسية"}, "description": {"fr": "Riche en calcaire, pH souvent supérieur à 7,5 ; risque de chlorose pour les plantes sensibles.", "en": "Rich in lime, pH often above 7.5; chlorosis risk for sensitive plants.", "ar": "غنية بالكلس، ودرجة الحموضة غالبًا أعلى من 7.5؛ خطر الاصفرار للنباتات الحساسة."}},
+    {"id": "humus_rich", "names": {"fr": "Riche en humus", "en": "Humus-rich", "ar": "غنية بالدبال"}, "description": {"fr": "Riche en matière organique, structure grumeleuse, bonne rétention d'eau.", "en": "Rich in organic matter, crumbly structure, good water retention.", "ar": "غنية بالمادة العضوية، ذات بنية متفتتة واحتفاظ جيد بالماء."}},
+    {"id": "potting_mix", "names": {"fr": "Terreau / substrat", "en": "Potting mix / substrate", "ar": "تربة أصص / ركيزة"}, "description": {"fr": "Substrat pour culture en pot ou hors-sol.", "en": "Growing medium for containers or soilless culture.", "ar": "وسط زراعي للأصص أو للزراعة بدون تربة."}}
+  ],
+  "methods": [
+    {"id": "open_field", "names": {"fr": "Pleine terre", "en": "Open field", "ar": "في الأرض المكشوفة"}, "description": {"fr": "Culture en sol, à l'air libre, jardin ou champ.", "en": "Grown in the ground, outdoors, garden or field.", "ar": "زراعة في التربة في الهواء الطلق، في الحديقة أو الحقل."}},
+    {"id": "greenhouse", "names": {"fr": "Serre / tunnel", "en": "Greenhouse / tunnel", "ar": "دفيئة / نفق"}, "description": {"fr": "Abri non chauffé : hypothèse de +4 °C en moyenne par rapport à l'extérieur.", "en": "Unheated shelter: assumes +4 °C on average compared to outdoors.", "ar": "مأوى غير مدفأ: يُفترض أنه أدفأ بنحو 4 درجات مئوية في المتوسط من الخارج."}},
+    {"id": "container", "names": {"fr": "En pot / balcon", "en": "Container / balcony", "ar": "في أصص / شرفة"}, "description": {"fr": "Culture en pot, bac ou jardinière ; arrosage plus fréquent.", "en": "Grown in pots, tubs or planters; more frequent watering.", "ar": "زراعة في أصص أو أحواض؛ تتطلب ريًا أكثر تكرارًا."}},
+    {"id": "hydroponics", "names": {"fr": "Hydroponie", "en": "Hydroponics", "ar": "الزراعة المائية"}, "description": {"fr": "Culture hors-sol en solution nutritive, environnement contrôlé.", "en": "Soilless culture in nutrient solution, controlled environment.", "ar": "زراعة بدون تربة في محلول مغذٍّ، في بيئة متحكم بها."}}
+  ],
+  "sources": [
+    {"id": "agripedia-demo", "kind": "demo", "title": "AgriPedia — jeu de données de démonstration", "publisher": "Projet AgriPedia",
+     "notes": {"fr": "Valeurs compilées à partir de connaissances horticoles générales, NON validées par un agronome. À remplacer par des données sourcées.", "en": "Values compiled from general horticultural knowledge, NOT validated by an agronomist. To be replaced by sourced data.", "ar": "قيم مجمعة من معارف بستانية عامة، غير مصادق عليها من قبل مهندس زراعي. يجب استبدالها ببيانات موثقة."}},
+    {"id": "climate-approx", "kind": "climate", "title": "Normales climatiques approximatives (démonstration)", "publisher": "Projet AgriPedia",
+     "notes": {"fr": "Ordres de grandeur des normales mensuelles saisis manuellement. À remplacer via tools/import_climate_normals.py (Open-Meteo, ERA5) ou par les normales officielles du service météorologique national.", "en": "Approximate monthly normals entered manually. Replace with tools/import_climate_normals.py (Open-Meteo, ERA5) or official national normals.", "ar": "قيم تقريبية للمعدلات الشهرية أُدخلت يدويًا. يجب استبدالها عبر السكربت tools/import_climate_normals.py أو بالمعدلات الرسمية للمصلحة الوطنية للأرصاد."}},
+    {"id": "powo", "kind": "botanical", "title": "Plants of the World Online", "publisher": "Royal Botanic Gardens, Kew", "url": "https://powo.science.kew.org", "license": "CC BY 3.0 (vérifier les conditions en vigueur)",
+     "notes": {"fr": "Référence pour les noms scientifiques acceptés et les familles. Non consulté automatiquement dans cette version.", "en": "Reference for accepted scientific names and families. Not queried automatically in this version.", "ar": "مرجع للأسماء العلمية المقبولة والفصائل. لم يتم الاستعلام عنه آليًا في هذا الإصدار."}},
+    {"id": "gbif", "kind": "botanical", "title": "GBIF Backbone Taxonomy", "publisher": "Global Biodiversity Information Facility", "url": "https://www.gbif.org/species/search", "license": "CC BY 4.0",
+     "notes": {"fr": "Utilisable pour vérifier noms scientifiques, synonymes et noms vernaculaires (API species/match).", "en": "Can be used to check scientific names, synonyms and vernacular names (species/match API).", "ar": "يمكن استخدامه للتحقق من الأسماء العلمية والمرادفات والأسماء الشائعة."}},
+    {"id": "fao-ecocrop", "kind": "agronomic", "title": "ECOCROP — exigences écologiques des cultures", "publisher": "FAO", "url": "https://www.fao.org", "license": "Conditions FAO (à vérifier)",
+     "notes": {"fr": "Source recommandée pour les plages de température, pH, pluviométrie et durée de cycle.", "en": "Recommended source for temperature, pH, rainfall and cycle-length ranges.", "ar": "مصدر موصى به لنطاقات الحرارة ودرجة الحموضة والأمطار وطول الدورة."}},
+    {"id": "eppo-gd", "kind": "health", "title": "EPPO Global Database", "publisher": "European and Mediterranean Plant Protection Organization", "url": "https://gd.eppo.int", "license": "Conditions EPPO (à vérifier)",
+     "notes": {"fr": "Référence pour les noms des organismes nuisibles et leurs plantes hôtes.", "en": "Reference for pest names and host plants.", "ar": "مرجع لأسماء الآفات والنباتات العائلة."}},
+    {"id": "koppen-beck2018", "kind": "climate", "title": "Present and future Köppen-Geiger climate classification maps at 1-km resolution (Beck et al., 2018, Scientific Data)", "url": "https://doi.org/10.1038/sdata.2018.214", "license": "CC BY 4.0",
+     "notes": {"fr": "Classification climatique des régions.", "en": "Climate classification of regions.", "ar": "التصنيف المناخي للمناطق."}},
+    {"id": "open-meteo", "kind": "climate", "title": "Open-Meteo Historical Weather API (ERA5)", "publisher": "Open-Meteo", "url": "https://open-meteo.com", "license": "CC BY 4.0",
+     "notes": {"fr": "Utilisé par le script d'import des normales climatiques (non exécuté dans cette version).", "en": "Used by the climate normals import script (not run in this version).", "ar": "يستخدمه سكربت استيراد المعدلات المناخية (لم يُشغَّل في هذا الإصدار)."}},
+    {"id": "national-registries", "kind": "health", "title": "Registres nationaux des produits phytopharmaceutiques autorisés (ex. E-Phy/ANSES en France, ONSSA au Maroc)", "url": "https://ephy.anses.fr",
+     "notes": {"fr": "Seuls les produits homologués dans votre pays, pour la culture et l'usage visés, peuvent être utilisés.", "en": "Only products registered in your country for the target crop and use may be used.", "ar": "لا يجوز استخدام إلا المنتجات المرخصة في بلدك للمحصول والاستعمال المقصودين."}}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+ "version": 1,
+ "generatedOn": "2026-10-12",
+ "demo": true,
+ "plantFiles": [
+  "solanum-lycopersicum.json"
+ ],
+ "disclaimer": {
+  "fr": "Données de démonstration : les fiches, calendriers et normales climatiques n'ont pas été validés par un agronome. Ils sont indicatifs et doivent être confirmés par des sources locales officielles.",
+  "en": "Demonstration data: plant sheets, calendars and climate normals have not been validated by an agronomist. They are indicative and must be confirmed with official local sources.",
+  "ar": "بيانات تجريبية: لم يصادق مهندس زراعي على البطاقات والتقويمات والمعدلات المناخية. وهي إرشادية ويجب تأكيدها من مصادر محلية رسمية."
+ }
+}

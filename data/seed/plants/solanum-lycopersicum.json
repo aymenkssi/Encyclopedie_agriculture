@@ -1,0 +1,441 @@
+{
+ "id": "solanum-lycopersicum",
+ "scientificName": "Solanum lycopersicum",
+ "scientificAuthority": "L.",
+ "synonyms": [
+  "Lycopersicon esculentum Mill."
+ ],
+ "family": "Solanaceae",
+ "categoryId": "vegetable",
+ "names": {
+  "fr": [
+   "Tomate"
+  ],
+  "en": [
+   "Tomato"
+  ],
+  "ar": [
+   "طماطم",
+   "بندورة"
+  ]
+ },
+ "description": {
+  "fr": "Plante herbacée cultivée comme annuelle pour ses fruits charnus. Sensible au gel, elle demande chaleur et lumière ; les variétés à croissance indéterminée doivent être tuteurées.",
+  "en": "Herbaceous plant grown as an annual for its fleshy fruit. Frost-sensitive, it needs warmth and light; indeterminate varieties must be staked.",
+  "ar": "نبات عشبي يُزرع كمحصول حولي لثماره اللحمية. حساس للصقيع ويحتاج إلى الدفء والضوء؛ ويجب تدعيم الأصناف غير محدودة النمو."
+ },
+ "lifecycle": "annual",
+ "difficulty": "medium",
+ "temperature": {
+  "min": 13,
+  "optimalMin": 18,
+  "optimalMax": 26,
+  "max": 29,
+  "germinationMin": 12
+ },
+ "frostTolerance": "none",
+ "sun": "full_sun",
+ "soilIds": [
+  "loamy",
+  "humus_rich",
+  "sandy"
+ ],
+ "ph": {
+  "min": 6.0,
+  "max": 7.0
+ },
+ "water": "medium",
+ "cycleDays": {
+  "min": 60,
+  "max": 100
+ },
+ "spacing": {
+  "inRowCm": {
+   "min": 40,
+   "max": 60
+  },
+  "betweenRowsCm": {
+   "min": 70,
+   "max": 100
+  }
+ },
+ "sowingDepthCm": {
+  "min": 0.5,
+  "max": 1.0
+ },
+ "sowingMode": "transplant",
+ "nurseryWeeks": {
+  "min": 5,
+  "max": 8
+ },
+ "methods": [
+  "open_field",
+  "greenhouse",
+  "container",
+  "hydroponics"
+ ],
+ "climateZoneIds": [
+  "temperate_oceanic",
+  "temperate_continental",
+  "mediterranean",
+  "semi_arid",
+  "arid_desert",
+  "humid_subtropical",
+  "tropical_savanna"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon la variété, la conduite (plein champ, serre) et l'irrigation. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with variety, management (open field, greenhouse) and irrigation. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب الصنف وطريقة الزراعة (حقل مكشوف أو بيت محمي) والري. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Températures (nouaison réduite par fortes chaleurs ou nuits fraîches), régularité de l'arrosage, fertilisation, maladies (mildiou), taille et tuteurage.",
+  "en": "Temperatures (poor fruit set in high heat or cool nights), watering regularity, fertilization, diseases (late blight), pruning and staking.",
+  "ar": "درجات الحرارة (ضعف العقد في الحر الشديد أو الليالي الباردة)، انتظام الري، التسميد، الأمراض (اللفحة المتأخرة)، التقليم والتدعيم."
+ },
+ "storage": {
+  "fr": "Conserver les fruits mûrs à température ambiante, à l'abri du soleil ; le réfrigérateur altère la saveur. Les fruits cueillis tournants finissent de mûrir à l'intérieur.",
+  "en": "Keep ripe fruit at room temperature, out of the sun; refrigeration impairs flavour. Fruit picked at colour break finishes ripening indoors.",
+  "ar": "تُحفظ الثمار الناضجة في درجة حرارة الغرفة بعيدًا عن الشمس؛ فالتبريد يُضعف النكهة. والثمار المقطوفة عند بداية التلون تكمل نضجها في الداخل."
+ },
+ "varieties": [
+  {
+   "id": "marmande",
+   "name": "Marmande",
+   "description": {
+    "fr": "Variété ancienne à fruits côtelés, plutôt précoce.",
+    "en": "Old ribbed-fruit variety, rather early.",
+    "ar": "صنف قديم ذو ثمار مضلعة، مبكر نسبيًا."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "roma",
+   "name": "Roma",
+   "description": {
+    "fr": "Fruits allongés à chair ferme, adaptés aux sauces ; croissance déterminée.",
+    "en": "Elongated firm fruit, suited to sauces; determinate growth.",
+    "ar": "ثمار مستطيلة ولحم متماسك، مناسبة للصلصات؛ نمو محدود."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "coeur-de-boeuf",
+   "name": "Cœur de bœuf",
+   "description": {
+    "fr": "Gros fruits charnus, cycle plus long, demande chaleur.",
+    "en": "Large fleshy fruit, longer cycle, needs warmth.",
+    "ar": "ثمار كبيرة لحمية، دورة أطول، وتحتاج إلى الدفء."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "cerise",
+   "name": "Tomate cerise",
+   "description": {
+    "fr": "Petits fruits en grappes, vigoureuse, adaptée aux pots.",
+    "en": "Small fruit in clusters, vigorous, suited to containers.",
+    "ar": "ثمار صغيرة في عناقيد، قوية النمو، ومناسبة للأصص."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "calendar": [
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    3,
+    4
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Semis sous abri chauffé ou à l'intérieur (environ 20 °C).",
+    "en": "Sowing under heated shelter or indoors (about 20 °C).",
+    "ar": "البذر في مأوى مدفأ أو في الداخل (حوالي 20 درجة مئوية)."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    5,
+    6
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Après le dernier risque de gel local.",
+    "en": "After the last local frost risk.",
+    "ar": "بعد آخر خطر صقيع محلي."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Jusqu'aux premières nuits froides.",
+    "en": "Until the first cold nights.",
+    "ar": "حتى أولى الليالي الباردة."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  }
+ ],
+ "companions": [
+  {
+   "otherPlantId": "ocimum-basilicum",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Association traditionnelle ; bénéfices peu démontrés scientifiquement, mais besoins compatibles.",
+    "en": "Traditional pairing; benefits poorly demonstrated scientifically, but compatible needs.",
+    "ar": "تشارك تقليدي؛ فوائده غير مثبتة علميًا بشكل كافٍ، لكن احتياجاتهما متوافقة."
+   }
+  },
+  {
+   "otherPlantId": "solanum-tuberosum",
+   "relation": "bad",
+   "status": "indicative",
+   "reason": {
+    "fr": "Même famille : maladies communes, notamment le mildiou.",
+    "en": "Same family: shared diseases, notably late blight.",
+    "ar": "نفس الفصيلة: أمراض مشتركة، خاصة اللفحة المتأخرة."
+   }
+  }
+ ],
+ "rotation": {
+  "group": "fruit_vegetable",
+  "minYearsBeforeReturn": 3,
+  "goodPredecessorFamilies": [
+   "Fabaceae",
+   "Poaceae"
+  ],
+  "avoidPredecessorFamilies": [
+   "Solanaceae"
+  ],
+  "status": "indicative",
+  "notes": {
+   "fr": "Éviter de replanter des solanacées (tomate, pomme de terre, aubergine, poivron) au même endroit pendant au moins 3 ans.",
+   "en": "Avoid replanting Solanaceae (tomato, potato, eggplant, pepper) in the same place for at least 3 years.",
+   "ar": "تجنب إعادة زراعة الباذنجانيات (الطماطم، البطاطس، الباذنجان، الفلفل) في المكان نفسه لمدة 3 سنوات على الأقل."
+  }
+ },
+ "diseaseIds": [
+  "late-blight",
+  "early-blight",
+  "grey-mould"
+ ],
+ "pestIds": [
+  "tomato-leafminer",
+  "aphids",
+  "whiteflies",
+  "spider-mites",
+  "root-knot-nematodes"
+ ],
+ "guides": [
+  {
+   "id": "tomato-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver la tomate pas à pas",
+    "en": "Growing tomatoes step by step",
+    "ar": "زراعة الطماطم خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Choisir une variété adaptée",
+      "en": "Choose a suitable variety",
+      "ar": "اختيار صنف مناسب"
+     },
+     "body": {
+      "fr": "Privilégiez des variétés précoces dans les régions à été court, des variétés tolérantes à la chaleur ou aux maladies dans les régions chaudes et humides. Les tomates cerises conviennent bien aux pots.",
+      "en": "Prefer early varieties where summers are short, heat- or disease-tolerant ones in hot humid regions. Cherry tomatoes suit containers well.",
+      "ar": "فضّل الأصناف المبكرة حيث الصيف قصير، والأصناف المتحملة للحرارة أو الأمراض في المناطق الحارة والرطبة. وتناسب الطماطم الكرزية الأصص جيدًا."
+     },
+     "tips": {
+      "fr": "Renseignez-vous auprès de producteurs locaux sur les variétés qui réussissent chez vous.",
+      "en": "Ask local growers which varieties succeed in your area.",
+      "ar": "استفسر من المزارعين المحليين عن الأصناف الناجحة في منطقتك."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Préparer le sol ou le substrat",
+      "en": "Prepare the soil or substrate",
+      "ar": "تحضير التربة أو الركيزة"
+     },
+     "body": {
+      "fr": "Ameublissez le sol en profondeur et incorporez un compost bien décomposé. En pot, utilisez un contenant d'au moins 20 à 30 litres et un terreau de qualité.",
+      "en": "Loosen the soil deeply and work in well-rotted compost. In containers, use at least 20–30 litres and good potting mix.",
+      "ar": "فكّك التربة بعمق وأضف سمادًا عضويًا متحللًا جيدًا. في الأصص استعمل وعاءً سعته 20 إلى 30 لترًا على الأقل وتربة أصص جيدة."
+     },
+     "mistakes": {
+      "fr": "Apporter du fumier frais juste avant la plantation.",
+      "en": "Adding fresh manure right before planting.",
+      "ar": "إضافة سماد طازج قبل الغرس مباشرة."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Semer en godets",
+      "en": "Sow in pots",
+      "ar": "البذر في أكواب"
+     },
+     "body": {
+      "fr": "Semez à 0,5–1 cm de profondeur dans un terreau fin, au chaud (idéalement autour de 20–25 °C) et à la lumière. La levée prend généralement une à deux semaines.",
+      "en": "Sow 0.5–1 cm deep in fine mix, in warmth (ideally around 20–25 °C) and light. Emergence usually takes one to two weeks.",
+      "ar": "ازرع البذور على عمق 0.5 إلى 1 سم في تربة ناعمة، في مكان دافئ (حوالي 20 إلى 25 درجة مئوية) ومضيء. يستغرق الإنبات عادة أسبوعًا إلى أسبوعين."
+     },
+     "mistakes": {
+      "fr": "Semer trop tôt : les plants filent par manque de lumière.",
+      "en": "Sowing too early: seedlings become leggy for lack of light.",
+      "ar": "البذر مبكرًا جدًا: تستطيل الشتلات بسبب نقص الضوء."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Soigner les jeunes plants",
+      "en": "Care for seedlings",
+      "ar": "العناية بالشتلات"
+     },
+     "body": {
+      "fr": "Gardez le substrat juste humide, placez les plants en pleine lumière et un peu plus au frais après la levée pour obtenir des plants trapus.",
+      "en": "Keep the mix just moist, give full light and slightly cooler conditions after emergence for sturdy plants.",
+      "ar": "حافظ على رطوبة خفيفة للتربة، وضع الشتلات في ضوء كامل وفي جو أبرد قليلًا بعد الإنبات للحصول على شتلات قوية."
+     },
+     "tips": {
+      "fr": "Endurcissez les plants une à deux semaines avant la plantation en les sortant quelques heures par jour.",
+      "en": "Harden off plants for one to two weeks before planting by putting them outside a few hours a day.",
+      "ar": "قوِّ الشتلات أسبوعًا أو أسبوعين قبل الغرس بإخراجها بضع ساعات يوميًا."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Repiquer",
+      "en": "Prick out",
+      "ar": "التفريد"
+     },
+     "body": {
+      "fr": "Quand les plants ont deux à trois vraies feuilles, repiquez-les individuellement dans des godets plus grands, en les enterrant un peu plus profondément.",
+      "en": "When seedlings have two or three true leaves, move them individually to larger pots, burying them a little deeper.",
+      "ar": "عندما تكون للشتلات ورقتان أو ثلاث أوراق حقيقية، انقلها فرديًا إلى أكواب أكبر مع دفنها أعمق قليلًا."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Planter en place",
+      "en": "Plant out",
+      "ar": "الغرس في المكان الدائم"
+     },
+     "body": {
+      "fr": "Plantez quand tout risque de gel est écarté et que les nuits restent douces. Espacez d'environ 40–60 cm sur le rang. Installez le tuteur au moment de la plantation.",
+      "en": "Plant out once all frost risk has passed and nights stay mild. Space about 40–60 cm in the row. Set the stake at planting.",
+      "ar": "اغرس عندما يزول كل خطر للصقيع وتبقى الليالي معتدلة. باعد حوالي 40 إلى 60 سم على الخط، وثبّت الدعامة عند الغرس."
+     },
+     "mistakes": {
+      "fr": "Planter dans un sol encore froid : la croissance se bloque.",
+      "en": "Planting in still-cold soil: growth stalls.",
+      "ar": "الغرس في تربة لا تزال باردة: يتوقف النمو."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Arroser et fertiliser",
+      "en": "Water and feed",
+      "ar": "الري والتسميد"
+     },
+     "body": {
+      "fr": "Arrosez régulièrement au pied, sans mouiller le feuillage ; un paillage limite l'évaporation. Des arrosages irréguliers favorisent la nécrose apicale et l'éclatement des fruits.",
+      "en": "Water regularly at the base without wetting leaves; mulch limits evaporation. Irregular watering favours blossom-end rot and fruit cracking.",
+      "ar": "اسقِ بانتظام عند القاعدة دون تبليل الأوراق؛ والتغطية تقلل التبخر. الري غير المنتظم يسبب تعفن طرف الثمرة وتشققها."
+     },
+     "tips": {
+      "fr": "En pot, l'arrosage peut devenir quotidien en été.",
+      "en": "In containers, watering may become daily in summer.",
+      "ar": "في الأصص قد يصبح الري يوميًا في الصيف."
+     }
+    },
+    {
+     "order": 8,
+     "title": {
+      "fr": "Tuteurer et tailler",
+      "en": "Stake and prune",
+      "ar": "التدعيم والتقليم"
+     },
+     "body": {
+      "fr": "Attachez la tige au tuteur au fur et à mesure. Pour les variétés indéterminées, la suppression des gourmands est courante ; les variétés déterminées se taillent peu.",
+      "en": "Tie the stem as it grows. For indeterminate varieties, removing side shoots is common; determinate varieties need little pruning.",
+      "ar": "اربط الساق بالدعامة كلما نمت. في الأصناف غير المحدودة يُزال عادة الفروع الجانبية، أما الأصناف المحدودة فتحتاج إلى تقليم قليل."
+     }
+    },
+    {
+     "order": 9,
+     "title": {
+      "fr": "Prévenir maladies et ravageurs",
+      "en": "Prevent diseases and pests",
+      "ar": "الوقاية من الأمراض والآفات"
+     },
+     "body": {
+      "fr": "Inspectez les feuilles chaque semaine. Supprimez les feuilles basses touchant le sol, aérez les abris, et retirez rapidement les plants atteints de mildiou.",
+      "en": "Inspect leaves weekly. Remove low leaves touching the soil, ventilate shelters and quickly remove plants with late blight.",
+      "ar": "افحص الأوراق أسبوعيًا. أزل الأوراق السفلية الملامسة للتربة، وهوِّ البيوت المحمية، وأزل بسرعة النباتات المصابة باللفحة المتأخرة."
+     },
+     "mistakes": {
+      "fr": "Traiter sans diagnostic ni produit autorisé.",
+      "en": "Spraying without diagnosis or an authorized product.",
+      "ar": "الرش دون تشخيص أو دون منتج مرخص."
+     }
+    },
+    {
+     "order": 10,
+     "title": {
+      "fr": "Récolter et conserver",
+      "en": "Harvest and store",
+      "ar": "الحصاد والتخزين"
+     },
+     "body": {
+      "fr": "Récoltez les fruits colorés et légèrement souples. En fin de saison, les fruits verts bien formés peuvent mûrir à l'intérieur. Conservez à température ambiante.",
+      "en": "Harvest coloured, slightly soft fruit. At season end, well-formed green fruit can ripen indoors. Store at room temperature.",
+      "ar": "اقطف الثمار الملونة واللينة قليلًا. في نهاية الموسم يمكن للثمار الخضراء مكتملة النمو أن تنضج في الداخل. خزّنها في درجة حرارة الغرفة."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}
