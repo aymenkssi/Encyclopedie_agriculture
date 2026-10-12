@@ -123,11 +123,15 @@ fun AgriApp(settings: Settings?, openCalendar: Boolean, onCalendarOpened: () -> 
     val backStack by controller.currentBackStackEntryAsState()
     val currentBase = backStack?.destination?.route?.substringBefore('?')?.substringBefore('/')
 
-    LaunchedEffect(openCalendar) { if (openCalendar) { nav.calendar(); onCalendarOpened() } }
+    // Deep link from a notification, once the navigation graph exists.
+    LaunchedEffect(openCalendar, backStack != null) {
+        if (openCalendar && backStack != null && currentBase != "onboarding") { nav.calendar(); onCalendarOpened() }
+    }
 
     Scaffold(
         bottomBar = {
-            if (currentBase != "onboarding") NavigationBar {
+            // Only once the NavHost has a graph (catalog loaded) and outside onboarding.
+            if (catalog is CatalogState.Ready && backStack != null && currentBase != "onboarding") NavigationBar {
                 tabs.forEach { tab ->
                     NavigationBarItem(
                         selected = currentBase == tab.base,
