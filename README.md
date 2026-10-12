@@ -70,3 +70,15 @@ Aucune donnée personnelle collectée, aucun accès réseau, aucun compte. Seule
 
 `FeatureGate` (dans `AppContainer.kt`) prépare un découpage gratuit / premium / pro (planification avancée, exports,
 synchronisation multi-appareils). **Aucun paiement ni abonnement n'est implémenté.**
+
+## Vérifications automatisées (CI)
+
+| Étape | Contenu |
+|---|---|
+| `:core:test` | 45+ tests : validation du jeu de données (références, traductions FR/AR/EN, règles d'honnêteté), moteur de calendrier (gel, chaleur, saison des pluies, serre, hydroponie, hémisphère sud, réalisme), recommandations, recherche floue multilingue, fusion de synchronisation, tâches prévisionnelles, géolocalisation |
+| `:app:assembleDebug` | APK publié en artefact `agripedia-debug-apk` |
+| `:app:testDebugUnitTest` | cohérence des ressources FR/AR/EN (clés et paramètres), chargement du jeu de données embarqué |
+| `:app:lintDebug` | lint Android sans erreur |
+| `emulator-tests` | émulateur API 34 : installation, lancement, onboarding, 5 onglets, recherche « tomtae » → fiche tomate (guide, santé), import Room + reconstruction du catalogue, favoris et tâches répétitives persistés |
+
+Diagnostic : `AGRI_DUMP=1 ./gradlew :core:test --tests '*DumpTest*' -i` affiche les calendriers calculés pour plusieurs régions.
