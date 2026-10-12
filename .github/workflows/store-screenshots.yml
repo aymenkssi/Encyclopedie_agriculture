@@ -48,6 +48,7 @@ jobs:
             mkdir -p play-store/build/raw
             for lang in fr en ar; do adb pull /sdcard/Android/data/com.aymen.agripedia/files/store/$lang play-store/build/raw/$lang; done
             ls -R play-store/build/raw
+            for lang in fr en ar; do n=$(ls play-store/build/raw/$lang 2>/dev/null | wc -l); if [ "$n" -ne 5 ]; then echo "::error::$lang: $n screenshots instead of 5"; exit 1; fi; done
       - uses: actions/setup-node@v4
         with:
           node-version: "22"

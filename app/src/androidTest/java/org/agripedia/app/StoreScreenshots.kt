@@ -78,12 +78,20 @@ class StoreScreenshots {
 
         ActivityScenario.launch(MainActivity::class.java).use {
             waitTag("tab-home")
-            // Make sure the requested language is really applied before capturing.
-            rule.waitUntil(30_000) {
+            // Make sure the requested language is really applied before capturing. On a freshly
+            // booted device the first launch may keep the system language: recreate the activity then.
+            fun languageApplied(): Boolean {
                 var current = ""
                 it.onActivity { a -> current = a.resources.configuration.locales[0].language }
-                current == lang
+                return current == lang
             }
+            repeat(3) { attempt ->
+                if (!languageApplied()) {
+                    if (attempt > 0) it.recreate()
+                    runCatching { rule.waitUntil(10_000) { languageApplied() } }
+                }
+            }
+            check(languageApplied()) { "App language is not '$lang'" }
             waitTag("tab-home")
             capture(dir, "01-home")
 
