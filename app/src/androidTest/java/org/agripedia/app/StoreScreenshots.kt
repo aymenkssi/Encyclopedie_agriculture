@@ -64,6 +64,9 @@ class StoreScreenshots {
         val c = app.container
         Ads.disabledForScreenshots = true
         shell("cmd locale set-app-locales ${app.packageName} --user 0 --locales $lang")
+        instrumentation.runOnMainSync {
+            androidx.appcompat.app.AppCompatDelegate.setApplicationLocales(androidx.core.os.LocaleListCompat.forLanguageTags(lang))
+        }
         runBlocking {
             c.settings.setOnboardingDone(true)
             c.settings.setTheme(ThemeMode.LIGHT)
@@ -74,6 +77,13 @@ class StoreScreenshots {
         val dir = File(app.getExternalFilesDir(null), "store/$lang").apply { deleteRecursively(); mkdirs() }
 
         ActivityScenario.launch(MainActivity::class.java).use {
+            waitTag("tab-home")
+            // Make sure the requested language is really applied before capturing.
+            rule.waitUntil(30_000) {
+                var current = ""
+                it.onActivity { a -> current = a.resources.configuration.locales[0].language }
+                current == lang
+            }
             waitTag("tab-home")
             capture(dir, "01-home")
 

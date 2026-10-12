@@ -9,6 +9,7 @@ import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.Person
 import androidx.compose.material.icons.outlined.Yard
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
@@ -145,7 +146,7 @@ fun AgriApp(settings: Settings?, openCalendar: Boolean, onCalendarOpened: () -> 
                         selected = currentBase == tab.base,
                         onClick = { nav.tab(tab.route) },
                         icon = { Icon(tab.icon, null) },
-                        label = { Text(stringResource(tab.label), maxLines = 1) },
+                        label = { Text(stringResource(tab.label), maxLines = 1, style = MaterialTheme.typography.labelSmall) },
                         modifier = Modifier.testTag("tab-${tab.base}"),
                     )
                 }
