@@ -7,6 +7,8 @@ import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onFirst
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performTextInput
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -29,23 +31,23 @@ class AppSmokeTest {
         // First launch shows onboarding (or home if already done on this device).
         rule.waitUntil(30_000) {
             rule.onAllNodesWithText(s(R.string.skip)).fetchSemanticsNodes().isNotEmpty() ||
-                rule.onAllNodesWithText(s(R.string.tab_home)).fetchSemanticsNodes().isNotEmpty()
+                rule.onAllNodes(hasTestTag("tab-home")).fetchSemanticsNodes().isNotEmpty()
         }
         if (rule.onAllNodesWithText(s(R.string.skip)).fetchSemanticsNodes().isNotEmpty()) {
             rule.onNodeWithText(s(R.string.skip)).performClick()
         }
-        waitFor(s(R.string.tab_encyclopedia))
+        rule.waitUntil(30_000) { rule.onAllNodes(hasTestTag("tab-encyclopedia")).fetchSemanticsNodes().isNotEmpty() }
 
         // Every tab opens.
-        rule.onNodeWithText(s(R.string.tab_calendar)).performClick()
+        rule.onNodeWithTag("tab-calendar").performClick()
         waitFor(s(R.string.my_tasks))
-        rule.onNodeWithText(s(R.string.tab_crops)).performClick()
+        rule.onNodeWithTag("tab-crops").performClick()
         waitFor(s(R.string.my_gardens))
-        rule.onNodeWithText(s(R.string.tab_profile)).performClick()
+        rule.onNodeWithTag("tab-profile").performClick()
         waitFor(s(R.string.my_profile))
 
         // Search (typo-tolerant) and open the sheet.
-        rule.onNodeWithText(s(R.string.tab_encyclopedia)).performClick()
+        rule.onNodeWithTag("tab-encyclopedia").performClick()
         rule.waitUntil(10_000) { rule.onAllNodes(hasSetTextAction()).fetchSemanticsNodes().isNotEmpty() }
         rule.onAllNodes(hasSetTextAction()).onFirst().performTextInput("tomtae")
         rule.waitUntil(10_000) { rule.onAllNodes(hasText("Solanum lycopersicum")).fetchSemanticsNodes().isNotEmpty() }

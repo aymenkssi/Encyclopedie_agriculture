@@ -16,6 +16,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
@@ -126,6 +127,7 @@ fun AgriApp(settings: Settings?, openCalendar: Boolean, onCalendarOpened: () -> 
                         onClick = { nav.tab(tab.route) },
                         icon = { Icon(tab.icon, null) },
                         label = { Text(stringResource(tab.label), maxLines = 1) },
+                        modifier = Modifier.testTag("tab-${tab.base}"),
                     )
                 }
             }
