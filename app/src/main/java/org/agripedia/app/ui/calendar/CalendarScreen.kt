@@ -83,6 +83,9 @@ fun CalendarScreen(k: Knowledge, appVm: AppViewModel, nav: Nav) {
     val favorites by appVm.favorites.collectAsStateWithLifecycle()
     val crops by users.crops.collectAsStateWithLifecycle(initialValue = emptyList())
     val lang = contentLang()
+    val context = androidx.compose.ui.platform.LocalContext.current
+    val notifPermission = androidx.activity.compose.rememberLauncherForActivityResult(
+        androidx.activity.result.contract.ActivityResultContracts.RequestPermission()) { }
 
     ScreenScaffold(
         title = stringResource(R.string.tab_calendar),
@@ -139,6 +142,9 @@ fun CalendarScreen(k: Knowledge, appVm: AppViewModel, nav: Nav) {
         onDismiss = { creating = false; editing = null },
         onSave = { title, desc, activity, date, plantId, reminder, repeat ->
             scope.launch { users.saveTask(editing, title, desc, activity, date, plantId, null, reminder, repeat) }
+            if (reminder && org.agripedia.app.notifications.Reminders.needsPermission(context)) {
+                notifPermission.launch(android.Manifest.permission.POST_NOTIFICATIONS)
+            }
             creating = false; editing = null
         },
         onDelete = editing?.let { t -> { scope.launch { users.deleteTask(t) }; editing = null } },

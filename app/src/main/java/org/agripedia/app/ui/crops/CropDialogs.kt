@@ -84,6 +84,8 @@ fun AddCropDialog(
     val plots by remember(gardenId) { gardenId?.let { users.plots(it) } ?: flowOf(emptyList()) }.collectAsStateWithLifecycle(initialValue = emptyList())
     val defaultGardenName = stringResource(R.string.default_garden_name)
     val rotationMsg = stringResource(R.string.rotation_warning)
+    val notifPermission = androidx.activity.compose.rememberLauncherForActivityResult(
+        androidx.activity.result.contract.ActivityResultContracts.RequestPermission()) { }
 
     // Rotation advice: warn when the same family was grown recently on the chosen plot.
     LaunchedEffect(plotId, plant) {
@@ -138,6 +140,9 @@ fun AddCropDialog(
                     val gid = gardenId ?: users.saveGarden(null, defaultGardenName, profile?.farmType ?: FarmType.GARDEN, null, profile?.regionId)
                     val id = users.addCrop(gid, plotId, p, null, method ?: p.methods.first(), start!!, date, stage, quantity, plan) { a ->
                         context.getString(R.string.task_title_auto, activityLabel(context, a), p.displayName(lang))
+                    }
+                    if (plan && org.agripedia.app.notifications.Reminders.needsPermission(context)) {
+                        notifPermission.launch(android.Manifest.permission.POST_NOTIFICATIONS)
                     }
                     onAdded(id)
                 }

@@ -85,7 +85,14 @@ private val tabs = listOf(
 /** Navigation actions passed to screens. */
 class Nav(private val c: NavHostController) {
     fun plant(id: String) = c.navigate(Routes.plant(id))
-    fun encyclopedia(query: String = "", category: String = "", adapted: Boolean = false) = tab(Routes.encyclopedia(query, category, adapted))
+    fun encyclopedia(query: String = "", category: String = "", adapted: Boolean = false) {
+        if (query.isEmpty() && category.isEmpty() && !adapted) return tab(Routes.encyclopedia())
+        // With arguments: open a fresh encyclopedia (do not restore the previous tab state).
+        c.navigate(Routes.encyclopedia(query, category, adapted)) {
+            popUpTo(c.graph.findStartDestination().id) { saveState = true }
+            launchSingleTop = false
+        }
+    }
     fun garden(id: String) = c.navigate(Routes.garden(id))
     fun crop(id: String) = c.navigate(Routes.crop(id))
     fun calendar() = tab(Routes.CALENDAR)

@@ -46,6 +46,9 @@ object Reminders {
 
     fun cancel(context: Context) = WorkManager.getInstance(context).cancelUniqueWork(WORK_NAME)
 
+    /** True when the POST_NOTIFICATIONS runtime permission must still be requested (Android 13+). */
+    fun needsPermission(context: Context): Boolean = Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU && !canPost(context)
+
     fun canPost(context: Context): Boolean =
         Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU ||
             ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) == PackageManager.PERMISSION_GRANTED
