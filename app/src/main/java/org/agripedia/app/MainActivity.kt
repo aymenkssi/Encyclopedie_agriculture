@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         openCalendar = intent?.getBooleanExtra(EXTRA_OPEN_CALENDAR, false) == true
         val container = (application as AgriPediaApp).container
+        // Google consent form (GDPR) then AdMob initialization; the app works without it.
+        org.agripedia.app.ads.Ads.gatherConsent(this)
         setContent {
             val settings by container.settings.settings.collectAsStateWithLifecycle(initialValue = null)
             AgriTheme(settings?.theme ?: ThemeMode.SYSTEM) {

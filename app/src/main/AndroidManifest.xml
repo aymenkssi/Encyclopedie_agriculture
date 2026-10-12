@@ -5,7 +5,8 @@
     <!-- Minimal permissions. Location is optional, coarse only, requested on explicit user action. -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-    <!-- Only to display an "offline" indicator; the app itself never needs the network. -->
+    <!-- Network: only for the AdMob banner and its consent form. The encyclopedia works offline. -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
@@ -30,6 +31,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- AdMob App ID (set in gradle.properties; Google's test ID until then). -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="${admobAppId}" />
+        <!-- Ads are initialized only after the consent form (see ads/Ads.kt). -->
+        <meta-data
+            android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
+            android:value="true" />
 
         <!-- Persists the per-app language chosen in the settings (AppCompat). -->
         <service
