@@ -44,7 +44,7 @@ jobs:
           script: |
             adb install -r app/build/outputs/apk/debug/app-debug.apk
             adb install -r app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
-            for lang in fr en ar; do adb shell am instrument -w -e class org.agripedia.app.StoreScreenshots -e storeScreenshots true -e lang $lang com.aymen.agripedia.test/androidx.test.runner.AndroidJUnitRunner; done
+            for lang in en ar fr; do adb shell am instrument -w -e class org.agripedia.app.StoreScreenshots -e storeScreenshots true -e lang $lang com.aymen.agripedia.test/androidx.test.runner.AndroidJUnitRunner; done
             mkdir -p play-store/build/raw
             for lang in fr en ar; do adb pull /sdcard/Android/data/com.aymen.agripedia/files/store/$lang play-store/build/raw/$lang; done
             ls -R play-store/build/raw
