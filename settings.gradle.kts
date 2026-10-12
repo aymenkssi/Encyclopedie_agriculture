@@ -41,5 +41,6 @@ val hasAndroidSdk = localProps.getProperty("sdk.dir") != null ||
 if (hasAndroidSdk || providers.gradleProperty("forceApp").orNull == "true") {
     include(":app")
 } else {
+    rootProject.buildFileName = "build-core-only.gradle.kts"
     logger.warn("AgriPedia: no Android SDK found (sdk.dir / ANDROID_HOME) — ':app' is not included in this build.")
 }
