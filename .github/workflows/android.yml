@@ -33,6 +33,9 @@ jobs:
       - name: Build debug APK
         run: ./gradlew :app:assembleDebug --stacktrace
 
+      - name: Build release (unsigned, checks R8 minification)
+        run: ./gradlew :app:assembleRelease --stacktrace
+
       - name: App unit tests
         run: ./gradlew :app:testDebugUnitTest --stacktrace
 

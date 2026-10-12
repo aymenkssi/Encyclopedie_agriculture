@@ -45,6 +45,9 @@ object Ads {
     /** Set to false to turn every ad off without touching the screens. */
     const val ENABLED = true
 
+    /** Turned off by the store-screenshot test so that no test banner appears in the captures. */
+    @Volatile var disabledForScreenshots = false
+
     private val _canShowAds = MutableStateFlow(false)
     val canShowAds: StateFlow<Boolean> = _canShowAds.asStateFlow()
 
@@ -58,7 +61,7 @@ object Ads {
 
     /** Called from the activity on start: asks for consent if needed, then initializes AdMob. */
     fun gatherConsent(activity: Activity) {
-        if (!ENABLED) return
+        if (!ENABLED || disabledForScreenshots) return
         val info = consent(activity)
         info.requestConsentInfoUpdate(activity, ConsentRequestParameters.Builder().build(), {
             UserMessagingPlatform.loadAndShowConsentFormIfRequired(activity) { _ ->
@@ -91,7 +94,7 @@ object Ads {
 @Composable
 fun AdBanner(modifier: Modifier = Modifier) {
     val canShow by Ads.canShowAds.collectAsStateWithLifecycle()
-    if (!Ads.ENABLED || !canShow) return
+    if (!Ads.ENABLED || Ads.disabledForScreenshots || !canShow) return
     var failed by remember { mutableStateOf(false) }
     if (failed) return
     val context = LocalContext.current

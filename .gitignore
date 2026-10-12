@@ -9,3 +9,7 @@ captures/
 .cxx/
 *.keystore
 __pycache__/
+play-store/build/
+node_modules/
+*.jks
+service-account*.json
