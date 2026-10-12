@@ -1,14 +1,18 @@
 name: Store screenshots
 
 # Captures the Google Play screenshots on an emulator (fr, en, ar), frames them and
-# regenerates the icon and feature graphics. Download the "play-store-images" artifact
-# and copy it into play-store/images/.
+# regenerates the icon and feature graphics. On a branch other than main, the images are
+# committed back to play-store/images/ (never on main: download the "play-store-images" artifact there).
 on:
   workflow_dispatch:
   push:
     paths:
       - "play-store/scripts/**"
+      - "app/src/androidTest/java/org/agripedia/app/StoreScreenshots.kt"
       - ".github/workflows/store-screenshots.yml"
+
+permissions:
+  contents: write
 
 jobs:
   screenshots:
@@ -62,3 +66,12 @@ jobs:
           path: |
             play-store/images
             play-store/build/raw
+      - name: Commit images to the branch
+        if: github.ref_name != 'main' && github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add play-store/images
+          if git diff --cached --quiet; then echo "No image change"; exit 0; fi
+          git commit -m "Update Play Store screenshots and images (store-screenshots workflow)"
+          git push origin HEAD:${{ github.ref_name }}
