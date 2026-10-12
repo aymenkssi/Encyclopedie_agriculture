@@ -1,5 +1,6 @@
 package org.agripedia.app.ui.navigation
 
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.MenuBook
@@ -8,6 +9,7 @@ import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.Person
 import androidx.compose.material.icons.outlined.Yard
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
@@ -31,6 +33,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import org.agripedia.app.R
+import org.agripedia.app.ads.AdBanner
 import org.agripedia.app.data.prefs.Settings
 import org.agripedia.app.data.repo.CatalogState
 import org.agripedia.app.ui.AppViewModel
@@ -49,6 +52,7 @@ import org.agripedia.app.ui.profile.HistoryScreen
 import org.agripedia.app.ui.profile.NotesScreen
 import org.agripedia.app.ui.profile.ProfileScreen
 import org.agripedia.app.ui.profile.SourcesScreen
+import org.agripedia.app.ui.profile.DonateScreen
 import java.net.URLEncoder
 
 object Routes {
@@ -64,6 +68,7 @@ object Routes {
     const val HISTORY = "history"
     const val SOURCES = "sources"
     const val ONBOARDING = "onboarding"
+    const val DONATE = "donate"
 
     fun encyclopedia(query: String = "", category: String = "", adapted: Boolean = false) =
         "encyclopedia?query=${URLEncoder.encode(query, "UTF-8")}&category=$category&adapted=$adapted"
@@ -101,6 +106,7 @@ class Nav(private val c: NavHostController) {
     fun history() = c.navigate(Routes.HISTORY)
     fun sources() = c.navigate(Routes.SOURCES)
     fun onboarding() = c.navigate(Routes.ONBOARDING)
+    fun donate() = c.navigate(Routes.DONATE)
     fun back() { c.popBackStack() }
     fun home() = c.navigate(Routes.HOME) { popUpTo(c.graph.findStartDestination().id) { inclusive = true } }
     fun tab(route: String) = c.navigate(route) {
@@ -131,16 +137,20 @@ fun AgriApp(settings: Settings?, openCalendar: Boolean, onCalendarOpened: () -> 
     Scaffold(
         bottomBar = {
             // Only once the NavHost has a graph (catalog loaded) and outside onboarding.
-            if (catalog is CatalogState.Ready && backStack != null && currentBase != "onboarding") NavigationBar {
+            if (catalog is CatalogState.Ready && backStack != null && currentBase != "onboarding") Column {
+            // Ad banner above the navigation bar, never on the donation page.
+            if (currentBase != "donate") AdBanner()
+            NavigationBar {
                 tabs.forEach { tab ->
                     NavigationBarItem(
                         selected = currentBase == tab.base,
                         onClick = { nav.tab(tab.route) },
                         icon = { Icon(tab.icon, null) },
-                        label = { Text(stringResource(tab.label), maxLines = 1) },
+                        label = { Text(stringResource(tab.label), maxLines = 1, style = MaterialTheme.typography.labelSmall) },
                         modifier = Modifier.testTag("tab-${tab.base}"),
                     )
                 }
+            }
             }
         },
     ) { padding ->
@@ -183,6 +193,7 @@ fun AgriApp(settings: Settings?, openCalendar: Boolean, onCalendarOpened: () -> 
                     composable(Routes.NOTES) { NotesScreen(k, nav) }
                     composable(Routes.HISTORY) { HistoryScreen(k, nav) }
                     composable(Routes.SOURCES) { SourcesScreen(k, nav) }
+                    composable(Routes.DONATE) { DonateScreen(nav) }
                 }
             }
         }

@@ -8,5 +8,7 @@
     <path android:fillColor="@color/launcher_fg"
         android:pathData="M55,74 L55,46 C55,36 62,30 73,29 C73,40 66,46 55,47 Z" />
     <path android:fillColor="@color/launcher_fg"
+        android:pathData="M52.5,75 L55.5,75 L55.5,47 L52.5,47 Z" />
+    <path android:fillColor="@color/launcher_fg"
         android:pathData="M32,74 L76,74 L76,78 L32,78 Z" />
 </vector>

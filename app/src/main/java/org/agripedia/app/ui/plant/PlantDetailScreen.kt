@@ -39,6 +39,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.unit.dp
@@ -113,7 +114,8 @@ fun PlantDetailScreen(k: Knowledge, appVm: AppViewModel, nav: Nav, plantId: Stri
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxSize()) {
             PrimaryScrollableTabRow(selectedTabIndex = tab, edgePadding = 8.dp) {
-                PlantTab.entries.forEachIndexed { i, t -> Tab(selected = tab == i, onClick = { tab = i }, text = { Text(stringResource(t.label)) }) }
+                PlantTab.entries.forEachIndexed { i, t -> Tab(selected = tab == i, onClick = { tab = i }, text = { Text(stringResource(t.label)) },
+                    modifier = Modifier.testTag("plant-tab-${t.name.lowercase()}")) }
             }
             LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 when (PlantTab.entries[tab]) {

@@ -50,6 +50,11 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.coroutines.launch
 import org.agripedia.app.BuildConfig
+import org.agripedia.app.Links
+import org.agripedia.app.ads.Ads
+import androidx.compose.material.icons.outlined.FavoriteBorder
+import androidx.compose.material.icons.outlined.Policy
+import androidx.compose.material.icons.outlined.Tune
 import org.agripedia.app.R
 import org.agripedia.app.data.db.UserNoteEntity
 import org.agripedia.app.data.prefs.Settings
@@ -85,6 +90,7 @@ fun ProfileScreen(k: Knowledge, appVm: AppViewModel, nav: Nav, settings: Setting
     val scope = rememberCoroutineScope()
     val context = LocalContext.current
     val profile by appVm.profile.collectAsStateWithLifecycle()
+    val adPrivacyRequired by Ads.privacyOptionsRequired.collectAsStateWithLifecycle()
     val snackbar = remember { SnackbarHostState() }
     var showPicker by remember { mutableStateOf(false) }
     var confirmImport by remember { mutableStateOf<android.net.Uri?>(null) }
@@ -167,6 +173,7 @@ fun ProfileScreen(k: Knowledge, appVm: AppViewModel, nav: Nav, settings: Setting
                 LinkRow(Icons.AutoMirrored.Outlined.StickyNote2, stringResource(R.string.my_notes)) { nav.notes() }
                 LinkRow(Icons.Outlined.History, stringResource(R.string.history)) { nav.history() }
                 LinkRow(Icons.AutoMirrored.Outlined.LibraryBooks, stringResource(R.string.sources_and_data)) { nav.sources() }
+                LinkRow(Icons.Outlined.FavoriteBorder, stringResource(R.string.support_title)) { nav.donate() }
             }
             item {
                 SectionHeader(stringResource(R.string.backup))
@@ -181,6 +188,10 @@ fun ProfileScreen(k: Knowledge, appVm: AppViewModel, nav: Nav, settings: Setting
             item {
                 SectionHeader(stringResource(R.string.privacy))
                 InfoNote(stringResource(R.string.privacy_text))
+                LinkRow(Icons.Outlined.Policy, stringResource(R.string.privacy_policy)) { openUrl(context, Links.PRIVACY_POLICY_URL) }
+                if (adPrivacyRequired) LinkRow(Icons.Outlined.Tune, stringResource(R.string.ad_privacy_options)) {
+                    context.findActivity()?.let { Ads.showPrivacyOptions(it) }
+                }
                 InfoRow(stringResource(R.string.app_version), BuildConfig.VERSION_NAME)
                 InfoRow(stringResource(R.string.dataset_version), c.manifest.version.toString())
             }
@@ -303,4 +314,14 @@ fun SourcesScreen(k: Knowledge, nav: Nav) {
             }
         }
     }
+}
+
+/** Finds the hosting Activity behind Compose's context wrappers. */
+fun android.content.Context.findActivity(): android.app.Activity? {
+    var c: android.content.Context? = this
+    while (c is android.content.ContextWrapper) {
+        if (c is android.app.Activity) return c
+        c = c.baseContext
+    }
+    return null
 }

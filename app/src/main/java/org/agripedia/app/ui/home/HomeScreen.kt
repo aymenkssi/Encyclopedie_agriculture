@@ -20,6 +20,7 @@ import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.outlined.Lightbulb
+import androidx.compose.material.icons.outlined.FavoriteBorder
 import androidx.compose.material.icons.outlined.Place
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.Button
@@ -229,6 +230,20 @@ fun HomeScreen(k: Knowledge, appVm: AppViewModel, nav: Nav) {
                 LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     items(state.recent, key = { "recent-" + it.id }) { p ->
                         PlantTile(p, p.displayName(lang), p.scientificName, onClick = { nav.plant(p.id) })
+                    }
+                }
+            }
+        }
+        item {
+            Spacer(Modifier.height(8.dp))
+            ElevatedSection(Modifier.clickable { nav.donate() }) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Icon(Icons.Outlined.FavoriteBorder, null, tint = MaterialTheme.colorScheme.tertiary)
+                    Spacer(Modifier.width(12.dp))
+                    Column(Modifier.weight(1f)) {
+                        Text(stringResource(R.string.support_title), style = MaterialTheme.typography.titleSmall)
+                        Text(stringResource(R.string.support_home_hint), style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                 }
             }

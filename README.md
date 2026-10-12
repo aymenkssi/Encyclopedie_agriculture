@@ -62,14 +62,25 @@ en artefact.
 
 ## Confidentialité
 
-Aucune donnée personnelle collectée, aucun accès réseau, aucun compte. Seules permissions : localisation **approximative**
-(demandée uniquement au clic sur « Utiliser ma position », utilisée une fois, jamais stockée), notifications, état du réseau
-(indicateur hors ligne). Sauvegarde Android automatique de la base utilisateur + export/import manuel.
+Aucun compte, aucun serveur, aucune donnée personnelle collectée par AgriPedia : tout reste sur le téléphone. Permissions :
+localisation **approximative** (au clic sur « Utiliser ma position », utilisée une fois sur l'appareil, jamais stockée),
+notifications, Internet et état du réseau (uniquement pour la bannière publicitaire). Politique publiée :
+https://agripedia.creationapp.academy/privacy (`site/privacy.html`).
 
-## Évolution commerciale (non implémentée)
+## Publicité, dons et publication
+
+- **Bannière Google AdMob** au-dessus de la barre de navigation (compte `pub-7488746561313974`), précédée du formulaire de
+  consentement de Google (RGPD) ; « Confidentialité des annonces » dans le Profil. Jamais sur la page de don. Les IDs réels
+  se configurent dans les secrets GitHub ; en attendant, ce sont les annonces de test de Google.
+- **Soutenir AgriPedia** : don PayPal (même lien que les autres apps), noter, partager, proposer des données.
+- **Site** (`site/`, déployé par `deploy/` derrière Traefik) : accueil, `/privacy`, `/app-ads.txt`.
+- **Google Play** : tout est dans [`play-store/README.md`](play-store/README.md) (textes FR/EN/AR, icône, bannières,
+  captures, déclarations, build signé `.aab` via le workflow « Release (Google Play) »). Paquet : `com.aymen.agripedia`.
+
+## Évolution commerciale
 
 `FeatureGate` (dans `AppContainer.kt`) prépare un découpage gratuit / premium / pro (planification avancée, exports,
-synchronisation multi-appareils). **Aucun paiement ni abonnement n'est implémenté.**
+synchronisation multi-appareils). Aucun abonnement ni achat intégré n'est implémenté.
 
 ## Vérifications automatisées (CI)
 

@@ -1,0 +1,39 @@
+# AgriPedia website on the VPS that already runs Traefik (same setup as the other apps):
+# the site/ folder served by nginx (home page, privacy policy, app-ads.txt).
+# No published port: Traefik routes and certifies ${DOMAIN}.
+# Usage: cp .env.example .env, then `docker compose up -d`.
+name: agripedia
+
+services:
+  web:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    volumes:
+      - ../site:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    networks: [traefik]
+    # Traefik only routes to a healthy container. 127.0.0.1, not localhost (BusyBox wget may use ::1).
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/app-ads.txt"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+      start_interval: 2s
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=${TRAEFIK_NETWORK}
+      - traefik.http.routers.agripedia.rule=Host(`${DOMAIN}`)
+      - traefik.http.routers.agripedia.entrypoints=${TRAEFIK_ENTRYPOINT}
+      - traefik.http.routers.agripedia.tls=true
+      - traefik.http.routers.agripedia.tls.certresolver=${TRAEFIK_CERTRESOLVER}
+      - traefik.http.routers.agripedia.middlewares=agripedia-headers
+      - traefik.http.services.agripedia.loadbalancer.server.port=80
+      - traefik.http.middlewares.agripedia-headers.headers.stsSeconds=31536000
+      - traefik.http.middlewares.agripedia-headers.headers.contentTypeNosniff=true
+
+networks:
+  # The network the Traefik container is attached to (see `docker network ls`).
+  traefik:
+    external: true
+    name: ${TRAEFIK_NETWORK}
