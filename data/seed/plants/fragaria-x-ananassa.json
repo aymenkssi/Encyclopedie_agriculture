@@ -1,0 +1,291 @@
+{
+ "id": "fragaria-x-ananassa",
+ "scientificName": "Fragaria × ananassa",
+ "scientificAuthority": "(Duchesne ex Weston) Duchesne ex Rozier",
+ "synonyms": [],
+ "family": "Rosaceae",
+ "categoryId": "fruit",
+ "names": {
+  "fr": [
+   "Fraisier",
+   "Fraise"
+  ],
+  "en": [
+   "Strawberry",
+   "Garden strawberry"
+  ],
+  "ar": [
+   "فراولة",
+   "فريز"
+  ]
+ },
+ "description": {
+  "fr": "Plante vivace basse, issue d'un croisement entre deux fraisiers américains, cultivée pour ses fruits sucrés. Elle se multiplie par stolons ; les plantations perdent en vigueur après quelques années.",
+  "en": "Low perennial, derived from a cross between two American strawberry species, grown for its sweet fruit. It spreads by runners; plantings lose vigour after a few years.",
+  "ar": "نبات معمر قصير ناتج عن تهجين نوعين أمريكيين من الفراولة، يُزرع لثماره الحلوة. يتكاثر بالمدادات، وتضعف المزارع بعد بضع سنوات."
+ },
+ "lifecycle": "perennial",
+ "difficulty": "medium",
+ "temperature": {
+  "min": 8,
+  "optimalMin": 15,
+  "optimalMax": 24,
+  "max": 28,
+  "hardinessMin": -12
+ },
+ "frostTolerance": "hardy",
+ "sun": "full_sun",
+ "soilIds": [
+  "loamy",
+  "sandy",
+  "humus_rich",
+  "potting_mix"
+ ],
+ "ph": {
+  "min": 5.5,
+  "max": 6.5
+ },
+ "water": "medium",
+ "spacing": {
+  "inRowCm": {
+   "min": 25,
+   "max": 35
+  },
+  "betweenRowsCm": {
+   "min": 60,
+   "max": 90
+  }
+ },
+ "sowingMode": "vegetative",
+ "methods": [
+  "open_field",
+  "container",
+  "greenhouse",
+  "hydroponics"
+ ],
+ "climateZoneIds": [
+  "temperate_oceanic",
+  "temperate_continental",
+  "mediterranean",
+  "semi_arid",
+  "humid_subtropical"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon la variété, le climat, la conduite et l'irrigation. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with variety, climate, management and irrigation. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب الصنف والمناخ وطريقة الزراعة والري. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Type de variété (non remontante ou remontante), âge de la plantation, qualité des plants, régularité de l'arrosage, protection contre la pourriture grise et les gelées sur fleurs.",
+  "en": "Variety type (June-bearing or everbearing), age of the planting, plant quality, watering regularity, protection against grey mould and frost on flowers.",
+  "ar": "نوع الصنف (أحادي الإثمار أو متكرر الإثمار)، عمر المزرعة، جودة الشتلات، انتظام الري، والحماية من العفن الرمادي والصقيع على الأزهار."
+ },
+ "storage": {
+  "fr": "Fruit très périssable : cueillir à pleine couleur, de préférence le matin, et consommer dans les deux à trois jours en gardant au frais sans laver avant stockage.",
+  "en": "Highly perishable fruit: pick fully coloured, preferably in the morning, and eat within two to three days, kept cool and unwashed until use.",
+  "ar": "ثمار سريعة التلف: تُقطف عند اكتمال اللون ويفضل صباحًا، وتُستهلك خلال يومين إلى ثلاثة مع حفظها باردة ودون غسلها قبل الاستعمال."
+ },
+ "varieties": [
+  {
+   "id": "gariguette",
+   "name": "Gariguette",
+   "description": {
+    "fr": "Variété française précoce, fruits allongés et parfumés ; non remontante.",
+    "en": "Early French variety, elongated aromatic fruit; June-bearing.",
+    "ar": "صنف فرنسي مبكر، ثماره مستطيلة وعطرية؛ أحادي الإثمار."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "camarosa",
+   "name": "Camarosa",
+   "description": {
+    "fr": "Variété californienne vigoureuse à gros fruits fermes, très cultivée en climat méditerranéen.",
+    "en": "Vigorous Californian variety with large firm fruit, widely grown in Mediterranean climates.",
+    "ar": "صنف كاليفورني قوي النمو ذو ثمار كبيرة متماسكة، منتشر في المناخ المتوسطي."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "mara-des-bois",
+   "name": "Mara des Bois",
+   "description": {
+    "fr": "Variété remontante française au goût rappelant la fraise des bois.",
+    "en": "French everbearing variety with a wild-strawberry flavour.",
+    "ar": "صنف فرنسي متكرر الإثمار بنكهة تشبه الفراولة البرية."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "phenology": {
+  "plantingMonthsNorth": [
+   3,
+   4,
+   8,
+   9
+  ],
+  "pruningMonthsNorth": [
+   7,
+   8
+  ],
+  "floweringMonthsNorth": [
+   4,
+   5
+  ],
+  "harvestMonthsNorth": [
+   5,
+   6
+  ],
+  "requiresWinterChill": false
+ },
+ "companions": [],
+ "rotation": {
+  "group": "perennial",
+  "minYearsBeforeReturn": 3,
+  "avoidPredecessorFamilies": [
+   "Solanaceae"
+  ],
+  "status": "to_verify",
+  "notes": {
+   "fr": "Renouveler la plantation tous les 3 à 4 ans sur une autre parcelle. Éviter de planter après des solanacées (tomate, pomme de terre) en raison du risque de verticilliose.",
+   "en": "Renew the planting every 3–4 years on another plot. Avoid planting after Solanaceae (tomato, potato) because of the risk of Verticillium wilt.",
+   "ar": "جدّد المزرعة كل 3 إلى 4 سنوات في قطعة أخرى. تجنب الغرس بعد الباذنجانيات (الطماطم، البطاطس) بسبب خطر الذبول الفيرتيسيليومي."
+  }
+ },
+ "diseaseIds": [
+  "grey-mould",
+  "powdery-mildew"
+ ],
+ "pestIds": [
+  "aphids",
+  "spider-mites",
+  "slugs-snails"
+ ],
+ "guides": [
+  {
+   "id": "strawberry-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver le fraisier pas à pas",
+    "en": "Growing strawberries step by step",
+    "ar": "زراعة الفراولة خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Choisir les plants",
+      "en": "Choose plants",
+      "ar": "اختيار الشتلات"
+     },
+     "body": {
+      "fr": "Achetez des plants certifiés sains en pépinière ou en jardinerie. Choisissez des variétés non remontantes pour une grosse récolte groupée, remontantes pour des fruits jusqu'à l'automne.",
+      "en": "Buy certified healthy plants from a nursery or garden centre. Choose June-bearing varieties for one large crop, everbearing ones for fruit until autumn.",
+      "ar": "اشترِ شتلات سليمة معتمدة من مشتل. اختر الأصناف أحادية الإثمار لمحصول كبير مجمّع، والأصناف متكررة الإثمار لثمار حتى الخريف."
+     },
+     "mistakes": {
+      "fr": "Replanter des stolons d'une vieille plantation malade.",
+      "en": "Replanting runners from an old, diseased bed.",
+      "ar": "إعادة غرس مدادات من مزرعة قديمة مريضة."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Préparer le sol",
+      "en": "Prepare the soil",
+      "ar": "تحضير التربة"
+     },
+     "body": {
+      "fr": "Le fraisier aime un sol meuble, riche en humus, bien drainé et légèrement acide. Incorporez du compost mûr et désherbez soigneusement. En sol lourd, plantez sur buttes ou planches surélevées.",
+      "en": "Strawberries like loose, humus-rich, well-drained, slightly acid soil. Work in mature compost and weed thoroughly. On heavy soil, plant on ridges or raised beds.",
+      "ar": "تفضل الفراولة تربة مفككة غنية بالدبال جيدة الصرف وحمضية قليلًا. أضف سمادًا عضويًا ناضجًا وأزل الأعشاب جيدًا. في التربة الثقيلة اغرس على مصاطب أو أحواض مرتفعة."
+     },
+     "mistakes": {
+      "fr": "Planter en sol calcaire ou mal drainé : chlorose et pourriture des racines.",
+      "en": "Planting in chalky or waterlogged soil: chlorosis and root rot.",
+      "ar": "الغرس في تربة كلسية أو سيئة الصرف: اصفرار وتعفن الجذور."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Planter",
+      "en": "Plant",
+      "ar": "الغرس"
+     },
+     "body": {
+      "fr": "Plantez en fin d'été ou au début du printemps, à 25–35 cm sur le rang. Le collet (cœur) doit affleurer le sol : ni enterré, ni déchaussé. Arrosez aussitôt.",
+      "en": "Plant in late summer or early spring, 25–35 cm apart in the row. The crown must sit level with the soil, neither buried nor exposed. Water straight away.",
+      "ar": "اغرس في أواخر الصيف أو بداية الربيع على مسافة 25 إلى 35 سم على الخط. يجب أن يكون التاج في مستوى سطح التربة، لا مدفونًا ولا مكشوفًا. اسقِ مباشرة."
+     },
+     "tips": {
+      "fr": "Un paillage (paille, film) garde les fruits propres et limite la pourriture grise.",
+      "en": "Mulch (straw or film) keeps fruit clean and limits grey mould.",
+      "ar": "التغطية (بالقش أو الغشاء) تحافظ على نظافة الثمار وتحد من العفن الرمادي."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Arroser et entretenir",
+      "en": "Water and maintain",
+      "ar": "الري والعناية"
+     },
+     "body": {
+      "fr": "Arrosez régulièrement au pied, surtout pendant la floraison et la fructification, sans mouiller les fruits. Le goutte-à-goutte est idéal. Protégez les fleurs d'une gelée tardive avec un voile.",
+      "en": "Water regularly at the base, especially during flowering and fruiting, without wetting the fruit. Drip irrigation is ideal. Protect flowers from late frost with fleece.",
+      "ar": "اسقِ بانتظام عند القاعدة خاصة أثناء الإزهار والإثمار دون تبليل الثمار، والري بالتنقيط هو الأفضل. احمِ الأزهار من الصقيع المتأخر بغطاء خفيف."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Récolter",
+      "en": "Harvest",
+      "ar": "الحصاد"
+     },
+     "body": {
+      "fr": "Cueillez les fruits bien colorés avec leur pédoncule, tous les deux à trois jours. Retirez aussitôt les fruits abîmés ou moisis.",
+      "en": "Pick fully coloured fruit with its stalk every two to three days. Remove damaged or mouldy fruit immediately.",
+      "ar": "اقطف الثمار مكتملة اللون مع عنقها كل يومين إلى ثلاثة أيام، وأزل الثمار التالفة أو المتعفنة فورًا."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Nettoyer après récolte",
+      "en": "Clean up after harvest",
+      "ar": "التنظيف بعد الحصاد"
+     },
+     "body": {
+      "fr": "Après la récolte, supprimez les vieilles feuilles et les stolons inutiles. Gardez quelques stolons vigoureux d'une plantation saine si vous voulez de nouveaux plants.",
+      "en": "After harvest, remove old leaves and unwanted runners. Keep a few vigorous runners from a healthy planting if you want new plants.",
+      "ar": "بعد الحصاد أزل الأوراق القديمة والمدادات غير المرغوبة. احتفظ ببعض المدادات القوية من مزرعة سليمة إذا أردت شتلات جديدة."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Renouveler la plantation",
+      "en": "Renew the planting",
+      "ar": "تجديد المزرعة"
+     },
+     "body": {
+      "fr": "Après 3 à 4 ans, la production et la qualité baissent : replantez des plants sains sur une autre parcelle.",
+      "en": "After 3–4 years, yield and quality decline: replant healthy plants on another plot.",
+      "ar": "بعد 3 إلى 4 سنوات ينخفض الإنتاج والجودة: أعد الغرس بشتلات سليمة في قطعة أخرى."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

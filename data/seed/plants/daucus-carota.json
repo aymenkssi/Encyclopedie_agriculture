@@ -1,0 +1,360 @@
+{
+ "id": "daucus-carota",
+ "scientificName": "Daucus carota subsp. sativus",
+ "scientificAuthority": "(Hoffm.) Schübl. & G.Martens",
+ "synonyms": [
+  "Daucus sativus (Hoffm.) Röhl."
+ ],
+ "family": "Apiaceae",
+ "categoryId": "vegetable",
+ "names": {
+  "fr": [
+   "Carotte"
+  ],
+  "en": [
+   "Carrot"
+  ],
+  "ar": [
+   "جزر"
+  ]
+ },
+ "description": {
+  "fr": "Plante bisannuelle cultivée comme annuelle pour sa racine charnue. Elle se sème en place et demande un sol meuble, profond et sans cailloux pour former des racines droites.",
+  "en": "Biennial plant grown as an annual for its fleshy root. It is sown in place and needs a loose, deep, stone-free soil to form straight roots.",
+  "ar": "نبات ثنائي الحول يُزرع كمحصول حولي لجذره اللحمي. يُبذر في مكانه الدائم ويحتاج إلى تربة مفككة وعميقة وخالية من الحجارة لتكوين جذور مستقيمة."
+ },
+ "lifecycle": "biennial",
+ "difficulty": "medium",
+ "temperature": {
+  "min": 7,
+  "optimalMin": 15,
+  "optimalMax": 21,
+  "max": 26,
+  "germinationMin": 7
+ },
+ "frostTolerance": "light",
+ "sun": "full_sun",
+ "soilIds": [
+  "sandy",
+  "loamy",
+  "silty"
+ ],
+ "ph": {
+  "min": 6.0,
+  "max": 7.0
+ },
+ "water": "medium",
+ "cycleDays": {
+  "min": 60,
+  "max": 120
+ },
+ "spacing": {
+  "inRowCm": {
+   "min": 3,
+   "max": 5
+  },
+  "betweenRowsCm": {
+   "min": 25,
+   "max": 30
+  }
+ },
+ "sowingDepthCm": {
+  "min": 0.5,
+  "max": 1.0
+ },
+ "sowingMode": "direct",
+ "methods": [
+  "open_field",
+  "container"
+ ],
+ "climateZoneIds": [
+  "temperate_oceanic",
+  "temperate_continental",
+  "mediterranean",
+  "semi_arid",
+  "humid_subtropical"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon la variété, le sol, la densité de semis et l'irrigation. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with variety, soil, sowing density and irrigation. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب الصنف والتربة وكثافة البذر والري. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Qualité de la levée (sol humide et sans croûte), éclaircissage, sol meuble et sans cailloux, absence de fumure fraîche, régularité de l'arrosage (éclatement), désherbage précoce, mouche de la carotte.",
+  "en": "Emergence quality (moist, crust-free soil), thinning, loose stone-free soil, no fresh manure, regular watering (splitting), early weeding, carrot fly.",
+  "ar": "جودة الإنبات (تربة رطبة دون قشرة سطحية)، الخف، تربة مفككة وخالية من الحجارة، عدم استعمال السماد الطازج، انتظام الري (التشقق)، التعشيب المبكر، ذبابة الجزر."
+ },
+ "storage": {
+  "fr": "Couper le feuillage et conserver les racines au frais et à l'humidité (réfrigérateur, ou sable humide en cave). En sol drainant et hiver doux, elles peuvent rester en terre sous paillage.",
+  "en": "Cut off the leaves and keep roots cool and moist (refrigerator, or damp sand in a cellar). In free-draining soil and mild winters they can stay in the ground under mulch.",
+  "ar": "تُقطع الأوراق وتُحفظ الجذور في مكان بارد ورطب (الثلاجة أو رمل رطب في القبو). وفي التربة جيدة الصرف والشتاء المعتدل يمكن تركها في الأرض تحت غطاء من القش."
+ },
+ "varieties": [
+  {
+   "id": "nantaise",
+   "name": "Nantaise",
+   "description": {
+    "fr": "Racine cylindrique à bout arrondi, douce, polyvalente.",
+    "en": "Cylindrical, blunt-tipped root, sweet, all-purpose.",
+    "ar": "جذر أسطواني ذو طرف مستدير، حلو ومتعدد الاستعمالات."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "chantenay",
+   "name": "Chantenay",
+   "description": {
+    "fr": "Racine courte et conique, adaptée aux sols plus lourds.",
+    "en": "Short conical root, suited to heavier soils.",
+    "ar": "جذر قصير مخروطي، مناسب للتربة الأثقل."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "flakkee",
+   "name": "Flakkee",
+   "description": {
+    "fr": "Grosse racine longue, de garde, pour récolte d'automne.",
+    "en": "Large long root, for autumn harvest and storage.",
+    "ar": "جذر طويل كبير، للحصاد الخريفي والتخزين."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "marche-de-paris",
+   "name": "Marché de Paris",
+   "description": {
+    "fr": "Racine ronde, adaptée aux sols peu profonds et aux pots.",
+    "en": "Round root, suited to shallow soils and containers.",
+    "ar": "جذر مستدير، مناسب للتربة الضحلة والأصص."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "calendar": [
+  {
+   "activity": "direct_sowing",
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Semis échelonnés quand le sol dépasse environ 7 °C ; variétés de garde semées en fin de période.",
+    "en": "Successive sowings once soil exceeds about 7 °C; storage varieties sown late in the window.",
+    "ar": "بذر متتابع عندما تتجاوز حرارة التربة 7 درجات مئوية تقريبًا؛ وتُبذر أصناف التخزين في آخر الفترة."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Selon la variété et la date de semis.",
+    "en": "Depending on variety and sowing date.",
+    "ar": "حسب الصنف وموعد البذر."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  }
+ ],
+ "companions": [
+  {
+   "otherPlantId": "allium-cepa",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Association traditionnelle censée gêner la mouche de la carotte et celle de l'oignon ; efficacité variable selon les études.",
+    "en": "Traditional pairing said to deter carrot fly and onion fly; effectiveness varies between studies.",
+    "ar": "تشارك تقليدي يُعتقد أنه يُبعد ذبابة الجزر وذبابة البصل؛ وتتفاوت فعاليته بين الدراسات."
+   }
+  },
+  {
+   "otherPlantId": "lactuca-sativa",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Cultures intercalaires compatibles : la laitue, rapide, est récoltée avant que les carottes ne prennent la place.",
+    "en": "Compatible intercrops: fast-growing lettuce is harvested before the carrots need the space.",
+    "ar": "محصولان متوافقان للزراعة البينية: الخس سريع النمو يُحصد قبل أن يحتاج الجزر إلى المساحة."
+   }
+  }
+ ],
+ "rotation": {
+  "group": "root",
+  "minYearsBeforeReturn": 3,
+  "goodPredecessorFamilies": [
+   "Solanaceae",
+   "Cucurbitaceae"
+  ],
+  "avoidPredecessorFamilies": [
+   "Apiaceae"
+  ],
+  "status": "indicative",
+  "notes": {
+   "fr": "Éviter de revenir avec des apiacées (carotte, panais, céleri, persil) pendant 3 ans. Préférer un précédent ayant reçu la fumure, plutôt qu'un apport de fumier frais.",
+   "en": "Avoid returning with Apiaceae (carrot, parsnip, celery, parsley) for 3 years. Prefer following a crop that received the manure rather than adding fresh manure.",
+   "ar": "تجنّب إعادة زراعة الخيميات (الجزر، الجزر الأبيض، الكرفس، البقدونس) لمدة 3 سنوات. ويُفضّل أن يأتي بعد محصول سبق تسميده بدل إضافة سماد طازج."
+  }
+ },
+ "diseaseIds": [
+  "powdery-mildew"
+ ],
+ "pestIds": [
+  "carrot-fly",
+  "aphids",
+  "root-knot-nematodes"
+ ],
+ "guides": [
+  {
+   "id": "carrot-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver la carotte pas à pas",
+    "en": "Growing carrots step by step",
+    "ar": "زراعة الجزر خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Préparer un sol meuble",
+      "en": "Prepare a loose soil",
+      "ar": "تحضير تربة مفككة"
+     },
+     "body": {
+      "fr": "Ameublissez profondément, retirez cailloux et débris, affinez la surface. Les sols lourds se travaillent en planches surélevées ou avec des variétés courtes.",
+      "en": "Loosen deeply, remove stones and debris, rake to a fine surface. Heavy soils are handled with raised beds or short varieties.",
+      "ar": "فكّك التربة بعمق، وأزل الحجارة والبقايا، ونعّم سطحها. وتُعالج التربة الثقيلة بالأحواض المرتفعة أو بالأصناف القصيرة."
+     },
+     "mistakes": {
+      "fr": "Apporter du fumier frais : racines fourchues et attaques de ravageurs.",
+      "en": "Adding fresh manure: forked roots and more pest damage.",
+      "ar": "إضافة السماد الطازج: جذور متشعبة وزيادة الإصابة بالآفات."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Semer en place",
+      "en": "Sow in place",
+      "ar": "البذر في المكان الدائم"
+     },
+     "body": {
+      "fr": "Semez clair en lignes à 0,5–1 cm de profondeur, à 25–30 cm entre les rangs, dans un sol réchauffé. La carotte se repique mal.",
+      "en": "Sow thinly in rows 0.5–1 cm deep, 25–30 cm between rows, in warmed soil. Carrots do not transplant well.",
+      "ar": "ابذر بشكل خفيف في خطوط على عمق 0.5 إلى 1 سم وبمسافة 25 إلى 30 سم بين الخطوط في تربة دافئة. لا يتحمل الجزر الشتل."
+     },
+     "tips": {
+      "fr": "Mélanger les graines à du sable fin aide à semer clair.",
+      "en": "Mixing seed with fine sand helps sow thinly.",
+      "ar": "خلط البذور برمل ناعم يساعد على البذر الخفيف."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Réussir la levée",
+      "en": "Ensure emergence",
+      "ar": "ضمان الإنبات"
+     },
+     "body": {
+      "fr": "La levée est lente (souvent deux à trois semaines). Gardez la surface humide en continu ; une planche ou un voile posé quelques jours limite le dessèchement et la croûte.",
+      "en": "Emergence is slow (often two to three weeks). Keep the surface constantly moist; a board or fleece laid for a few days limits drying and crusting.",
+      "ar": "الإنبات بطيء (غالبًا أسبوعان إلى ثلاثة). حافظ على رطوبة السطح باستمرار؛ ووضع لوح أو غطاء خفيف بضعة أيام يحد من الجفاف وتكوّن القشرة."
+     },
+     "mistakes": {
+      "fr": "Laisser le sol croûter : les plantules ne percent pas.",
+      "en": "Letting the soil crust: seedlings cannot break through.",
+      "ar": "ترك التربة تتقشر: لا تستطيع البادرات اختراقها."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Éclaircir et désherber",
+      "en": "Thin and weed",
+      "ar": "الخف والتعشيب"
+     },
+     "body": {
+      "fr": "Désherbez tôt, car la carotte supporte mal la concurrence. Éclaircissez pour laisser 3–5 cm entre les plants, de préférence le soir, et retassez le sol.",
+      "en": "Weed early, as carrots compete poorly. Thin to 3–5 cm between plants, preferably in the evening, and firm the soil back.",
+      "ar": "عشّب مبكرًا لأن الجزر ضعيف أمام المنافسة. اخفّ النباتات لترك 3 إلى 5 سم بينها، ويُفضّل ذلك مساءً، ثم اضغط التربة."
+     },
+     "tips": {
+      "fr": "Retirez les éclaircies du jardin : leur odeur attire la mouche de la carotte.",
+      "en": "Remove thinnings from the garden: their scent attracts carrot fly.",
+      "ar": "أخرج النباتات المخفوفة من الحديقة لأن رائحتها تجذب ذبابة الجزر."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Arroser régulièrement",
+      "en": "Water regularly",
+      "ar": "الري بانتظام"
+     },
+     "body": {
+      "fr": "Maintenez une humidité régulière. Un arrosage abondant après une période sèche fait éclater les racines.",
+      "en": "Keep moisture steady. Heavy watering after a dry spell makes roots split.",
+      "ar": "حافظ على رطوبة منتظمة. الري الغزير بعد فترة جفاف يؤدي إلى تشقق الجذور."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Protéger de la mouche de la carotte",
+      "en": "Protect from carrot fly",
+      "ar": "الحماية من ذبابة الجزر"
+     },
+     "body": {
+      "fr": "Là où la mouche est présente, couvrez les rangs d'un filet anti-insectes dès le semis et pratiquez la rotation.",
+      "en": "Where the fly is present, cover rows with insect netting from sowing and rotate crops.",
+      "ar": "حيث تنتشر الذبابة، غطِّ الخطوط بشبكة مضادة للحشرات منذ البذر واتبع الدورة الزراعية."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Récolter et conserver",
+      "en": "Harvest and store",
+      "ar": "الحصاد والتخزين"
+     },
+     "body": {
+      "fr": "Récoltez dès que les racines ont atteint une taille utile, en soulevant à la fourche en sol lourd. Coupez le feuillage avant de stocker au frais et à l'humidité.",
+      "en": "Harvest once roots reach a usable size, lifting with a fork in heavy soil. Cut off the leaves before storing cool and moist.",
+      "ar": "احصد عندما تبلغ الجذور حجمًا مناسبًا، مع الرفع بالمذراة في التربة الثقيلة. اقطع الأوراق قبل التخزين في مكان بارد ورطب."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

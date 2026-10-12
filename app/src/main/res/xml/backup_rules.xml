@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android < 12: back up the user database and preferences (no content cache needed). -->
+<full-backup-content>
+    <include domain="database" path="agripedia.db" />
+    <include domain="sharedpref" path="." />
+    <include domain="file" path="datastore/" />
+</full-backup-content>

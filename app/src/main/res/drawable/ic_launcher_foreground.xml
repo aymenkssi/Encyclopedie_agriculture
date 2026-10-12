@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Stylised sprout on a field line (108dp adaptive canvas, 72dp safe zone). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="@color/launcher_fg"
+        android:pathData="M53,74 L53,52 C53,44 47,38 37,37 C37,47 43,53 53,53 Z" />
+    <path android:fillColor="@color/launcher_fg"
+        android:pathData="M55,74 L55,46 C55,36 62,30 73,29 C73,40 66,46 55,47 Z" />
+    <path android:fillColor="@color/launcher_fg"
+        android:pathData="M32,74 L76,74 L76,78 L32,78 Z" />
+</vector>

@@ -1,0 +1,303 @@
+{
+ "id": "cicer-arietinum",
+ "scientificName": "Cicer arietinum",
+ "scientificAuthority": "L.",
+ "synonyms": [],
+ "family": "Fabaceae",
+ "categoryId": "legume",
+ "names": {
+  "fr": [
+   "Pois chiche"
+  ],
+  "en": [
+   "Chickpea",
+   "Garbanzo bean"
+  ],
+  "ar": [
+   "حمص"
+  ]
+ },
+ "description": {
+  "fr": "Légumineuse annuelle à graines sèches, cultivée surtout en conditions pluviales dans les régions méditerranéennes, semi-arides et en Asie du Sud. Assez tolérante à la sécheresse, elle supporte mal l'excès d'eau. Les types kabuli (gros grains clairs) et desi (petits grains foncés) sont les plus courants.",
+  "en": "Annual legume grown for its dry seeds, mostly rain-fed in Mediterranean and semi-arid regions and in South Asia. Fairly drought-tolerant, it does poorly with excess water. Kabuli (large, light seeds) and desi (small, dark seeds) are the main types.",
+  "ar": "بقولية حولية تُزرع لحبوبها الجافة، غالبًا في الزراعة البعلية بالمناطق المتوسطية وشبه الجافة وفي جنوب آسيا. تتحمل الجفاف نسبيًا لكنها لا تتحمل فائض الماء. أهم أنواعها الكابولي (حبوب كبيرة فاتحة) والديسي (حبوب صغيرة داكنة)."
+ },
+ "lifecycle": "annual",
+ "difficulty": "medium",
+ "temperature": {
+  "min": 5,
+  "optimalMin": 15,
+  "optimalMax": 25,
+  "max": 28,
+  "germinationMin": 5
+ },
+ "frostTolerance": "light",
+ "sun": "full_sun",
+ "soilIds": [
+  "loamy",
+  "clay",
+  "silty",
+  "calcareous"
+ ],
+ "ph": {
+  "min": 6.0,
+  "max": 8.0
+ },
+ "water": "low",
+ "cycleDays": {
+  "min": 100,
+  "max": 170
+ },
+ "spacing": {
+  "inRowCm": {
+   "min": 5,
+   "max": 10
+  },
+  "betweenRowsCm": {
+   "min": 30,
+   "max": 50
+  }
+ },
+ "sowingDepthCm": {
+  "min": 5,
+  "max": 8
+ },
+ "sowingMode": "direct",
+ "methods": [
+  "open_field"
+ ],
+ "climateZoneIds": [
+  "mediterranean",
+  "semi_arid",
+  "humid_subtropical",
+  "tropical_savanna"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon la date de semis (hiver ou printemps), la pluviométrie, la variété et la pression de l'anthracnose. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with sowing date (winter or spring), rainfall, variety and Ascochyta blight pressure. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب موعد البذر (شتوي أو ربيعي) وكمية الأمطار والصنف وشدة الإصابة باللفحة الأسكوكيتية. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Date de semis, sécheresse et chaleur à la floraison et au remplissage des gousses, anthracnose (Ascochyta), concurrence des adventices, qualité de la semence et nodulation.",
+  "en": "Sowing date, drought and heat at flowering and pod filling, Ascochyta blight, weed competition, seed quality and nodulation.",
+  "ar": "موعد البذر، الجفاف والحر أثناء الإزهار وامتلاء القرون، اللفحة الأسكوكيتية، منافسة الأعشاب الضارة، جودة البذور وتكوّن العقد الجذرية."
+ },
+ "storage": {
+  "fr": "Stocker les grains bien secs dans des sacs ou contenants propres, au frais et au sec ; surveiller les bruches (petits charançons des légumineuses).",
+  "en": "Store well-dried seeds in clean bags or containers in a cool, dry place; watch for bruchids (pulse weevils).",
+  "ar": "تُخزَّن الحبوب الجافة جيدًا في أكياس أو أوعية نظيفة في مكان بارد وجاف، مع مراقبة سوس البقول."
+ },
+ "varieties": [
+  {
+   "id": "kabuli",
+   "name": "Kabuli",
+   "description": {
+    "fr": "Gros grains crème à tégument fin, type dominant au Maghreb et au Moyen-Orient.",
+    "en": "Large cream seeds with a thin coat; the dominant type in the Maghreb and the Middle East.",
+    "ar": "حبوب كبيرة بلون كريمي وقشرة رقيقة، وهو النوع السائد في المغرب العربي والشرق الأوسط."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "desi",
+   "name": "Desi",
+   "description": {
+    "fr": "Petits grains anguleux à tégument foncé, type dominant en Asie du Sud.",
+    "en": "Small angular seeds with a dark coat; the dominant type in South Asia.",
+    "ar": "حبوب صغيرة زاويّة ذات قشرة داكنة، وهو النوع السائد في جنوب آسيا."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "calendar": [
+  {
+   "activity": "direct_sowing",
+   "months": [
+    12,
+    1,
+    2,
+    3
+   ],
+   "climateZoneId": "mediterranean",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Semis d'hiver (décembre–janvier) avec des variétés tolérantes à l'anthracnose, ou semis de printemps (février–mars) ; à adapter aux pluies locales.",
+    "en": "Winter sowing (December–January) with Ascochyta-tolerant varieties, or spring sowing (February–March); adapt to local rainfall.",
+    "ar": "بذر شتوي (ديسمبر–يناير) بأصناف متحملة للفحة الأسكوكيتية، أو بذر ربيعي (فبراير–مارس)؛ يُكيَّف حسب الأمطار المحلية."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    5,
+    6,
+    7
+   ],
+   "climateZoneId": "mediterranean",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Mai–juin pour les semis d'hiver, juin–juillet pour les semis de printemps.",
+    "en": "May–June for winter sowings, June–July for spring sowings.",
+    "ar": "مايو–يونيو للبذر الشتوي، ويونيو–يوليو للبذر الربيعي."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  }
+ ],
+ "companions": [],
+ "rotation": {
+  "group": "legume",
+  "minYearsBeforeReturn": 3,
+  "goodPredecessorFamilies": [
+   "Poaceae"
+  ],
+  "avoidPredecessorFamilies": [
+   "Fabaceae"
+  ],
+  "status": "to_verify",
+  "notes": {
+   "fr": "Le pois chiche fixe l'azote de l'air grâce aux bactéries de ses nodosités ; il s'insère classiquement en alternance avec les céréales (blé, orge), qui profitent de l'arrière-effet. Espacer les retours de légumineuses pour limiter l'anthracnose et les maladies du sol.",
+   "en": "Chickpea fixes atmospheric nitrogen through the bacteria in its root nodules; it classically alternates with cereals (wheat, barley), which benefit from the residual effect. Space out legume returns to limit Ascochyta blight and soil-borne diseases.",
+   "ar": "يثبّت الحمص نيتروجين الهواء بفضل البكتيريا في عقده الجذرية، ويُزرع عادة بالتناوب مع الحبوب (القمح، الشعير) التي تستفيد من أثره اللاحق. باعِد بين عودة البقوليات للحد من اللفحة الأسكوكيتية وأمراض التربة."
+  }
+ },
+ "diseaseIds": [
+  "ascochyta-blight"
+ ],
+ "pestIds": [],
+ "guides": [
+  {
+   "id": "chickpea-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver le pois chiche pas à pas",
+    "en": "Growing chickpea step by step",
+    "ar": "زراعة الحمص خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Choisir la saison et la variété",
+      "en": "Choose the season and variety",
+      "ar": "اختيار الموسم والصنف"
+     },
+     "body": {
+      "fr": "En climat méditerranéen, le semis d'hiver profite mieux des pluies mais exige une variété tolérante à l'anthracnose ; le semis de printemps réduit ce risque mais expose la floraison à la chaleur et à la sécheresse.",
+      "en": "In Mediterranean climates, winter sowing makes better use of the rains but requires an Ascochyta-tolerant variety; spring sowing lowers that risk but exposes flowering to heat and drought.",
+      "ar": "في المناخ المتوسطي يستفيد البذر الشتوي أكثر من الأمطار لكنه يتطلب صنفًا متحملًا للفحة الأسكوكيتية؛ أما البذر الربيعي فيقلل هذا الخطر لكنه يعرّض الإزهار للحر والجفاف."
+     },
+     "tips": {
+      "fr": "Demandez aux services agricoles locaux les variétés inscrites pour votre zone.",
+      "en": "Ask local extension services which varieties are registered for your area.",
+      "ar": "اسأل مصالح الإرشاد الفلاحي المحلية عن الأصناف المسجلة لمنطقتك."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Préparer la parcelle",
+      "en": "Prepare the plot",
+      "ar": "تحضير القطعة"
+     },
+     "body": {
+      "fr": "Choisissez un sol profond et bien drainé ; les sols calcaires conviennent. Préparez un lit de semence fin mais rappuyé, après une céréale de préférence.",
+      "en": "Choose a deep, well-drained soil; calcareous soils are suitable. Prepare a fine but firm seedbed, preferably after a cereal.",
+      "ar": "اختر تربة عميقة جيدة التصريف، والتربة الكلسية مناسبة. حضّر مهدًا للبذور ناعمًا ومتماسكًا، ويُفضَّل بعد محصول من الحبوب."
+     },
+     "mistakes": {
+      "fr": "Semer dans un bas-fond où l'eau stagne : asphyxie et pourriture des racines.",
+      "en": "Sowing in a low spot where water stands: root asphyxia and rot.",
+      "ar": "البذر في منخفض يتجمع فيه الماء: اختناق الجذور وتعفنها."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Semer",
+      "en": "Sow",
+      "ar": "البذر"
+     },
+     "body": {
+      "fr": "Utilisez une semence saine, l'anthracnose se transmettant par les graines. Semez à 5–8 cm de profondeur, en lignes espacées de 30–50 cm. Sur une parcelle qui n'a jamais porté de pois chiche, l'inoculation avec la bactérie adaptée améliore la nodulation.",
+      "en": "Use healthy seed, as Ascochyta blight is seed-borne. Sow 5–8 cm deep in rows 30–50 cm apart. On a plot that has never grown chickpea, inoculating with the appropriate bacterium improves nodulation.",
+      "ar": "استعمل بذورًا سليمة لأن اللفحة الأسكوكيتية تنتقل عبر البذور. ازرع على عمق 5 إلى 8 سم في خطوط تتباعد 30 إلى 50 سم. وفي قطعة لم يُزرع فيها الحمص من قبل، يحسّن التلقيح بالبكتيريا المناسبة تكوّن العقد الجذرية."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Désherber tôt",
+      "en": "Weed early",
+      "ar": "إزالة الأعشاب مبكرًا"
+     },
+     "body": {
+      "fr": "Le pois chiche démarre lentement et couvre peu le sol : il souffre beaucoup de la concurrence des adventices pendant les premières semaines. Binez ou désherbez avant que les mauvaises herbes ne s'installent.",
+      "en": "Chickpea starts slowly and covers the soil poorly: it suffers badly from weed competition during the first weeks. Hoe or weed before weeds become established.",
+      "ar": "ينمو الحمص ببطء في البداية ولا يغطي التربة جيدًا، فيتضرر كثيرًا من منافسة الأعشاب في الأسابيع الأولى. اعزق أو أزل الأعشاب قبل أن تستقر."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Gérer l'eau",
+      "en": "Manage water",
+      "ar": "تدبير الماء"
+     },
+     "body": {
+      "fr": "La culture est surtout pluviale. Si le printemps est sec et que l'irrigation est possible, un apport modéré au début de la floraison ou du remplissage des gousses peut être utile.",
+      "en": "The crop is mostly rain-fed. If spring is dry and irrigation is available, a moderate watering at early flowering or pod filling can help.",
+      "ar": "يُزرع الحمص غالبًا بعليًا. إذا كان الربيع جافًا وكان الري ممكنًا، فقد تفيد سقية معتدلة في بداية الإزهار أو امتلاء القرون."
+     },
+     "mistakes": {
+      "fr": "Irriguer abondamment : excès de végétation, maladies racinaires et anthracnose favorisées.",
+      "en": "Heavy irrigation: excessive foliage, root diseases and more Ascochyta blight.",
+      "ar": "الري الغزير: نمو خضري مفرط وتشجيع أمراض الجذور واللفحة الأسكوكيتية."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Surveiller l'anthracnose",
+      "en": "Watch for Ascochyta blight",
+      "ar": "مراقبة اللفحة الأسكوكيتية"
+     },
+     "body": {
+      "fr": "Après des périodes pluvieuses et douces, inspectez les feuilles et les tiges : taches brunes cerclées, tiges qui cassent. Arrachez les premiers foyers et suivez les conseils techniques locaux pour toute protection.",
+      "en": "After mild, rainy spells, inspect leaves and stems: brown ringed spots, breaking stems. Pull out the first patches and follow local technical advice for any protection.",
+      "ar": "بعد فترات ممطرة ومعتدلة الحرارة افحص الأوراق والسيقان: بقع بنية ذات حلقات وسيقان تنكسر. اقلع البؤر الأولى واتبع النصائح التقنية المحلية بشأن أي حماية."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Récolter et conserver",
+      "en": "Harvest and store",
+      "ar": "الحصاد والتخزين"
+     },
+     "body": {
+      "fr": "Récoltez quand les plantes ont jauni et que les gousses sont sèches. Arrachez ou fauchez, de préférence le matin, battez, puis séchez bien les grains avant de les stocker à l'abri des bruches.",
+      "en": "Harvest when plants have turned yellow-brown and pods are dry. Pull or cut, preferably in the morning, thresh, then dry the seeds well before storing them safe from bruchids.",
+      "ar": "احصد عندما تصفرّ النباتات وتجف القرون. اقلع أو اقطع النباتات ويُفضَّل صباحًا، ثم ادرسها وجفف الحبوب جيدًا قبل تخزينها بعيدًا عن السوس."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

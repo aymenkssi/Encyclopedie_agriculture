@@ -1,0 +1,294 @@
+{
+ "id": "olea-europaea",
+ "scientificName": "Olea europaea",
+ "scientificAuthority": "L.",
+ "synonyms": [],
+ "family": "Oleaceae",
+ "categoryId": "fruit",
+ "names": {
+  "fr": [
+   "Olivier",
+   "Olive"
+  ],
+  "en": [
+   "Olive",
+   "Olive tree"
+  ],
+  "ar": [
+   "زيتون",
+   "شجرة الزيتون"
+  ]
+ },
+ "description": {
+  "fr": "Arbre persistant emblématique du bassin méditerranéen, très longévif, cultivé pour ses fruits (olives de table et huile). Il résiste bien à la sécheresse et aux sols calcaires, mais craint les froids intenses et l'humidité stagnante.",
+  "en": "Long-lived evergreen tree emblematic of the Mediterranean basin, grown for its fruit (table olives and oil). It withstands drought and chalky soils well, but dislikes severe cold and waterlogging.",
+  "ar": "شجرة دائمة الخضرة رمز لحوض البحر الأبيض المتوسط، طويلة العمر، تُزرع لثمارها (زيتون المائدة والزيت). تتحمل الجفاف والتربة الكلسية جيدًا، لكنها تتضرر من البرد الشديد وركود الماء."
+ },
+ "lifecycle": "perennial",
+ "difficulty": "easy",
+ "temperature": {
+  "min": 10,
+  "optimalMin": 20,
+  "optimalMax": 27,
+  "max": 31,
+  "hardinessMin": -8
+ },
+ "frostTolerance": "hardy",
+ "sun": "full_sun",
+ "soilIds": [
+  "loamy",
+  "calcareous",
+  "sandy",
+  "silty"
+ ],
+ "ph": {
+  "min": 6.0,
+  "max": 8.5
+ },
+ "water": "low",
+ "sowingMode": "vegetative",
+ "methods": [
+  "open_field",
+  "container"
+ ],
+ "climateZoneIds": [
+  "mediterranean",
+  "semi_arid"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon la variété, le climat, la conduite et l'irrigation. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with variety, climate, management and irrigation. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب الصنف والمناخ وطريقة الزراعة والري. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Alternance naturelle (une bonne année suivie d'une faible), variété, âge des arbres, densité, irrigation, taille, froid hivernal suffisant pour la floraison, et attaques de la mouche de l'olive.",
+  "en": "Natural alternate bearing (a heavy year followed by a light one), variety, tree age, density, irrigation, pruning, enough winter cool for flowering, and olive fruit fly attacks.",
+  "ar": "المعاومة الطبيعية (سنة حمل غزير تليها سنة ضعيفة)، الصنف، عمر الأشجار، الكثافة، الري، التقليم، كفاية برودة الشتاء للإزهار، وإصابات ذبابة الزيتون."
+ },
+ "storage": {
+  "fr": "Les olives fraîches sont immangeables crues (amertume) : elles doivent être désamérisées et conservées en saumure, ou portées rapidement au moulin (idéalement dans les 24–48 h) pour une huile de qualité. L'huile se garde à l'abri de la lumière et de la chaleur.",
+  "en": "Fresh olives are inedible raw (bitter): they must be debittered and kept in brine, or taken quickly to the mill (ideally within 24–48 h) for quality oil. Store oil away from light and heat.",
+  "ar": "الزيتون الطازج غير صالح للأكل نيئًا بسبب مرارته: يجب إزالة المرارة وحفظه في محلول ملحي، أو نقله بسرعة إلى المعصرة (ويفضل خلال 24 إلى 48 ساعة) للحصول على زيت جيد. يُحفظ الزيت بعيدًا عن الضوء والحرارة."
+ },
+ "varieties": [
+  {
+   "id": "picholine-marocaine",
+   "name": "Picholine marocaine",
+   "description": {
+    "fr": "Variété principale du Maroc, à double usage (table et huile), rustique.",
+    "en": "Main Moroccan variety, dual-purpose (table and oil), hardy.",
+    "ar": "الصنف الرئيسي في المغرب، مزدوج الاستعمال (مائدة وزيت)، متحمل."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "chemlali",
+   "name": "Chemlali",
+   "description": {
+    "fr": "Variété tunisienne à petits fruits destinés à l'huile, bien adaptée aux zones sèches.",
+    "en": "Tunisian small-fruited oil variety, well suited to dry areas.",
+    "ar": "صنف تونسي صغير الثمار مخصص للزيت، متأقلم جيدًا مع المناطق الجافة."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "picual",
+   "name": "Picual",
+   "description": {
+    "fr": "Variété espagnole très répandue pour l'huile, productive.",
+    "en": "Widespread, productive Spanish oil variety.",
+    "ar": "صنف إسباني واسع الانتشار للزيت، غزير الإنتاج."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "arbequina",
+   "name": "Arbequina",
+   "description": {
+    "fr": "Variété catalane peu vigoureuse, à petits fruits, utilisée en plantations très denses (en haie).",
+    "en": "Low-vigour Catalan variety with small fruit, used in very dense hedgerow plantings.",
+    "ar": "صنف كتالوني ضعيف النمو صغير الثمار، يُستعمل في المزارع عالية الكثافة (على شكل سياج)."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "phenology": {
+  "plantingMonthsNorth": [
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "pruningMonthsNorth": [
+   2,
+   3,
+   4
+  ],
+  "floweringMonthsNorth": [
+   4,
+   5,
+   6
+  ],
+  "harvestMonthsNorth": [
+   9,
+   10,
+   11,
+   12,
+   1
+  ],
+  "requiresWinterChill": true,
+  "chillColdestMonthMaxC": 13
+ },
+ "companions": [],
+ "rotation": {
+  "group": "perennial",
+  "avoidPredecessorFamilies": [
+   "Solanaceae"
+  ],
+  "status": "to_verify",
+  "notes": {
+   "fr": "Culture pérenne en place pour des décennies. Éviter les parcelles où la verticilliose est connue, par exemple après des cultures sensibles comme les solanacées ou le coton.",
+   "en": "Perennial crop in place for decades. Avoid plots with known Verticillium wilt, for example after susceptible crops such as Solanaceae or cotton.",
+   "ar": "محصول معمر يبقى في مكانه لعقود. تجنب القطع المعروفة بإصابتها بالذبول الفيرتيسيليومي، مثلًا بعد محاصيل حساسة كالباذنجانيات أو القطن."
+  }
+ },
+ "diseaseIds": [
+  "olive-peacock-spot"
+ ],
+ "pestIds": [
+  "olive-fruit-fly"
+ ],
+ "guides": [
+  {
+   "id": "olive-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Planter et conduire un olivier",
+    "en": "Planting and growing an olive tree",
+    "ar": "غرس شجرة الزيتون والعناية بها"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Choisir l'arbre",
+      "en": "Choose the tree",
+      "ar": "اختيار الشجرة"
+     },
+     "body": {
+      "fr": "Achetez un jeune olivier en pépinière (bouture enracinée ou arbre greffé) d'une variété adaptée à votre région et à votre usage (table, huile ou les deux).",
+      "en": "Buy a young olive tree from a nursery (rooted cutting or grafted tree) of a variety suited to your region and use (table, oil or both).",
+      "ar": "اشترِ شجيرة زيتون من مشتل (عُقلة مجذَّرة أو شجرة مطعَّمة) من صنف ملائم لمنطقتك وللاستعمال المطلوب (مائدة أو زيت أو كلاهما)."
+     },
+     "tips": {
+      "fr": "Les variétés locales sont souvent les mieux adaptées au climat et au sol.",
+      "en": "Local varieties are often best adapted to the climate and soil.",
+      "ar": "غالبًا ما تكون الأصناف المحلية الأكثر تأقلمًا مع المناخ والتربة."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Choisir l'emplacement",
+      "en": "Choose the site",
+      "ar": "اختيار المكان"
+     },
+     "body": {
+      "fr": "Plein soleil, sol bien drainé, même pauvre ou calcaire. Évitez les bas-fonds où l'eau stagne et où le froid s'accumule. Prévoyez l'espace : en plantation traditionnelle, plusieurs mètres entre arbres.",
+      "en": "Full sun, well-drained soil, even poor or chalky. Avoid low spots where water stands and cold air collects. Allow room: in traditional groves, several metres between trees.",
+      "ar": "شمس كاملة وتربة جيدة الصرف ولو كانت فقيرة أو كلسية. تجنب المنخفضات التي يركد فيها الماء ويتجمع فيها البرد. اترك مسافة كافية: عدة أمتار بين الأشجار في الغراسة التقليدية."
+     },
+     "mistakes": {
+      "fr": "Planter en sol lourd et hydromorphe : asphyxie des racines.",
+      "en": "Planting in heavy waterlogged soil: roots suffocate.",
+      "ar": "الغرس في تربة ثقيلة مشبعة بالماء: اختناق الجذور."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Planter",
+      "en": "Plant",
+      "ar": "الغرس"
+     },
+     "body": {
+      "fr": "Plantez pendant la saison fraîche, hors période de gel. Creusez un trou large, placez un tuteur, installez l'arbre au même niveau que dans son pot et arrosez copieusement.",
+      "en": "Plant during the cool season, outside frost periods. Dig a wide hole, set a stake, place the tree at the same level as in its pot and water generously.",
+      "ar": "اغرس في الموسم البارد خارج فترات الصقيع. احفر حفرة واسعة وثبّت دعامة، وضع الشجرة على نفس مستواها في الأصيص واسقِ بغزارة."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Arroser les premières années",
+      "en": "Water in the first years",
+      "ar": "الري في السنوات الأولى"
+     },
+     "body": {
+      "fr": "Le jeune olivier a besoin d'arrosages réguliers en été pendant 2 à 3 ans. Adulte, il supporte la sécheresse, mais une irrigation d'appoint au printemps et en été améliore nettement la production.",
+      "en": "A young olive needs regular summer watering for 2–3 years. Mature trees tolerate drought, but supplementary irrigation in spring and summer clearly improves yield.",
+      "ar": "تحتاج شجرة الزيتون الفتية إلى ري منتظم صيفًا لمدة 2 إلى 3 سنوات. الشجرة البالغة تتحمل الجفاف، لكن الري التكميلي في الربيع والصيف يحسن الإنتاج بوضوح."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Tailler",
+      "en": "Prune",
+      "ar": "التقليم"
+     },
+     "body": {
+      "fr": "Formez l'arbre les premières années (souvent en gobelet), puis taillez légèrement chaque année après la récolte ou en fin d'hiver pour aérer la frondaison. L'olivier fructifie sur le bois de l'année précédente.",
+      "en": "Train the tree in the first years (often as an open vase), then prune lightly each year after harvest or in late winter to open the canopy. Olives fruit on the previous year's wood.",
+      "ar": "كوّن الشجرة في السنوات الأولى (غالبًا على شكل كأس)، ثم قلّم تقليمًا خفيفًا كل سنة بعد الجني أو في أواخر الشتاء لتهوية التاج. يثمر الزيتون على خشب السنة السابقة."
+     },
+     "mistakes": {
+      "fr": "Tailler trop sévèrement : l'arbre repousse en bois et ne produit pas.",
+      "en": "Pruning too hard: the tree regrows wood and does not bear.",
+      "ar": "التقليم الجائر: تنتج الشجرة خشبًا ولا تثمر."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Surveiller la santé",
+      "en": "Monitor health",
+      "ar": "مراقبة الصحة"
+     },
+     "body": {
+      "fr": "Surveillez la mouche de l'olive (pièges en été) et l'œil de paon sur les feuilles après les automnes et hivers humides. Une frondaison aérée limite les maladies.",
+      "en": "Watch for olive fruit fly (summer traps) and peacock spot on leaves after wet autumns and winters. An open canopy limits disease.",
+      "ar": "راقب ذبابة الزيتون (مصائد في الصيف) ومرض عين الطاووس على الأوراق بعد الخريف والشتاء الرطبين. التاج المهوّى يحد من الأمراض."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Récolter",
+      "en": "Harvest",
+      "ar": "الجني"
+     },
+     "body": {
+      "fr": "Récoltez en vert ou en noir pour la table selon la préparation, et à maturité adaptée pour l'huile. Évitez de blesser les fruits et transportez-les rapidement au moulin.",
+      "en": "Harvest green or black for table olives depending on the preparation, and at a suitable ripeness for oil. Avoid bruising the fruit and take it quickly to the mill.",
+      "ar": "اجنِ الزيتون أخضر أو أسود للمائدة حسب طريقة التحضير، وعند النضج المناسب للزيت. تجنب جرح الثمار وانقلها بسرعة إلى المعصرة."
+     },
+     "mistakes": {
+      "fr": "Gauler violemment les branches : blessures et baisse de la récolte suivante.",
+      "en": "Beating branches violently: wounds and a lower next crop.",
+      "ar": "ضرب الأغصان بعنف: جروح وانخفاض المحصول التالي."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

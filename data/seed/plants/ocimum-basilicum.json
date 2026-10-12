@@ -1,0 +1,295 @@
+{
+ "id": "ocimum-basilicum",
+ "scientificName": "Ocimum basilicum",
+ "scientificAuthority": "L.",
+ "synonyms": [],
+ "family": "Lamiaceae",
+ "categoryId": "aromatic",
+ "names": {
+  "fr": [
+   "Basilic"
+  ],
+  "en": [
+   "Basil",
+   "Sweet basil"
+  ],
+  "ar": [
+   "ريحان",
+   "حبق"
+  ]
+ },
+ "description": {
+  "fr": "Plante aromatique annuelle aux feuilles très parfumées, cultivée en été. Très frileuse, elle ne supporte ni le gel ni les nuits froides ; le pincement des tiges retarde la floraison et prolonge la récolte.",
+  "en": "Annual aromatic herb with highly fragrant leaves, grown in summer. Very cold-sensitive, it tolerates neither frost nor cold nights; pinching the stems delays flowering and extends the harvest.",
+  "ar": "نبات عطري حولي ذو أوراق شديدة العطر، يُزرع صيفًا. حساس جدًا للبرد ولا يتحمل الصقيع ولا الليالي الباردة؛ وقرط القمم يؤخر الإزهار ويطيل فترة القطف."
+ },
+ "lifecycle": "annual",
+ "difficulty": "easy",
+ "temperature": {
+  "min": 12,
+  "optimalMin": 18,
+  "optimalMax": 27,
+  "max": 32,
+  "germinationMin": 15
+ },
+ "frostTolerance": "none",
+ "sun": "full_sun",
+ "soilIds": [
+  "loamy",
+  "humus_rich",
+  "sandy",
+  "potting_mix"
+ ],
+ "ph": {
+  "min": 6.0,
+  "max": 7.5
+ },
+ "water": "medium",
+ "cycleDays": {
+  "min": 60,
+  "max": 90
+ },
+ "spacing": {
+  "inRowCm": {
+   "min": 20,
+   "max": 30
+  },
+  "betweenRowsCm": {
+   "min": 30,
+   "max": 45
+  }
+ },
+ "sowingDepthCm": {
+  "min": 0.2,
+  "max": 0.5
+ },
+ "sowingMode": "both",
+ "nurseryWeeks": {
+  "min": 4,
+  "max": 6
+ },
+ "methods": [
+  "open_field",
+  "greenhouse",
+  "container",
+  "hydroponics"
+ ],
+ "climateZoneIds": [
+  "temperate_oceanic",
+  "temperate_continental",
+  "mediterranean",
+  "semi_arid",
+  "arid_desert",
+  "humid_subtropical",
+  "tropical_savanna",
+  "tropical_humid"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon la variété, le climat, la conduite et l'irrigation. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with variety, climate, management and irrigation. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب الصنف والمناخ وطريقة الزراعة والري. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Chaleur et lumière, fréquence des coupes, pincement des fleurs, régularité de l'arrosage, mildiou du basilic.",
+  "en": "Warmth and light, cutting frequency, removal of flowers, watering regularity, basil downy mildew.",
+  "ar": "الدفء والضوء، تواتر القطف، إزالة الأزهار، انتظام الري، والبياض الزغبي للريحان."
+ },
+ "storage": {
+  "fr": "Utiliser frais de préférence. Les bouquets se gardent quelques jours les tiges dans l'eau à température ambiante (le froid du réfrigérateur noircit les feuilles). Se conserve aussi congelé ou dans l'huile.",
+  "en": "Best used fresh. Bunches keep a few days with stems in water at room temperature (fridge cold blackens the leaves). Also keeps frozen or in oil.",
+  "ar": "يُفضَّل استعماله طازجًا. تُحفظ الحزم بضعة أيام وسيقانها في الماء بدرجة حرارة الغرفة (برودة الثلاجة تُسوّد الأوراق). ويمكن حفظه مجمدًا أو في الزيت."
+ },
+ "varieties": [
+  {
+   "id": "genovese",
+   "name": "Genovese",
+   "description": {
+    "fr": "Basilic à grandes feuilles, classique du pesto.",
+    "en": "Large-leaved basil, the classic for pesto.",
+    "ar": "ريحان كبير الأوراق، الصنف التقليدي للبيستو."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "fin-vert",
+   "name": "Fin vert",
+   "description": {
+    "fr": "Basilic à petites feuilles, port compact, idéal en pot.",
+    "en": "Small-leaved basil with compact habit, ideal in pots.",
+    "ar": "ريحان صغير الأوراق ذو نمو مندمج، مثالي للأصص."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "dark-opal",
+   "name": "Dark Opal",
+   "description": {
+    "fr": "Basilic à feuillage pourpre, décoratif et aromatique.",
+    "en": "Purple-leaved basil, ornamental and aromatic.",
+    "ar": "ريحان ذو أوراق أرجوانية، تزييني وعطري."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "thai",
+   "name": "Thaï",
+   "description": {
+    "fr": "Basilic à tiges violacées et saveur anisée, utilisé dans la cuisine d'Asie du Sud-Est.",
+    "en": "Basil with purplish stems and an aniseed flavour, used in Southeast Asian cooking.",
+    "ar": "ريحان ذو سيقان بنفسجية ونكهة تشبه اليانسون، يُستعمل في مطبخ جنوب شرق آسيا."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "calendar": [],
+ "companions": [
+  {
+   "otherPlantId": "solanum-lycopersicum",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Association traditionnelle ; bénéfices peu démontrés scientifiquement, mais besoins compatibles.",
+    "en": "Traditional pairing; benefits poorly demonstrated scientifically, but compatible needs.",
+    "ar": "تشارك تقليدي؛ فوائده غير مثبتة علميًا بشكل كافٍ، لكن احتياجاتهما متوافقة."
+   }
+  }
+ ],
+ "rotation": {
+  "group": "leaf",
+  "status": "to_verify",
+  "notes": {
+   "fr": "Culture courte facile à intercaler. En cas de mildiou du basilic, ne pas recultiver de basilic au même endroit l'année suivante et utiliser des semences saines.",
+   "en": "Short crop, easy to fit in. After basil downy mildew, do not grow basil in the same place the next year and use clean seed.",
+   "ar": "محصول قصير يسهل إدراجه في الدورة. بعد الإصابة بالبياض الزغبي للريحان لا تزرع الريحان في المكان نفسه في السنة التالية، واستعمل بذورًا سليمة."
+  }
+ },
+ "diseaseIds": [
+  "basil-downy-mildew",
+  "grey-mould"
+ ],
+ "pestIds": [
+  "aphids",
+  "whiteflies",
+  "spider-mites",
+  "slugs-snails"
+ ],
+ "guides": [
+  {
+   "id": "basil-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver le basilic pas à pas",
+    "en": "Growing basil step by step",
+    "ar": "زراعة الريحان خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Semer au chaud",
+      "en": "Sow in warmth",
+      "ar": "البذر في الدفء"
+     },
+     "body": {
+      "fr": "Semez en godets ou en caissette, à peine recouvert (2–5 mm), dans un terreau fin maintenu humide et au chaud (environ 20–25 °C). La levée prend environ une semaine.",
+      "en": "Sow in pots or trays, barely covered (2–5 mm), in fine mix kept moist and warm (about 20–25 °C). Emergence takes about a week.",
+      "ar": "ازرع في أكواب أو صوانٍ مع تغطية خفيفة جدًا (2 إلى 5 مم) في تربة ناعمة رطبة ودافئة (حوالي 20 إلى 25 درجة مئوية). يستغرق الإنبات نحو أسبوع."
+     },
+     "mistakes": {
+      "fr": "Semer en pleine terre trop tôt : les graines pourrissent dans le sol froid.",
+      "en": "Sowing outdoors too early: seeds rot in cold soil.",
+      "ar": "البذر في الأرض مبكرًا جدًا: تتعفن البذور في التربة الباردة."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Soigner les plants",
+      "en": "Care for seedlings",
+      "ar": "العناية بالشتلات"
+     },
+     "body": {
+      "fr": "Placez les plants en pleine lumière et arrosez modérément, le matin. Repiquez en godets individuels quand ils ont deux paires de vraies feuilles.",
+      "en": "Give seedlings full light and water moderately, in the morning. Prick out into individual pots once they have two pairs of true leaves.",
+      "ar": "ضع الشتلات في ضوء كامل واسقِ باعتدال صباحًا. انقلها إلى أكواب فردية عندما يصبح لها زوجان من الأوراق الحقيقية."
+     },
+     "mistakes": {
+      "fr": "Excès d'eau : fonte des semis.",
+      "en": "Overwatering: damping-off.",
+      "ar": "الإفراط في الري: موت البادرات."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Planter en place",
+      "en": "Plant out",
+      "ar": "الغرس في المكان الدائم"
+     },
+     "body": {
+      "fr": "Plantez seulement quand les nuits restent douces, en plein soleil (mi-ombre en climat très chaud), à 20–30 cm d'écart. En pot, un contenant de quelques litres suffit pour un pied.",
+      "en": "Plant out only once nights stay mild, in full sun (light shade in very hot climates), 20–30 cm apart. In containers, a few litres is enough per plant.",
+      "ar": "اغرس فقط عندما تصبح الليالي معتدلة، في شمس كاملة (ظل جزئي في المناخ الحار جدًا)، على مسافة 20 إلى 30 سم. في الأصص يكفي وعاء من بضعة لترات لكل نبتة."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Arroser",
+      "en": "Water",
+      "ar": "الري"
+     },
+     "body": {
+      "fr": "Gardez le sol frais sans excès, en arrosant au pied le matin. Évitez de mouiller le feuillage le soir, ce qui favorise le mildiou.",
+      "en": "Keep the soil moist but not wet, watering at the base in the morning. Avoid wetting leaves in the evening, which favours downy mildew.",
+      "ar": "حافظ على رطوبة التربة دون إفراط بالري عند القاعدة صباحًا. تجنب تبليل الأوراق مساءً لأنه يشجع البياض الزغبي."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Pincer et récolter",
+      "en": "Pinch and harvest",
+      "ar": "القرط والقطف"
+     },
+     "body": {
+      "fr": "Pincez l'extrémité des tiges au-dessus d'une paire de feuilles dès que le plant atteint 15–20 cm, et supprimez les boutons floraux. Récoltez ainsi régulièrement par le haut.",
+      "en": "Pinch stem tips above a pair of leaves once the plant reaches 15–20 cm, and remove flower buds. Keep harvesting from the top this way.",
+      "ar": "اقرط أطراف السيقان فوق زوج من الأوراق عندما يبلغ النبات 15 إلى 20 سم، وأزل البراعم الزهرية. واصل القطف من الأعلى بهذه الطريقة."
+     },
+     "tips": {
+      "fr": "Récolter souvent rend le plant plus touffu.",
+      "en": "Frequent harvesting makes the plant bushier.",
+      "ar": "القطف المتكرر يجعل النبات أكثف."
+     },
+     "mistakes": {
+      "fr": "Arracher les feuilles du bas : le plant s'étiole.",
+      "en": "Stripping the lower leaves: the plant gets leggy.",
+      "ar": "نزع الأوراق السفلية: يستطيل النبات ويضعف."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Prévenir le mildiou",
+      "en": "Prevent downy mildew",
+      "ar": "الوقاية من البياض الزغبي"
+     },
+     "body": {
+      "fr": "Le mildiou du basilic provoque un jaunissement des feuilles avec un feutrage gris-violet au revers. Espacez les plants, aérez les abris, arrosez au pied et arrachez les plants atteints.",
+      "en": "Basil downy mildew causes yellowing leaves with a grey-purple fuzz underneath. Space plants, ventilate shelters, water at the base and pull out affected plants.",
+      "ar": "يسبب البياض الزغبي للريحان اصفرار الأوراق مع زغب رمادي بنفسجي على وجهها السفلي. باعد بين النباتات وهوِّ البيوت المحمية واسقِ عند القاعدة واقلع النباتات المصابة."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

@@ -1,0 +1,1167 @@
+{
+ "diseases": [
+  {
+   "id": "late-blight",
+   "names": {
+    "fr": "Mildiou (tomate, pomme de terre)",
+    "en": "Late blight",
+    "ar": "اللفحة المتأخرة (الميلديو)"
+   },
+   "causalAgent": "Phytophthora infestans",
+   "type": "oomycete",
+   "symptoms": {
+    "fr": "Taches brunes huileuses sur feuilles, duvet blanc au revers par temps humide, taches brunes sur tiges et fruits.",
+    "en": "Oily brown leaf spots, white down underneath in humid weather, brown lesions on stems and fruit.",
+    "ar": "بقع بنية زيتية على الأوراق مع زغب أبيض على السطح السفلي في الطقس الرطب، وبقع بنية على السيقان والثمار."
+   },
+   "favorableConditions": {
+    "fr": "Temps doux et humide, feuillage mouillé longtemps.",
+    "en": "Mild, humid weather and long leaf wetness.",
+    "ar": "طقس معتدل ورطب وبقاء الأوراق مبللة لفترة طويلة."
+   },
+   "prevention": {
+    "fr": "Arroser au pied, espacer, abriter la culture, éliminer les plants atteints et les repousses de pomme de terre.",
+    "en": "Water at the base, space plants, shelter the crop, remove infected plants and volunteer potatoes.",
+    "ar": "الري عند القاعدة، التباعد بين النباتات، حماية المحصول، إزالة النباتات المصابة ونباتات البطاطس النابتة تلقائيًا."
+   },
+   "treatmentIds": [
+    "base-irrigation",
+    "sanitation",
+    "resistant-varieties",
+    "crop-rotation",
+    "copper-fungicide",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "early-blight",
+   "names": {
+    "fr": "Alternariose",
+    "en": "Early blight",
+    "ar": "اللفحة المبكرة (الألترناريا)"
+   },
+   "causalAgent": "Alternaria solani (sensu lato)",
+   "type": "fungal",
+   "symptoms": {
+    "fr": "Taches brunes à anneaux concentriques sur les feuilles âgées.",
+    "en": "Brown spots with concentric rings on older leaves.",
+    "ar": "بقع بنية ذات حلقات متحدة المركز على الأوراق المسنة."
+   },
+   "favorableConditions": {
+    "fr": "Chaleur et alternance humidité/sécheresse, plantes affaiblies.",
+    "en": "Warmth with alternating wet/dry periods, weakened plants.",
+    "ar": "الحرارة مع تعاقب الرطوبة والجفاف، والنباتات الضعيفة."
+   },
+   "prevention": {
+    "fr": "Rotation, paillage pour éviter les éclaboussures de terre, fertilisation équilibrée.",
+    "en": "Rotation, mulching to avoid soil splash, balanced fertilization.",
+    "ar": "التناوب، والتغطية لتجنب تطاير التربة، والتسميد المتوازن."
+   },
+   "treatmentIds": [
+    "crop-rotation",
+    "sanitation",
+    "base-irrigation",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "grey-mould",
+   "names": {
+    "fr": "Pourriture grise",
+    "en": "Grey mould",
+    "ar": "العفن الرمادي"
+   },
+   "causalAgent": "Botrytis cinerea",
+   "type": "fungal",
+   "symptoms": {
+    "fr": "Feutrage gris sur fruits, fleurs ou tiges, pourriture molle.",
+    "en": "Grey fuzzy mould on fruit, flowers or stems, soft rot.",
+    "ar": "نمو رمادي زغبي على الثمار أو الأزهار أو السيقان، مع تعفن طري."
+   },
+   "favorableConditions": {
+    "fr": "Humidité élevée, faible aération, blessures.",
+    "en": "High humidity, poor ventilation, wounds.",
+    "ar": "رطوبة مرتفعة، تهوية ضعيفة، وجروح."
+   },
+   "prevention": {
+    "fr": "Aérer, éviter l'excès d'azote, retirer les organes atteints, récolter par temps sec.",
+    "en": "Ventilate, avoid excess nitrogen, remove affected parts, harvest in dry weather.",
+    "ar": "التهوية، تجنب الإفراط في الآزوت، إزالة الأجزاء المصابة، والحصاد في طقس جاف."
+   },
+   "treatmentIds": [
+    "base-irrigation",
+    "sanitation",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "powdery-mildew",
+   "names": {
+    "fr": "Oïdium",
+    "en": "Powdery mildew",
+    "ar": "البياض الدقيقي"
+   },
+   "causalAgent": "Erysiphales (p. ex. Podosphaera xanthii sur cucurbitacées)",
+   "type": "fungal",
+   "symptoms": {
+    "fr": "Feutrage blanc poudreux sur les feuilles, qui jaunissent puis sèchent.",
+    "en": "White powdery coating on leaves, which yellow and dry.",
+    "ar": "طبقة بيضاء دقيقية على الأوراق التي تصفر ثم تجف."
+   },
+   "favorableConditions": {
+    "fr": "Temps chaud avec nuits fraîches, air sec le jour, plantes stressées.",
+    "en": "Warm days with cool nights, dry daytime air, stressed plants.",
+    "ar": "أيام دافئة وليالٍ باردة، وهواء جاف نهارًا، ونباتات مجهدة."
+   },
+   "prevention": {
+    "fr": "Variétés tolérantes, espacement, arrosage régulier, retrait des feuilles très atteintes.",
+    "en": "Tolerant varieties, spacing, regular watering, removal of heavily affected leaves.",
+    "ar": "أصناف متحملة، تباعد، ري منتظم، وإزالة الأوراق شديدة الإصابة."
+   },
+   "treatmentIds": [
+    "resistant-varieties",
+    "sanitation",
+    "sulfur",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "lettuce-downy-mildew",
+   "names": {
+    "fr": "Mildiou de la laitue (brémia)",
+    "en": "Lettuce downy mildew",
+    "ar": "البياض الزغبي للخس"
+   },
+   "causalAgent": "Bremia lactucae",
+   "type": "oomycete",
+   "symptoms": {
+    "fr": "Taches jaunes angulaires sur le dessus des feuilles, duvet blanc dessous.",
+    "en": "Angular yellow spots on upper leaf surface, white down underneath.",
+    "ar": "بقع صفراء زاوية على السطح العلوي للأوراق مع زغب أبيض أسفلها."
+   },
+   "favorableConditions": {
+    "fr": "Fraîcheur et forte humidité, notamment sous abri mal aéré.",
+    "en": "Cool, very humid conditions, especially in poorly ventilated shelters.",
+    "ar": "برودة ورطوبة عالية، خاصة في البيوت المحمية سيئة التهوية."
+   },
+   "prevention": {
+    "fr": "Variétés résistantes, aération, arrosage le matin.",
+    "en": "Resistant varieties, ventilation, morning watering.",
+    "ar": "أصناف مقاومة، تهوية، والري صباحًا."
+   },
+   "treatmentIds": [
+    "resistant-varieties",
+    "base-irrigation",
+    "sanitation"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "onion-downy-mildew",
+   "names": {
+    "fr": "Mildiou de l'oignon",
+    "en": "Onion downy mildew",
+    "ar": "البياض الزغبي للبصل"
+   },
+   "causalAgent": "Peronospora destructor",
+   "type": "oomycete",
+   "symptoms": {
+    "fr": "Taches allongées pâles sur les feuilles, duvet gris-violacé, dessèchement.",
+    "en": "Pale elongated leaf lesions, grey-violet down, leaf dieback.",
+    "ar": "آفات شاحبة مستطيلة على الأوراق، زغب رمادي بنفسجي، وجفاف الأوراق."
+   },
+   "favorableConditions": {
+    "fr": "Nuits fraîches et humides, rosées prolongées.",
+    "en": "Cool humid nights, prolonged dew.",
+    "ar": "ليالٍ باردة ورطبة وندى طويل."
+   },
+   "prevention": {
+    "fr": "Rotation longue, plants sains, espacement suffisant.",
+    "en": "Long rotation, healthy sets, sufficient spacing.",
+    "ar": "تناوب طويل، شتلات سليمة، وتباعد كافٍ."
+   },
+   "treatmentIds": [
+    "crop-rotation",
+    "sanitation",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "cereal-rusts",
+   "names": {
+    "fr": "Rouilles des céréales",
+    "en": "Cereal rusts",
+    "ar": "أصداء الحبوب"
+   },
+   "causalAgent": "Puccinia spp. (p. ex. P. triticina, P. striiformis)",
+   "type": "fungal",
+   "symptoms": {
+    "fr": "Pustules orangées, brunes ou jaunes alignées sur les feuilles.",
+    "en": "Orange, brown or yellow pustules, sometimes in stripes, on leaves.",
+    "ar": "بثرات برتقالية أو بنية أو صفراء على الأوراق، أحيانًا على شكل خطوط."
+   },
+   "favorableConditions": {
+    "fr": "Selon l'espèce : douceur et humidité (rouille jaune), chaleur modérée (rouille brune).",
+    "en": "Depending on species: mild humid weather (yellow rust), moderate warmth (brown rust).",
+    "ar": "حسب النوع: طقس معتدل ورطب (الصدأ الأصفر)، حرارة معتدلة (الصدأ البني)."
+   },
+   "prevention": {
+    "fr": "Variétés résistantes, éviter les semis trop précoces et denses, détruire les repousses.",
+    "en": "Resistant varieties, avoid very early and dense sowing, destroy volunteers.",
+    "ar": "أصناف مقاومة، تجنب البذر المبكر جدًا والكثيف، وإتلاف النباتات النابتة تلقائيًا."
+   },
+   "treatmentIds": [
+    "resistant-varieties",
+    "crop-rotation",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "apple-scab",
+   "names": {
+    "fr": "Tavelure du pommier",
+    "en": "Apple scab",
+    "ar": "جرب التفاح"
+   },
+   "causalAgent": "Venturia inaequalis",
+   "type": "fungal",
+   "symptoms": {
+    "fr": "Taches olivâtres sur feuilles et fruits, fruits crevassés.",
+    "en": "Olive-brown spots on leaves and fruit, cracked fruit.",
+    "ar": "بقع زيتونية بنية على الأوراق والثمار، وتشقق الثمار."
+   },
+   "favorableConditions": {
+    "fr": "Printemps pluvieux, feuillage mouillé pendant de longues périodes.",
+    "en": "Rainy spring, long periods of leaf wetness.",
+    "ar": "ربيع ممطر وبقاء الأوراق مبللة لفترات طويلة."
+   },
+   "prevention": {
+    "fr": "Variétés peu sensibles, ramassage des feuilles mortes, taille aérée.",
+    "en": "Low-susceptibility cultivars, removal of fallen leaves, open pruning.",
+    "ar": "أصناف قليلة الحساسية، جمع الأوراق المتساقطة، وتقليم يسمح بالتهوية."
+   },
+   "treatmentIds": [
+    "resistant-varieties",
+    "sanitation",
+    "copper-fungicide",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "olive-peacock-spot",
+   "names": {
+    "fr": "Œil de paon de l'olivier",
+    "en": "Olive peacock spot",
+    "ar": "عين الطاووس في الزيتون"
+   },
+   "causalAgent": "Venturia oleaginea (syn. Spilocaea oleaginea)",
+   "type": "fungal",
+   "symptoms": {
+    "fr": "Taches circulaires sombres entourées d'un halo jaune sur les feuilles, chute des feuilles.",
+    "en": "Dark circular leaf spots with a yellow halo, leaf drop.",
+    "ar": "بقع دائرية داكنة محاطة بهالة صفراء على الأوراق، وتساقط الأوراق."
+   },
+   "favorableConditions": {
+    "fr": "Automne et printemps doux et humides, frondaison dense.",
+    "en": "Mild humid autumn and spring, dense canopy.",
+    "ar": "خريف وربيع معتدلان ورطبان، وتاج كثيف."
+   },
+   "prevention": {
+    "fr": "Taille d'aération, éviter les zones humides et peu ventilées.",
+    "en": "Pruning to open the canopy, avoid damp poorly ventilated sites.",
+    "ar": "التقليم لتهوية التاج، وتجنب المواقع الرطبة سيئة التهوية."
+   },
+   "treatmentIds": [
+    "sanitation",
+    "copper-fungicide",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "ascochyta-blight",
+   "names": {
+    "fr": "Anthracnose du pois chiche (ascochytose)",
+    "en": "Ascochyta blight",
+    "ar": "لفحة الأسكوكيتا (أنثراكنوز الحمص)"
+   },
+   "causalAgent": "Ascochyta rabiei (syn. Didymella rabiei)",
+   "type": "fungal",
+   "symptoms": {
+    "fr": "Lésions brunes à anneaux sur feuilles, tiges et gousses ; tiges cassantes.",
+    "en": "Brown ringed lesions on leaves, stems and pods; stems break.",
+    "ar": "آفات بنية ذات حلقات على الأوراق والسيقان والقرون؛ تنكسر السيقان."
+   },
+   "favorableConditions": {
+    "fr": "Temps frais et pluvieux pendant la végétation.",
+    "en": "Cool rainy weather during growth.",
+    "ar": "طقس بارد وممطر أثناء النمو."
+   },
+   "prevention": {
+    "fr": "Semences saines, variétés tolérantes, rotation, enfouissement des résidus.",
+    "en": "Healthy seed, tolerant varieties, rotation, burial of residues.",
+    "ar": "بذور سليمة، أصناف متحملة، تناوب، وطمر بقايا المحصول."
+   },
+   "treatmentIds": [
+    "resistant-varieties",
+    "crop-rotation",
+    "sanitation",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "basil-downy-mildew",
+   "names": {
+    "fr": "Mildiou du basilic",
+    "en": "Basil downy mildew",
+    "ar": "البياض الزغبي للريحان"
+   },
+   "causalAgent": "Peronospora belbahrii",
+   "type": "oomycete",
+   "symptoms": {
+    "fr": "Jaunissement des feuilles entre les nervures, duvet gris-brun au revers.",
+    "en": "Yellowing between veins, grey-brown down underneath.",
+    "ar": "اصفرار الأوراق بين العروق، وزغب رمادي بني على السطح السفلي."
+   },
+   "favorableConditions": {
+    "fr": "Humidité élevée, nuits fraîches, feuillage mouillé.",
+    "en": "High humidity, cool nights, wet foliage.",
+    "ar": "رطوبة مرتفعة، ليالٍ باردة، وأوراق مبللة."
+   },
+   "prevention": {
+    "fr": "Aérer, arroser au pied, variétés tolérantes lorsque disponibles.",
+    "en": "Ventilate, water at the base, tolerant varieties when available.",
+    "ar": "التهوية، الري عند القاعدة، واستعمال أصناف متحملة عند توفرها."
+   },
+   "treatmentIds": [
+    "base-irrigation",
+    "resistant-varieties",
+    "sanitation"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "bean-anthracnose",
+   "names": {
+    "fr": "Anthracnose du haricot",
+    "en": "Bean anthracnose",
+    "ar": "أنثراكنوز الفاصوليا"
+   },
+   "causalAgent": "Colletotrichum lindemuthianum",
+   "type": "fungal",
+   "symptoms": {
+    "fr": "Taches brunes enfoncées sur les gousses, nervures noircies.",
+    "en": "Sunken brown spots on pods, darkened leaf veins.",
+    "ar": "بقع بنية غائرة على القرون، واسوداد العروق."
+   },
+   "favorableConditions": {
+    "fr": "Temps frais et humide, semences contaminées.",
+    "en": "Cool wet weather, contaminated seed.",
+    "ar": "طقس بارد ورطب، وبذور ملوثة."
+   },
+   "prevention": {
+    "fr": "Semences saines, ne pas manipuler les plants mouillés, rotation.",
+    "en": "Healthy seed, avoid handling wet plants, rotation.",
+    "ar": "بذور سليمة، تجنب لمس النباتات المبللة، والتناوب."
+   },
+   "treatmentIds": [
+    "crop-rotation",
+    "sanitation",
+    "resistant-varieties"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  }
+ ],
+ "pests": [
+  {
+   "id": "aphids",
+   "names": {
+    "fr": "Pucerons",
+    "en": "Aphids",
+    "ar": "المنّ"
+   },
+   "scientificName": "Aphididae",
+   "type": "insect",
+   "description": {
+    "fr": "Petits insectes piqueurs-suceurs vivant en colonies.",
+    "en": "Small sap-sucking insects living in colonies.",
+    "ar": "حشرات صغيرة ماصة للعصارة تعيش في مستعمرات."
+   },
+   "damage": {
+    "fr": "Déformation des pousses, miellat, fumagine, transmission de virus.",
+    "en": "Distorted shoots, honeydew, sooty mould, virus transmission.",
+    "ar": "تشوه الأفرع، إفراز الندوة العسلية، العفن الأسود، ونقل الفيروسات."
+   },
+   "prevention": {
+    "fr": "Favoriser les auxiliaires, éviter l'excès d'azote, surveiller les jeunes pousses.",
+    "en": "Encourage natural enemies, avoid excess nitrogen, monitor young shoots.",
+    "ar": "تشجيع الأعداء الطبيعيين، تجنب الإفراط في الآزوت، ومراقبة الأفرع الصغيرة."
+   },
+   "treatmentIds": [
+    "natural-enemies",
+    "insect-netting",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "colorado-potato-beetle",
+   "names": {
+    "fr": "Doryphore",
+    "en": "Colorado potato beetle",
+    "ar": "خنفساء البطاطس (الدوريفور)"
+   },
+   "scientificName": "Leptinotarsa decemlineata",
+   "type": "insect",
+   "description": {
+    "fr": "Coléoptère rayé jaune et noir ; larves rouges orangées.",
+    "en": "Yellow and black striped beetle; orange-red larvae.",
+    "ar": "خنفساء مخططة بالأصفر والأسود؛ يرقاتها حمراء برتقالية."
+   },
+   "damage": {
+    "fr": "Défoliation de la pomme de terre et parfois d'autres solanacées.",
+    "en": "Defoliation of potato and sometimes other Solanaceae.",
+    "ar": "تعرية أوراق البطاطس وأحيانًا باذنجانيات أخرى."
+   },
+   "prevention": {
+    "fr": "Inspection régulière, ramassage des adultes, larves et pontes, rotation.",
+    "en": "Regular inspection, picking adults, larvae and eggs, rotation.",
+    "ar": "فحص منتظم، وجمع الحشرات البالغة واليرقات والبيض، والتناوب."
+   },
+   "treatmentIds": [
+    "hand-removal",
+    "crop-rotation",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "tomato-leafminer",
+   "names": {
+    "fr": "Mineuse de la tomate",
+    "en": "Tomato leafminer",
+    "ar": "حافرة أوراق الطماطم (توتا أبسولوتا)"
+   },
+   "scientificName": "Phthorimaea absoluta (syn. Tuta absoluta)",
+   "type": "insect",
+   "description": {
+    "fr": "Petit papillon dont la chenille creuse des galeries.",
+    "en": "Small moth whose caterpillar mines leaves and fruit.",
+    "ar": "فراشة صغيرة تحفر يرقتها أنفاقًا في الأوراق والثمار."
+   },
+   "damage": {
+    "fr": "Galeries dans les feuilles, tiges et fruits ; pertes importantes sous serre.",
+    "en": "Mines in leaves, stems and fruit; major losses in greenhouses.",
+    "ar": "أنفاق في الأوراق والسيقان والثمار؛ خسائر كبيرة في البيوت المحمية."
+   },
+   "prevention": {
+    "fr": "Filets aux ouvertures des serres, pièges à phéromones, destruction des résidus.",
+    "en": "Nets on greenhouse openings, pheromone traps, destruction of residues.",
+    "ar": "شباك على فتحات البيوت المحمية، مصائد الفيرومونات، وإتلاف بقايا المحصول."
+   },
+   "treatmentIds": [
+    "insect-netting",
+    "pheromone-traps",
+    "sanitation",
+    "bacillus-thuringiensis",
+    "natural-enemies",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "whiteflies",
+   "names": {
+    "fr": "Aleurodes (mouches blanches)",
+    "en": "Whiteflies",
+    "ar": "الذبابة البيضاء"
+   },
+   "scientificName": "Bemisia tabaci, Trialeurodes vaporariorum",
+   "type": "insect",
+   "description": {
+    "fr": "Petits insectes blancs sous les feuilles, s'envolant quand on secoue la plante.",
+    "en": "Small white insects under leaves, flying up when the plant is shaken.",
+    "ar": "حشرات بيضاء صغيرة تحت الأوراق تطير عند هز النبات."
+   },
+   "damage": {
+    "fr": "Affaiblissement, miellat, fumagine, transmission de virus.",
+    "en": "Weakening, honeydew, sooty mould, virus transmission.",
+    "ar": "إضعاف النبات، الندوة العسلية، العفن الأسود، ونقل الفيروسات."
+   },
+   "prevention": {
+    "fr": "Filets, pièges jaunes englués pour la surveillance, auxiliaires sous serre.",
+    "en": "Nets, yellow sticky traps for monitoring, natural enemies in greenhouses.",
+    "ar": "الشباك، المصائد الصفراء اللاصقة للرصد، والأعداء الطبيعيون في البيوت المحمية."
+   },
+   "treatmentIds": [
+    "insect-netting",
+    "natural-enemies",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "spider-mites",
+   "names": {
+    "fr": "Acariens tétranyques",
+    "en": "Spider mites",
+    "ar": "العنكبوت الأحمر"
+   },
+   "scientificName": "Tetranychus urticae",
+   "type": "mite",
+   "description": {
+    "fr": "Acariens minuscules formant de fines toiles sous les feuilles.",
+    "en": "Tiny mites forming fine webs under leaves.",
+    "ar": "حلم دقيق يشكل نسيجًا رقيقًا تحت الأوراق."
+   },
+   "damage": {
+    "fr": "Décoloration en piqûres, dessèchement du feuillage par temps chaud et sec.",
+    "en": "Stippled discoloration, leaf drying in hot dry weather.",
+    "ar": "تبقع وتغير لون الأوراق وجفافها في الطقس الحار والجاف."
+   },
+   "prevention": {
+    "fr": "Maintenir une humidité suffisante, auxiliaires (acariens prédateurs).",
+    "en": "Maintain adequate humidity, natural enemies (predatory mites).",
+    "ar": "الحفاظ على رطوبة كافية، والأعداء الطبيعيون (الحلم المفترس)."
+   },
+   "treatmentIds": [
+    "natural-enemies",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "root-knot-nematodes",
+   "names": {
+    "fr": "Nématodes à galles",
+    "en": "Root-knot nematodes",
+    "ar": "نيماتودا تعقد الجذور"
+   },
+   "scientificName": "Meloidogyne spp.",
+   "type": "nematode",
+   "description": {
+    "fr": "Vers microscopiques du sol formant des galles sur les racines.",
+    "en": "Microscopic soil worms forming galls on roots.",
+    "ar": "ديدان مجهرية في التربة تكوّن عقدًا على الجذور."
+   },
+   "damage": {
+    "fr": "Retard de croissance, flétrissement aux heures chaudes, baisse de rendement.",
+    "en": "Stunting, wilting in hot hours, yield loss.",
+    "ar": "تقزم، ذبول في ساعات الحر، وانخفاض المردود."
+   },
+   "prevention": {
+    "fr": "Rotation avec plantes non-hôtes, solarisation, porte-greffes ou variétés résistantes.",
+    "en": "Rotation with non-host crops, solarization, resistant rootstocks or varieties.",
+    "ar": "التناوب مع نباتات غير عائلة، التشميس، أو استعمال أصول وأصناف مقاومة."
+   },
+   "treatmentIds": [
+    "crop-rotation",
+    "soil-solarization",
+    "resistant-varieties"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "carrot-fly",
+   "names": {
+    "fr": "Mouche de la carotte",
+    "en": "Carrot fly",
+    "ar": "ذبابة الجزر"
+   },
+   "scientificName": "Chamaepsila rosae (syn. Psila rosae)",
+   "type": "insect",
+   "description": {
+    "fr": "Petite mouche dont les larves creusent des galeries dans les racines.",
+    "en": "Small fly whose larvae tunnel into roots.",
+    "ar": "ذبابة صغيرة تحفر يرقاتها أنفاقًا في الجذور."
+   },
+   "damage": {
+    "fr": "Galeries brun-rouille dans les carottes, plants qui jaunissent.",
+    "en": "Rusty-brown tunnels in carrots, yellowing plants.",
+    "ar": "أنفاق بنية صدئة في الجزر، واصفرار النباتات."
+   },
+   "prevention": {
+    "fr": "Filet anti-insectes dès le semis, éviter d'éclaircir par temps calme, rotation.",
+    "en": "Insect net from sowing, avoid thinning in still weather, rotation.",
+    "ar": "شباك مضادة للحشرات منذ البذر، تجنب الخف في الطقس الساكن، والتناوب."
+   },
+   "treatmentIds": [
+    "insect-netting",
+    "crop-rotation"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "olive-fruit-fly",
+   "names": {
+    "fr": "Mouche de l'olive",
+    "en": "Olive fruit fly",
+    "ar": "ذبابة ثمار الزيتون"
+   },
+   "scientificName": "Bactrocera oleae",
+   "type": "insect",
+   "description": {
+    "fr": "Mouche dont la larve se développe dans la pulpe des olives.",
+    "en": "Fly whose larva develops inside the olive pulp.",
+    "ar": "ذبابة تنمو يرقتها داخل لب الزيتون."
+   },
+   "damage": {
+    "fr": "Chute des fruits, baisse de qualité de l'huile.",
+    "en": "Fruit drop, lower oil quality.",
+    "ar": "تساقط الثمار وتراجع جودة الزيت."
+   },
+   "prevention": {
+    "fr": "Piégeage de surveillance, récolte sans retard, ramassage des fruits tombés.",
+    "en": "Monitoring traps, timely harvest, collecting fallen fruit.",
+    "ar": "مصائد الرصد، الحصاد دون تأخير، وجمع الثمار المتساقطة."
+   },
+   "treatmentIds": [
+    "pheromone-traps",
+    "sanitation",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "codling-moth",
+   "names": {
+    "fr": "Carpocapse des pommes",
+    "en": "Codling moth",
+    "ar": "دودة ثمار التفاح"
+   },
+   "scientificName": "Cydia pomonella",
+   "type": "insect",
+   "description": {
+    "fr": "Papillon dont la chenille pénètre dans les fruits à pépins.",
+    "en": "Moth whose caterpillar bores into pome fruit.",
+    "ar": "فراشة تخترق يرقتها ثمار التفاح والإجاص."
+   },
+   "damage": {
+    "fr": "Fruits véreux, chute prématurée.",
+    "en": "Wormy fruit, premature drop.",
+    "ar": "ثمار مدودة وتساقط مبكر."
+   },
+   "prevention": {
+    "fr": "Pièges à phéromones, bandes-pièges sur les troncs, ramassage des fruits atteints.",
+    "en": "Pheromone traps, trunk band traps, removal of infested fruit.",
+    "ar": "مصائد الفيرومونات، أحزمة مصائد على الجذوع، وإزالة الثمار المصابة."
+   },
+   "treatmentIds": [
+    "pheromone-traps",
+    "sanitation",
+    "bacillus-thuringiensis",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "slugs-snails",
+   "names": {
+    "fr": "Limaces et escargots",
+    "en": "Slugs and snails",
+    "ar": "الرخويات والحلزون"
+   },
+   "scientificName": "Gastropoda",
+   "type": "mollusc",
+   "description": {
+    "fr": "Mollusques actifs la nuit et par temps humide.",
+    "en": "Molluscs active at night and in wet weather.",
+    "ar": "رخويات تنشط ليلًا وفي الطقس الرطب."
+   },
+   "damage": {
+    "fr": "Jeunes plants et feuilles dévorés, traces de mucus.",
+    "en": "Seedlings and leaves eaten, slime trails.",
+    "ar": "التهام الشتلات والأوراق مع آثار مخاطية."
+   },
+   "prevention": {
+    "fr": "Arrosage le matin, barrières, refuges-pièges, favoriser les prédateurs (hérissons, carabes).",
+    "en": "Morning watering, barriers, trap shelters, encourage predators (hedgehogs, ground beetles).",
+    "ar": "الري صباحًا، الحواجز، الملاجئ المصائد، وتشجيع المفترسات (القنافذ، الخنافس الأرضية)."
+   },
+   "treatmentIds": [
+    "slug-barriers",
+    "hand-removal"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "european-corn-borer",
+   "names": {
+    "fr": "Pyrale du maïs",
+    "en": "European corn borer",
+    "ar": "حفار ساق الذرة الأوروبي"
+   },
+   "scientificName": "Ostrinia nubilalis",
+   "type": "insect",
+   "description": {
+    "fr": "Papillon dont la chenille creuse les tiges et les épis.",
+    "en": "Moth whose caterpillar bores into stalks and ears.",
+    "ar": "فراشة تحفر يرقتها السيقان والكيزان."
+   },
+   "damage": {
+    "fr": "Tiges cassées, épis endommagés.",
+    "en": "Broken stalks, damaged ears.",
+    "ar": "سيقان مكسورة وكيزان متضررة."
+   },
+   "prevention": {
+    "fr": "Broyage et enfouissement des résidus, trichogrammes (lutte biologique).",
+    "en": "Shredding and burying residues, Trichogramma releases (biological control).",
+    "ar": "فرم وطمر بقايا المحصول، وإطلاق دبابير الترايكوجراما (مكافحة حيوية)."
+   },
+   "treatmentIds": [
+    "sanitation",
+    "natural-enemies",
+    "bacillus-thuringiensis",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "fall-armyworm",
+   "names": {
+    "fr": "Chenille légionnaire d'automne",
+    "en": "Fall armyworm",
+    "ar": "دودة الحشد الخريفية"
+   },
+   "scientificName": "Spodoptera frugiperda",
+   "type": "insect",
+   "description": {
+    "fr": "Chenille polyphage, très nuisible au maïs en Afrique depuis 2016.",
+    "en": "Polyphagous caterpillar, highly damaging to maize in Africa since 2016.",
+    "ar": "يرقة متعددة العوائل، شديدة الضرر للذرة في أفريقيا منذ 2016."
+   },
+   "damage": {
+    "fr": "Feuilles déchiquetées, cornets remplis de déjections, épis attaqués.",
+    "en": "Ragged leaves, whorls full of frass, ears attacked.",
+    "ar": "أوراق ممزقة، قمع النبات مليء بالفضلات، والكيزان مصابة."
+   },
+   "prevention": {
+    "fr": "Inspection fréquente des cornets, semis groupés, préservation des auxiliaires.",
+    "en": "Frequent whorl inspection, synchronized sowing, preserving natural enemies.",
+    "ar": "فحص متكرر لقمع النبات، البذر المتزامن، والحفاظ على الأعداء الطبيعيين."
+   },
+   "treatmentIds": [
+    "hand-removal",
+    "natural-enemies",
+    "bacillus-thuringiensis",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  },
+  {
+   "id": "onion-thrips",
+   "names": {
+    "fr": "Thrips de l'oignon",
+    "en": "Onion thrips",
+    "ar": "تربس البصل"
+   },
+   "scientificName": "Thrips tabaci",
+   "type": "insect",
+   "description": {
+    "fr": "Très petits insectes allongés dans la base des feuilles.",
+    "en": "Very small elongated insects at the base of leaves.",
+    "ar": "حشرات صغيرة جدًا ومستطيلة عند قاعدة الأوراق."
+   },
+   "damage": {
+    "fr": "Plages argentées sur les feuilles, réduction du bulbe.",
+    "en": "Silvery patches on leaves, smaller bulbs.",
+    "ar": "بقع فضية على الأوراق وصغر حجم البصلة."
+   },
+   "prevention": {
+    "fr": "Irrigation suffisante, auxiliaires, surveillance par temps chaud et sec.",
+    "en": "Adequate irrigation, natural enemies, monitoring in hot dry weather.",
+    "ar": "ري كافٍ، الأعداء الطبيعيون، والمراقبة في الطقس الحار والجاف."
+   },
+   "treatmentIds": [
+    "natural-enemies",
+    "registered-products"
+   ],
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo",
+    "eppo-gd"
+   ]
+  }
+ ],
+ "treatments": [
+  {
+   "id": "crop-rotation",
+   "type": "cultural",
+   "names": {
+    "fr": "Rotation des cultures",
+    "en": "Crop rotation",
+    "ar": "تناوب المحاصيل"
+   },
+   "description": {
+    "fr": "Ne pas cultiver la même famille botanique au même endroit plusieurs années de suite, afin de limiter les maladies et ravageurs du sol.",
+    "en": "Do not grow the same botanical family in the same place several years in a row, to limit soil-borne diseases and pests.",
+    "ar": "تجنّب زراعة نفس الفصيلة النباتية في المكان نفسه عدة سنوات متتالية للحد من أمراض وآفات التربة."
+   },
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "id": "resistant-varieties",
+   "type": "cultural",
+   "names": {
+    "fr": "Variétés résistantes ou tolérantes",
+    "en": "Resistant or tolerant varieties",
+    "ar": "أصناف مقاومة أو متحملة"
+   },
+   "description": {
+    "fr": "Choisir des variétés dont la résistance ou tolérance à la maladie visée est indiquée par le semencier.",
+    "en": "Choose varieties whose resistance or tolerance to the target disease is stated by the seed supplier.",
+    "ar": "اختيار أصناف يذكر مورّد البذور مقاومتها أو تحمّلها للمرض المستهدف."
+   },
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "id": "sanitation",
+   "type": "cultural",
+   "names": {
+    "fr": "Prophylaxie et hygiène",
+    "en": "Sanitation",
+    "ar": "الوقاية والنظافة"
+   },
+   "description": {
+    "fr": "Retirer et détruire (sans les composter) les organes ou plants atteints ; nettoyer outils et tuteurs.",
+    "en": "Remove and destroy (do not compost) affected parts or plants; clean tools and stakes.",
+    "ar": "إزالة الأجزاء أو النباتات المصابة وإتلافها (دون تسميدها)؛ وتنظيف الأدوات والدعامات."
+   },
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "id": "base-irrigation",
+   "type": "cultural",
+   "names": {
+    "fr": "Arrosage au pied et aération",
+    "en": "Base watering and airflow",
+    "ar": "الري عند القاعدة والتهوية"
+   },
+   "description": {
+    "fr": "Arroser au pied sans mouiller le feuillage, respecter les espacements et aérer les abris pour réduire l'humidité.",
+    "en": "Water at the base without wetting foliage, respect spacing and ventilate shelters to reduce humidity.",
+    "ar": "الري عند قاعدة النبات دون تبليل الأوراق، واحترام المسافات وتهوية البيوت المحمية لتقليل الرطوبة."
+   },
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "id": "insect-netting",
+   "type": "mechanical",
+   "names": {
+    "fr": "Filets anti-insectes",
+    "en": "Insect netting",
+    "ar": "شباك مضادة للحشرات"
+   },
+   "description": {
+    "fr": "Couvrir les cultures avec un filet à maille adaptée au ravageur visé, posé avant son arrivée.",
+    "en": "Cover crops with a net whose mesh suits the target pest, installed before the pest arrives.",
+    "ar": "تغطية المحاصيل بشباك ذات فتحات مناسبة للآفة المستهدفة، تُركّب قبل ظهورها."
+   },
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "id": "hand-removal",
+   "type": "mechanical",
+   "names": {
+    "fr": "Ramassage manuel",
+    "en": "Hand removal",
+    "ar": "الجمع اليدوي"
+   },
+   "description": {
+    "fr": "Ramasser régulièrement les ravageurs visibles (larves, adultes, limaces), adapté aux petites surfaces.",
+    "en": "Regularly pick off visible pests (larvae, adults, slugs); suited to small areas.",
+    "ar": "جمع الآفات الظاهرة بانتظام (يرقات، حشرات بالغة، رخويات)؛ مناسب للمساحات الصغيرة."
+   },
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "id": "pheromone-traps",
+   "type": "mechanical",
+   "names": {
+    "fr": "Pièges à phéromones",
+    "en": "Pheromone traps",
+    "ar": "مصائد الفيرومونات"
+   },
+   "description": {
+    "fr": "Pièges spécifiques servant surtout à surveiller les vols et à décider du moment d'intervention.",
+    "en": "Species-specific traps, mainly used to monitor flights and time interventions.",
+    "ar": "مصائد خاصة بكل نوع، تُستخدم أساسًا لرصد الطيران وتحديد توقيت التدخل."
+   },
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "id": "natural-enemies",
+   "type": "biological",
+   "names": {
+    "fr": "Auxiliaires naturels",
+    "en": "Natural enemies",
+    "ar": "الأعداء الطبيعيون"
+   },
+   "description": {
+    "fr": "Favoriser ou introduire des prédateurs et parasitoïdes (coccinelles, chrysopes, syrphes, micro-guêpes) ; haies et bandes fleuries.",
+    "en": "Encourage or release predators and parasitoids (ladybirds, lacewings, hoverflies, parasitic wasps); hedges and flower strips.",
+    "ar": "تشجيع أو إطلاق المفترسات والطفيليات (الدعسوقة، أسد المن، ذباب السيرفيد، الدبابير الطفيلية)؛ والأسيجة والشرائط المزهرة."
+   },
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "id": "bacillus-thuringiensis",
+   "type": "biological",
+   "names": {
+    "fr": "Bacillus thuringiensis (Bt)",
+    "en": "Bacillus thuringiensis (Bt)",
+    "ar": "باسيلوس ثورينجينسيس (Bt)"
+   },
+   "description": {
+    "fr": "Bio-insecticide actif sur les jeunes chenilles ; efficace s'il est ingéré, à appliquer tôt.",
+    "en": "Bio-insecticide active against young caterpillars; works when ingested, apply early.",
+    "ar": "مبيد حيوي فعال ضد اليرقات الصغيرة؛ يعمل عند ابتلاعه ويجب استعماله مبكرًا."
+   },
+   "caution": {
+    "fr": "Utiliser uniquement une spécialité homologuée dans votre pays pour cet usage et suivre l'étiquette.",
+    "en": "Use only a product registered in your country for this use and follow the label.",
+    "ar": "لا تستعمل إلا منتجًا مرخصًا في بلدك لهذا الاستعمال واتبع تعليمات الملصق."
+   },
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "id": "copper-fungicide",
+   "type": "chemical",
+   "names": {
+    "fr": "Fongicides à base de cuivre",
+    "en": "Copper-based fungicides",
+    "ar": "مبيدات فطرية نحاسية"
+   },
+   "description": {
+    "fr": "Action préventive contre certaines maladies (mildious, bactérioses). Le cuivre s'accumule dans les sols : quantités annuelles limitées par la réglementation.",
+    "en": "Preventive action against some diseases (downy mildews, bacterial diseases). Copper accumulates in soils: yearly amounts are limited by regulation.",
+    "ar": "تأثير وقائي ضد بعض الأمراض (البياض الزغبي، الأمراض البكتيرية). يتراكم النحاس في التربة لذا تحدد التشريعات الكميات السنوية."
+   },
+   "caution": {
+    "fr": "Produit réglementé : respecter l'homologation locale, les doses, le délai avant récolte et les équipements de protection. Aucune dose n'est fournie par l'application.",
+    "en": "Regulated product: follow local registration, doses, pre-harvest interval and protective equipment. The app gives no doses.",
+    "ar": "منتج خاضع للتنظيم: احترم الترخيص المحلي والجرعات وفترة ما قبل الحصاد ومعدات الوقاية. لا يقدم التطبيق أي جرعات."
+   },
+   "sourceIds": [
+    "agripedia-demo",
+    "national-registries"
+   ],
+   "status": "to_verify"
+  },
+  {
+   "id": "sulfur",
+   "type": "chemical",
+   "names": {
+    "fr": "Soufre",
+    "en": "Sulfur",
+    "ar": "الكبريت"
+   },
+   "description": {
+    "fr": "Utilisé contre l'oïdium ; risque de brûlure par forte chaleur.",
+    "en": "Used against powdery mildew; risk of scorching in hot weather.",
+    "ar": "يُستعمل ضد البياض الدقيقي؛ مع خطر حرق الأوراق في الحرارة الشديدة."
+   },
+   "caution": {
+    "fr": "Produit réglementé : respecter l'homologation locale et l'étiquette ; ne pas appliquer par forte chaleur.",
+    "en": "Regulated product: follow local registration and label; do not apply in high heat.",
+    "ar": "منتج خاضع للتنظيم: احترم الترخيص المحلي والملصق؛ لا تستعمله في الحرارة المرتفعة."
+   },
+   "sourceIds": [
+    "agripedia-demo",
+    "national-registries"
+   ],
+   "status": "to_verify"
+  },
+  {
+   "id": "registered-products",
+   "type": "chemical",
+   "names": {
+    "fr": "Produits homologués (selon pays)",
+    "en": "Registered products (country-specific)",
+    "ar": "منتجات مرخصة (حسب البلد)"
+   },
+   "description": {
+    "fr": "En cas de forte pression, consulter un conseiller agricole et le registre national des produits autorisés pour la culture et l'usage concernés.",
+    "en": "Under heavy pressure, consult an agricultural adviser and the national registry of products authorized for the crop and use concerned.",
+    "ar": "عند الإصابة الشديدة، استشر مرشدًا فلاحيًا والسجل الوطني للمنتجات المرخصة للمحصول والاستعمال المعنيين."
+   },
+   "caution": {
+    "fr": "L'application ne recommande aucun produit ni dose. Respecter strictement l'étiquette, les délais avant récolte et la protection de l'utilisateur et de l'environnement.",
+    "en": "The app recommends no product or dose. Strictly follow the label, pre-harvest intervals and user/environment protection.",
+    "ar": "لا يوصي التطبيق بأي منتج أو جرعة. التزم بدقة بالملصق وفترات ما قبل الحصاد وحماية المستخدم والبيئة."
+   },
+   "sourceIds": [
+    "agripedia-demo",
+    "national-registries"
+   ],
+   "status": "to_verify"
+  },
+  {
+   "id": "slug-barriers",
+   "type": "mechanical",
+   "names": {
+    "fr": "Barrières et pièges à limaces",
+    "en": "Slug barriers and traps",
+    "ar": "حواجز ومصائد الرخويات"
+   },
+   "description": {
+    "fr": "Barrières sèches, planches-pièges relevées chaque matin ; appâts uniquement s'ils sont autorisés (ex. phosphate ferrique dans certains pays).",
+    "en": "Dry barriers, board traps checked every morning; baits only if authorized (e.g. ferric phosphate in some countries).",
+    "ar": "حواجز جافة وألواح مصائد تُفحص كل صباح؛ الطعوم فقط إذا كانت مرخصة (مثل فوسفات الحديد في بعض البلدان)."
+   },
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "id": "soil-solarization",
+   "type": "cultural",
+   "names": {
+    "fr": "Solarisation du sol",
+    "en": "Soil solarization",
+    "ar": "التشميس الشمسي للتربة"
+   },
+   "description": {
+    "fr": "Couvrir un sol humide d'un film plastique transparent pendant plusieurs semaines en période chaude pour réduire nématodes et adventices.",
+    "en": "Cover moist soil with clear plastic for several weeks in hot weather to reduce nematodes and weeds.",
+    "ar": "تغطية تربة رطبة بغطاء بلاستيكي شفاف لعدة أسابيع في الفترة الحارة للحد من الديدان الخيطية والأعشاب الضارة."
+   },
+   "status": "to_verify",
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  }
+ ]
+}
