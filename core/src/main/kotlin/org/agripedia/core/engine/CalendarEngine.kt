@@ -253,10 +253,24 @@ class CalendarEngine(private val catalog: Catalog) {
         val cycleMonths = cycle?.let { ceil(((it.min + it.max) / 2.0) / 30.0).toInt().coerceIn(1, 12) } ?: DEFAULT_CYCLE_MONTHS
 
         val growable = Months.ALL.filter { isGrowable(plant, it, temps, frost, region, offset) }.toSet()
-        // A start month is feasible when every month of the (average) cycle is growable.
-        val feasibleStarts = Months.ALL.filter { s -> Months.span(s, cycleMonths).all { it in growable } }
-            .toSet()
-            .let { if (cycleMonths >= 12 && growable.size == 12) Months.ALL.toSet() else it }
+        // Warmth needed on average over the cycle and at harvest: midway between the
+        // minimum and the optimal temperature (a crop that merely survives does not mature).
+        val tr = plant.temperature
+        val warmth = when {
+            tr.min != null && tr.optimalMin != null -> (tr.min + tr.optimalMin) / 2.0
+            else -> tr.min ?: tr.optimalMin
+        }
+        val minHarvestOffset = cycle?.let { floor(it.min / 30.0).toInt() } ?: cycleMonths
+        val maxHarvestOffset = maxOf(minHarvestOffset, cycle?.let { floor(it.max / 30.0).toInt() } ?: cycleMonths)
+        fun warmEnough(m: Int) = warmth == null || temps[m - 1] >= warmth
+        // A start month is feasible when every month of the (average) cycle is growable,
+        // the cycle is warm enough on average and at least one harvest month is warm enough.
+        val feasibleStarts = Months.ALL.filter { s ->
+            val span = Months.span(s, cycleMonths)
+            span.all { it in growable } &&
+                (warmth == null || span.map { temps[it - 1] }.average() >= warmth) &&
+                (minHarvestOffset..maxHarvestOffset).any { warmEnough(Months.wrap(s + it)) }
+        }.toSet()
         val germinationOk = Months.ALL.filter { m ->
             plant.temperature.germinationMin?.let { temps[m - 1] >= it } ?: true
         }.toSet()
@@ -301,9 +315,7 @@ class CalendarEngine(private val catalog: Catalog) {
         val harvest = mutableSetOf<Int>()
         val growing = mutableSetOf<Int>()
         for (s in plantingMonths) {
-            val minM = cycle?.let { floor(it.min / 30.0).toInt() } ?: cycleMonths
-            val maxM = cycle?.let { floor(it.max / 30.0).toInt() } ?: cycleMonths
-            for (k in minM..maxOf(minM, maxM)) harvest += Months.wrap(s + k)
+            for (k in minHarvestOffset..maxHarvestOffset) Months.wrap(s + k).let { if (warmEnough(it)) harvest += it }
             for (k in 0 until cycleMonths) growing += Months.wrap(s + k)
         }
         windows += ActivityWindow(Activity.HARVEST, harvest, emptySet(), CalendarOrigin.COMPUTED, status)

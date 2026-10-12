@@ -1,0 +1,340 @@
+{
+ "id": "arachis-hypogaea",
+ "scientificName": "Arachis hypogaea",
+ "scientificAuthority": "L.",
+ "synonyms": [],
+ "family": "Fabaceae",
+ "categoryId": "industrial",
+ "names": {
+  "fr": [
+   "Arachide",
+   "Cacahuète"
+  ],
+  "en": [
+   "Groundnut",
+   "Peanut"
+  ],
+  "ar": [
+   "فول سوداني",
+   "كاوكاو"
+  ]
+ },
+ "description": {
+  "fr": "Légumineuse annuelle oléagineuse des régions chaudes. Après la fécondation, le pédoncule de la fleur (le gynophore) s'allonge et s'enfonce dans le sol, où se forment les gousses. Elle demande un sol meuble et léger, de la chaleur et une bonne alimentation en eau pendant la formation des gousses.",
+  "en": "Annual oilseed legume of warm regions. After fertilization, the flower stalk (the peg) elongates and pushes into the soil, where the pods develop. It needs loose, light soil, warmth and a good water supply during pod formation.",
+  "ar": "بقولية زيتية حولية من المناطق الحارة. بعد الإخصاب تستطيل ساق الزهرة (وتُسمى الإبرة) وتنغرس في التربة حيث تتكوّن القرون. تحتاج إلى تربة خفيفة مفككة وإلى الدفء وإلى ماء كافٍ أثناء تكوّن القرون."
+ },
+ "lifecycle": "annual",
+ "difficulty": "medium",
+ "temperature": {
+  "min": 18,
+  "optimalMin": 22,
+  "optimalMax": 30,
+  "max": 33,
+  "germinationMin": 18
+ },
+ "frostTolerance": "none",
+ "sun": "full_sun",
+ "soilIds": [
+  "sandy",
+  "loamy"
+ ],
+ "ph": {
+  "min": 5.5,
+  "max": 7.0
+ },
+ "water": "medium",
+ "cycleDays": {
+  "min": 90,
+  "max": 150
+ },
+ "spacing": {
+  "inRowCm": {
+   "min": 10,
+   "max": 20
+  },
+  "betweenRowsCm": {
+   "min": 40,
+   "max": 60
+  }
+ },
+ "sowingDepthCm": {
+  "min": 3,
+  "max": 5
+ },
+ "sowingMode": "direct",
+ "methods": [
+  "open_field"
+ ],
+ "climateZoneIds": [
+  "tropical_savanna",
+  "semi_arid",
+  "tropical_humid",
+  "humid_subtropical",
+  "mediterranean",
+  "arid_desert"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon la variété, la régularité des pluies ou de l'irrigation, la fertilité du sol et la qualité de la récolte. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with variety, regularity of rainfall or irrigation, soil fertility and harvest quality. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب الصنف وانتظام الأمطار أو الري وخصوبة التربة وجودة الحصاد. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Date de semis par rapport aux pluies, sécheresse pendant la formation des gousses, calcium disponible dans la zone des gousses, densité de peuplement, rosette (virus transmis par pucerons), maladies foliaires, pertes à l'arrachage.",
+  "en": "Sowing date relative to the rains, drought during pod formation, calcium available in the pod zone, plant stand density, rosette (aphid-borne virus), leaf diseases, losses at lifting.",
+  "ar": "موعد البذر مقارنة بالأمطار، الجفاف أثناء تكوّن القرون، توفر الكالسيوم في منطقة القرون، كثافة النباتات، مرض التورّد (فيروس ينقله المنّ)، أمراض الأوراق، الفاقد عند القلع."
+ },
+ "storage": {
+  "fr": "Sécher rapidement les gousses après l'arrachage puis les stocker en coques, au sec et ventilé. Une humidité excessive favorise des moisissures productrices d'aflatoxines, toxiques : écarter les gousses moisies.",
+  "en": "Dry pods quickly after lifting, then store them in the shell in a dry, ventilated place. Excess moisture favours moulds that produce aflatoxins, which are toxic: discard mouldy pods.",
+  "ar": "جفف القرون بسرعة بعد القلع ثم خزّنها بقشرها في مكان جاف وجيد التهوية. الرطوبة الزائدة تشجع فطريات تفرز الأفلاتوكسينات السامة، لذا تخلّص من القرون المتعفنة."
+ },
+ "varieties": [
+  {
+   "id": "spanish",
+   "name": "Spanish",
+   "description": {
+    "fr": "Port érigé, cycle court, petites graines ; adapté aux saisons des pluies courtes.",
+    "en": "Upright habit, short cycle, small seeds; suited to short rainy seasons.",
+    "ar": "نمو قائم ودورة قصيرة وبذور صغيرة؛ يناسب مواسم الأمطار القصيرة."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "valencia",
+   "name": "Valencia",
+   "description": {
+    "fr": "Port érigé, cycle court, gousses longues à trois ou quatre graines.",
+    "en": "Upright habit, short cycle, long pods with three or four seeds.",
+    "ar": "نمو قائم ودورة قصيرة وقرون طويلة تحوي ثلاث أو أربع بذور."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "virginia",
+   "name": "Virginia",
+   "description": {
+    "fr": "Port rampant ou semi-érigé, cycle plus long, grosses graines appréciées en bouche.",
+    "en": "Runner or semi-upright habit, longer cycle, large seeds valued for snacks.",
+    "ar": "نمو زاحف أو شبه قائم ودورة أطول وبذور كبيرة مرغوبة للتسلية."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "runner",
+   "name": "Runner",
+   "description": {
+    "fr": "Port rampant, cycle long, graines moyennes et homogènes, très utilisé pour la pâte d'arachide.",
+    "en": "Runner habit, long cycle, medium, uniform seeds, widely used for peanut butter.",
+    "ar": "نمو زاحف ودورة طويلة وبذور متوسطة ومتجانسة، يُستعمل كثيرًا لصنع زبدة الفول السوداني."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "calendar": [
+  {
+   "activity": "direct_sowing",
+   "months": [
+    6,
+    7
+   ],
+   "climateZoneId": "tropical_savanna",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Culture pluviale : semis dès que les premières pluies utiles ont humidifié le sol (ex. bassin arachidier du Sénégal).",
+    "en": "Rain-fed crop: sow as soon as the first effective rains have moistened the soil (e.g. Senegal's groundnut basin).",
+    "ar": "زراعة بعلية: يُبذر بمجرد أن تُرطّب الأمطار الأولى الفعالة التربة (مثل حوض الفول السوداني في السنغال)."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    9,
+    10,
+    11
+   ],
+   "climateZoneId": "tropical_savanna",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Selon la longueur du cycle de la variété et la fin des pluies.",
+    "en": "Depending on the variety's cycle length and the end of the rains.",
+    "ar": "حسب طول دورة الصنف ونهاية موسم الأمطار."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  }
+ ],
+ "companions": [
+  {
+   "otherPlantId": "zea-mays",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Culture associée courante en Afrique (rangs alternés) ; veiller à ce que le maïs n'ombrage pas trop l'arachide.",
+    "en": "Common intercrop in Africa (alternate rows); make sure the maize does not shade the groundnut too much.",
+    "ar": "زراعة مشتركة شائعة في أفريقيا (خطوط متناوبة)؛ احرص على ألا تُظلّل الذرة الفول السوداني كثيرًا."
+   }
+  }
+ ],
+ "rotation": {
+  "group": "legume",
+  "minYearsBeforeReturn": 3,
+  "goodPredecessorFamilies": [
+   "Poaceae"
+  ],
+  "avoidPredecessorFamilies": [
+   "Fabaceae"
+  ],
+  "status": "to_verify",
+  "notes": {
+   "fr": "Oléagineux de la famille des légumineuses : l'arachide fixe l'azote de l'air grâce aux bactéries de ses nodosités. Elle alterne classiquement avec une céréale (mil, sorgho, maïs). La monoculture favorise nématodes et maladies du sol.",
+   "en": "An oilseed from the legume family: groundnut fixes atmospheric nitrogen through the bacteria in its root nodules. It classically alternates with a cereal (millet, sorghum, maize). Monocropping favours nematodes and soil-borne diseases.",
+   "ar": "محصول زيتي من الفصيلة البقولية: يثبّت الفول السوداني نيتروجين الهواء بفضل البكتيريا في عقده الجذرية. ويتناوب عادة مع محصول حبوب (الدخن، الذرة الرفيعة، الذرة). والزراعة الأحادية تشجع الديدان الخيطية وأمراض التربة."
+  }
+ },
+ "diseaseIds": [],
+ "pestIds": [
+  "aphids",
+  "root-knot-nematodes"
+ ],
+ "guides": [
+  {
+   "id": "groundnut-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver l'arachide pas à pas",
+    "en": "Growing groundnut step by step",
+    "ar": "زراعة الفول السوداني خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Choisir la parcelle et la variété",
+      "en": "Choose the plot and variety",
+      "ar": "اختيار القطعة والصنف"
+     },
+     "body": {
+      "fr": "Choisissez un sol sableux ou sablo-limoneux, meuble et bien drainé : les gynophores doivent pénétrer facilement et les gousses s'arracher proprement. Adaptez la longueur du cycle de la variété à la durée de la saison des pluies.",
+      "en": "Choose a loose, well-drained sandy or sandy-loam soil: pegs must penetrate easily and pods must lift cleanly. Match the variety's cycle length to the length of the rainy season.",
+      "ar": "اختر تربة رملية أو رملية طميية مفككة وجيدة التصريف، حتى تنغرس الإبر بسهولة وتُقلع القرون نظيفة. واجعل طول دورة الصنف ملائمًا لمدة موسم الأمطار."
+     },
+     "mistakes": {
+      "fr": "Cultiver en sol argileux lourd : gousses mal formées et pertes à l'arrachage.",
+      "en": "Growing in heavy clay soil: poorly formed pods and losses at lifting.",
+      "ar": "الزراعة في تربة طينية ثقيلة: قرون ضعيفة التكوين وفاقد عند القلع."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Préparer la semence",
+      "en": "Prepare the seed",
+      "ar": "تحضير البذور"
+     },
+     "body": {
+      "fr": "Décortiquez les gousses peu avant le semis et gardez seulement les graines saines et entières, sans abîmer leur pellicule.",
+      "en": "Shell the pods shortly before sowing and keep only healthy, whole kernels, without damaging their skin.",
+      "ar": "قشّر القرون قبل البذر بوقت قصير واحتفظ فقط بالبذور السليمة الكاملة دون إتلاف غلافها الرقيق."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Semer avec les pluies",
+      "en": "Sow with the rains",
+      "ar": "البذر مع الأمطار"
+     },
+     "body": {
+      "fr": "Semez dès que le sol est humide et chaud, à 3–5 cm de profondeur, en lignes espacées de 40–60 cm. Un semis précoce et un peuplement régulier limitent la rosette.",
+      "en": "Sow as soon as the soil is moist and warm, 3–5 cm deep, in rows 40–60 cm apart. Early sowing and an even stand limit rosette.",
+      "ar": "ازرع بمجرد أن تصبح التربة رطبة ودافئة، على عمق 3 إلى 5 سم في خطوط تتباعد 40 إلى 60 سم. البذر المبكر والكثافة المنتظمة يحدّان من مرض التورّد."
+     },
+     "mistakes": {
+      "fr": "Semer tard dans la saison : risque accru de rosette et de sécheresse en fin de cycle.",
+      "en": "Sowing late in the season: higher risk of rosette and of drought at the end of the cycle.",
+      "ar": "البذر المتأخر في الموسم: يزيد خطر التورّد والجفاف في نهاية الدورة."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Désherber avant la formation des gousses",
+      "en": "Weed before pod formation",
+      "ar": "إزالة الأعشاب قبل تكوّن القرون"
+     },
+     "body": {
+      "fr": "Sarclez tôt, et terminez les binages avant que les gynophores ne pénètrent dans le sol. Ensuite, évitez de remuer la terre autour des pieds.",
+      "en": "Weed early and finish hoeing before the pegs enter the soil. After that, avoid disturbing the soil around the plants.",
+      "ar": "اعزق مبكرًا وأنهِ العزق قبل أن تنغرس الإبر في التربة، ثم تجنب تحريك التربة حول النباتات."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Assurer eau et calcium",
+      "en": "Ensure water and calcium",
+      "ar": "توفير الماء والكالسيوم"
+     },
+     "body": {
+      "fr": "Les gousses absorbent directement le calcium du sol : en sol pauvre, un apport de gypse à la floraison est une pratique courante. Une bonne humidité du sol est essentielle pendant la formation et le remplissage des gousses.",
+      "en": "Pods take up calcium directly from the soil: in poor soils, applying gypsum at flowering is common practice. Good soil moisture is essential during pod formation and filling.",
+      "ar": "تمتص القرون الكالسيوم مباشرة من التربة، لذا يُعدّ إضافة الجبس عند الإزهار في التربة الفقيرة ممارسة شائعة. ورطوبة التربة الجيدة ضرورية أثناء تكوّن القرون وامتلائها."
+     },
+     "tips": {
+      "fr": "Faites analyser le sol avant d'amender.",
+      "en": "Have the soil tested before amending.",
+      "ar": "حلّل التربة قبل إضافة المحسّنات."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Surveiller les ravageurs",
+      "en": "Monitor pests",
+      "ar": "مراقبة الآفات"
+     },
+     "body": {
+      "fr": "Surveillez les pucerons, vecteurs de la rosette, et les taches foliaires. Arrachez les premiers plants atteints de rosette. Une rotation avec des céréales limite les nématodes.",
+      "en": "Watch for aphids, which transmit rosette, and for leaf spots. Pull out the first rosette-affected plants. Rotating with cereals limits nematodes.",
+      "ar": "راقب المنّ الناقل لمرض التورّد وبقع الأوراق، واقلع النباتات الأولى المصابة بالتورّد. والتناوب مع الحبوب يحدّ من الديدان الخيطية."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Arracher et sécher",
+      "en": "Lift and dry",
+      "ar": "القلع والتجفيف"
+     },
+     "body": {
+      "fr": "Arrachez quand le feuillage jaunit et que la plupart des gousses ont l'intérieur de la coque foncé et des graines bien colorées. Faites sécher rapidement les plantes en andains ou en meules, puis battez et stockez au sec.",
+      "en": "Lift when foliage yellows and most pods have a darkened inner shell and well-coloured seeds. Dry the plants quickly in windrows or stacks, then thresh and store dry.",
+      "ar": "اقلع عندما تصفرّ الأوراق ويصبح داخل قشرة معظم القرون داكنًا والبذور مكتملة اللون. جفف النباتات بسرعة في صفوف أو أكوام، ثم افصل القرون وخزّنها في مكان جاف."
+     },
+     "mistakes": {
+      "fr": "Laisser les gousses humides en tas : moisissures et aflatoxines.",
+      "en": "Leaving damp pods in heaps: moulds and aflatoxins.",
+      "ar": "ترك القرون الرطبة في أكوام: عفن وأفلاتوكسينات."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

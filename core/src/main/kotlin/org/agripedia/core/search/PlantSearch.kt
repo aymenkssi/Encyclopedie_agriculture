@@ -89,7 +89,7 @@ class PlantSearch(private val catalog: Catalog) {
         if (qTokens.size > 1 && qTokens.all { qt -> words.any { w -> w.startsWith(qt) || fuzzy(qt, w) } }) return 65.0
         // Typo tolerance on whole term and on each word (also on prefixes of the same length).
         if (q.length >= 3) {
-            val allowed = if (q.length <= 5) 1 else 2
+            val allowed = if (q.length <= 7) 1 else 2
             var best = Int.MAX_VALUE
             for (w in words + t) {
                 best = minOf(best, EditDistance.osa(q, w, allowed))
@@ -102,7 +102,7 @@ class PlantSearch(private val catalog: Catalog) {
 
     private fun fuzzy(q: String, w: String): Boolean {
         if (q.length < 3) return false
-        val allowed = if (q.length <= 5) 1 else 2
+        val allowed = if (q.length <= 7) 1 else 2
         val target = if (w.length > q.length) w.substring(0, q.length) else w
         return EditDistance.osa(q, target, allowed) <= allowed
     }

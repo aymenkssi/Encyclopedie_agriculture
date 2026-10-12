@@ -104,3 +104,28 @@ class CalendarEngineTest {
         assertTrue(1 in frost && 7 !in frost)
     }
 }
+
+class CalendarRealismTest {
+    private val c = TestData.catalog
+    private val engine = CalendarEngine(c)
+    private fun cal(plant: String, region: String) =
+        engine.compute(c.plantsById.getValue(plant), c.regionsById.getValue(region), c.plantsById.getValue(plant).methods.first())
+
+    @Test fun noAnnualIsSownAllYearInATemperateClimate() {
+        c.plants.filter { it.lifecycle != org.agripedia.core.model.Lifecycle.PERENNIAL }.forEach { p ->
+            val starts = cal(p.id, "fr-idf").let { it.monthsFor(Activity.DIRECT_SOWING) + it.monthsFor(Activity.TRANSPLANTING) + it.monthsFor(Activity.PLANTING) }
+            assertTrue("${p.id}: $starts", starts.size < 12)
+        }
+    }
+
+    @Test fun noHarvestDuringQuebecWinter() {
+        c.plants.filter { it.lifecycle != org.agripedia.core.model.Lifecycle.PERENNIAL }
+            .forEach { p -> assertTrue(p.id, cal(p.id, "ca-qc").monthsFor(Activity.HARVEST).none { it in setOf(12, 1, 2) }) }
+    }
+
+    @Test fun cropsOutsideTheirZonesAreAtMostPossible() {
+        val r = org.agripedia.core.engine.RecommendationEngine(c).evaluate(
+            c.plantsById.getValue("olea-europaea"), org.agripedia.core.engine.RecommendationQuery(c.regionsById.getValue("fr-idf"), setOf(3)))
+        assertTrue(r.level != org.agripedia.core.engine.SuitabilityLevel.RECOMMENDED)
+    }
+}

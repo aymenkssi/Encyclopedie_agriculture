@@ -1,0 +1,336 @@
+{
+ "id": "lactuca-sativa",
+ "scientificName": "Lactuca sativa",
+ "scientificAuthority": "L.",
+ "synonyms": [],
+ "family": "Asteraceae",
+ "categoryId": "vegetable",
+ "names": {
+  "fr": [
+   "Laitue",
+   "Salade"
+  ],
+  "en": [
+   "Lettuce"
+  ],
+  "ar": [
+   "خس"
+  ]
+ },
+ "description": {
+  "fr": "Plante annuelle à cycle court cultivée pour ses feuilles. Elle préfère la fraîcheur : par temps chaud et jours longs, elle monte vite en graines et devient amère.",
+  "en": "Short-cycle annual grown for its leaves. It prefers cool weather: in heat and long days it quickly bolts and turns bitter.",
+  "ar": "نبات حولي قصير الدورة يُزرع لأوراقه. يفضّل الجو المعتدل البارد، ففي الحر والنهار الطويل يتجه سريعًا إلى الإزهار ويصبح مُرّ الطعم."
+ },
+ "lifecycle": "annual",
+ "difficulty": "easy",
+ "temperature": {
+  "min": 7,
+  "optimalMin": 12,
+  "optimalMax": 20,
+  "max": 24,
+  "germinationMin": 5
+ },
+ "frostTolerance": "light",
+ "sun": "full_sun",
+ "soilIds": [
+  "loamy",
+  "humus_rich",
+  "silty"
+ ],
+ "ph": {
+  "min": 6.0,
+  "max": 7.0
+ },
+ "water": "medium",
+ "cycleDays": {
+  "min": 45,
+  "max": 80
+ },
+ "spacing": {
+  "inRowCm": {
+   "min": 25,
+   "max": 30
+  },
+  "betweenRowsCm": {
+   "min": 30,
+   "max": 35
+  }
+ },
+ "sowingDepthCm": {
+  "min": 0.3,
+  "max": 0.6
+ },
+ "sowingMode": "both",
+ "nurseryWeeks": {
+  "min": 3,
+  "max": 5
+ },
+ "methods": [
+  "open_field",
+  "greenhouse",
+  "container",
+  "hydroponics"
+ ],
+ "climateZoneIds": [
+  "temperate_oceanic",
+  "temperate_continental",
+  "mediterranean",
+  "semi_arid",
+  "arid_desert",
+  "humid_subtropical"
+ ],
+ "yieldInfo": {
+  "fr": "Variable selon le type (pommée, à couper), la saison et la conduite. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Variable with type (heading, cut-and-come-again), season and management. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت حسب النوع (ملتف الرأس أو ورقي للقطف المتكرر) والموسم وطريقة الزراعة. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Températures (montaison par chaleur et jours longs), choix de variétés adaptées à la saison, arrosage régulier, sol riche en humus, limaces et mildiou.",
+  "en": "Temperatures (bolting in heat and long days), choice of varieties suited to the season, regular watering, humus-rich soil, slugs and downy mildew.",
+  "ar": "درجات الحرارة (الإزهار المبكر في الحر والنهار الطويل)، اختيار أصناف مناسبة للموسم، الري المنتظم، تربة غنية بالدبال، البزاقات والبياض الزغبي."
+ },
+ "storage": {
+  "fr": "Se conserve quelques jours au réfrigérateur, dans un sac ou une boîte. Récolter le matin, quand les feuilles sont fraîches.",
+  "en": "Keeps a few days in the refrigerator, in a bag or box. Harvest in the morning while leaves are crisp.",
+  "ar": "يُحفظ بضعة أيام في الثلاجة داخل كيس أو علبة. يُحصد صباحًا حين تكون الأوراق طازجة."
+ },
+ "varieties": [
+  {
+   "id": "batavia",
+   "name": "Batavia",
+   "description": {
+    "fr": "Type à feuilles croquantes et ondulées, résistant assez bien à la montaison.",
+    "en": "Crisp, wavy-leaved type, fairly resistant to bolting.",
+    "ar": "نوع ذو أوراق مقرمشة ومتموجة، يقاوم الإزهار المبكر نسبيًا."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "romaine",
+   "name": "Romaine",
+   "description": {
+    "fr": "Feuilles longues et dressées, bien adaptée aux climats chauds.",
+    "en": "Long upright leaves, well suited to warm climates.",
+    "ar": "أوراق طويلة قائمة، مناسبة جيدًا للمناخات الدافئة."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "feuille-de-chene",
+   "name": "Feuille de chêne",
+   "description": {
+    "fr": "Laitue à couper, feuilles découpées vertes ou rouges.",
+    "en": "Loose-leaf lettuce with lobed green or red leaves.",
+    "ar": "خس ورقي للقطف، أوراقه مفصّصة خضراء أو حمراء."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "beurre",
+   "name": "Laitue pommée (beurre)",
+   "description": {
+    "fr": "Pomme tendre aux feuilles lisses, plutôt pour saisons fraîches.",
+    "en": "Soft head with smooth leaves, mostly for cool seasons.",
+    "ar": "رأس طري بأوراق ملساء، يناسب غالبًا المواسم الباردة."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "calendar": [],
+ "companions": [
+  {
+   "otherPlantId": "daucus-carota",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Cultures intercalaires compatibles : la laitue, rapide, libère la place avant le développement des carottes.",
+    "en": "Compatible intercrops: fast lettuce frees the space before carrots develop.",
+    "ar": "محصولان متوافقان للزراعة البينية: الخس السريع يُخلي المكان قبل نمو الجزر."
+   }
+  },
+  {
+   "otherPlantId": "solanum-lycopersicum",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Association courante : la laitue profite de l'ombre légère entre les rangs de tomates en été ; bénéfice surtout pratique.",
+    "en": "Common pairing: lettuce benefits from light shade between tomato rows in summer; mostly a practical benefit.",
+    "ar": "تشارك شائع: يستفيد الخس من الظل الخفيف بين خطوط الطماطم صيفًا؛ والفائدة عملية في الغالب."
+   }
+  }
+ ],
+ "rotation": {
+  "group": "leaf",
+  "goodPredecessorFamilies": [
+   "Fabaceae",
+   "Solanaceae",
+   "Cucurbitaceae"
+  ],
+  "avoidPredecessorFamilies": [
+   "Asteraceae"
+  ],
+  "status": "to_verify",
+  "notes": {
+   "fr": "Cycle court, facile à intercaler. Éviter d'enchaîner des astéracées (laitue, chicorée, artichaut) au même endroit pour limiter le mildiou et la pourriture du collet.",
+   "en": "Short cycle, easy to fit between crops. Avoid repeating Asteraceae (lettuce, chicory, artichoke) in the same place to limit downy mildew and basal rots.",
+   "ar": "دورة قصيرة يسهل إدراجها بين المحاصيل. تجنّب تكرار المركّبات (الخس، الهندباء، الخرشوف) في المكان نفسه للحد من البياض الزغبي وتعفن العنق."
+  }
+ },
+ "diseaseIds": [
+  "lettuce-downy-mildew",
+  "grey-mould"
+ ],
+ "pestIds": [
+  "aphids",
+  "slugs-snails"
+ ],
+ "guides": [
+  {
+   "id": "lettuce-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver la laitue pas à pas",
+    "en": "Growing lettuce step by step",
+    "ar": "زراعة الخس خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Choisir le type selon la saison",
+      "en": "Choose the type for the season",
+      "ar": "اختيار النوع حسب الموسم"
+     },
+     "body": {
+      "fr": "Utilisez des variétés de printemps, d'été ou d'hiver selon la période. En été ou en climat chaud, préférez batavias et romaines, plus lentes à monter en graines.",
+      "en": "Use spring, summer or winter varieties according to the period. In summer or hot climates, prefer Batavia and romaine types, slower to bolt.",
+      "ar": "استعمل أصناف الربيع أو الصيف أو الشتاء حسب الفترة. وفي الصيف أو المناخ الحار فضّل أنواع الباتافيا والرومين لأنها أبطأ في الإزهار."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Semer",
+      "en": "Sow",
+      "ar": "البذر"
+     },
+     "body": {
+      "fr": "Semez très peu profond (quelques millimètres), en godets ou en place. Au-delà d'environ 25 °C, la germination devient difficile : semez à l'ombre ou au frais en été.",
+      "en": "Sow very shallow (a few millimetres), in cells or in place. Above about 25 °C germination becomes poor: sow in shade or a cool spot in summer.",
+      "ar": "ابذر على عمق ضحل جدًا (بضعة مليمترات) في أكواب أو في المكان الدائم. فوق 25 درجة مئوية تقريبًا يضعف الإنبات، لذا ابذر في الظل أو في مكان بارد صيفًا."
+     },
+     "mistakes": {
+      "fr": "Enterrer trop les graines.",
+      "en": "Burying seed too deep.",
+      "ar": "دفن البذور عميقًا جدًا."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Repiquer ou éclaircir",
+      "en": "Transplant or thin",
+      "ar": "الشتل أو الخف"
+     },
+     "body": {
+      "fr": "Plantez les mottes après 3 à 5 semaines, sans enterrer le collet, à 25–30 cm d'écart. En semis direct, éclaircissez à la même distance.",
+      "en": "Plant out plugs after 3 to 5 weeks, without burying the crown, 25–30 cm apart. When direct-sown, thin to the same spacing.",
+      "ar": "اغرس الشتلات بعد 3 إلى 5 أسابيع دون دفن العنق، بمسافة 25 إلى 30 سم. وفي البذر المباشر اخفّ النباتات إلى المسافة نفسها."
+     },
+     "mistakes": {
+      "fr": "Enterrer le collet : risque de pourriture.",
+      "en": "Burying the crown: risk of rot.",
+      "ar": "دفن العنق: خطر التعفن."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Arroser et pailler",
+      "en": "Water and mulch",
+      "ar": "الري والتغطية"
+     },
+     "body": {
+      "fr": "Arrosez régulièrement, au pied et de préférence le matin. Un paillage garde la fraîcheur et les feuilles propres.",
+      "en": "Water regularly, at the base and preferably in the morning. Mulch keeps the soil cool and leaves clean.",
+      "ar": "اسقِ بانتظام عند القاعدة ويُفضّل صباحًا. التغطية تحافظ على برودة التربة ونظافة الأوراق."
+     },
+     "tips": {
+      "fr": "En été, une ombre légère aux heures chaudes retarde la montaison.",
+      "en": "In summer, light shade in the hottest hours delays bolting.",
+      "ar": "في الصيف، الظل الخفيف في ساعات الحر يؤخر الإزهار."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Échelonner les semis",
+      "en": "Stagger sowings",
+      "ar": "التدرج في البذر"
+     },
+     "body": {
+      "fr": "Semez de petites quantités toutes les deux à trois semaines pour récolter en continu plutôt que tout d'un coup.",
+      "en": "Sow small amounts every two to three weeks to harvest continuously rather than all at once.",
+      "ar": "ابذر كميات صغيرة كل أسبوعين إلى ثلاثة للحصاد بشكل متواصل بدل الحصاد دفعة واحدة."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Culture hors-sol",
+      "en": "Soilless growing",
+      "ar": "الزراعة دون تربة"
+     },
+     "body": {
+      "fr": "La laitue convient bien à l'hydroponie : solution nutritive adaptée aux légumes-feuilles, bonne aération des racines et température de solution modérée.",
+      "en": "Lettuce suits hydroponics well: a nutrient solution for leafy vegetables, good root aeration and a moderate solution temperature.",
+      "ar": "يناسب الخس الزراعة المائية جيدًا: محلول مغذٍّ ملائم للخضر الورقية، وتهوية جيدة للجذور، ودرجة حرارة معتدلة للمحلول."
+     },
+     "methods": [
+      "hydroponics"
+     ]
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Protéger des limaces et du mildiou",
+      "en": "Protect from slugs and downy mildew",
+      "ar": "الحماية من البزاقات والبياض الزغبي"
+     },
+     "body": {
+      "fr": "Surveillez les limaces après la plantation et par temps humide. Aérez les abris et évitez de mouiller le feuillage le soir pour limiter le mildiou.",
+      "en": "Watch for slugs after planting and in wet weather. Ventilate shelters and avoid wetting leaves in the evening to limit downy mildew.",
+      "ar": "راقب البزاقات بعد الغرس وفي الطقس الرطب. هوِّ البيوت المحمية وتجنّب تبليل الأوراق مساءً للحد من البياض الزغبي."
+     }
+    },
+    {
+     "order": 8,
+     "title": {
+      "fr": "Récolter",
+      "en": "Harvest",
+      "ar": "الحصاد"
+     },
+     "body": {
+      "fr": "Récoltez les laitues pommées quand la pomme est ferme, avant la montaison. Les laitues à couper se récoltent feuille à feuille.",
+      "en": "Harvest heading lettuce when the head is firm, before bolting. Loose-leaf types are picked leaf by leaf.",
+      "ar": "احصد الخس الملتف عندما يتماسك رأسه وقبل الإزهار. أما الخس الورقي فيُقطف ورقة ورقة."
+     },
+     "mistakes": {
+      "fr": "Attendre trop : la laitue monte et devient amère.",
+      "en": "Waiting too long: lettuce bolts and turns bitter.",
+      "ar": "الانتظار طويلًا: يتجه الخس إلى الإزهار ويصبح مُرًّا."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

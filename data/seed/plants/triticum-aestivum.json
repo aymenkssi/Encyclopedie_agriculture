@@ -1,0 +1,372 @@
+{
+ "id": "triticum-aestivum",
+ "scientificName": "Triticum aestivum",
+ "scientificAuthority": "L.",
+ "synonyms": [
+  "Triticum vulgare Vill."
+ ],
+ "family": "Poaceae",
+ "categoryId": "cereal",
+ "names": {
+  "fr": [
+   "Blé tendre",
+   "Froment"
+  ],
+  "en": [
+   "Bread wheat",
+   "Common wheat"
+  ],
+  "ar": [
+   "قمح طري",
+   "قمح لين"
+  ]
+ },
+ "description": {
+  "fr": "Céréale annuelle cultivée pour son grain panifiable. Les blés d'hiver, semés en automne, résistent au froid et ont besoin d'une période de froid (vernalisation) pour épier ; les blés de printemps, sans ce besoin, se sèment en fin d'hiver ou au printemps dans les régions froides, et en automne dans les régions à hiver doux. Les valeurs de cycle données ici concernent le blé d'hiver semé à l'automne.",
+  "en": "Annual cereal grown for its bread-making grain. Winter wheats, sown in autumn, are cold-hardy and need a cold period (vernalization) to head; spring wheats, without this need, are sown in late winter or spring in cold regions and in autumn where winters are mild. The cycle values given here refer to autumn-sown winter wheat.",
+  "ar": "حبوب حولية تُزرع لحبوبها الصالحة للخبز. يُبذر القمح الشتوي في الخريف، وهو يتحمل البرد ويحتاج إلى فترة باردة (الارتباع) كي يُسنبل؛ أما القمح الربيعي فلا يحتاج إلى ذلك، ويُبذر في أواخر الشتاء أو في الربيع في المناطق الباردة، وفي الخريف حيث يكون الشتاء معتدلًا. تخص قيم الدورة المذكورة هنا القمح الشتوي المبذور في الخريف."
+ },
+ "lifecycle": "annual",
+ "difficulty": "medium",
+ "temperature": {
+  "min": -8,
+  "optimalMin": 12,
+  "optimalMax": 22,
+  "max": 27,
+  "germinationMin": 4
+ },
+ "frostTolerance": "hardy",
+ "sun": "full_sun",
+ "soilIds": [
+  "loamy",
+  "silty",
+  "clay",
+  "calcareous"
+ ],
+ "ph": {
+  "min": 6.0,
+  "max": 7.5
+ },
+ "water": "medium",
+ "cycleDays": {
+  "min": 200,
+  "max": 300
+ },
+ "spacing": {
+  "betweenRowsCm": {
+   "min": 12,
+   "max": 20
+  }
+ },
+ "sowingDepthCm": {
+  "min": 2,
+  "max": 4
+ },
+ "sowingMode": "direct",
+ "methods": [
+  "open_field"
+ ],
+ "climateZoneIds": [
+  "temperate_oceanic",
+  "temperate_continental",
+  "mediterranean",
+  "semi_arid",
+  "humid_subtropical"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon la variété, le climat de l'année, la fertilisation azotée, le précédent cultural et l'irrigation éventuelle. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with variety, the year's weather, nitrogen fertilization, the preceding crop and any irrigation. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب الصنف وطقس السنة والتسميد النيتروجيني والمحصول السابق والري إن وُجد. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Date et qualité du semis, densité de peuplement, alimentation en azote et en eau (surtout de la montaison au remplissage du grain), échaudage par fortes chaleurs, maladies (rouilles, oïdium), verse et adventices.",
+  "en": "Sowing date and quality, plant density, nitrogen and water supply (especially from stem elongation to grain filling), heat stress during grain filling, diseases (rusts, powdery mildew), lodging and weeds.",
+  "ar": "موعد البذر وجودته، كثافة النباتات، توفر النيتروجين والماء (خاصة من مرحلة الاستطالة إلى امتلاء الحبوب)، الإجهاد الحراري أثناء امتلاء الحبوب، الأمراض (الأصداء، البياض الدقيقي)، الرقاد والأعشاب الضارة."
+ },
+ "storage": {
+  "fr": "Stocker un grain propre et bien sec, dans un local frais, sec et ventilé ; protéger des insectes des grains et des rongeurs.",
+  "en": "Store clean, well-dried grain in a cool, dry, ventilated place; protect it from stored-grain insects and rodents.",
+  "ar": "يُخزَّن الحب نظيفًا وجافًا جيدًا في مكان بارد وجاف وجيد التهوية، مع حمايته من حشرات الحبوب المخزونة والقوارض."
+ },
+ "varieties": [
+  {
+   "id": "winter-type",
+   "name": "Blé d'hiver / Winter wheat",
+   "description": {
+    "fr": "Semé en automne ; résiste au gel et a besoin de froid pour épier. Type dominant en climat tempéré.",
+    "en": "Sown in autumn; frost-hardy and needs cold to head. The dominant type in temperate climates.",
+    "ar": "يُبذر في الخريف، ويتحمل الصقيع ويحتاج إلى البرد كي يُسنبل. وهو النوع السائد في المناخ المعتدل."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "spring-type",
+   "name": "Blé de printemps / Spring wheat",
+   "description": {
+    "fr": "Sans besoin de vernalisation ; semé au printemps dans les régions à hiver rigoureux, ou en automne-hiver dans les régions méditerranéennes à hiver doux.",
+    "en": "No vernalization need; sown in spring where winters are harsh, or in autumn–winter in Mediterranean regions with mild winters.",
+    "ar": "لا يحتاج إلى الارتباع؛ يُبذر في الربيع حيث يكون الشتاء قاسيًا، أو في الخريف والشتاء في المناطق المتوسطية ذات الشتاء المعتدل."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "facultative-type",
+   "name": "Blé alternatif / Facultative wheat",
+   "description": {
+    "fr": "Type intermédiaire pouvant être semé de la fin d'automne au début du printemps.",
+    "en": "Intermediate type that can be sown from late autumn to early spring.",
+    "ar": "نوع وسيط يمكن بذره من أواخر الخريف إلى بداية الربيع."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "calendar": [
+  {
+   "activity": "direct_sowing",
+   "months": [
+    10,
+    11
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Blé d'hiver ; un semis trop précoce expose davantage aux maladies et aux pucerons d'automne.",
+    "en": "Winter wheat; sowing too early increases exposure to diseases and autumn aphids.",
+    "ar": "قمح شتوي؛ البذر المبكر جدًا يزيد التعرض للأمراض ولمنّ الخريف."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    7,
+    8
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Quand le grain est dur et sec.",
+    "en": "When the grain is hard and dry.",
+    "ar": "عندما تصبح الحبوب صلبة وجافة."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "activity": "direct_sowing",
+   "months": [
+    11,
+    12
+   ],
+   "climateZoneId": "mediterranean",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Semis après les premières pluies d'automne, culture surtout pluviale.",
+    "en": "Sowing after the first autumn rains, mostly rain-fed.",
+    "ar": "البذر بعد أولى أمطار الخريف، والزراعة بعلية في الغالب."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    5,
+    6
+   ],
+   "climateZoneId": "mediterranean",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Avant les fortes chaleurs de l'été.",
+    "en": "Before the summer heat.",
+    "ar": "قبل اشتداد حر الصيف."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  }
+ ],
+ "companions": [],
+ "rotation": {
+  "group": "cereal",
+  "goodPredecessorFamilies": [
+   "Fabaceae",
+   "Brassicaceae",
+   "Solanaceae",
+   "Amaranthaceae"
+  ],
+  "avoidPredecessorFamilies": [
+   "Poaceae"
+  ],
+  "status": "to_verify",
+  "notes": {
+   "fr": "Le blé profite d'un précédent légumineuse (pois, féverole, pois chiche) ou colza. Éviter le blé sur blé (piétin-échaudage) et le blé après maïs grain (fusariose de l'épi et mycotoxines), surtout sans labour.",
+   "en": "Wheat benefits from a preceding legume (pea, faba bean, chickpea) or oilseed rape. Avoid wheat after wheat (take-all) and wheat after grain maize (Fusarium head blight and mycotoxins), especially without ploughing.",
+   "ar": "يستفيد القمح من محصول سابق بقولي (البازلاء، الفول، الحمص) أو من اللفت الزيتي. تجنب القمح بعد القمح (أمراض الجذور وقاعدة الساق) والقمح بعد الذرة الحبية (فيوزاريوم السنابل والسموم الفطرية)، خاصة دون حرث."
+  }
+ },
+ "diseaseIds": [
+  "cereal-rusts",
+  "powdery-mildew"
+ ],
+ "pestIds": [
+  "aphids"
+ ],
+ "guides": [
+  {
+   "id": "wheat-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver le blé tendre pas à pas",
+    "en": "Growing bread wheat step by step",
+    "ar": "زراعة القمح الطري خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Choisir le type de blé",
+      "en": "Choose the type of wheat",
+      "ar": "اختيار نوع القمح"
+     },
+     "body": {
+      "fr": "En climat tempéré, semez un blé d'hiver en automne. En climat méditerranéen, on sème en automne-hiver des variétés peu exigeantes en froid. Dans les régions à hiver très rigoureux, on cultive un blé de printemps.",
+      "en": "In temperate climates, sow a winter wheat in autumn. In Mediterranean climates, varieties with little cold requirement are sown in autumn–winter. Where winters are very harsh, a spring wheat is grown.",
+      "ar": "في المناخ المعتدل ازرع قمحًا شتويًا في الخريف. وفي المناخ المتوسطي تُبذر في الخريف والشتاء أصناف قليلة الحاجة إلى البرد. أما في المناطق ذات الشتاء القاسي جدًا فيُزرع القمح الربيعي."
+     },
+     "mistakes": {
+      "fr": "Semer un blé d'hiver au printemps : sans froid suffisant, il risque de ne pas épier.",
+      "en": "Sowing a winter wheat in spring: without enough cold, it may not head.",
+      "ar": "بذر قمح شتوي في الربيع: قد لا يُسنبل دون برد كافٍ."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Préparer le sol",
+      "en": "Prepare the soil",
+      "ar": "تحضير التربة"
+     },
+     "body": {
+      "fr": "Au champ, préparez un lit de semence rappuyé, à mottes fines en surface. Sur une petite parcelle, bêchez, émiettez et ratissez. Un précédent légumineuse est favorable.",
+      "en": "In the field, prepare a firm seedbed with a fine surface tilth. On a small plot, dig, break up clods and rake. A preceding legume is favourable.",
+      "ar": "في الحقل حضّر مهدًا للبذور متماسكًا وناعم السطح. وفي القطعة الصغيرة اقلب التربة وفتّت الكتل ثم سوّها بالمشط. ويُعدّ المحصول البقولي السابق ملائمًا."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Semer",
+      "en": "Sow",
+      "ar": "البذر"
+     },
+     "body": {
+      "fr": "Semez à 2–4 cm de profondeur, en lignes espacées de 12–20 cm (au semoir au champ). Sur une petite parcelle, semez en lignes pour pouvoir biner, ou à la volée puis enfouissez au râteau.",
+      "en": "Sow 2–4 cm deep in rows 12–20 cm apart (with a seed drill in the field). On a small plot, sow in rows so you can hoe, or broadcast and rake the seed in.",
+      "ar": "ازرع على عمق 2 إلى 4 سم في خطوط تتباعد 12 إلى 20 سم (بالبذارة في الحقل). وفي القطعة الصغيرة ازرع في خطوط لتسهيل العزق، أو انثر البذور ثم اطمرها بالمشط."
+     },
+     "mistakes": {
+      "fr": "Semer trop profond ou trop tard : levée lente et faible tallage.",
+      "en": "Sowing too deep or too late: slow emergence and poor tillering.",
+      "ar": "البذر العميق جدًا أو المتأخر جدًا: إنبات بطيء وتفريع ضعيف."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Fertiliser au bon moment",
+      "en": "Fertilize at the right time",
+      "ar": "التسميد في الوقت المناسب"
+     },
+     "body": {
+      "fr": "Les besoins en azote sont surtout importants de la sortie de l'hiver à la montaison : fractionnez les apports plutôt qu'un seul apport au semis. Adaptez les doses à l'analyse de sol et au conseil local.",
+      "en": "Nitrogen needs are highest from the end of winter to stem elongation: split applications rather than a single dose at sowing. Adjust rates to a soil test and local advice.",
+      "ar": "تكون الحاجة إلى النيتروجين أكبر من نهاية الشتاء إلى مرحلة الاستطالة، فقسّم الدفعات بدل دفعة واحدة عند البذر. واضبط الكميات وفق تحليل التربة والإرشاد المحلي."
+     },
+     "mistakes": {
+      "fr": "Trop d'azote : verse et maladies favorisées.",
+      "en": "Too much nitrogen: lodging and more disease.",
+      "ar": "الإفراط في النيتروجين: رقاد النباتات وزيادة الأمراض."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Maîtriser adventices et maladies",
+      "en": "Control weeds and diseases",
+      "ar": "مكافحة الأعشاب والأمراض"
+     },
+     "body": {
+      "fr": "Désherbez tôt, tant que le blé est jeune. Au printemps, surveillez les rouilles (pustules orange, brunes ou jaunes), l'oïdium et les pucerons ; les variétés résistantes sont le premier moyen de lutte.",
+      "en": "Weed early, while the wheat is young. In spring, watch for rusts (orange, brown or yellow pustules), powdery mildew and aphids; resistant varieties are the first line of defence.",
+      "ar": "أزل الأعشاب مبكرًا ما دام القمح فتيًا. وفي الربيع راقب الأصداء (بثرات برتقالية أو بنية أو صفراء) والبياض الدقيقي والمنّ؛ والأصناف المقاومة هي وسيلة المكافحة الأولى."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Gérer l'eau",
+      "en": "Manage water",
+      "ar": "تدبير الماء"
+     },
+     "body": {
+      "fr": "Le blé est le plus souvent pluvial. En climat méditerranéen ou semi-aride, si l'irrigation est possible, les apports sont les plus utiles de la montaison au remplissage du grain.",
+      "en": "Wheat is usually rain-fed. In Mediterranean or semi-arid climates, if irrigation is available, water is most useful from stem elongation to grain filling.",
+      "ar": "يُزرع القمح غالبًا بعليًا. وفي المناخ المتوسطي أو شبه الجاف، إذا كان الري ممكنًا، فأكثر السقيات فائدة تكون من الاستطالة إلى امتلاء الحبوب."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Récolter",
+      "en": "Harvest",
+      "ar": "الحصاد"
+     },
+     "body": {
+      "fr": "Récoltez quand la paille est dorée et que le grain est dur et ne se raye plus à l'ongle. Au champ, la moissonneuse-batteuse fait tout en un passage. Sur une petite parcelle, coupez à la faucille, liez en gerbes, laissez sécher, puis battez et vannez.",
+      "en": "Harvest when the straw is golden and the grain is hard and can no longer be dented with a fingernail. In the field, a combine does it all in one pass. On a small plot, cut with a sickle, tie into sheaves, let them dry, then thresh and winnow.",
+      "ar": "احصد عندما يصبح التبن ذهبيًا وتصلب الحبوب فلا يخدشها الظفر. في الحقل تقوم الحاصدة الدراسة بكل العمليات دفعة واحدة. وفي القطعة الصغيرة احصد بالمنجل واربط السنابل في حزم واتركها تجف، ثم ادرسها وذرّها."
+     }
+    },
+    {
+     "order": 8,
+     "title": {
+      "fr": "Conserver le grain",
+      "en": "Store the grain",
+      "ar": "تخزين الحبوب"
+     },
+     "body": {
+      "fr": "Stockez un grain propre et bien sec, dans des contenants fermés ou un local sec et ventilé, à l'abri des insectes et des rongeurs.",
+      "en": "Store clean, well-dried grain in closed containers or a dry, ventilated store, safe from insects and rodents.",
+      "ar": "خزّن الحبوب نظيفة وجافة جيدًا في أوعية مغلقة أو مخزن جاف جيد التهوية، بعيدًا عن الحشرات والقوارض."
+     },
+     "mistakes": {
+      "fr": "Stocker un grain encore humide : échauffement et moisissures.",
+      "en": "Storing grain that is still damp: heating and moulds.",
+      "ar": "تخزين حبوب لا تزال رطبة: ارتفاع حرارتها وتعفنها."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

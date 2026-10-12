@@ -1,0 +1,362 @@
+{
+ "id": "allium-cepa",
+ "scientificName": "Allium cepa",
+ "scientificAuthority": "L.",
+ "synonyms": [],
+ "family": "Amaryllidaceae",
+ "categoryId": "vegetable",
+ "names": {
+  "fr": [
+   "Oignon"
+  ],
+  "en": [
+   "Onion"
+  ],
+  "ar": [
+   "بصل"
+  ]
+ },
+ "description": {
+  "fr": "Plante bisannuelle cultivée comme annuelle pour son bulbe. La formation du bulbe dépend de la longueur du jour : il faut choisir des variétés de jours courts, intermédiaires ou longs selon la latitude.",
+  "en": "Biennial plant grown as an annual for its bulb. Bulbing is triggered by day length: short-day, intermediate-day or long-day varieties must be chosen according to latitude.",
+  "ar": "نبات ثنائي الحول يُزرع كمحصول حولي لبصلته. يرتبط تكوّن البصلة بطول النهار، لذا يجب اختيار أصناف النهار القصير أو المتوسط أو الطويل حسب خط العرض."
+ },
+ "lifecycle": "biennial",
+ "difficulty": "medium",
+ "temperature": {
+  "min": 7,
+  "optimalMin": 13,
+  "optimalMax": 24,
+  "max": 28,
+  "germinationMin": 4
+ },
+ "frostTolerance": "hardy",
+ "sun": "full_sun",
+ "soilIds": [
+  "loamy",
+  "sandy",
+  "silty"
+ ],
+ "ph": {
+  "min": 6.0,
+  "max": 7.0
+ },
+ "water": "medium",
+ "cycleDays": {
+  "min": 90,
+  "max": 160
+ },
+ "spacing": {
+  "inRowCm": {
+   "min": 5,
+   "max": 10
+  },
+  "betweenRowsCm": {
+   "min": 25,
+   "max": 30
+  }
+ },
+ "sowingDepthCm": {
+  "min": 1.0,
+  "max": 1.5
+ },
+ "sowingMode": "both",
+ "nurseryWeeks": {
+  "min": 6,
+  "max": 10
+ },
+ "methods": [
+  "open_field",
+  "container"
+ ],
+ "climateZoneIds": [
+  "temperate_oceanic",
+  "temperate_continental",
+  "mediterranean",
+  "semi_arid",
+  "arid_desert",
+  "humid_subtropical",
+  "tropical_savanna"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon la variété, l'adéquation à la longueur du jour, le mode d'implantation (semis, plants, bulbilles) et l'irrigation. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with variety, match to day length, establishment method (seed, transplants, sets) and irrigation. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب الصنف وملاءمته لطول النهار وطريقة الزراعة (بذور أو شتلات أو بُصيلات) والري. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Variété adaptée à la latitude (photopériode), désherbage (l'oignon concurrence mal les adventices), eau régulière pendant le grossissement puis arrêt avant récolte, sol bien drainé, mildiou et thrips.",
+  "en": "Variety suited to latitude (photoperiod), weeding (onions compete poorly with weeds), steady water during bulbing then stopping before harvest, well-drained soil, downy mildew and thrips.",
+  "ar": "صنف ملائم لخط العرض (الفترة الضوئية)، التعشيب (البصل ضعيف أمام الأعشاب)، ماء منتظم أثناء تضخّم البصلة ثم إيقافه قبل الحصاد، تربة جيدة الصرف، البياض الزغبي والتربس."
+ },
+ "storage": {
+  "fr": "Après séchage complet (collet bien sec), conserver au sec, au frais et à l'air, en tresses ou en cagettes. Les variétés douces de jours courts se conservent généralement moins longtemps.",
+  "en": "After full curing (neck completely dry), store dry, cool and airy, in braids or crates. Sweet short-day varieties generally keep less long.",
+  "ar": "بعد التجفيف الكامل (جفاف العنق تمامًا) يُخزَّن في مكان جاف وبارد وجيد التهوية، في ضفائر أو صناديق. وتُحفظ أصناف النهار القصير الحلوة عادة مدة أقصر."
+ },
+ "varieties": [
+  {
+   "id": "stuttgarter-riesen",
+   "name": "Stuttgarter Riesen",
+   "description": {
+    "fr": "Oignon jaune de jours longs, très courant en bulbilles, bonne conservation.",
+    "en": "Long-day yellow onion, very common as sets, stores well.",
+    "ar": "بصل أصفر للنهار الطويل، شائع جدًا على شكل بُصيلات، جيد التخزين."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "texas-early-grano",
+   "name": "Texas Early Grano",
+   "description": {
+    "fr": "Oignon doux de jours courts, adapté aux latitudes basses et aux semis d'automne.",
+    "en": "Sweet short-day onion, suited to low latitudes and autumn sowing.",
+    "ar": "بصل حلو للنهار القصير، مناسب لخطوط العرض المنخفضة والبذر الخريفي."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "red-baron",
+   "name": "Red Baron",
+   "description": {
+    "fr": "Oignon rouge, bulbe rond à saveur relevée.",
+    "en": "Red onion, round bulb with a pungent flavour.",
+    "ar": "بصل أحمر، بصلة مستديرة ذات نكهة حادة."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "jaune-paille-des-vertus",
+   "name": "Jaune paille des Vertus",
+   "description": {
+    "fr": "Variété ancienne jaune, bulbe aplati, de garde.",
+    "en": "Old yellow variety, flattened bulb, for storage.",
+    "ar": "صنف أصفر قديم، بصلة مفلطحة، للتخزين."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "calendar": [
+  {
+   "activity": "planting",
+   "months": [
+    3,
+    4
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Plantation de bulbilles de variétés de jours longs, dans un sol ressuyé.",
+    "en": "Planting sets of long-day varieties in drained soil.",
+    "ar": "غرس بُصيلات أصناف النهار الطويل في تربة جافة نسبيًا."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    7,
+    8,
+    9
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Quand le feuillage jaunit et se couche.",
+    "en": "When foliage yellows and falls over.",
+    "ar": "عندما تصفرّ الأوراق وتنحني."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  }
+ ],
+ "companions": [
+  {
+   "otherPlantId": "daucus-carota",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Association traditionnelle censée gêner la mouche de la carotte et celle de l'oignon ; efficacité variable selon les études.",
+    "en": "Traditional pairing said to deter carrot fly and onion fly; effectiveness varies between studies.",
+    "ar": "تشارك تقليدي يُعتقد أنه يُبعد ذبابة الجزر وذبابة البصل؛ وتتفاوت فعاليته بين الدراسات."
+   }
+  },
+  {
+   "otherPlantId": "phaseolus-vulgaris",
+   "relation": "bad",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Incompatibilité traditionnelle : les alliacées passent pour gêner les légumineuses ; peu de preuves expérimentales.",
+    "en": "Traditional incompatibility: alliums are said to hinder legumes; little experimental evidence.",
+    "ar": "تعارض تقليدي: يُقال إن الثوميات تعيق البقوليات؛ والأدلة التجريبية قليلة."
+   }
+  }
+ ],
+ "rotation": {
+  "group": "bulb",
+  "minYearsBeforeReturn": 3,
+  "goodPredecessorFamilies": [
+   "Fabaceae",
+   "Poaceae",
+   "Solanaceae"
+  ],
+  "avoidPredecessorFamilies": [
+   "Amaryllidaceae"
+  ],
+  "status": "indicative",
+  "notes": {
+   "fr": "Ne pas revenir avec des alliacées (oignon, ail, poireau, échalote) avant au moins 3 ans pour limiter mildiou, pourriture blanche et nématodes. Éviter les sols fraîchement fumés.",
+   "en": "Do not return with alliums (onion, garlic, leek, shallot) for at least 3 years to limit downy mildew, white rot and nematodes. Avoid freshly manured soil.",
+   "ar": "لا تُعِد زراعة الثوميات (البصل، الثوم، الكراث، الكراث الأندلسي) قبل 3 سنوات على الأقل للحد من البياض الزغبي والعفن الأبيض والديدان الخيطية. وتجنّب التربة المسمّدة حديثًا."
+  }
+ },
+ "diseaseIds": [
+  "onion-downy-mildew"
+ ],
+ "pestIds": [
+  "onion-thrips"
+ ],
+ "guides": [
+  {
+   "id": "onion-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver l'oignon pas à pas",
+    "en": "Growing onions step by step",
+    "ar": "زراعة البصل خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Choisir selon la longueur du jour",
+      "en": "Choose by day length",
+      "ar": "الاختيار حسب طول النهار"
+     },
+     "body": {
+      "fr": "Aux latitudes basses (Maghreb, Moyen-Orient, tropiques), choisissez des variétés de jours courts, souvent semées en automne. Aux latitudes élevées, des variétés de jours longs plantées au printemps.",
+      "en": "At low latitudes (North Africa, Middle East, tropics), choose short-day varieties, often sown in autumn. At high latitudes, long-day varieties planted in spring.",
+      "ar": "في خطوط العرض المنخفضة (المغرب العربي، الشرق الأوسط، المناطق المدارية) اختر أصناف النهار القصير التي تُبذر غالبًا في الخريف. وفي خطوط العرض المرتفعة اختر أصناف النهار الطويل التي تُغرس في الربيع."
+     },
+     "mistakes": {
+      "fr": "Cultiver une variété de jours longs au sud : le bulbe ne se forme pas.",
+      "en": "Growing a long-day variety in the south: no bulb forms.",
+      "ar": "زراعة صنف للنهار الطويل في الجنوب: لا تتكوّن البصلة."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Préparer le sol",
+      "en": "Prepare the soil",
+      "ar": "تحضير التربة"
+     },
+     "body": {
+      "fr": "Sol meuble, bien drainé, affiné en surface et désherbé. Évitez le fumier frais ; un compost mûr apporté au précédent suffit.",
+      "en": "Loose, well-drained soil, fine on the surface and weed-free. Avoid fresh manure; mature compost applied to the previous crop is enough.",
+      "ar": "تربة مفككة جيدة الصرف، ناعمة السطح وخالية من الأعشاب. تجنّب السماد الطازج؛ ويكفي سماد عضوي ناضج أُضيف للمحصول السابق."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Semer ou planter",
+      "en": "Sow or plant",
+      "ar": "البذر أو الغرس"
+     },
+     "body": {
+      "fr": "Semez à environ 1 cm de profondeur, en place ou en pépinière (repiquage après 6 à 10 semaines). Les bulbilles se plantent pointe affleurant, à 5–10 cm sur le rang.",
+      "en": "Sow about 1 cm deep, in place or in a nursery bed (transplant after 6 to 10 weeks). Sets are planted with the tip just showing, 5–10 cm apart in the row.",
+      "ar": "ابذر على عمق 1 سم تقريبًا في المكان الدائم أو في مشتل (الشتل بعد 6 إلى 10 أسابيع). وتُغرس البُصيلات مع ظهور رأسها فوق التربة، بمسافة 5 إلى 10 سم على الخط."
+     },
+     "tips": {
+      "fr": "Les bulbilles sont la méthode la plus simple pour débuter.",
+      "en": "Sets are the easiest way to start.",
+      "ar": "البُصيلات هي أسهل طريقة للمبتدئين."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Désherber régulièrement",
+      "en": "Weed regularly",
+      "ar": "التعشيب المنتظم"
+     },
+     "body": {
+      "fr": "Le feuillage fin de l'oignon ombre peu le sol : binez et désherbez souvent, sans blesser les bulbes.",
+      "en": "Onion's thin foliage barely shades the soil: hoe and weed often, without damaging the bulbs.",
+      "ar": "أوراق البصل الرفيعة لا تظلل التربة كثيرًا: اعزق وعشّب كثيرًا دون جرح البصلات."
+     },
+     "mistakes": {
+      "fr": "Butter les bulbes : ils grossissent moins bien.",
+      "en": "Earthing up the bulbs: they swell less well.",
+      "ar": "تغطية البصلات بالتراب: يضعف تضخّمها."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Arroser puis arrêter",
+      "en": "Water, then stop",
+      "ar": "الري ثم إيقافه"
+     },
+     "body": {
+      "fr": "Arrosez régulièrement pendant la croissance et le grossissement du bulbe. Cessez l'arrosage quand les feuilles commencent à se coucher, pour favoriser la maturation.",
+      "en": "Water regularly during growth and bulb swelling. Stop watering when the leaves start to fall over, to help the bulbs mature.",
+      "ar": "اسقِ بانتظام أثناء النمو وتضخّم البصلة، وأوقف الري عندما تبدأ الأوراق بالانحناء لتسهيل النضج."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Surveiller mildiou et thrips",
+      "en": "Watch for downy mildew and thrips",
+      "ar": "مراقبة البياض الزغبي والتربس"
+     },
+     "body": {
+      "fr": "Par temps frais et humide, des taches pâles avec un duvet violacé signalent le mildiou. Par temps chaud et sec, les thrips argentent les feuilles. Espacez bien et pratiquez la rotation.",
+      "en": "In cool, wet weather, pale patches with a purplish down signal downy mildew. In hot, dry weather, thrips give leaves a silvery look. Space well and rotate crops.",
+      "ar": "في الطقس البارد الرطب تدل البقع الباهتة ذات الزغب البنفسجي على البياض الزغبي، وفي الطقس الحار الجاف يُكسب التربس الأوراق لونًا فضيًا. باعد بين النباتات واتبع الدورة الزراعية."
+     },
+     "mistakes": {
+      "fr": "Traiter sans diagnostic ni produit autorisé.",
+      "en": "Spraying without diagnosis or an authorized product.",
+      "ar": "الرش دون تشخيص أو دون منتج مرخص."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Récolter et faire sécher",
+      "en": "Harvest and cure",
+      "ar": "الحصاد والتجفيف"
+     },
+     "body": {
+      "fr": "Arrachez quand la majorité des feuilles sont couchées et jaunissent. Laissez sécher à l'abri de la pluie, au soleil doux ou sous abri aéré, jusqu'à ce que le collet soit sec.",
+      "en": "Lift when most leaves have fallen over and are yellowing. Cure out of the rain, in mild sun or an airy shelter, until the neck is dry.",
+      "ar": "اقلع البصل عندما تنحني معظم الأوراق وتصفرّ. واتركه يجف بعيدًا عن المطر، في شمس معتدلة أو تحت مأوى جيد التهوية، حتى يجف العنق."
+     },
+     "tips": {
+      "fr": "Consommez d'abord les bulbes à collet épais, qui se conservent mal.",
+      "en": "Use thick-necked bulbs first, as they store poorly.",
+      "ar": "استهلك أولًا البصلات ذات العنق السميك لأنها لا تُحفظ جيدًا."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

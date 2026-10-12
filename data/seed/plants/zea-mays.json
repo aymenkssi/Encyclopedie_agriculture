@@ -1,0 +1,319 @@
+{
+ "id": "zea-mays",
+ "scientificName": "Zea mays",
+ "scientificAuthority": "L.",
+ "synonyms": [],
+ "family": "Poaceae",
+ "categoryId": "cereal",
+ "names": {
+  "fr": [
+   "Maïs"
+  ],
+  "en": [
+   "Maize",
+   "Corn"
+  ],
+  "ar": [
+   "ذرة",
+   "ذرة صفراء",
+   "ذرة شامية"
+  ]
+ },
+ "description": {
+  "fr": "Grande céréale annuelle de saison chaude, cultivée pour le grain, le fourrage (ensilage) ou les épis frais (maïs doux). Sensible au gel, elle demande chaleur, lumière, un sol fertile et de l'eau, surtout autour de la floraison. La pollinisation se fait par le vent, des panicules mâles vers les soies des épis.",
+  "en": "Tall annual warm-season cereal grown for grain, forage (silage) or fresh ears (sweet corn). Frost-sensitive, it needs warmth, light, fertile soil and water, especially around flowering. Pollination is by wind, from the male tassels to the silks of the ears.",
+  "ar": "حبوب حولية طويلة من محاصيل الموسم الدافئ، تُزرع للحبوب أو للعلف (السيلاج) أو للعرانيس الطازجة (الذرة الحلوة). حساسة للصقيع، وتحتاج إلى الدفء والضوء وتربة خصبة وماء، خاصة في فترة الإزهار. يتم التلقيح بالرياح من النورات المذكرة إلى حريرة العرانيس."
+ },
+ "lifecycle": "annual",
+ "difficulty": "medium",
+ "temperature": {
+  "min": 13,
+  "optimalMin": 18,
+  "optimalMax": 27,
+  "max": 32,
+  "germinationMin": 10
+ },
+ "frostTolerance": "none",
+ "sun": "full_sun",
+ "soilIds": [
+  "loamy",
+  "silty",
+  "humus_rich",
+  "clay"
+ ],
+ "ph": {
+  "min": 5.8,
+  "max": 7.0
+ },
+ "water": "high",
+ "cycleDays": {
+  "min": 75,
+  "max": 150
+ },
+ "spacing": {
+  "inRowCm": {
+   "min": 15,
+   "max": 30
+  },
+  "betweenRowsCm": {
+   "min": 60,
+   "max": 90
+  }
+ },
+ "sowingDepthCm": {
+  "min": 3,
+  "max": 5
+ },
+ "sowingMode": "direct",
+ "methods": [
+  "open_field"
+ ],
+ "climateZoneIds": [
+  "temperate_oceanic",
+  "temperate_continental",
+  "mediterranean",
+  "semi_arid",
+  "humid_subtropical",
+  "tropical_savanna",
+  "tropical_humid"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon le type (grain, fourrage, maïs doux), la précocité de la variété, l'eau disponible et la fertilisation. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with type (grain, forage, sweet corn), variety earliness, water availability and fertilization. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب النوع (حبوب، علف، ذرة حلوة) وبكورية الصنف وتوفر الماء والتسميد. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Stress hydrique ou fortes chaleurs autour de la floraison (mauvaise fécondation des épis), azote disponible, densité de peuplement, concurrence des adventices en début de cycle, ravageurs (pyrale, chenille légionnaire d'automne).",
+  "en": "Water stress or high heat around flowering (poor ear fertilization), nitrogen supply, plant density, early weed competition, pests (corn borer, fall armyworm).",
+  "ar": "الإجهاد المائي أو الحر الشديد في فترة الإزهار (ضعف إخصاب العرانيس)، توفر النيتروجين، كثافة النباتات، منافسة الأعشاب في بداية الدورة، الآفات (حفار ساق الذرة، دودة الحشد الخريفية)."
+ },
+ "storage": {
+  "fr": "Le maïs doux perd vite son sucre : le consommer ou le réfrigérer rapidement après la cueillette. Le grain doit être bien séché avant stockage ; un grain humide moisit et peut contenir des mycotoxines.",
+  "en": "Sweet corn loses its sugar quickly: eat or refrigerate it soon after picking. Grain must be well dried before storage; damp grain goes mouldy and may contain mycotoxins.",
+  "ar": "تفقد الذرة الحلوة سكرها بسرعة، لذا تؤكل أو تُبرَّد بعد الجني مباشرة. ويجب تجفيف الحبوب جيدًا قبل تخزينها، فالحبوب الرطبة تتعفن وقد تحتوي على سموم فطرية."
+ },
+ "varieties": [
+  {
+   "id": "dent",
+   "name": "Maïs denté / Dent corn",
+   "description": {
+    "fr": "Grain marqué d'une dépression au sommet ; type principal pour le grain et l'ensilage.",
+    "en": "Kernel with a dent at the top; the main type for grain and silage.",
+    "ar": "حبة ذات انخفاض في قمتها؛ النوع الرئيسي للحبوب والسيلاج."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "flint",
+   "name": "Maïs corné / Flint corn",
+   "description": {
+    "fr": "Grain dur et lisse, souvent plus précoce et tolérant au froid en début de cycle.",
+    "en": "Hard, smooth kernel, often earlier and more tolerant of early-season cold.",
+    "ar": "حبة صلبة وملساء، غالبًا أبكر وأكثر تحملًا للبرد في بداية الدورة."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "sweet",
+   "name": "Maïs doux / Sweet corn",
+   "description": {
+    "fr": "Récolté frais au stade laiteux pour ses grains sucrés.",
+    "en": "Harvested fresh at the milk stage for its sweet kernels.",
+    "ar": "يُجنى طازجًا في المرحلة اللبنية لحبوبه الحلوة."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "popcorn",
+   "name": "Maïs à éclater / Popcorn",
+   "description": {
+    "fr": "Petits grains durs qui éclatent à la chaleur.",
+    "en": "Small hard kernels that pop when heated.",
+    "ar": "حبوب صغيرة صلبة تنفجر عند تسخينها."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "calendar": [],
+ "companions": [
+  {
+   "otherPlantId": "phaseolus-vulgaris",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Association traditionnelle (« trois sœurs ») : le haricot à rames grimpe sur le maïs. Semer le haricot après la levée du maïs pour qu'il ne l'étouffe pas.",
+    "en": "Traditional association (\"three sisters\"): pole beans climb the maize. Sow beans after the maize emerges so they do not smother it.",
+    "ar": "تشارك تقليدي («الأخوات الثلاث»): تتسلق الفاصوليا على الذرة. ازرع الفاصوليا بعد إنبات الذرة حتى لا تخنقها."
+   }
+  },
+  {
+   "otherPlantId": "cucurbita-pepo",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Association traditionnelle (« trois sœurs ») : les courges couvrent le sol au pied du maïs ; bénéfices variables selon les conditions.",
+    "en": "Traditional association (\"three sisters\"): squash covers the ground at the foot of the maize; benefits vary with conditions.",
+    "ar": "تشارك تقليدي («الأخوات الثلاث»): يغطي القرع التربة عند قاعدة الذرة؛ وتتفاوت فوائده حسب الظروف."
+   }
+  },
+  {
+   "otherPlantId": "arachis-hypogaea",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Culture associée courante en Afrique (rangs alternés).",
+    "en": "Common intercrop in Africa (alternate rows).",
+    "ar": "زراعة مشتركة شائعة في أفريقيا (خطوط متناوبة)."
+   }
+  }
+ ],
+ "rotation": {
+  "group": "cereal",
+  "goodPredecessorFamilies": [
+   "Fabaceae",
+   "Poaceae"
+  ],
+  "avoidPredecessorFamilies": [],
+  "status": "to_verify",
+  "notes": {
+   "fr": "Le maïs valorise bien l'azote laissé par une légumineuse ou une prairie. La monoculture est pratiquée mais favorise certains ravageurs et maladies ; une rotation reste préférable. Un blé semé après un maïs grain est exposé à la fusariose.",
+   "en": "Maize makes good use of nitrogen left by a legume or a grassland. Continuous maize is practised but favours some pests and diseases; rotation remains preferable. Wheat sown after grain maize is exposed to Fusarium head blight.",
+   "ar": "تستفيد الذرة جيدًا من النيتروجين الذي يتركه محصول بقولي أو مرعى. وتُمارَس زراعتها الأحادية لكنها تشجع بعض الآفات والأمراض، والتناوب يبقى أفضل. والقمح المبذور بعد الذرة الحبية معرّض لفيوزاريوم السنابل."
+  }
+ },
+ "diseaseIds": [
+  "cereal-rusts"
+ ],
+ "pestIds": [
+  "european-corn-borer",
+  "fall-armyworm",
+  "aphids"
+ ],
+ "guides": [
+  {
+   "id": "maize-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver le maïs pas à pas",
+    "en": "Growing maize step by step",
+    "ar": "زراعة الذرة خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Choisir le type et la précocité",
+      "en": "Choose the type and earliness",
+      "ar": "اختيار النوع والبكورية"
+     },
+     "body": {
+      "fr": "Choisissez le type selon l'usage (grain, fourrage, maïs doux) et une précocité adaptée à la longueur de votre saison chaude.",
+      "en": "Choose the type for its use (grain, forage, sweet corn) and an earliness suited to the length of your warm season.",
+      "ar": "اختر النوع حسب الاستعمال (حبوب، علف، ذرة حلوة)، وبكورية تناسب طول موسمك الدافئ."
+     },
+     "tips": {
+      "fr": "Isolez le maïs doux des autres maïs (distance ou décalage de floraison) : les croisements dégradent la qualité des grains.",
+      "en": "Isolate sweet corn from other corn (distance or staggered flowering): cross-pollination spoils kernel quality.",
+      "ar": "اعزل الذرة الحلوة عن أنواع الذرة الأخرى (بالمسافة أو بتأخير موعد الإزهار)، لأن التلقيح الخلطي يُفسد جودة الحبوب."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Préparer un sol riche",
+      "en": "Prepare a rich soil",
+      "ar": "تحضير تربة غنية"
+     },
+     "body": {
+      "fr": "Travaillez un sol profond et bien drainé, enrichi de matière organique. Le maïs est exigeant en azote : prévoyez la fumure selon l'analyse de sol.",
+      "en": "Work a deep, well-drained soil enriched with organic matter. Maize demands nitrogen: plan fertilization according to a soil test.",
+      "ar": "اعمل تربة عميقة جيدة التصريف ومُغناة بالمادة العضوية. والذرة متطلبة للنيتروجين، فخطط للتسميد وفق تحليل التربة."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Semer dans un sol réchauffé",
+      "en": "Sow in warm soil",
+      "ar": "البذر في تربة دافئة"
+     },
+     "body": {
+      "fr": "Semez quand le sol atteint au moins 10 °C environ et que le risque de gel est passé, à 3–5 cm de profondeur, en lignes espacées de 60–90 cm. Au jardin, semez en bloc de plusieurs rangs courts plutôt qu'en une longue ligne, pour une bonne pollinisation.",
+      "en": "Sow once the soil reaches at least about 10 °C and frost risk has passed, 3–5 cm deep, in rows 60–90 cm apart. In the garden, sow in a block of several short rows rather than one long row, for good pollination.",
+      "ar": "ازرع عندما تبلغ حرارة التربة حوالي 10 درجات مئوية على الأقل ويزول خطر الصقيع، على عمق 3 إلى 5 سم في خطوط تتباعد 60 إلى 90 سم. وفي الحديقة ازرع في كتلة من عدة خطوط قصيرة بدل خط واحد طويل لضمان تلقيح جيد."
+     },
+     "mistakes": {
+      "fr": "Semer en sol froid : levée lente et irrégulière, graines mangées par les oiseaux ou pourries.",
+      "en": "Sowing in cold soil: slow, uneven emergence, seeds eaten by birds or rotten.",
+      "ar": "البذر في تربة باردة: إنبات بطيء وغير منتظم، وبذور تأكلها الطيور أو تتعفن."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Désherber et fertiliser",
+      "en": "Weed and feed",
+      "ar": "إزالة الأعشاب والتسميد"
+     },
+     "body": {
+      "fr": "Les premières semaines sont critiques : gardez le rang propre. Un apport d'azote en cours de végétation, avant la croissance rapide des tiges, est courant ; un léger buttage renforce l'ancrage.",
+      "en": "The first weeks are critical: keep the row weed-free. A nitrogen top-dressing during growth, before rapid stem elongation, is common; light earthing up improves anchorage.",
+      "ar": "الأسابيع الأولى حاسمة، فأبقِ الخط خاليًا من الأعشاب. ومن الشائع إضافة دفعة نيتروجين أثناء النمو قبل الاستطالة السريعة للسيقان، كما أن تحضينًا خفيفًا يقوّي تثبيت النبات."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Arroser autour de la floraison",
+      "en": "Water around flowering",
+      "ar": "الري في فترة الإزهار"
+     },
+     "body": {
+      "fr": "La période allant de quelques semaines avant à quelques semaines après la sortie des soies est la plus sensible au manque d'eau. Irriguez en priorité à ce moment si l'eau est limitée.",
+      "en": "The period from a few weeks before to a few weeks after silking is the most sensitive to water shortage. Prioritize irrigation at that time if water is limited.",
+      "ar": "الفترة الممتدة من بضعة أسابيع قبل ظهور الحريرة إلى بضعة أسابيع بعده هي الأكثر حساسية لنقص الماء، فاجعل الري أولوية فيها إذا كان الماء محدودًا."
+     },
+     "mistakes": {
+      "fr": "Laisser le maïs manquer d'eau à la floraison : épis mal remplis.",
+      "en": "Letting maize run short of water at flowering: poorly filled ears.",
+      "ar": "ترك الذرة تعطش أثناء الإزهار: عرانيس ضعيفة الامتلاء."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Surveiller les ravageurs",
+      "en": "Monitor pests",
+      "ar": "مراقبة الآفات"
+     },
+     "body": {
+      "fr": "Inspectez le cœur des jeunes plants : des feuilles déchiquetées et des déjections signalent la chenille légionnaire d'automne. Des trous dans les tiges et des tiges cassées signalent la pyrale. Suivez les avis techniques locaux.",
+      "en": "Inspect the whorl of young plants: ragged leaves and frass signal fall armyworm. Holes in stems and broken stalks signal corn borer. Follow local technical advice.",
+      "ar": "افحص قلب النباتات الفتية: الأوراق الممزقة والفضلات علامة على دودة الحشد الخريفية، والثقوب في السيقان والسيقان المكسورة علامة على حفار ساق الذرة. اتبع النصائح التقنية المحلية."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Récolter",
+      "en": "Harvest",
+      "ar": "الحصاد"
+     },
+     "body": {
+      "fr": "Maïs doux : récoltez au stade laiteux, quand les soies brunissent et qu'un grain percé libère un jus laiteux. Maïs grain : récoltez à maturité, quand les grains sont durs, puis séchez-les avant stockage.",
+      "en": "Sweet corn: harvest at the milk stage, when silks turn brown and a pierced kernel releases milky juice. Grain maize: harvest at maturity, when kernels are hard, then dry them before storage.",
+      "ar": "الذرة الحلوة: اجنِها في المرحلة اللبنية عندما تسمرّ الحريرة وتُخرج الحبة المثقوبة عصارة لبنية. ذرة الحبوب: احصدها عند النضج عندما تصلب الحبوب، ثم جففها قبل التخزين."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

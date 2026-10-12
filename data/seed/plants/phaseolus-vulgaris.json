@@ -1,0 +1,338 @@
+{
+ "id": "phaseolus-vulgaris",
+ "scientificName": "Phaseolus vulgaris",
+ "scientificAuthority": "L.",
+ "synonyms": [],
+ "family": "Fabaceae",
+ "categoryId": "legume",
+ "names": {
+  "fr": [
+   "Haricot",
+   "Haricot commun"
+  ],
+  "en": [
+   "Common bean",
+   "French bean"
+  ],
+  "ar": [
+   "فاصوليا",
+   "لوبيا"
+  ]
+ },
+ "description": {
+  "fr": "Légumineuse annuelle cultivée pour ses gousses vertes (haricot vert, mangetout) ou ses graines sèches. Sensible au gel, elle demande un sol réchauffé. Les variétés naines restent basses ; les variétés à rames grimpent et doivent être palissées.",
+  "en": "Annual legume grown for its green pods (snap beans) or its dry seeds. Frost-sensitive, it needs warm soil. Bush varieties stay low; pole varieties climb and need support.",
+  "ar": "بقولية حولية تُزرع لقرونها الخضراء أو لبذورها الجافة. حساسة للصقيع وتحتاج إلى تربة دافئة. تبقى الأصناف القزمة منخفضة، أما الأصناف المتسلقة فتحتاج إلى دعامات."
+ },
+ "lifecycle": "annual",
+ "difficulty": "easy",
+ "temperature": {
+  "min": 12,
+  "optimalMin": 16,
+  "optimalMax": 24,
+  "max": 27,
+  "germinationMin": 12
+ },
+ "frostTolerance": "none",
+ "sun": "full_sun",
+ "soilIds": [
+  "loamy",
+  "humus_rich",
+  "sandy",
+  "silty"
+ ],
+ "ph": {
+  "min": 6.0,
+  "max": 7.5
+ },
+ "water": "medium",
+ "cycleDays": {
+  "min": 55,
+  "max": 110
+ },
+ "spacing": {
+  "inRowCm": {
+   "min": 5,
+   "max": 10
+  },
+  "betweenRowsCm": {
+   "min": 40,
+   "max": 60
+  }
+ },
+ "sowingDepthCm": {
+  "min": 3,
+  "max": 5
+ },
+ "sowingMode": "direct",
+ "methods": [
+  "open_field",
+  "container",
+  "greenhouse"
+ ],
+ "climateZoneIds": [
+  "temperate_oceanic",
+  "temperate_continental",
+  "mediterranean",
+  "semi_arid",
+  "humid_subtropical",
+  "tropical_savanna",
+  "tropical_humid"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon le type (haricot vert ou grain sec), la variété, la conduite et l'irrigation. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with type (snap or dry bean), variety, management and irrigation. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب النوع (قرون خضراء أو حبوب جافة) والصنف وطريقة الزراعة والري. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Température du sol au semis, chaleur ou sécheresse à la floraison (chute des fleurs), régularité de l'arrosage, fréquence de cueillette des haricots verts, maladies (anthracnose) et pucerons.",
+  "en": "Soil temperature at sowing, heat or drought at flowering (flower drop), watering regularity, picking frequency for snap beans, diseases (anthracnose) and aphids.",
+  "ar": "حرارة التربة عند البذر، الحر أو الجفاف أثناء الإزهار (تساقط الأزهار)، انتظام الري، تواتر جني القرون الخضراء، الأمراض (الأنثراكنوز) والمن."
+ },
+ "storage": {
+  "fr": "Les haricots verts se conservent quelques jours au frais ; ils se congèlent bien après blanchiment. Les grains secs, bien séchés, se gardent au sec dans un contenant fermé à l'abri des bruches.",
+  "en": "Snap beans keep a few days in the cool; they freeze well after blanching. Well-dried seeds keep in a dry, closed container protected from bean weevils.",
+  "ar": "تُحفظ القرون الخضراء بضعة أيام في مكان بارد، وتُجمَّد جيدًا بعد سلقها سلقًا خفيفًا. أما الحبوب الجافة جيدًا فتُخزَّن في وعاء مغلق وجاف بعيدًا عن السوس."
+ },
+ "varieties": [
+  {
+   "id": "contender",
+   "name": "Contender",
+   "description": {
+    "fr": "Haricot vert nain, précoce et productif.",
+    "en": "Early, productive bush snap bean.",
+    "ar": "فاصوليا خضراء قزمة، مبكرة ووفيرة الإنتاج."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "blue-lake",
+   "name": "Blue Lake",
+   "description": {
+    "fr": "Haricot vert sans fil, existe en forme à rames et en forme naine.",
+    "en": "Stringless snap bean, available in pole and bush forms.",
+    "ar": "فاصوليا خضراء بلا خيوط، توجد منها أشكال متسلقة وأخرى قزمة."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "coco-de-paimpol",
+   "name": "Coco de Paimpol",
+   "description": {
+    "fr": "Haricot à écosser demi-sec de Bretagne, grains blancs.",
+    "en": "Breton shelling bean eaten semi-dry, white seeds.",
+    "ar": "فاصوليا للتقشير من منطقة بريتاني تؤكل نصف جافة، ذات حبوب بيضاء."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "borlotto",
+   "name": "Borlotto",
+   "description": {
+    "fr": "Haricot à écosser à gousses et grains marbrés de rouge, consommé frais ou sec.",
+    "en": "Shelling bean with red-mottled pods and seeds, eaten fresh or dry.",
+    "ar": "فاصوليا للتقشير ذات قرون وحبوب مبرقشة بالأحمر، تؤكل طازجة أو جافة."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "calendar": [],
+ "companions": [
+  {
+   "otherPlantId": "zea-mays",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Association traditionnelle (« trois sœurs ») : le maïs sert de tuteur aux haricots à rames. Choisir un maïs vigoureux et semer les haricots une fois le maïs levé.",
+    "en": "Traditional association (\"three sisters\"): maize supports pole beans. Choose a vigorous maize and sow beans once the maize is up.",
+    "ar": "تشارك تقليدي («الأخوات الثلاث»): تكون الذرة دعامة للفاصوليا المتسلقة. اختر ذرة قوية وازرع الفاصوليا بعد إنبات الذرة."
+   }
+  },
+  {
+   "otherPlantId": "cucurbita-pepo",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Association traditionnelle (« trois sœurs ») avec le maïs et les courges ; bénéfices variables selon les conditions.",
+    "en": "Traditional association (\"three sisters\") with maize and squash; benefits vary with conditions.",
+    "ar": "تشارك تقليدي («الأخوات الثلاث») مع الذرة والقرع؛ وتتفاوت فوائده حسب الظروف."
+   }
+  },
+  {
+   "otherPlantId": "allium-cepa",
+   "relation": "bad",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Déconseillé par la tradition jardinière (gêne supposée de la croissance des haricots) ; preuves scientifiques limitées.",
+    "en": "Discouraged by gardening tradition (supposed to hinder bean growth); limited scientific evidence.",
+    "ar": "يُنصح بتجنبه وفق التقاليد الزراعية (يُعتقد أنه يعيق نمو الفاصوليا)؛ والأدلة العلمية محدودة."
+   }
+  }
+ ],
+ "rotation": {
+  "group": "legume",
+  "minYearsBeforeReturn": 3,
+  "goodPredecessorFamilies": [
+   "Poaceae",
+   "Solanaceae",
+   "Cucurbitaceae"
+  ],
+  "avoidPredecessorFamilies": [
+   "Fabaceae"
+  ],
+  "status": "to_verify",
+  "notes": {
+   "fr": "Comme les autres légumineuses, le haricot fixe l'azote de l'air grâce aux bactéries de ses nodosités : il demande peu d'engrais azoté et laisse un sol favorable à une culture exigeante (chou, maïs, courge). Éviter de revenir avec des légumineuses sur la même parcelle pendant quelques années pour limiter les maladies du sol.",
+   "en": "Like other legumes, beans fix atmospheric nitrogen through the bacteria in their root nodules: they need little nitrogen fertilizer and leave the soil favourable to a demanding crop (cabbage, maize, squash). Avoid returning legumes to the same plot for a few years to limit soil-borne diseases.",
+   "ar": "مثل سائر البقوليات، تثبّت الفاصوليا نيتروجين الهواء بفضل البكتيريا في عقدها الجذرية، فهي تحتاج إلى قليل من السماد النيتروجيني وتترك التربة ملائمة لمحصول متطلب (الملفوف، الذرة، القرع). تجنب إعادة البقوليات إلى القطعة نفسها لبضع سنوات للحد من أمراض التربة."
+  }
+ },
+ "diseaseIds": [
+  "bean-anthracnose",
+  "powdery-mildew",
+  "grey-mould"
+ ],
+ "pestIds": [
+  "aphids",
+  "spider-mites",
+  "whiteflies",
+  "slugs-snails"
+ ],
+ "guides": [
+  {
+   "id": "bean-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver le haricot pas à pas",
+    "en": "Growing beans step by step",
+    "ar": "زراعة الفاصوليا خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Choisir le type de haricot",
+      "en": "Choose the type of bean",
+      "ar": "اختيار نوع الفاصوليا"
+     },
+     "body": {
+      "fr": "Haricots nains pour une récolte groupée et sans support, haricots à rames pour une production plus étalée sur une petite surface. Choisissez aussi l'usage : gousses vertes, grains à écosser frais ou grains secs.",
+      "en": "Bush beans for a concentrated harvest without support, pole beans for a longer harvest on a small area. Also choose the use: green pods, fresh shelling beans or dry beans.",
+      "ar": "الفاصوليا القزمة لحصاد مجمَّع دون دعامات، والمتسلقة لإنتاج أطول على مساحة صغيرة. اختر أيضًا الاستعمال: قرون خضراء، أو حبوب تُقشَّر طازجة، أو حبوب جافة."
+     },
+     "tips": {
+      "fr": "En pot, préférez une variété naine.",
+      "en": "In containers, prefer a bush variety.",
+      "ar": "في الأصص فضّل صنفًا قزمًا."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Préparer le sol",
+      "en": "Prepare the soil",
+      "ar": "تحضير التربة"
+     },
+     "body": {
+      "fr": "Ameublissez un sol léger et bien drainé, enrichi de compost mûr. Le haricot fixe l'azote : un apport d'azote important est inutile et favorise les feuilles au détriment des gousses.",
+      "en": "Loosen a light, well-drained soil enriched with mature compost. Beans fix nitrogen: heavy nitrogen feeding is unnecessary and favours leaves over pods.",
+      "ar": "فكّك تربة خفيفة جيدة التصريف ومُغناة بسماد عضوي ناضج. تثبّت الفاصوليا النيتروجين، لذا فإن التسميد النيتروجيني الكثيف غير ضروري ويشجع الأوراق على حساب القرون."
+     },
+     "mistakes": {
+      "fr": "Apporter du fumier frais ou semer dans un sol lourd et gorgé d'eau.",
+      "en": "Adding fresh manure or sowing in heavy, waterlogged soil.",
+      "ar": "إضافة سماد طازج أو البذر في تربة ثقيلة مشبعة بالماء."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Semer en place",
+      "en": "Sow in place",
+      "ar": "البذر في المكان الدائم"
+     },
+     "body": {
+      "fr": "Semez quand le sol est bien réchauffé (au moins 12 °C environ) et que tout risque de gel est passé, à 3–5 cm de profondeur, en lignes espacées de 40–60 cm pour les nains. Échelonnez les semis de quelques semaines pour étaler la récolte.",
+      "en": "Sow once the soil is well warmed (at least about 12 °C) and all frost risk has passed, 3–5 cm deep, in rows 40–60 cm apart for bush beans. Stagger sowings a few weeks apart to spread the harvest.",
+      "ar": "ازرع عندما تدفأ التربة جيدًا (حوالي 12 درجة مئوية على الأقل) ويزول كل خطر للصقيع، على عمق 3 إلى 5 سم، في خطوط تتباعد 40 إلى 60 سم للأصناف القزمة. وزّع البذر على دفعات تفصل بينها بضعة أسابيع لإطالة فترة الحصاد."
+     },
+     "mistakes": {
+      "fr": "Semer dans un sol froid et humide : les graines pourrissent avant de lever.",
+      "en": "Sowing in cold, wet soil: seeds rot before emerging.",
+      "ar": "البذر في تربة باردة ورطبة: تتعفن البذور قبل أن تنبت."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Installer les supports et butter",
+      "en": "Set supports and earth up",
+      "ar": "تركيب الدعامات والتحضين"
+     },
+     "body": {
+      "fr": "Pour les haricots à rames, installez rames, filets ou tipis dès le semis. Pour les nains, un léger buttage au pied quand les plants ont quelques feuilles les stabilise.",
+      "en": "For pole beans, set poles, nets or tepees at sowing. For bush beans, lightly earthing up the base once plants have a few leaves steadies them.",
+      "ar": "للأصناف المتسلقة ركّب الأعمدة أو الشباك عند البذر. وللأصناف القزمة يساعد تحضين خفيف للقاعدة بعد ظهور بضع أوراق على تثبيت النباتات."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Arroser régulièrement",
+      "en": "Water regularly",
+      "ar": "الري بانتظام"
+     },
+     "body": {
+      "fr": "Gardez le sol frais sans excès, surtout pendant la floraison et la formation des gousses. Arrosez au pied, le matin de préférence ; un paillage limite l'évaporation.",
+      "en": "Keep the soil moist but not soggy, especially during flowering and pod set. Water at the base, preferably in the morning; mulch limits evaporation.",
+      "ar": "حافظ على رطوبة التربة دون إفراط، خاصة أثناء الإزهار وتكوّن القرون. اسقِ عند القاعدة ويُفضَّل صباحًا؛ والتغطية تقلل التبخر."
+     },
+     "mistakes": {
+      "fr": "Laisser le sol se dessécher à la floraison, ou cultiver en pleine chaleur : les fleurs tombent.",
+      "en": "Letting the soil dry out at flowering, or growing in peak heat: flowers drop.",
+      "ar": "ترك التربة تجف أثناء الإزهار أو الزراعة في ذروة الحر: تتساقط الأزهار."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Surveiller la santé des plants",
+      "en": "Monitor plant health",
+      "ar": "مراقبة صحة النباتات"
+     },
+     "body": {
+      "fr": "Surveillez les pucerons sur les jeunes pousses et les acariens par temps sec et chaud. Utilisez des semences saines et évitez de manipuler le feuillage mouillé, qui propage l'anthracnose.",
+      "en": "Watch for aphids on young shoots and spider mites in hot, dry weather. Use healthy seed and avoid handling wet foliage, which spreads anthracnose.",
+      "ar": "راقب المنّ على الأفرع الفتية والعناكب الحمراء في الطقس الحار والجاف. استعمل بذورًا سليمة وتجنب لمس الأوراق المبللة لأن ذلك ينشر مرض الأنثراكنوز."
+     },
+     "tips": {
+      "fr": "Protégez les semis des limaces par temps humide.",
+      "en": "Protect seedlings from slugs in wet weather.",
+      "ar": "احمِ البادرات من البزاق في الطقس الرطب."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Récolter et conserver",
+      "en": "Harvest and store",
+      "ar": "الحصاد والتخزين"
+     },
+     "body": {
+      "fr": "Cueillez les haricots verts jeunes, avant que les grains ne gonflent, tous les deux à trois jours : la cueillette régulière prolonge la production. Pour les grains secs, récoltez quand les gousses sont sèches, finissez le séchage à l'abri puis écossez.",
+      "en": "Pick snap beans young, before the seeds swell, every two to three days: regular picking prolongs production. For dry beans, harvest when pods are dry, finish drying under cover, then shell.",
+      "ar": "اجنِ القرون الخضراء وهي فتية قبل انتفاخ الحبوب، كل يومين إلى ثلاثة أيام، فالجني المنتظم يطيل الإنتاج. أما الحبوب الجافة فاحصدها عندما تجف القرون، وأكمل تجفيفها في مكان مظلل ثم قشّرها."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

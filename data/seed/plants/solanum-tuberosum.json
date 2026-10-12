@@ -1,0 +1,390 @@
+{
+ "id": "solanum-tuberosum",
+ "scientificName": "Solanum tuberosum",
+ "scientificAuthority": "L.",
+ "synonyms": [],
+ "family": "Solanaceae",
+ "categoryId": "vegetable",
+ "names": {
+  "fr": [
+   "Pomme de terre",
+   "Patate"
+  ],
+  "en": [
+   "Potato"
+  ],
+  "ar": [
+   "بطاطس",
+   "بطاطا"
+  ]
+ },
+ "description": {
+  "fr": "Plante herbacée vivace par ses tubercules, cultivée comme annuelle. On plante des tubercules (plants) et l'on récolte les nouveaux tubercules formés sous terre. Elle préfère un climat frais et craint le gel comme les fortes chaleurs.",
+  "en": "Herbaceous plant, perennial through its tubers but grown as an annual. Seed tubers are planted and the new tubers formed underground are harvested. It prefers a cool climate and suffers from both frost and strong heat.",
+  "ar": "نبات عشبي معمّر بدرناته لكنه يُزرع كمحصول حولي. تُغرس درنات البذور وتُحصد الدرنات الجديدة التي تتكوّن تحت التربة. يفضّل المناخ المعتدل البارد ويتضرر من الصقيع ومن الحر الشديد."
+ },
+ "lifecycle": "annual",
+ "difficulty": "easy",
+ "temperature": {
+  "min": 8,
+  "optimalMin": 15,
+  "optimalMax": 20,
+  "max": 25,
+  "germinationMin": 7
+ },
+ "frostTolerance": "none",
+ "sun": "full_sun",
+ "soilIds": [
+  "loamy",
+  "sandy",
+  "silty",
+  "humus_rich"
+ ],
+ "ph": {
+  "min": 5.0,
+  "max": 6.5
+ },
+ "water": "medium",
+ "cycleDays": {
+  "min": 70,
+  "max": 150
+ },
+ "spacing": {
+  "inRowCm": {
+   "min": 25,
+   "max": 40
+  },
+  "betweenRowsCm": {
+   "min": 60,
+   "max": 80
+  }
+ },
+ "sowingDepthCm": {
+  "min": 8,
+  "max": 12
+ },
+ "sowingMode": "vegetative",
+ "methods": [
+  "open_field",
+  "container"
+ ],
+ "climateZoneIds": [
+  "temperate_oceanic",
+  "temperate_continental",
+  "mediterranean",
+  "semi_arid",
+  "humid_subtropical"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon la variété, la précocité, la qualité des plants, l'irrigation et l'état sanitaire. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with variety, earliness, seed-tuber quality, irrigation and plant health. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب الصنف ودرجة التبكير وجودة درنات البذور والري والحالة الصحية. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Plants certifiés et sains, températures (la tubérisation ralentit par fortes chaleurs), régularité de l'eau pendant la tubérisation, buttage, fertilisation, mildiou et doryphore.",
+  "en": "Certified, healthy seed tubers, temperatures (tuber formation slows in strong heat), steady water during tuber bulking, earthing up, fertilization, late blight and Colorado potato beetle.",
+  "ar": "درنات بذور سليمة ومعتمدة، درجات الحرارة (يتباطأ تكوّن الدرنات في الحر الشديد)، انتظام الماء أثناء تكوّن الدرنات، التحضين بالتراب، التسميد، اللفحة المتأخرة وخنفساء البطاطس."
+ },
+ "storage": {
+  "fr": "Laisser ressuyer les tubercules quelques heures, puis les stocker dans l'obscurité, au frais et au sec, en éliminant les tubercules blessés. La lumière les fait verdir : les parties vertes sont toxiques et ne doivent pas être consommées.",
+  "en": "Let tubers dry for a few hours, then store them in the dark, cool and dry, discarding damaged ones. Light turns them green: green parts are toxic and must not be eaten.",
+  "ar": "تُترك الدرنات لتجف بضع ساعات ثم تُخزَّن في مكان مظلم وبارد وجاف مع استبعاد الدرنات المجروحة. الضوء يجعلها تخضرّ، والأجزاء الخضراء سامة ولا يجوز أكلها."
+ },
+ "varieties": [
+  {
+   "id": "bintje",
+   "name": "Bintje",
+   "description": {
+    "fr": "Variété ancienne polyvalente à chair jaune, sensible au mildiou.",
+    "en": "Old all-purpose yellow-fleshed variety, susceptible to late blight.",
+    "ar": "صنف قديم متعدد الاستعمالات ذو لب أصفر، حساس للفحة المتأخرة."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "charlotte",
+   "name": "Charlotte",
+   "description": {
+    "fr": "Chair ferme, appréciée pour la vapeur et les salades.",
+    "en": "Firm flesh, valued for steaming and salads.",
+    "ar": "لب متماسك، مرغوب للطهي بالبخار والسلطات."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "desiree",
+   "name": "Désirée",
+   "description": {
+    "fr": "Peau rouge, chair jaune, plutôt rustique et polyvalente.",
+    "en": "Red skin, yellow flesh, fairly robust and all-purpose.",
+    "ar": "قشرة حمراء ولب أصفر، قوية نسبيًا ومتعددة الاستعمالات."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "spunta",
+   "name": "Spunta",
+   "description": {
+    "fr": "Gros tubercules allongés, très cultivée autour de la Méditerranée.",
+    "en": "Large elongated tubers, widely grown around the Mediterranean.",
+    "ar": "درنات كبيرة مستطيلة، واسعة الانتشار حول البحر المتوسط."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "calendar": [
+  {
+   "activity": "planting",
+   "months": [
+    3,
+    4
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Quand le sol est ressuyé et réchauffé (environ 8 °C) ; protéger les pousses si une gelée tardive est annoncée.",
+    "en": "When the soil has drained and warmed (about 8 °C); protect shoots if a late frost is forecast.",
+    "ar": "عندما تجف التربة وتدفأ (حوالي 8 درجات مئوية)؛ مع حماية النموات إذا توقع صقيع متأخر."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Primeurs dès juin, variétés de conservation après dessèchement du feuillage.",
+    "en": "Earlies from June, storage varieties once foliage has died back.",
+    "ar": "البطاطس المبكرة ابتداءً من يونيو، وأصناف التخزين بعد جفاف المجموع الخضري."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  }
+ ],
+ "companions": [
+  {
+   "otherPlantId": "solanum-lycopersicum",
+   "relation": "bad",
+   "status": "indicative",
+   "reason": {
+    "fr": "Même famille : maladies communes, notamment le mildiou.",
+    "en": "Same family: shared diseases, notably late blight.",
+    "ar": "نفس الفصيلة: أمراض مشتركة، خاصة اللفحة المتأخرة."
+   }
+  },
+  {
+   "otherPlantId": "phaseolus-vulgaris",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Association traditionnelle ; effet peu démontré, mais pas de concurrence notable.",
+    "en": "Traditional pairing; effect poorly demonstrated, but little competition.",
+    "ar": "تشارك تقليدي؛ أثره غير مثبت بشكل كافٍ، لكن دون تنافس يُذكر."
+   }
+  }
+ ],
+ "rotation": {
+  "group": "root",
+  "minYearsBeforeReturn": 3,
+  "goodPredecessorFamilies": [
+   "Fabaceae",
+   "Poaceae"
+  ],
+  "avoidPredecessorFamilies": [
+   "Solanaceae"
+  ],
+  "status": "indicative",
+  "notes": {
+   "fr": "Ne pas revenir avec des solanacées (pomme de terre, tomate, aubergine, poivron) sur la même parcelle avant au moins 3 ans pour limiter maladies et nématodes.",
+   "en": "Do not return with Solanaceae (potato, tomato, eggplant, pepper) on the same plot for at least 3 years to limit diseases and nematodes.",
+   "ar": "لا تُعِد زراعة الباذنجانيات (البطاطس، الطماطم، الباذنجان، الفلفل) في القطعة نفسها قبل 3 سنوات على الأقل للحد من الأمراض والديدان الخيطية."
+  }
+ },
+ "diseaseIds": [
+  "late-blight",
+  "early-blight"
+ ],
+ "pestIds": [
+  "colorado-potato-beetle",
+  "aphids",
+  "root-knot-nematodes"
+ ],
+ "guides": [
+  {
+   "id": "potato-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver la pomme de terre pas à pas",
+    "en": "Growing potatoes step by step",
+    "ar": "زراعة البطاطس خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Choisir des plants sains",
+      "en": "Choose healthy seed tubers",
+      "ar": "اختيار درنات بذور سليمة"
+     },
+     "body": {
+      "fr": "Utilisez des plants certifiés plutôt que des pommes de terre de consommation, qui peuvent transmettre des virus ou être traitées anti-germination. Choisissez la précocité selon la durée de votre saison fraîche.",
+      "en": "Use certified seed tubers rather than table potatoes, which may carry viruses or be treated against sprouting. Choose earliness according to the length of your cool season.",
+      "ar": "استعمل درنات بذور معتمدة بدل بطاطس الاستهلاك التي قد تنقل الفيروسات أو تكون معالجة ضد الإنبات. اختر درجة التبكير حسب طول موسمك المعتدل."
+     },
+     "mistakes": {
+      "fr": "Replanter année après année ses propres tubercules : les virus s'accumulent.",
+      "en": "Replanting your own tubers year after year: viruses build up.",
+      "ar": "إعادة غرس درناتك نفسها سنة بعد سنة: تتراكم الفيروسات."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Faire germer (prégermination)",
+      "en": "Chit the tubers",
+      "ar": "التنبيت المسبق للدرنات"
+     },
+     "body": {
+      "fr": "Quelques semaines avant la plantation, disposez les tubercules dans un endroit lumineux et frais, hors gel, pour obtenir des germes courts et trapus.",
+      "en": "A few weeks before planting, set tubers in a bright, cool, frost-free place to obtain short, sturdy sprouts.",
+      "ar": "قبل الغرس ببضعة أسابيع، ضع الدرنات في مكان مضيء وبارد بعيد عن الصقيع للحصول على براعم قصيرة وقوية."
+     },
+     "tips": {
+      "fr": "La prégermination avance la récolte, surtout pour les primeurs.",
+      "en": "Chitting brings harvest forward, especially for earlies.",
+      "ar": "التنبيت المسبق يقدّم موعد الحصاد، خاصة للبطاطس المبكرة."
+     },
+     "mistakes": {
+      "fr": "Germer à l'obscurité et au chaud : germes longs et fragiles.",
+      "en": "Sprouting in a warm dark place: long, fragile sprouts.",
+      "ar": "التنبيت في مكان دافئ ومظلم: براعم طويلة وهشة."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Préparer le sol",
+      "en": "Prepare the soil",
+      "ar": "تحضير التربة"
+     },
+     "body": {
+      "fr": "Travaillez un sol meuble, profond et bien drainé. Apportez un compost bien décomposé ; évitez le chaulage juste avant la culture, qui favorise la gale commune.",
+      "en": "Work a loose, deep, well-drained soil. Add well-rotted compost; avoid liming just before the crop, which favours common scab.",
+      "ar": "اعمل تربة مفككة وعميقة وجيدة الصرف. أضف سمادًا عضويًا متحللًا جيدًا، وتجنّب إضافة الجير قبل الزراعة مباشرة لأنه يشجع الجرب العادي."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Planter",
+      "en": "Plant",
+      "ar": "الغرس"
+     },
+     "body": {
+      "fr": "Plantez quand le sol est ressuyé et réchauffé, à environ 10 cm de profondeur, germes vers le haut, à 25–40 cm sur le rang et 60–80 cm entre les rangs.",
+      "en": "Plant when the soil has drained and warmed, about 10 cm deep, sprouts upward, 25–40 cm apart in the row and 60–80 cm between rows.",
+      "ar": "اغرس عندما تجف التربة وتدفأ، على عمق 10 سم تقريبًا والبراعم إلى الأعلى، بمسافة 25 إلى 40 سم على الخط و60 إلى 80 سم بين الخطوط."
+     },
+     "tips": {
+      "fr": "En pot ou en sac, comptez un grand volume (au moins 30–40 litres) pour quelques tubercules.",
+      "en": "In pots or bags, allow a large volume (at least 30–40 litres) for a few tubers.",
+      "ar": "في الأصص أو الأكياس، خصّص حجمًا كبيرًا (30 إلى 40 لترًا على الأقل) لبضع درنات."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Butter",
+      "en": "Earth up",
+      "ar": "التحضين بالتراب"
+     },
+     "body": {
+      "fr": "Quand les tiges atteignent 15–20 cm, ramenez la terre au pied pour former une butte. Les tubercules restent couverts et ne verdissent pas.",
+      "en": "When stems reach 15–20 cm, draw soil up around them to form a ridge. Tubers stay covered and do not turn green.",
+      "ar": "عندما تبلغ السيقان 15 إلى 20 سم، اجمع التراب حول قاعدتها لتكوين خط مرتفع، فتبقى الدرنات مغطاة ولا تخضرّ."
+     },
+     "tips": {
+      "fr": "Un second buttage quelques semaines plus tard est courant.",
+      "en": "A second earthing up a few weeks later is common.",
+      "ar": "من الشائع إجراء تحضين ثانٍ بعد بضعة أسابيع."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Arroser au bon moment",
+      "en": "Water at the right time",
+      "ar": "الري في الوقت المناسب"
+     },
+     "body": {
+      "fr": "Les besoins en eau sont les plus forts de la floraison au grossissement des tubercules. Arrosez au pied, régulièrement ; un excès d'eau fait pourrir les tubercules.",
+      "en": "Water needs peak from flowering to tuber bulking. Water at the base, regularly; excess water rots tubers.",
+      "ar": "تبلغ الحاجة إلى الماء ذروتها من الإزهار حتى تضخّم الدرنات. اسقِ عند القاعدة بانتظام، فالماء الزائد يُعفّن الدرنات."
+     },
+     "mistakes": {
+      "fr": "Arroser le feuillage le soir : favorise le mildiou.",
+      "en": "Wetting foliage in the evening: favours late blight.",
+      "ar": "تبليل الأوراق مساءً: يشجع اللفحة المتأخرة."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Surveiller mildiou et doryphores",
+      "en": "Watch for late blight and beetles",
+      "ar": "مراقبة اللفحة المتأخرة والخنافس"
+     },
+     "body": {
+      "fr": "Inspectez chaque semaine. Ramassez les doryphores et leurs pontes orangées sous les feuilles. Par temps chaud et humide, guettez les taches brunes du mildiou et coupez le feuillage atteint.",
+      "en": "Inspect weekly. Hand-pick Colorado beetles and their orange egg clusters under leaves. In warm, wet weather, look out for brown late-blight lesions and remove affected foliage.",
+      "ar": "افحص النباتات أسبوعيًا. اجمع خنافس البطاطس وبيوضها البرتقالية تحت الأوراق باليد. وفي الطقس الدافئ الرطب راقب البقع البنية للفحة المتأخرة وأزل الأوراق المصابة."
+     },
+     "mistakes": {
+      "fr": "Traiter sans diagnostic ni produit autorisé.",
+      "en": "Spraying without diagnosis or an authorized product.",
+      "ar": "الرش دون تشخيص أو دون منتج مرخص."
+     }
+    },
+    {
+     "order": 8,
+     "title": {
+      "fr": "Récolter et conserver",
+      "en": "Harvest and store",
+      "ar": "الحصاد والتخزين"
+     },
+     "body": {
+      "fr": "Les primeurs se récoltent dès la floraison. Pour la conservation, attendez que le feuillage soit sec puis encore deux semaines environ pour que la peau s'affermisse. Récoltez par temps sec.",
+      "en": "Earlies are lifted from flowering. For storage, wait until foliage has died back, then about two more weeks for the skin to set. Harvest in dry weather.",
+      "ar": "تُقلع البطاطس المبكرة ابتداءً من الإزهار. أما للتخزين فانتظر جفاف المجموع الخضري ثم أسبوعين تقريبًا حتى تتماسك القشرة. احصد في طقس جاف."
+     },
+     "tips": {
+      "fr": "Stockez à l'obscurité ; ne consommez pas les parties vertes.",
+      "en": "Store in the dark; do not eat green parts.",
+      "ar": "خزّنها في الظلام ولا تأكل الأجزاء الخضراء."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

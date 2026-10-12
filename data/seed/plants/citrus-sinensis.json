@@ -1,0 +1,288 @@
+{
+ "id": "citrus-sinensis",
+ "scientificName": "Citrus × sinensis",
+ "scientificAuthority": "(L.) Osbeck",
+ "synonyms": [
+  "Citrus aurantium var. sinensis L."
+ ],
+ "family": "Rutaceae",
+ "categoryId": "fruit",
+ "names": {
+  "fr": [
+   "Oranger",
+   "Orange douce"
+  ],
+  "en": [
+   "Sweet orange",
+   "Orange"
+  ],
+  "ar": [
+   "برتقال",
+   "برتقال حلو"
+  ]
+ },
+ "description": {
+  "fr": "Arbre persistant des climats subtropicaux et méditerranéens, cultivé pour ses agrumes. Sensible au gel, il demande chaleur, soleil et une irrigation régulière en été. Les arbres commerciaux sont greffés sur un porte-greffe.",
+  "en": "Evergreen tree of subtropical and Mediterranean climates, grown for its citrus fruit. Frost-sensitive, it needs warmth, sun and regular summer irrigation. Commercial trees are grafted onto a rootstock.",
+  "ar": "شجرة دائمة الخضرة من المناخات شبه الاستوائية والمتوسطية، تُزرع لثمارها الحمضية. حساسة للصقيع وتحتاج إلى الدفء والشمس والري المنتظم صيفًا. والأشجار التجارية مطعّمة على أصل."
+ },
+ "lifecycle": "perennial",
+ "difficulty": "medium",
+ "temperature": {
+  "min": 13,
+  "optimalMin": 20,
+  "optimalMax": 29,
+  "max": 33,
+  "hardinessMin": -3
+ },
+ "frostTolerance": "light",
+ "sun": "full_sun",
+ "soilIds": [
+  "loamy",
+  "sandy",
+  "silty"
+ ],
+ "ph": {
+  "min": 6.0,
+  "max": 7.5
+ },
+ "water": "high",
+ "spacing": {
+  "inRowCm": {
+   "min": 400,
+   "max": 600
+  },
+  "betweenRowsCm": {
+   "min": 500,
+   "max": 700
+  }
+ },
+ "sowingMode": "vegetative",
+ "methods": [
+  "open_field",
+  "container"
+ ],
+ "climateZoneIds": [
+  "mediterranean",
+  "humid_subtropical",
+  "semi_arid",
+  "arid_desert",
+  "tropical_savanna"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon la variété, le climat, la conduite et l'irrigation. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with variety, climate, management and irrigation. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب الصنف والمناخ وطريقة الزراعة والري. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Variété et porte-greffe, âge des arbres, irrigation (surtout pendant la floraison et la nouaison), fertilisation, gelées, vents chauds et secs pendant la floraison, ravageurs.",
+  "en": "Variety and rootstock, tree age, irrigation (especially during flowering and fruit set), fertilization, frost, hot dry winds during flowering, pests.",
+  "ar": "الصنف والأصل، عمر الأشجار، الري (خاصة أثناء الإزهار والعقد)، التسميد، الصقيع، الرياح الحارة الجافة أثناء الإزهار، والآفات."
+ },
+ "storage": {
+  "fr": "Les oranges ne mûrissent plus après la cueillette : récoltez à maturité. Elles se gardent quelques semaines au frais ; certaines variétés peuvent rester un moment sur l'arbre une fois mûres.",
+  "en": "Oranges do not ripen further after picking: harvest when mature. They keep a few weeks in a cool place; some varieties can hang on the tree for a while once ripe.",
+  "ar": "لا يكمل البرتقال نضجه بعد القطف: اقطفه عند النضج. يُحفظ بضعة أسابيع في مكان بارد، ويمكن لبعض الأصناف أن تبقى مدة على الشجرة بعد نضجها."
+ },
+ "varieties": [
+  {
+   "id": "washington-navel",
+   "name": "Washington Navel",
+   "description": {
+    "fr": "Orange à nombril, sans pépins, de saison précoce à mi-saison ; consommation en frais.",
+    "en": "Seedless navel orange, early to mid-season; for fresh eating.",
+    "ar": "برتقال ذو سُرّة بلا بذور، مبكر إلى متوسط الموسم؛ للاستهلاك الطازج."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "valencia-late",
+   "name": "Valencia Late",
+   "description": {
+    "fr": "Variété tardive, juteuse, très utilisée pour le jus ; récolte au printemps.",
+    "en": "Late, juicy variety widely used for juice; spring harvest.",
+    "ar": "صنف متأخر غزير العصير، يُستعمل كثيرًا للعصير؛ يُجنى في الربيع."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "maltaise",
+   "name": "Maltaise demi-sanguine",
+   "description": {
+    "fr": "Variété traditionnelle de Tunisie, chair légèrement pigmentée, très parfumée.",
+    "en": "Traditional Tunisian variety, lightly pigmented flesh, very aromatic.",
+    "ar": "صنف تقليدي من تونس، لُبّه ملوّن قليلًا وعطري جدًا."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "phenology": {
+  "plantingMonthsNorth": [
+   3,
+   4,
+   9,
+   10
+  ],
+  "pruningMonthsNorth": [
+   3,
+   4
+  ],
+  "floweringMonthsNorth": [
+   3,
+   4,
+   5
+  ],
+  "harvestMonthsNorth": [
+   11,
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "requiresWinterChill": false
+ },
+ "companions": [],
+ "rotation": {
+  "group": "perennial",
+  "status": "to_verify",
+  "notes": {
+   "fr": "Culture pérenne. La replantation d'agrumes sur un ancien verger d'agrumes expose à des problèmes de sol (nématodes, pourritures du collet) : prévoir une analyse, un repos du sol ou un porte-greffe adapté.",
+   "en": "Perennial crop. Replanting citrus on an old citrus orchard exposes trees to soil problems (nematodes, foot rot): plan a soil test, a fallow period or a suitable rootstock.",
+   "ar": "محصول معمر. إعادة غرس الحمضيات في بستان حمضيات قديم تعرّض الأشجار لمشاكل التربة (الديدان الخيطية، تعفن العنق): خطط لتحليل التربة أو إراحتها أو لاختيار أصل مناسب."
+  }
+ },
+ "diseaseIds": [],
+ "pestIds": [
+  "aphids",
+  "spider-mites",
+  "whiteflies"
+ ],
+ "guides": [
+  {
+   "id": "orange-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Planter et conduire un oranger",
+    "en": "Planting and growing an orange tree",
+    "ar": "غرس شجرة البرتقال والعناية بها"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Choisir l'arbre",
+      "en": "Choose the tree",
+      "ar": "اختيار الشجرة"
+     },
+     "body": {
+      "fr": "Achetez un arbre greffé et certifié en pépinière. Le porte-greffe est déterminant : tolérance au calcaire, au sel, aux maladies du sol et au virus de la tristeza.",
+      "en": "Buy a certified grafted tree from a nursery. The rootstock matters: tolerance to lime, salt, soil diseases and citrus tristeza virus.",
+      "ar": "اشترِ شجرة مطعّمة ومعتمدة من مشتل. الأصل عامل حاسم: تحمّل الكلس والملوحة وأمراض التربة وفيروس التدهور السريع (التريستيزا)."
+     },
+     "mistakes": {
+      "fr": "Semer des pépins : arbres longs à produire et fruits différents de la variété.",
+      "en": "Growing from seed: trees slow to bear and fruit unlike the variety.",
+      "ar": "الزراعة من البذور: أشجار بطيئة الإثمار وثمار مختلفة عن الصنف."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Choisir l'emplacement",
+      "en": "Choose the site",
+      "ar": "اختيار المكان"
+     },
+     "body": {
+      "fr": "Plein soleil, abri du vent, sol profond, léger et bien drainé. Évitez les cuvettes froides. En climat trop froid, cultivez en grand bac et rentrez l'arbre en hiver hors gel.",
+      "en": "Full sun, shelter from wind, deep, light, well-drained soil. Avoid frost pockets. In climates that are too cold, grow in a large tub and bring the tree into a frost-free place in winter.",
+      "ar": "شمس كاملة وحماية من الرياح وتربة عميقة خفيفة جيدة الصرف. تجنب المنخفضات الباردة. في المناخ شديد البرودة ازرعها في حوض كبير وأدخلها شتاءً إلى مكان خالٍ من الصقيع."
+     },
+     "mistakes": {
+      "fr": "Sol lourd et engorgé : pourriture du collet.",
+      "en": "Heavy waterlogged soil: foot rot.",
+      "ar": "تربة ثقيلة مشبعة بالماء: تعفن العنق."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Planter",
+      "en": "Plant",
+      "ar": "الغرس"
+     },
+     "body": {
+      "fr": "Plantez au printemps après les gelées (ou en début d'automne en climat doux), point de greffe bien au-dessus du sol. Laissez plusieurs mètres entre arbres et arrosez aussitôt.",
+      "en": "Plant in spring after frosts (or early autumn in mild climates), graft union well above soil. Leave several metres between trees and water straight away.",
+      "ar": "اغرس في الربيع بعد انتهاء الصقيع (أو في بداية الخريف في المناخ المعتدل)، مع إبقاء منطقة التطعيم فوق التربة بوضوح. اترك عدة أمتار بين الأشجار واسقِ مباشرة."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Irriguer et fertiliser",
+      "en": "Irrigate and feed",
+      "ar": "الري والتسميد"
+     },
+     "body": {
+      "fr": "Arrosez régulièrement de la floraison à la fin de l'été, de préférence au goutte-à-goutte. Les agrumes sont gourmands en azote ; une chlorose des feuilles en sol calcaire signale souvent une carence en fer.",
+      "en": "Water regularly from flowering to the end of summer, ideally by drip. Citrus need plenty of nitrogen; yellowing leaves on chalky soil often signal iron deficiency.",
+      "ar": "اسقِ بانتظام من الإزهار حتى نهاية الصيف، ويفضل بالتنقيط. تحتاج الحمضيات إلى كثير من الآزوت، واصفرار الأوراق في التربة الكلسية يدل غالبًا على نقص الحديد."
+     },
+     "mistakes": {
+      "fr": "Stress hydrique pendant la floraison : chute importante de fleurs et de jeunes fruits.",
+      "en": "Water stress during flowering: heavy drop of flowers and young fruit.",
+      "ar": "العطش أثناء الإزهار: تساقط كبير للأزهار والثمار الصغيرة."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Tailler",
+      "en": "Prune",
+      "ar": "التقليم"
+     },
+     "body": {
+      "fr": "Taille légère après la récolte : supprimez le bois mort, les gourmands sous le point de greffe et les branches qui encombrent le centre.",
+      "en": "Light pruning after harvest: remove dead wood, suckers below the graft and branches crowding the centre.",
+      "ar": "تقليم خفيف بعد الجني: أزل الخشب الميت والسرطانات تحت منطقة التطعيم والأغصان المزدحمة في الوسط."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Surveiller les ravageurs",
+      "en": "Monitor pests",
+      "ar": "مراقبة الآفات"
+     },
+     "body": {
+      "fr": "Inspectez les jeunes pousses (pucerons), le revers des feuilles (acariens, aleurodes) et les fruits. Favorisez les auxiliaires et ne traitez qu'avec des produits autorisés.",
+      "en": "Inspect young shoots (aphids), leaf undersides (mites, whiteflies) and fruit. Encourage natural enemies and spray only authorized products.",
+      "ar": "افحص النموات الحديثة (المن)، والوجه السفلي للأوراق (العناكب الحمراء، الذباب الأبيض)، والثمار. شجّع الأعداء الطبيعيين ولا تستعمل إلا منتجات مرخصة."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Récolter",
+      "en": "Harvest",
+      "ar": "الجني"
+     },
+     "body": {
+      "fr": "Selon la variété, la récolte s'étale de l'automne au printemps. Goûtez avant de récolter : la couleur seule n'indique pas la maturité. Coupez le pédoncule au sécateur.",
+      "en": "Depending on the variety, harvest runs from autumn to spring. Taste before picking: colour alone does not show ripeness. Cut the stalk with secateurs.",
+      "ar": "حسب الصنف يمتد الجني من الخريف إلى الربيع. تذوّق قبل القطف لأن اللون وحده لا يدل على النضج، واقطع العنق بالمقص."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

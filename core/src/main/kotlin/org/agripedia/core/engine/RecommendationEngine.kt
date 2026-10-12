@@ -83,7 +83,8 @@ class RecommendationEngine(private val catalog: Catalog) {
                 SuitabilityLevel.UNKNOWN
             blocking -> SuitabilityLevel.NOT_RECOMMENDED
             !calendar.available -> SuitabilityLevel.NOT_RECOMMENDED
-            starts.isNotEmpty() -> SuitabilityLevel.RECOMMENDED
+            // Outside the climate zones where the crop is usually grown: never more than "possible".
+            starts.isNotEmpty() && notes.none { it.code == NoteCode.CLIMATE_ZONE_NOT_LISTED } -> SuitabilityLevel.RECOMMENDED
             else -> SuitabilityLevel.POSSIBLE
         }
 

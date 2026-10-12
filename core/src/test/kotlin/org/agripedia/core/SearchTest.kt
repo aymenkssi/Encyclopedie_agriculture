@@ -54,3 +54,20 @@ class SearchTest {
         assertEquals(3, EditDistance.osa("", "abc"))
     }
 }
+
+class SearchCatalogTest {
+    private val search = PlantSearch(TestData.catalog)
+
+    @Test fun typoToleranceDoesNotConfuseSimilarCrops() {
+        assertEquals(listOf("solanum-lycopersicum"), search.search("tomate").map { it.plant.id })
+    }
+
+    @Test fun everyPlantIsFoundByEachOfItsNames() {
+        TestData.catalog.plants.forEach { p ->
+            p.names.forEach { (lang, names) ->
+                names.forEach { n -> assertTrue("$n ($lang)", search.search(n).any { it.plant.id == p.id }) }
+            }
+            assertEquals(p.id, search.search(p.scientificName).first().plant.id)
+        }
+    }
+}

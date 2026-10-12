@@ -1,0 +1,293 @@
+{
+ "id": "malus-domestica",
+ "scientificName": "Malus domestica",
+ "scientificAuthority": "(Suckow) Borkh.",
+ "synonyms": [
+  "Pyrus malus L."
+ ],
+ "family": "Rosaceae",
+ "categoryId": "fruit",
+ "names": {
+  "fr": [
+   "Pommier",
+   "Pomme"
+  ],
+  "en": [
+   "Apple",
+   "Apple tree"
+  ],
+  "ar": [
+   "تفاح",
+   "شجرة التفاح"
+  ]
+ },
+ "description": {
+  "fr": "Arbre fruitier à feuilles caduques des régions tempérées, très résistant au froid. La plupart des variétés ont besoin d'un hiver froid pour bien fleurir et d'un pollinisateur compatible. La vigueur dépend beaucoup du porte-greffe.",
+  "en": "Deciduous fruit tree of temperate regions, very cold-hardy. Most varieties need a cold winter to flower well and a compatible pollinator. Tree size depends largely on the rootstock.",
+  "ar": "شجرة فاكهة متساقطة الأوراق من المناطق المعتدلة، شديدة التحمل للبرد. تحتاج معظم الأصناف إلى شتاء بارد لتزهر جيدًا وإلى صنف ملقِّح متوافق. ويتحدد حجم الشجرة إلى حد كبير بالأصل المطعوم عليه."
+ },
+ "lifecycle": "perennial",
+ "difficulty": "medium",
+ "temperature": {
+  "min": 8,
+  "optimalMin": 15,
+  "optimalMax": 22,
+  "max": 27,
+  "hardinessMin": -25
+ },
+ "frostTolerance": "hardy",
+ "sun": "full_sun",
+ "soilIds": [
+  "loamy",
+  "silty",
+  "humus_rich",
+  "clay"
+ ],
+ "ph": {
+  "min": 6.0,
+  "max": 7.0
+ },
+ "water": "medium",
+ "sowingMode": "vegetative",
+ "methods": [
+  "open_field",
+  "container"
+ ],
+ "climateZoneIds": [
+  "temperate_oceanic",
+  "temperate_continental",
+  "mediterranean"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon la variété, le climat, la conduite et l'irrigation. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with variety, climate, management and irrigation. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب الصنف والمناخ وطريقة الزراعة والري. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Satisfaction des besoins en froid, gelées pendant la floraison, pollinisation croisée, porte-greffe et âge de l'arbre, éclaircissage des fruits, alternance, tavelure et carpocapse.",
+  "en": "Chilling requirement met, frost during flowering, cross-pollination, rootstock and tree age, fruit thinning, alternate bearing, scab and codling moth.",
+  "ar": "تلبية احتياجات البرودة، الصقيع أثناء الإزهار، التلقيح الخلطي، الأصل وعمر الشجرة، خفّ الثمار، المعاومة، مرض الجرب ودودة ثمار التفاح."
+ },
+ "storage": {
+  "fr": "Selon la variété, les pommes se conservent de quelques semaines à plusieurs mois dans un local frais, sombre et aéré ; ne stocker que des fruits sains, sans les entasser.",
+  "en": "Depending on the variety, apples keep from a few weeks to several months in a cool, dark, ventilated place; store only sound fruit, without piling it up.",
+  "ar": "حسب الصنف، يُحفظ التفاح من بضعة أسابيع إلى عدة أشهر في مكان بارد ومظلم وجيد التهوية؛ لا تخزّن إلا الثمار السليمة ودون تكديسها."
+ },
+ "varieties": [
+  {
+   "id": "golden-delicious",
+   "name": "Golden Delicious",
+   "description": {
+    "fr": "Pomme jaune, douce, productive ; bon pollinisateur pour de nombreuses variétés.",
+    "en": "Sweet yellow apple, productive; a good pollinator for many varieties.",
+    "ar": "تفاح أصفر حلو غزير الإنتاج؛ ملقِّح جيد لأصناف كثيرة."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "granny-smith",
+   "name": "Granny Smith",
+   "description": {
+    "fr": "Pomme verte acidulée, ferme, de récolte tardive ; demande une longue saison chaude.",
+    "en": "Tart, firm green apple, late harvest; needs a long warm season.",
+    "ar": "تفاح أخضر حامض ومتماسك، متأخر النضج؛ يحتاج إلى موسم دافئ طويل."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "gala",
+   "name": "Gala",
+   "description": {
+    "fr": "Pomme bicolore sucrée et croquante, de récolte plutôt précoce.",
+    "en": "Sweet, crisp bicoloured apple, rather early harvest.",
+    "ar": "تفاح ثنائي اللون حلو ومقرمش، مبكر النضج نسبيًا."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "anna",
+   "name": "Anna",
+   "description": {
+    "fr": "Variété à faibles besoins en froid, utilisée dans les régions à hiver doux.",
+    "en": "Low-chill variety used in regions with mild winters.",
+    "ar": "صنف قليل الاحتياج للبرودة، يُستعمل في المناطق ذات الشتاء المعتدل."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "phenology": {
+  "plantingMonthsNorth": [
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "pruningMonthsNorth": [
+   12,
+   1,
+   2
+  ],
+  "floweringMonthsNorth": [
+   4,
+   5
+  ],
+  "harvestMonthsNorth": [
+   8,
+   9,
+   10,
+   11
+  ],
+  "requiresWinterChill": true,
+  "chillColdestMonthMaxC": 7
+ },
+ "companions": [],
+ "rotation": {
+  "group": "perennial",
+  "avoidPredecessorFamilies": [
+   "Rosaceae"
+  ],
+  "status": "indicative",
+  "notes": {
+   "fr": "Éviter de replanter un pommier (ou une autre rosacée fruitière) à l'emplacement d'un ancien verger : risque de « maladie de replantation » qui freine fortement la croissance. Changer de parcelle ou renouveler largement la terre.",
+   "en": "Avoid replanting an apple (or another rosaceous fruit tree) where an old orchard stood: risk of apple replant disease, which severely stunts growth. Change plot or replace the soil extensively.",
+   "ar": "تجنب إعادة غرس التفاح (أو أشجار فاكهة أخرى من الفصيلة الوردية) في مكان بستان قديم: خطر «مرض إعادة الغرس» الذي يعيق النمو بشدة. غيّر القطعة أو جدّد التربة على نطاق واسع."
+  }
+ },
+ "diseaseIds": [
+  "apple-scab",
+  "powdery-mildew"
+ ],
+ "pestIds": [
+  "codling-moth",
+  "aphids",
+  "spider-mites"
+ ],
+ "guides": [
+  {
+   "id": "apple-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Planter et conduire un pommier",
+    "en": "Planting and growing an apple tree",
+    "ar": "غرس شجرة التفاح والعناية بها"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Choisir variété et porte-greffe",
+      "en": "Choose variety and rootstock",
+      "ar": "اختيار الصنف والأصل"
+     },
+     "body": {
+      "fr": "Achetez un arbre greffé en pépinière. Vérifiez que les besoins en froid de la variété correspondent à vos hivers, choisissez le porte-greffe selon la taille voulue (nain pour pot ou petit jardin, vigoureux pour plein vent) et prévoyez une variété pollinisatrice qui fleurit en même temps.",
+      "en": "Buy a grafted tree from a nursery. Check that the variety's chilling needs match your winters, choose the rootstock for the size you want (dwarfing for containers or small gardens, vigorous for standard trees) and plan a pollinator variety that flowers at the same time.",
+      "ar": "اشترِ شجرة مطعّمة من مشتل. تأكد من أن احتياجات الصنف للبرودة تناسب شتاء منطقتك، واختر الأصل حسب الحجم المرغوب (مقزِّم للأصص أو الحدائق الصغيرة، قوي للأشجار الكبيرة)، ووفّر صنفًا ملقِّحًا يزهر في الوقت نفسه."
+     },
+     "mistakes": {
+      "fr": "Planter une variété exigeante en froid dans une région à hiver doux : floraison faible et étalée.",
+      "en": "Planting a high-chill variety where winters are mild: weak, erratic flowering.",
+      "ar": "غرس صنف كثير الاحتياج للبرودة في منطقة شتاؤها معتدل: إزهار ضعيف وغير منتظم."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Préparer et planter",
+      "en": "Prepare and plant",
+      "ar": "التحضير والغرس"
+     },
+     "body": {
+      "fr": "Plantez pendant le repos végétatif, hors gel, dans un sol profond et bien drainé. Gardez le point de greffe au-dessus du sol, tuteurez et arrosez abondamment.",
+      "en": "Plant during dormancy, outside frost, in deep, well-drained soil. Keep the graft union above soil level, stake and water generously.",
+      "ar": "اغرس خلال فترة السكون خارج أيام الصقيع، في تربة عميقة جيدة الصرف. أبقِ منطقة التطعيم فوق سطح التربة، وثبّت دعامة واسقِ بغزارة."
+     },
+     "mistakes": {
+      "fr": "Enterrer le point de greffe : le greffon s'affranchit et l'arbre devient trop vigoureux.",
+      "en": "Burying the graft union: the scion roots and the tree becomes too vigorous.",
+      "ar": "دفن منطقة التطعيم: يُخرج الطُّعم جذورًا وتصبح الشجرة قوية النمو أكثر من اللازم."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Arroser et pailler",
+      "en": "Water and mulch",
+      "ar": "الري والتغطية"
+     },
+     "body": {
+      "fr": "Arrosez régulièrement les deux premières années et pendant le grossissement des fruits. Un paillage au pied garde l'humidité et limite les adventices.",
+      "en": "Water regularly in the first two years and while fruit is sizing. Mulch at the base keeps moisture and limits weeds.",
+      "ar": "اسقِ بانتظام في السنتين الأوليين وأثناء تضخم الثمار. التغطية حول القاعدة تحفظ الرطوبة وتحد من الأعشاب."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Tailler",
+      "en": "Prune",
+      "ar": "التقليم"
+     },
+     "body": {
+      "fr": "Taille de formation les premières années, puis taille d'entretien en hiver pour aérer l'arbre et renouveler le bois fruitier. Une taille légère en été peut limiter la vigueur.",
+      "en": "Formative pruning in the first years, then maintenance pruning in winter to open the tree and renew fruiting wood. Light summer pruning can curb vigour.",
+      "ar": "تقليم تكويني في السنوات الأولى، ثم تقليم صيانة في الشتاء لتهوية الشجرة وتجديد خشب الإثمار. يمكن لتقليم صيفي خفيف أن يحد من قوة النمو."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Éclaircir les fruits",
+      "en": "Thin the fruit",
+      "ar": "خفّ الثمار"
+     },
+     "body": {
+      "fr": "Après la nouaison, ne gardez qu'un ou deux fruits par bouquet. Les pommes seront plus grosses et l'alternance sera réduite.",
+      "en": "After fruit set, keep only one or two fruit per cluster. Apples will be larger and alternate bearing reduced.",
+      "ar": "بعد العقد احتفظ بثمرة أو ثمرتين فقط في كل عنقود، فتكبر الثمار وتقل المعاومة."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Surveiller la santé",
+      "en": "Monitor health",
+      "ar": "مراقبة الصحة"
+     },
+     "body": {
+      "fr": "Surveillez la tavelure au printemps humide, l'oïdium, les pucerons et le carpocapse (pièges à phéromones). Ramassez les feuilles et fruits tombés malades.",
+      "en": "Watch for scab in wet springs, powdery mildew, aphids and codling moth (pheromone traps). Collect fallen diseased leaves and fruit.",
+      "ar": "راقب الجرب في الربيع الرطب، والبياض الدقيقي، والمن، ودودة ثمار التفاح (مصائد فيرومونية). اجمع الأوراق والثمار المصابة المتساقطة."
+     },
+     "tips": {
+      "fr": "Les variétés résistantes à la tavelure réduisent fortement le besoin de traitements.",
+      "en": "Scab-resistant varieties greatly reduce the need for sprays.",
+      "ar": "الأصناف المقاومة للجرب تقلل كثيرًا الحاجة إلى المعالجة."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Récolter et conserver",
+      "en": "Harvest and store",
+      "ar": "الجني والتخزين"
+     },
+     "body": {
+      "fr": "Une pomme est mûre quand elle se détache facilement en la soulevant et que ses pépins brunissent. Cueillez avec la queue, sans choc, et conservez au frais.",
+      "en": "An apple is ripe when it comes off easily when lifted and its pips turn brown. Pick with the stalk, without bruising, and store cool.",
+      "ar": "تكون التفاحة ناضجة عندما تنفصل بسهولة عند رفعها وتصبح بذورها بنية. اقطفها مع عنقها دون صدمات، وخزّنها في مكان بارد."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

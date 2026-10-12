@@ -1,0 +1,265 @@
+{
+ "id": "mentha-spicata",
+ "scientificName": "Mentha spicata",
+ "scientificAuthority": "L.",
+ "synonyms": [
+  "Mentha viridis (L.) L."
+ ],
+ "family": "Lamiaceae",
+ "categoryId": "aromatic",
+ "names": {
+  "fr": [
+   "Menthe verte",
+   "Menthe douce",
+   "Menthe marocaine"
+  ],
+  "en": [
+   "Spearmint",
+   "Garden mint"
+  ],
+  "ar": [
+   "نعناع",
+   "نعناع أخضر"
+  ]
+ },
+ "description": {
+  "fr": "Plante aromatique vivace à rhizomes traçants, utilisée notamment pour le thé à la menthe du Maghreb. Rustique et vigoureuse, elle est envahissante : il vaut mieux la contenir (bac, pot ou bordure enterrée).",
+  "en": "Perennial aromatic herb with spreading rhizomes, used notably for Maghreb mint tea. Hardy and vigorous, it is invasive: it is best contained (tub, pot or buried edging).",
+  "ar": "نبات عطري معمر ذو جذامير زاحفة، يُستعمل خاصة في شاي النعناع المغاربي. متحمل وقوي النمو لكنه غازٍ: يُفضل حصره (في حوض أو أصيص أو بحاجز مدفون)."
+ },
+ "lifecycle": "perennial",
+ "difficulty": "easy",
+ "temperature": {
+  "min": 8,
+  "optimalMin": 15,
+  "optimalMax": 25,
+  "max": 30,
+  "hardinessMin": -20
+ },
+ "frostTolerance": "hardy",
+ "sun": "partial_shade",
+ "soilIds": [
+  "loamy",
+  "humus_rich",
+  "clay",
+  "silty",
+  "potting_mix"
+ ],
+ "ph": {
+  "min": 6.0,
+  "max": 7.5
+ },
+ "water": "high",
+ "spacing": {
+  "inRowCm": {
+   "min": 30,
+   "max": 45
+  },
+  "betweenRowsCm": {
+   "min": 40,
+   "max": 60
+  }
+ },
+ "sowingMode": "vegetative",
+ "methods": [
+  "open_field",
+  "container"
+ ],
+ "climateZoneIds": [
+  "temperate_oceanic",
+  "temperate_continental",
+  "mediterranean",
+  "semi_arid",
+  "arid_desert",
+  "humid_subtropical"
+ ],
+ "yieldInfo": {
+  "fr": "Très variable selon la variété, le climat, la conduite et l'irrigation. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Highly variable with variety, climate, management and irrigation. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت كثيرًا حسب الصنف والمناخ وطريقة الزراعة والري. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Arrosage régulier, fertilité du sol, fréquence des coupes, âge de la plantation (elle s'épuise et se dégarnit avec les années), chaleur excessive sans ombrage.",
+  "en": "Regular watering, soil fertility, cutting frequency, age of the planting (it declines and becomes patchy over the years), excessive heat without shade.",
+  "ar": "انتظام الري، خصوبة التربة، تواتر القطع، عمر المزرعة (تضعف وتتخلخل مع السنين)، والحرارة المفرطة دون ظل."
+ },
+ "storage": {
+  "fr": "S'utilise fraîche : les bouquets se gardent quelques jours les tiges dans l'eau ou au réfrigérateur dans un linge humide. Les feuilles peuvent aussi être séchées à l'ombre.",
+  "en": "Used fresh: bunches keep a few days with stems in water or in the fridge wrapped in a damp cloth. Leaves can also be dried in the shade.",
+  "ar": "يُستعمل طازجًا: تُحفظ الحزم بضعة أيام وسيقانها في الماء أو في الثلاجة ملفوفة بقماش مبلل. ويمكن أيضًا تجفيف الأوراق في الظل."
+ },
+ "varieties": [
+  {
+   "id": "nana",
+   "name": "Nana",
+   "description": {
+    "fr": "Menthe verte au parfum doux et frais, traditionnelle pour le thé à la menthe marocain.",
+    "en": "Spearmint with a sweet, fresh scent, traditional for Moroccan mint tea.",
+    "ar": "نعناع أخضر ذو رائحة لطيفة ومنعشة، تقليدي لتحضير الشاي المغربي بالنعناع."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "crispa",
+   "name": "Crispa",
+   "description": {
+    "fr": "Forme à feuilles crispées, décorative et aromatique.",
+    "en": "Curly-leaved form, ornamental and aromatic.",
+    "ar": "شكل ذو أوراق مجعدة، تزييني وعطري."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "phenology": {
+  "plantingMonthsNorth": [
+   3,
+   4,
+   10
+  ],
+  "pruningMonthsNorth": [
+   10,
+   11
+  ],
+  "floweringMonthsNorth": [
+   7,
+   8,
+   9
+  ],
+  "harvestMonthsNorth": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "requiresWinterChill": false
+ },
+ "companions": [],
+ "rotation": {
+  "group": "perennial",
+  "status": "indicative",
+  "notes": {
+   "fr": "Plante envahissante : la cultiver à part ou en contenant pour ne pas gêner les autres cultures. Diviser et replanter les touffes tous les 3 à 4 ans, de préférence à un nouvel emplacement.",
+   "en": "Invasive plant: grow it separately or in a container so it does not smother other crops. Divide and replant clumps every 3–4 years, preferably in a new spot.",
+   "ar": "نبات غازٍ: ازرعه منفصلًا أو في وعاء حتى لا يزاحم المحاصيل الأخرى. قسّم الكتل وأعد غرسها كل 3 إلى 4 سنوات، ويفضل في مكان جديد."
+  }
+ },
+ "diseaseIds": [
+  "powdery-mildew"
+ ],
+ "pestIds": [
+  "aphids",
+  "spider-mites"
+ ],
+ "guides": [
+  {
+   "id": "mint-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver la menthe verte pas à pas",
+    "en": "Growing spearmint step by step",
+    "ar": "زراعة النعناع خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Se procurer des plants",
+      "en": "Get plants",
+      "ar": "الحصول على الشتلات"
+     },
+     "body": {
+      "fr": "La menthe se multiplie par éclats de touffe, morceaux de rhizome ou boutures de tiges, qui s'enracinent facilement dans l'eau. Les semis donnent des plants au parfum variable.",
+      "en": "Mint is propagated by clump divisions, rhizome pieces or stem cuttings, which root easily in water. Seedlings give plants of variable scent.",
+      "ar": "يتكاثر النعناع بتقسيم الكتل أو قطع الجذامير أو عُقل السيقان التي تتجذر بسهولة في الماء. أما البذور فتعطي نباتات متفاوتة الرائحة."
+     },
+     "tips": {
+      "fr": "Prenez des boutures sur un pied dont vous aimez le parfum.",
+      "en": "Take cuttings from a plant whose scent you like.",
+      "ar": "خذ العُقل من نبتة تعجبك رائحتها."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Contenir la plante",
+      "en": "Contain the plant",
+      "ar": "حصر النبات"
+     },
+     "body": {
+      "fr": "Plantez en pot, en bac ou dans un seau sans fond enterré, ou installez une bordure enterrée d'au moins 20–30 cm de profondeur pour arrêter les rhizomes.",
+      "en": "Plant in a pot, a tub or a bottomless bucket sunk in the ground, or install buried edging at least 20–30 cm deep to stop the rhizomes.",
+      "ar": "اغرس في أصيص أو حوض أو دلو بلا قاع مدفون في الأرض، أو ركّب حاجزًا مدفونًا بعمق 20 إلى 30 سم على الأقل لإيقاف الجذامير."
+     },
+     "mistakes": {
+      "fr": "La planter librement au potager : elle envahit les cultures voisines.",
+      "en": "Planting it freely in the vegetable garden: it invades neighbouring crops.",
+      "ar": "غرسه بحرية في حديقة الخضر: يجتاح المحاصيل المجاورة."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Planter",
+      "en": "Plant",
+      "ar": "الغرس"
+     },
+     "body": {
+      "fr": "Plantez au printemps ou en automne dans un sol frais et riche, au soleil en climat tempéré et à mi-ombre en climat chaud. Arrosez bien après plantation.",
+      "en": "Plant in spring or autumn in moist, rich soil, in sun in temperate climates and in light shade in hot climates. Water well after planting.",
+      "ar": "اغرس في الربيع أو الخريف في تربة رطبة وغنية، في الشمس في المناخ المعتدل وفي ظل جزئي في المناخ الحار. اسقِ جيدًا بعد الغرس."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Arroser et nourrir",
+      "en": "Water and feed",
+      "ar": "الري والتسميد"
+     },
+     "body": {
+      "fr": "La menthe aime la fraîcheur : arrosez souvent en été, surtout en pot. Un apport de compost au printemps et après les grosses coupes entretient la vigueur.",
+      "en": "Mint likes moisture: water often in summer, especially in containers. Compost in spring and after heavy cuts keeps it vigorous.",
+      "ar": "يحب النعناع الرطوبة: اسقِه كثيرًا في الصيف خاصة في الأصص. إضافة السماد العضوي في الربيع وبعد القطع الكبيرة تحافظ على قوته."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Récolter",
+      "en": "Harvest",
+      "ar": "القطف"
+     },
+     "body": {
+      "fr": "Coupez les tiges au-dessus d'une paire de feuilles, régulièrement, avant la floraison pour un meilleur arôme. Des coupes fréquentes favorisent de nouvelles pousses tendres.",
+      "en": "Cut stems above a pair of leaves regularly, before flowering for the best aroma. Frequent cutting encourages tender new shoots.",
+      "ar": "اقطع السيقان فوق زوج من الأوراق بانتظام، قبل الإزهار للحصول على أفضل نكهة. القطع المتكرر يشجع نموات جديدة طرية."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Entretenir et renouveler",
+      "en": "Maintain and renew",
+      "ar": "العناية والتجديد"
+     },
+     "body": {
+      "fr": "Rabattez les tiges en fin de saison. Si des pustules orangées (rouille) ou un feutrage blanc (oïdium) apparaissent, coupez et éliminez les tiges atteintes. Divisez la touffe tous les 3 à 4 ans.",
+      "en": "Cut stems back at the end of the season. If orange pustules (rust) or white coating (powdery mildew) appear, cut and remove affected stems. Divide the clump every 3–4 years.",
+      "ar": "قصّ السيقان في نهاية الموسم. إذا ظهرت بثور برتقالية (الصدأ) أو طبقة بيضاء (البياض الدقيقي) فاقطع السيقان المصابة وتخلص منها. قسّم الكتلة كل 3 إلى 4 سنوات."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}

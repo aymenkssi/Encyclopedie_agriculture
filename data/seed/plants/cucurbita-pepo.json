@@ -1,0 +1,387 @@
+{
+ "id": "cucurbita-pepo",
+ "scientificName": "Cucurbita pepo",
+ "scientificAuthority": "L.",
+ "synonyms": [],
+ "family": "Cucurbitaceae",
+ "categoryId": "vegetable",
+ "names": {
+  "fr": [
+   "Courgette"
+  ],
+  "en": [
+   "Courgette",
+   "Zucchini"
+  ],
+  "ar": [
+   "كوسة",
+   "كوسا"
+  ]
+ },
+ "description": {
+  "fr": "Plante annuelle vigoureuse, cultivée pour ses jeunes fruits récoltés avant maturité. Très sensible au gel, elle demande chaleur, soleil, un sol riche et beaucoup de place. La même espèce comprend aussi certains potirons et courges décoratives.",
+  "en": "Vigorous annual grown for its young fruit, picked before maturity. Very frost-sensitive, it needs warmth, sun, rich soil and plenty of room. The same species also includes some pumpkins and ornamental gourds.",
+  "ar": "نبات حولي قوي النمو يُزرع لثماره الصغيرة التي تُقطف قبل اكتمال نضجها. حساس جدًا للصقيع ويحتاج إلى الدفء والشمس وتربة غنية ومساحة واسعة. ويضم النوع نفسه أيضًا بعض أنواع اليقطين والقرع الزينة."
+ },
+ "lifecycle": "annual",
+ "difficulty": "easy",
+ "temperature": {
+  "min": 14,
+  "optimalMin": 18,
+  "optimalMax": 27,
+  "max": 30,
+  "germinationMin": 15
+ },
+ "frostTolerance": "none",
+ "sun": "full_sun",
+ "soilIds": [
+  "humus_rich",
+  "loamy",
+  "sandy"
+ ],
+ "ph": {
+  "min": 6.0,
+  "max": 7.5
+ },
+ "water": "high",
+ "cycleDays": {
+  "min": 45,
+  "max": 90
+ },
+ "spacing": {
+  "inRowCm": {
+   "min": 80,
+   "max": 100
+  },
+  "betweenRowsCm": {
+   "min": 100,
+   "max": 120
+  }
+ },
+ "sowingDepthCm": {
+  "min": 2,
+  "max": 3
+ },
+ "sowingMode": "both",
+ "nurseryWeeks": {
+  "min": 3,
+  "max": 4
+ },
+ "methods": [
+  "open_field",
+  "greenhouse",
+  "container"
+ ],
+ "climateZoneIds": [
+  "temperate_oceanic",
+  "temperate_continental",
+  "mediterranean",
+  "semi_arid",
+  "arid_desert",
+  "humid_subtropical",
+  "tropical_savanna"
+ ],
+ "yieldInfo": {
+  "fr": "Variable selon la variété, la durée de récolte et la fréquence de cueillette. Aucun chiffre n'est donné ici faute de référence validée pour votre région.",
+  "en": "Variable with variety, length of the harvest period and picking frequency. No figure is given here for lack of a validated reference for your region.",
+  "ar": "يتفاوت حسب الصنف وطول فترة الجني وتواتر القطف. لا نقدم رقمًا هنا لغياب مرجع مصادق عليه لمنطقتك."
+ },
+ "yieldFactors": {
+  "fr": "Chaleur, pollinisation par les insectes (fleurs mâles et femelles séparées), arrosage abondant et régulier, sol riche, cueillette fréquente, oïdium et virus transmis par les pucerons.",
+  "en": "Warmth, insect pollination (separate male and female flowers), generous and regular watering, rich soil, frequent picking, powdery mildew and aphid-borne viruses.",
+  "ar": "الدفء، التلقيح بالحشرات (أزهار مذكرة ومؤنثة منفصلة)، الري الغزير المنتظم، التربة الغنية، القطف المتكرر، البياض الدقيقي والفيروسات التي ينقلها المن."
+ },
+ "storage": {
+  "fr": "Se conserve environ une semaine au réfrigérateur, dans le bac à légumes. Les fruits jeunes et fermes se gardent mieux que les gros.",
+  "en": "Keeps about a week in the refrigerator crisper. Young, firm fruit keeps better than large ones.",
+  "ar": "تُحفظ نحو أسبوع في درج الخضر بالثلاجة. والثمار الصغيرة المتماسكة تُحفظ أفضل من الكبيرة."
+ },
+ "varieties": [
+  {
+   "id": "black-beauty",
+   "name": "Black Beauty",
+   "description": {
+    "fr": "Fruits vert foncé, cylindriques, plante buissonnante productive.",
+    "en": "Dark green cylindrical fruit, productive bush plant.",
+    "ar": "ثمار أسطوانية خضراء داكنة، نبات شجيري غزير الإنتاج."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "ronde-de-nice",
+   "name": "Ronde de Nice",
+   "description": {
+    "fr": "Fruits ronds vert clair, à récolter petits ; idéale à farcir.",
+    "en": "Round pale green fruit, picked small; ideal for stuffing.",
+    "ar": "ثمار مستديرة خضراء فاتحة تُقطف صغيرة؛ مثالية للحشو."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "gold-rush",
+   "name": "Gold Rush",
+   "description": {
+    "fr": "Fruits jaunes cylindriques, plante compacte.",
+    "en": "Yellow cylindrical fruit, compact plant.",
+    "ar": "ثمار أسطوانية صفراء، نبات مدمج."
+   },
+   "status": "to_verify"
+  },
+  {
+   "id": "costata-romanesco",
+   "name": "Costata Romanesco",
+   "description": {
+    "fr": "Fruits côtelés vert-gris, savoureux, plante vigoureuse.",
+    "en": "Ribbed grey-green fruit, flavourful, vigorous plant.",
+    "ar": "ثمار مضلعة خضراء رمادية لذيذة، نبات قوي النمو."
+   },
+   "status": "to_verify"
+  }
+ ],
+ "calendar": [
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    4,
+    5
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Semis en godets à l'abri, au chaud (environ 20 °C).",
+    "en": "Sowing in pots under cover, in warmth (about 20 °C).",
+    "ar": "البذر في أكواب داخل مأوى دافئ (حوالي 20 درجة مئوية)."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    5,
+    6
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Après le dernier risque de gel local.",
+    "en": "After the last local frost risk.",
+    "ar": "بعد آخر خطر صقيع محلي."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    7,
+    8,
+    9
+   ],
+   "climateZoneId": "temperate_oceanic",
+   "hemisphere": "north",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "Jusqu'aux premières nuits froides.",
+    "en": "Until the first cold nights.",
+    "ar": "حتى أولى الليالي الباردة."
+   },
+   "sourceIds": [
+    "agripedia-demo"
+   ]
+  }
+ ],
+ "companions": [
+  {
+   "otherPlantId": "zea-mays",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Association traditionnelle des « trois sœurs » (maïs, haricot, courge) ; le feuillage couvre le sol. Bénéfices surtout documentés pour des systèmes traditionnels.",
+    "en": "Traditional \"three sisters\" planting (maize, bean, squash); the leaves cover the soil. Benefits mainly documented for traditional systems.",
+    "ar": "زراعة \"الأخوات الثلاث\" التقليدية (الذرة والفاصوليا والقرع)؛ تغطي الأوراق التربة. والفوائد موثقة أساسًا في الأنظمة التقليدية."
+   }
+  },
+  {
+   "otherPlantId": "phaseolus-vulgaris",
+   "relation": "good",
+   "status": "to_verify",
+   "reason": {
+    "fr": "Association traditionnelle (« trois sœurs ») ; besoins compatibles.",
+    "en": "Traditional pairing (\"three sisters\"); compatible needs.",
+    "ar": "تشارك تقليدي (\"الأخوات الثلاث\")؛ احتياجات متوافقة."
+   }
+  }
+ ],
+ "rotation": {
+  "group": "fruit_vegetable",
+  "minYearsBeforeReturn": 3,
+  "goodPredecessorFamilies": [
+   "Fabaceae",
+   "Poaceae"
+  ],
+  "avoidPredecessorFamilies": [
+   "Cucurbitaceae"
+  ],
+  "status": "indicative",
+  "notes": {
+   "fr": "Éviter de replanter des cucurbitacées (courgette, concombre, melon, courges) au même endroit pendant environ 3 ans.",
+   "en": "Avoid replanting Cucurbitaceae (courgette, cucumber, melon, squash) in the same place for about 3 years.",
+   "ar": "تجنّب إعادة زراعة القرعيات (الكوسة، الخيار، البطيخ، القرع) في المكان نفسه لمدة 3 سنوات تقريبًا."
+  }
+ },
+ "diseaseIds": [
+  "powdery-mildew",
+  "grey-mould"
+ ],
+ "pestIds": [
+  "aphids",
+  "whiteflies",
+  "spider-mites",
+  "slugs-snails"
+ ],
+ "guides": [
+  {
+   "id": "courgette-main",
+   "status": "to_verify",
+   "title": {
+    "fr": "Cultiver la courgette pas à pas",
+    "en": "Growing courgettes step by step",
+    "ar": "زراعة الكوسة خطوة بخطوة"
+   },
+   "stages": [
+    {
+     "order": 1,
+     "title": {
+      "fr": "Préparer un sol riche",
+      "en": "Prepare a rich soil",
+      "ar": "تحضير تربة غنية"
+     },
+     "body": {
+      "fr": "Incorporez une bonne quantité de compost bien décomposé à l'emplacement de chaque pied. Prévoyez environ 1 m² par plant. En pot, comptez au moins 40 litres.",
+      "en": "Work plenty of well-rotted compost into each planting spot. Allow about 1 m² per plant. In containers, allow at least 40 litres.",
+      "ar": "أضف كمية جيدة من السماد العضوي المتحلل في مكان كل نبتة. خصّص نحو متر مربع لكل نبتة، وفي الأصص 40 لترًا على الأقل."
+     }
+    },
+    {
+     "order": 2,
+     "title": {
+      "fr": "Semer",
+      "en": "Sow",
+      "ar": "البذر"
+     },
+     "body": {
+      "fr": "Semez 2–3 cm de profondeur, à plat, en godets au chaud ou directement en place quand le sol dépasse environ 15 °C. Gardez le plant le plus vigoureux.",
+      "en": "Sow 2–3 cm deep, seed flat, in pots in warmth or directly in place once soil exceeds about 15 °C. Keep the strongest seedling.",
+      "ar": "ابذر على عمق 2 إلى 3 سم والبذرة مسطحة، في أكواب في مكان دافئ أو مباشرة في المكان الدائم عندما تتجاوز حرارة التربة 15 درجة مئوية تقريبًا. واحتفظ بأقوى نبتة."
+     },
+     "mistakes": {
+      "fr": "Semer dans un sol froid et humide : les graines pourrissent.",
+      "en": "Sowing in cold, wet soil: seeds rot.",
+      "ar": "البذر في تربة باردة ورطبة: تتعفن البذور."
+     }
+    },
+    {
+     "order": 3,
+     "title": {
+      "fr": "Planter en place",
+      "en": "Plant out",
+      "ar": "الغرس في المكان الدائم"
+     },
+     "body": {
+      "fr": "Plantez après tout risque de gel, sans abîmer la motte, à 80–100 cm d'écart. Arrosez aussitôt.",
+      "en": "Plant out after all frost risk, without disturbing the root ball, 80–100 cm apart. Water straight away.",
+      "ar": "اغرس بعد زوال خطر الصقيع دون إتلاف كتلة الجذور، بمسافة 80 إلى 100 سم، واسقِ فورًا."
+     },
+     "mistakes": {
+      "fr": "Repiquer des plants trop âgés, à l'étroit dans leur godet.",
+      "en": "Transplanting overgrown, pot-bound plants.",
+      "ar": "شتل نباتات كبيرة جدًا ضاقت بها أكوابها."
+     }
+    },
+    {
+     "order": 4,
+     "title": {
+      "fr": "Arroser et pailler",
+      "en": "Water and mulch",
+      "ar": "الري والتغطية"
+     },
+     "body": {
+      "fr": "Arrosez copieusement au pied, sans mouiller les feuilles, et paillez pour garder l'humidité. Les besoins augmentent fortement avec la chaleur et la fructification.",
+      "en": "Water generously at the base, without wetting leaves, and mulch to keep moisture. Needs rise sharply with heat and fruiting.",
+      "ar": "اسقِ بغزارة عند القاعدة دون تبليل الأوراق، وغطِّ التربة للحفاظ على الرطوبة. تزداد الحاجة إلى الماء كثيرًا مع الحر والإثمار."
+     }
+    },
+    {
+     "order": 5,
+     "title": {
+      "fr": "Assurer la pollinisation",
+      "en": "Ensure pollination",
+      "ar": "ضمان التلقيح"
+     },
+     "body": {
+      "fr": "Les fleurs mâles apparaissent souvent en premier. Si les jeunes fruits jaunissent et pourrissent, la pollinisation est insuffisante : favorisez les insectes ou pollinisez à la main le matin.",
+      "en": "Male flowers often appear first. If young fruit yellows and rots, pollination is poor: encourage insects or hand-pollinate in the morning.",
+      "ar": "تظهر الأزهار المذكرة غالبًا أولًا. وإذا اصفرّت الثمار الصغيرة وتعفنت فالتلقيح غير كافٍ: شجّع الحشرات أو لقّح يدويًا في الصباح."
+     },
+     "tips": {
+      "fr": "Sous serre, ouvrez les ouvrants pour laisser entrer les pollinisateurs.",
+      "en": "In a greenhouse, open vents to let pollinators in.",
+      "ar": "في البيت المحمي افتح فتحات التهوية لدخول الملقّحات."
+     }
+    },
+    {
+     "order": 6,
+     "title": {
+      "fr": "Surveiller oïdium et ravageurs",
+      "en": "Watch for powdery mildew and pests",
+      "ar": "مراقبة البياض الدقيقي والآفات"
+     },
+     "body": {
+      "fr": "Un feutrage blanc sur les feuilles signale l'oïdium, fréquent en fin de saison : retirez les feuilles très atteintes et gardez la plante aérée. Surveillez pucerons et aleurodes.",
+      "en": "A white felt on leaves signals powdery mildew, common late in the season: remove badly affected leaves and keep the plant airy. Watch for aphids and whiteflies.",
+      "ar": "يدل الغبار الأبيض على الأوراق على البياض الدقيقي الشائع آخر الموسم: أزل الأوراق شديدة الإصابة وحافظ على تهوية النبات. وراقب المن والذباب الأبيض."
+     },
+     "mistakes": {
+      "fr": "Traiter sans diagnostic ni produit autorisé.",
+      "en": "Spraying without diagnosis or an authorized product.",
+      "ar": "الرش دون تشخيص أو دون منتج مرخص."
+     }
+    },
+    {
+     "order": 7,
+     "title": {
+      "fr": "Récolter souvent",
+      "en": "Harvest often",
+      "ar": "القطف المتكرر"
+     },
+     "body": {
+      "fr": "Cueillez les fruits jeunes (souvent 15–20 cm) tous les deux à trois jours en pleine saison, au couteau. Une cueillette fréquente relance la production.",
+      "en": "Pick fruit young (often 15–20 cm) every two to three days in peak season, with a knife. Frequent picking keeps production going.",
+      "ar": "اقطف الثمار صغيرة (غالبًا 15 إلى 20 سم) كل يومين إلى ثلاثة في ذروة الموسم باستعمال سكين. فالقطف المتكرر يحفز الإنتاج."
+     },
+     "mistakes": {
+      "fr": "Laisser grossir les fruits : la plante ralentit et les fruits deviennent fibreux.",
+      "en": "Letting fruit grow large: the plant slows down and fruit becomes fibrous.",
+      "ar": "ترك الثمار تكبر: يتباطأ النبات وتصبح الثمار ليفية."
+     }
+    }
+   ]
+  }
+ ],
+ "status": "to_verify",
+ "sourceIds": [
+  "agripedia-demo",
+  "powo",
+  "fao-ecocrop"
+ ],
+ "lastReviewed": "2026-10-12",
+ "isDemo": true
+}
