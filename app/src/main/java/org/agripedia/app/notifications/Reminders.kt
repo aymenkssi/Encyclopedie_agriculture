@@ -50,6 +50,7 @@ object Reminders {
         Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU ||
             ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) == PackageManager.PERMISSION_GRANTED
 
+    @android.annotation.SuppressLint("MissingPermission") // checked by canPost() + SecurityException guard
     fun notifyDueTasks(context: Context, titles: List<String>, overdue: Int) {
         if (titles.isEmpty() || !canPost(context)) return
         val intent = PendingIntent.getActivity(

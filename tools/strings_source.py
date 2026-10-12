@@ -426,7 +426,7 @@ P = {
    {"zero": "لا توجد محاصيل جارية", "one": "محصول جارٍ واحد", "two": "محصولان جاريان", "few": "%d محاصيل جارية", "many": "%d محصولًا جاريًا", "other": "%d محصول جارٍ"}),
 "days": (("%d jour", "%d jours"), ("%d day", "%d days"),
    {"zero": "%d يوم", "one": "يوم واحد", "two": "يومان", "few": "%d أيام", "many": "%d يومًا", "other": "%d يوم"}),
-"every_n_days": (("Tous les jours", "Tous les %d jours"), ("Every day", "Every %d days"),
+"every_n_days": (("Tous les %d jour", "Tous les %d jours"), ("Every day", "Every %d days"),
    {"zero": "كل %d يوم", "one": "كل يوم", "two": "كل يومين", "few": "كل %d أيام", "many": "كل %d يومًا", "other": "كل %d يوم"}),
 "notif_due": (("%d tâche à faire", "%d tâches à faire"), ("%d task to do", "%d tasks to do"),
    {"zero": "لا توجد مهام", "one": "مهمة واحدة", "two": "مهمتان", "few": "%d مهام", "many": "%d مهمة", "other": "%d مهمة"}),

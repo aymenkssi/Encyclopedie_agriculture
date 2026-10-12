@@ -223,10 +223,11 @@ private fun LazyListScope.conditions(k: Knowledge, plant: Plant) {
             Text(stringResource(R.string.climate_needs), style = MaterialTheme.typography.titleSmall)
             val t = plant.temperature
             InfoRow(stringResource(R.string.temp_min), t.min?.let { "${fmt(it)} °C" })
-            InfoRow(stringResource(R.string.temp_optimal), if (t.optimalMin != null && t.optimalMax != null) "${fmt(t.optimalMin)}–${fmt(t.optimalMax)} °C" else null)
+            val optMin = t.optimalMin; val optMax = t.optimalMax; val germ = t.germinationMin; val hardy = t.hardinessMin
+            InfoRow(stringResource(R.string.temp_optimal), if (optMin != null && optMax != null) "${fmt(optMin)}–${fmt(optMax)} °C" else null)
             InfoRow(stringResource(R.string.temp_max), t.max?.let { "${fmt(it)} °C" })
-            if (t.germinationMin != null) InfoRow(stringResource(R.string.temp_germination), "${fmt(t.germinationMin)} °C")
-            if (t.hardinessMin != null) InfoRow(stringResource(R.string.temp_hardiness), "${fmt(t.hardinessMin)} °C")
+            if (germ != null) InfoRow(stringResource(R.string.temp_germination), "${fmt(germ)} °C")
+            if (hardy != null) InfoRow(stringResource(R.string.temp_hardiness), "${fmt(hardy)} °C")
             InfoRow(stringResource(R.string.frost_tolerance), label(plant.frostTolerance))
             InfoRow(stringResource(R.string.sun_exposure), label(plant.sun))
             InfoRow(stringResource(R.string.water_needs), label(plant.water))
@@ -249,8 +250,8 @@ private fun LazyListScope.conditions(k: Knowledge, plant: Plant) {
             InfoRow(stringResource(R.string.nursery_duration), plant.nurseryWeeks?.let { stringResource(R.string.weeks_value, fmt(it)) })
             InfoRow(stringResource(R.string.spacing_in_row), plant.spacing?.inRowCm?.let { "${fmt(it)} cm" })
             InfoRow(stringResource(R.string.spacing_between_rows), plant.spacing?.betweenRowsCm?.let { "${fmt(it)} cm" })
-            InfoRow(stringResource(R.string.cultivation_method), plant.methods.mapNotNull { k.catalog.methodsById[it] }.joinToString(", ") { tr(it.names) })
-            InfoRow(stringResource(R.string.climate), plant.climateZoneIds.mapNotNull { k.catalog.climateZonesById[it] }.joinToString(", ") { tr(it.names) }.ifEmpty { null })
+            InfoRow(stringResource(R.string.cultivation_method), plant.methods.mapNotNull { k.catalog.methodsById[it] }.map { tr(it.names) }.joinToString(", "))
+            InfoRow(stringResource(R.string.climate), plant.climateZoneIds.mapNotNull { k.catalog.climateZonesById[it] }.map { tr(it.names) }.joinToString(", ").ifEmpty { null })
         }
     }
 }

@@ -67,6 +67,7 @@ import org.agripedia.core.model.Activity
 import java.time.LocalDate
 import java.time.YearMonth
 
+@OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
 @Composable
 fun CalendarScreen(k: Knowledge, appVm: AppViewModel, nav: Nav) {
     val users = appVm.container.userRepository
@@ -124,7 +125,7 @@ fun CalendarScreen(k: Knowledge, appVm: AppViewModel, nav: Nav) {
                         items(rows, key = { "r-" + it.first.id }) { (p, acts) ->
                             ElevatedSection(Modifier.clickable { nav.plant(p.id) }) {
                                 Text(p.displayName(lang), style = MaterialTheme.typography.titleSmall)
-                                Text(if (acts.isEmpty()) stringResource(R.string.nothing_this_month) else acts.joinToString(" · ") { label(it) },
+                                Text(if (acts.isEmpty()) stringResource(R.string.nothing_this_month) else acts.map { label(it) }.joinToString(" · "),
                                     style = MaterialTheme.typography.bodyMedium)
                             }
                         }

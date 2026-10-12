@@ -193,7 +193,7 @@ fun HomeScreen(k: Knowledge, appVm: AppViewModel, nav: Nav) {
             items(state.cropActivities, key = { "act-" + it.first.id }) { (plant, acts) ->
                 Row(Modifier.fillMaxWidth().clickable { nav.plant(plant.id) }.padding(vertical = 6.dp)) {
                     Text(plant.displayName(lang), style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(0.4f))
-                    Text(acts.joinToString(" · ") { label(it) }, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(0.6f))
+                    Text(acts.map { label(it) }.joinToString(" · "), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(0.6f))
                 }
             }
         }

@@ -216,7 +216,7 @@ fun ElevatedSection(modifier: Modifier = Modifier, content: @Composable ColumnSc
 /** 12-cell month strip; highlighted months are filled, preferred months are emphasized. */
 @Composable
 fun MonthStrip(months: Set<Int>, preferred: Set<Int> = emptySet(), current: Int? = null, color: Color = MaterialTheme.colorScheme.primary) {
-    val described = months.sorted().joinToString { monthName(it) }
+    val described = months.sorted().map { monthName(it) }.joinToString()
     Row(Modifier.fillMaxWidth().semantics { contentDescription = described }, horizontalArrangement = Arrangement.spacedBy(2.dp)) {
         for (m in 1..12) {
             val on = m in months
