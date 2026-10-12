@@ -19,3 +19,14 @@ fun categoryIcon(categoryId: String): ImageVector = when (categoryId) {
     "industrial" -> Icons.Outlined.Factory
     else -> Icons.Outlined.Agriculture
 }
+
+@androidx.compose.runtime.Composable
+fun suitabilityColors(level: org.agripedia.core.engine.SuitabilityLevel): Pair<androidx.compose.ui.graphics.Color, androidx.compose.ui.graphics.Color> {
+    val cs = androidx.compose.material3.MaterialTheme.colorScheme
+    return when (level) {
+        org.agripedia.core.engine.SuitabilityLevel.RECOMMENDED -> cs.primaryContainer to cs.onPrimaryContainer
+        org.agripedia.core.engine.SuitabilityLevel.POSSIBLE -> cs.secondaryContainer to cs.onSecondaryContainer
+        org.agripedia.core.engine.SuitabilityLevel.NOT_RECOMMENDED -> cs.errorContainer to cs.onErrorContainer
+        org.agripedia.core.engine.SuitabilityLevel.UNKNOWN -> cs.surfaceVariant to cs.onSurfaceVariant
+    }
+}
