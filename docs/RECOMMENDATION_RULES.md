@@ -1,6 +1,6 @@
 # Règles de calendrier et de recommandation
 
-Toutes les règles sont dans `core/src/main/kotlin/org/agripedia/core/engine/` et couvertes par des tests. Le moteur ne
+Toutes les règles sont dans `lib/calendar.ts` et `lib/recommend.ts` et couvertes par des tests (`__tests__/`). Le moteur ne
 produit **aucun texte** : il renvoie des codes (`NoteCode`) traduits par l'interface, pour que les trois langues reçoivent
 exactement le même raisonnement.
 
@@ -63,7 +63,7 @@ microclimat, variété et conduite comptent autant que la région.
 
 ## Tâches prévisionnelles
 
-`TaskPlanner` part **de la date réelle saisie par l'utilisateur** : repiquage (+ `nurseryWeeks.min`), contrôles sanitaires
+`planTasks` (`lib/tasks.ts`) part **de la date réelle saisie par l'utilisateur** : repiquage (+ `nurseryWeeks.min`), contrôles sanitaires
 toutes les 2 semaines jusqu'à la récolte, début de récolte (+ `cycleDays.min`), préparation de la rotation
 (+ `cycleDays.max`). Sans donnée, aucune date n'est inventée. Aucune notification universelle n'est envoyée.
 

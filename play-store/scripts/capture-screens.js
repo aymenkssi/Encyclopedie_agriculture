@@ -2,7 +2,7 @@
 //    From the project folder:
 //      npx expo export --platform web --output-dir play-store/build/web
 //      node play-store/scripts/capture-screens.js      (needs Playwright)
-//    Output: play-store/build/raw/<lang>-<n>-<screen>.png
+//    Output: play-store/build/raw/<lang>/NN-<screen>.png (framed by compose-images.js)
 const { chromium } = require('playwright');
 const fs = require('fs');
 const http = require('http');
@@ -23,7 +23,6 @@ const arabicFontCss = () =>
     .join('') + '*:not([style*="onicons"]){font-family:KufiArabic,system-ui,Roboto,sans-serif !important}' +
     '[role="tablist"] *{overflow:visible !important;line-height:normal !important}';
 const OUT = path.join(__dirname, '../build/raw/');
-fs.mkdirSync(OUT, { recursive: true });
 
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.png': 'image/png', '.ttf': 'font/ttf', '.ico': 'image/x-icon', '.json': 'application/json' };
 const DYNAMIC = [[/^\/plant\//, '/plant/[id].html'], [/^\/crop\//, '/crop/[id].html'], [/^\/garden\//, '/garden/[id].html']];
@@ -98,34 +97,36 @@ const SEARCH = { fr: 'tomtae', en: 'tomatoe', ar: 'طماطم' };
         const css = arabicFontCss();
         page.on('load', () => page.addStyleTag({ content: css }).catch(() => undefined));
       }
-      const snap = (name) => page.screenshot({ path: `${OUT}${lang}-${name}.png` });
+      fs.mkdirSync(path.join(OUT, lang), { recursive: true });
+      const snap = (name) => page.screenshot({ path: path.join(OUT, name.startsWith('x-') ? 'extra' : lang, `${name.startsWith('x-') ? `${lang}-` : ''}${name}.png`) });
       const go = async (url, wait = 1500) => {
         await page.goto(`http://localhost:8098${url}`, { waitUntil: 'networkidle' });
         await page.waitForTimeout(wait);
       };
       if (dark) {
         await go('/plant/solanum-lycopersicum?tab=calendar', 2000);
-        await snap('6-dark');
+        await snap('06-dark');
         await ctx.close();
         continue;
       }
       await go('/home', 2500);
-      await snap('1-home');
+      await snap('01-home');
       await go('/encyclopedia');
       await page.getByTestId('search-input').fill(SEARCH[lang]);
       await page.waitForTimeout(800);
-      await snap('2-search');
+      await snap('02-search');
       await go('/plant/solanum-lycopersicum');
-      await snap('3-plant');
+      await snap('03-sheet');
       await go('/plant/solanum-lycopersicum?tab=calendar');
-      await snap('4-calendar');
+      await snap('04-calendar');
       await go('/calendar');
-      await snap('5-tasks');
+      await snap('05-tasks');
       if (process.env.ALL_SCREENS) {
         for (const [name, url] of [['crops', '/crops'], ['crop', '/crop/c1'], ['garden', '/garden/g1'], ['profile', '/profile'], ['donate', '/donate'],
           ['sources', '/sources'], ['guide', '/plant/solanum-lycopersicum?tab=guide'], ['health', '/plant/solanum-lycopersicum?tab=health'],
           ['conditions', '/plant/solanum-lycopersicum?tab=conditions'], ['onboarding', '/onboarding'], ['history', '/history']]) {
           await go(url);
+          fs.mkdirSync(path.join(OUT, 'extra'), { recursive: true });
           await snap(`x-${name}`);
         }
       }

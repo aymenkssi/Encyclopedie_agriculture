@@ -49,9 +49,9 @@ const TEXT = {
 };
 
 const CAPTIONS = {
-  fr: ['Cultures conseillées pour votre région', 'Recherche en 3 langues, même avec des fautes', 'Fiches complètes et sourcées', 'Calendrier adapté à votre climat', 'Mode sombre'],
-  en: ['Crops suggested for your region', 'Search in 3 languages, even with typos', 'Complete, sourced plant sheets', 'Calendar adapted to your climate', 'Dark mode'],
-  ar: ['محاصيل مقترحة لمنطقتك', 'بحث بثلاث لغات حتى مع الأخطاء', 'بطاقات كاملة وموثّقة', 'تقويم ملائم لمناخك', 'الوضع الداكن'],
+  fr: ['Cultures conseillées pour votre région', 'Recherche en 3 langues, même avec des fautes', 'Fiches détaillées : climat, guide, santé', 'Calendrier adapté à votre climat', 'Vos tâches et rappels', 'Mode sombre'],
+  en: ['Crops suggested for your region', 'Search in 3 languages, even with typos', 'Detailed sheets: climate, guide, health', 'Calendar adapted to your climate', 'Your tasks and reminders', 'Dark mode'],
+  ar: ['محاصيل مقترحة لمنطقتك', 'بحث بثلاث لغات حتى مع الأخطاء', 'بطاقات مفصلة: المناخ والدليل والصحة', 'تقويم ملائم لمناخك', 'مهامك وتذكيراتك', 'الوضع الداكن'],
 };
 
 const page = (body, w, h) => `<!doctype html><html><head><meta charset="utf-8"><style>
@@ -95,7 +95,7 @@ async function shot(browser, html, w, h, file) {
       </div>`, 1024, 500), 1024, 500, path.join(OUT, `feature-graphic-${lang}.png`));
   }
 
-  // Framed phone screenshots from raw emulator captures (play-store/build/raw/<lang>/NN-name.png).
+  // Framed phone screenshots from raw captures of the web version (play-store/build/raw/<lang>/NN-name.png, see capture-screens.js).
   for (const lang of Object.keys(TEXT)) {
     const rawDir = path.join(ROOT, 'build', 'raw', lang);
     if (!fs.existsSync(rawDir)) continue;
