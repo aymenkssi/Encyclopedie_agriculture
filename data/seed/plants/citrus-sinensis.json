@@ -43,8 +43,8 @@
   "silty"
  ],
  "ph": {
-  "min": 6.0,
-  "max": 7.5
+  "min": 5.0,
+  "max": 6.0
  },
  "water": "high",
  "spacing": {

@@ -42,7 +42,7 @@
   "clay"
  ],
  "ph": {
-  "min": 5.8,
+  "min": 5.0,
   "max": 7.0
  },
  "water": "high",
