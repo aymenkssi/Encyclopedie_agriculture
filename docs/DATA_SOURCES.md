@@ -23,6 +23,7 @@ déclarée avec `accessedOn: null` (« non consultée ») et l'application affic
 | Kew — Plants of the World Online | noms acceptés, autorités, familles, synonymes | données CC BY (vérifier) | contrôle manuel |
 | GBIF Backbone Taxonomy | noms scientifiques, synonymes, noms vernaculaires | CC BY 4.0 | `tools/check_taxonomy_gbif.py` |
 | FAO ECOCROP / GAEZ | plages de température, pH, pluie, cycles | conditions FAO | `tools/import_ecocrop.py` (pH importé, températures en contrôle : `docs/ECOCROP_COMPARISON.md`) |
+| FAO Crop Calendar | périodes de semis/plantation et de récolte par zone agro-écologique (Maroc, Algérie, Tunisie, Égypte, Sénégal) | contenu FAO (conditions à vérifier) | `tools/import_fao_crop_calendar.py` (entrées `calendar` scopées `regionId`, statut « indicatif ») |
 | Services agricoles nationaux / instituts (INRAE, ONSSA, INRA Maroc, INRAA, ISRA…) | calendriers régionaux, variétés | selon l'organisme | entrées `calendar` scopées `regionId` |
 | Open-Meteo (ERA5) / normales OMM / services météo nationaux | normales mensuelles | Open-Meteo CC BY 4.0 | `tools/import_climate_normals.py` |
 | Beck et al. 2018 (Köppen-Geiger) | classification climatique | CC BY 4.0 | |

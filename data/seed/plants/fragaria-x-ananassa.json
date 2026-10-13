@@ -284,8 +284,92 @@
  "sourceIds": [
   "agripedia-demo",
   "powo",
-  "fao-ecocrop"
+  "fao-ecocrop",
+  "fao-crop-calendar"
  ],
  "lastReviewed": "2026-10-12",
- "isDemo": true
+ "isDemo": true,
+ "calendar": [
+  {
+   "activity": "planting",
+   "months": [
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "regionId": "dz-alg",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    6,
+    7,
+    8
+   ],
+   "regionId": "dz-alg",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "planting",
+   "months": [
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "regionId": "dz-sti",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Hautes plaines du Centre et de l'Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “High plains of Central and Eastern” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «السهول المرتفعة الوسطى والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "regionId": "dz-sti",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Hautes plaines du Centre et de l'Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “High plains of Central and Eastern” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «السهول المرتفعة الوسطى والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  }
+ ]
 }

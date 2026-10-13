@@ -196,6 +196,185 @@
    "sourceIds": [
     "agripedia-demo"
    ]
+  },
+  {
+   "activity": "direct_sowing",
+   "months": [
+    11,
+    12
+   ],
+   "regionId": "ma-rsk",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones favorables du Nord ouest Gharb et Sais » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : le semis se fait selon les premières pluies",
+    "en": "FAO Crop Calendar, agro-ecological zone “North West favorable areas and know Gharb” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: le semis se fait selon les premières pluies",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «الشمالي الغربي المناطق مواتية ومعرفة الغرب» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: le semis se fait selon les premières pluies"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    6,
+    7
+   ],
+   "regionId": "ma-rsk",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones favorables du Nord ouest Gharb et Sais » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : le semis se fait selon les premières pluies",
+    "en": "FAO Crop Calendar, agro-ecological zone “North West favorable areas and know Gharb” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: le semis se fait selon les premières pluies",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «الشمالي الغربي المناطق مواتية ومعرفة الغرب» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: le semis se fait selon les premières pluies"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "direct_sowing",
+   "months": [
+    11,
+    12
+   ],
+   "regionId": "ma-fm",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones favorables du Nord ouest Gharb et Sais » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : le semis se fait selon les premières pluies",
+    "en": "FAO Crop Calendar, agro-ecological zone “North West favorable areas and know Gharb” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: le semis se fait selon les premières pluies",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «الشمالي الغربي المناطق مواتية ومعرفة الغرب» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: le semis se fait selon les premières pluies"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    6,
+    7
+   ],
+   "regionId": "ma-fm",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones favorables du Nord ouest Gharb et Sais » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : le semis se fait selon les premières pluies",
+    "en": "FAO Crop Calendar, agro-ecological zone “North West favorable areas and know Gharb” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: le semis se fait selon les premières pluies",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «الشمالي الغربي المناطق مواتية ومعرفة الغرب» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: le semis se fait selon les premières pluies"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "direct_sowing",
+   "months": [
+    10,
+    11,
+    12
+   ],
+   "regionId": "ma-mar",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zone de Haut Atlas Occidental, Haouz et Haha » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : le cycle dans cette cette zone est très variable",
+    "en": "FAO Crop Calendar, agro-ecological zone “Area Western High Atlas, Haouz and Haha” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: le cycle dans cette cette zone est très variable",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «المنطقة الغربية الأطلس الكبير، والحوز هههه» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: le cycle dans cette cette zone est très variable"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    6,
+    7
+   ],
+   "regionId": "ma-mar",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zone de Haut Atlas Occidental, Haouz et Haha » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : le cycle dans cette cette zone est très variable",
+    "en": "FAO Crop Calendar, agro-ecological zone “Area Western High Atlas, Haouz and Haha” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: le cycle dans cette cette zone est très variable",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «المنطقة الغربية الأطلس الكبير، والحوز هههه» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: le cycle dans cette cette zone est très variable"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "direct_sowing",
+   "months": [
+    11,
+    12
+   ],
+   "regionId": "ma-dt",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones sahariennes et présahariennes » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : c'est une culture irrigué",
+    "en": "FAO Crop Calendar, agro-ecological zone “Saharan and presaharic areas” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: c'est une culture irrigué",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «المناطق الصحراوية وpresaharic» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: c'est une culture irrigué"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    6
+   ],
+   "regionId": "ma-dt",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones sahariennes et présahariennes » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : c'est une culture irrigué",
+    "en": "FAO Crop Calendar, agro-ecological zone “Saharan and presaharic areas” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: c'est une culture irrigué",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «المناطق الصحراوية وpresaharic» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: c'est une culture irrigué"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "direct_sowing",
+   "months": [
+    11
+   ],
+   "regionId": "eg-cai",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « région du Delta » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “Delta region” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «منطقة الدلتا» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    4,
+    5
+   ],
+   "regionId": "eg-cai",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « région du Delta » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “Delta region” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «منطقة الدلتا» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
   }
  ],
  "companions": [],
@@ -365,7 +544,8 @@
  "sourceIds": [
   "agripedia-demo",
   "powo",
-  "fao-ecocrop"
+  "fao-ecocrop",
+  "fao-crop-calendar"
  ],
  "lastReviewed": "2026-10-12",
  "isDemo": true
