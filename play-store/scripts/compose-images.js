@@ -40,7 +40,7 @@ const sprout = (color) => `
   <path fill="${color}" d="M32,74 L76,74 L76,78 L32,78 Z"/>
 </svg>`;
 
-const GREEN = '#2E6B3A', DARK = '#0E3A18', BEIGE = '#F3EBD7', CLAY = '#9A4A2B';
+const GREEN = '#2E6B3A', DARK = '#0E3A18', BEIGE = '#F3EBD7';
 
 const TEXT = {
   fr: { title: 'AgriPedia', tagline: 'Que planter, quand et comment,\nselon votre région', chips: ['Calendrier', 'Guides', 'Hors ligne'], dir: 'ltr' },

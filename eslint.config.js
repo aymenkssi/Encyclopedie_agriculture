@@ -7,4 +7,9 @@ module.exports = defineConfig([
   {
     ignores: ['dist/*', 'play-store/build/*'],
   },
+  {
+    // Node.js scripts (catalog generation, icons, store images).
+    files: ['scripts/**/*.js', 'play-store/scripts/**/*.js'],
+    languageOptions: { globals: { __dirname: 'readonly', require: 'readonly', module: 'writable', process: 'readonly', console: 'readonly' } },
+  },
 ]);
