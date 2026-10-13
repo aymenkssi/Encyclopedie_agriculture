@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    name: Typecheck, lint, tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: yarn
+      - run: yarn install --frozen-lockfile
+      - name: Catalog is up to date with data/seed
+        run: yarn catalog && git diff --exit-code lib/catalogData.ts
+      - run: yarn typecheck
+      - run: yarn lint
+      - run: yarn test --ci
+      - name: Google Play texts within limits
+        run: python3 play-store/scripts/check_texts.py
+      - name: Web export (all routes render)
+        run: npx expo export --platform web
+
+  android:
+    name: Android build (APK)
+    needs: checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: yarn
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+      - run: yarn install --frozen-lockfile
+      - name: Generate the native project
+        run: npx expo prebuild --platform android --no-install
+      - name: Build the release APK (signed with the debug key, for testing only)
+        working-directory: android
+        run: ./gradlew assembleRelease --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: agripedia-apk
+          path: android/app/build/outputs/apk/release/*.apk
+          retention-days: 14

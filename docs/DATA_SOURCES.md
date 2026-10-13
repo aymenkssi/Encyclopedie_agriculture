@@ -38,8 +38,8 @@ Aucune clé d'API n'est utilisée ni requise par l'application.
 3. Pour une recommandation régionale, ajouter une entrée `calendar` avec `regionId` (ou `climateZoneId` + `hemisphere`),
    ses `assumptions` (hypothèses et limites) et ses `sourceIds`.
 4. Remplacer les normales : `python3 tools/import_climate_normals.py` (réseau requis), relire le diff.
-5. `./gradlew :core:test` — le validateur bloque les références cassées, traductions manquantes, incohérences.
-6. Incrémenter `manifest.json.version` : les applications installées réimportent le contenu au prochain lancement sans
+5. `yarn catalog && yarn test` — le validateur bloque les références cassées, traductions manquantes, incohérences.
+6. Incrémenter `manifest.json.version` ; le nouveau contenu est livré avec la prochaine version de l'application, sans
    toucher aux données des utilisateurs.
 
 ## Distinction des types d'information
