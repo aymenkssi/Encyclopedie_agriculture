@@ -41,8 +41,8 @@
   "sandy"
  ],
  "ph": {
-  "min": 6.0,
-  "max": 7.0
+  "min": 5.5,
+  "max": 6.8
  },
  "water": "medium",
  "cycleDays": {
@@ -198,6 +198,879 @@
    },
    "sourceIds": [
     "agripedia-demo"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    8,
+    9
+   ],
+   "regionId": "ma-rsk",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones favorables du Nord ouest Gharb et Sais » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “North West favorable areas and know Gharb” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «الشمالي الغربي المناطق مواتية ومعرفة الغرب» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    9,
+    10
+   ],
+   "regionId": "ma-rsk",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones favorables du Nord ouest Gharb et Sais » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “North West favorable areas and know Gharb” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «الشمالي الغربي المناطق مواتية ومعرفة الغرب» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    11,
+    12
+   ],
+   "regionId": "ma-rsk",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones favorables du Nord ouest Gharb et Sais » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “North West favorable areas and know Gharb” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «الشمالي الغربي المناطق مواتية ومعرفة الغرب» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    8,
+    9
+   ],
+   "regionId": "ma-fm",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones favorables du Nord ouest Gharb et Sais » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “North West favorable areas and know Gharb” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «الشمالي الغربي المناطق مواتية ومعرفة الغرب» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    9,
+    10
+   ],
+   "regionId": "ma-fm",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones favorables du Nord ouest Gharb et Sais » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “North West favorable areas and know Gharb” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «الشمالي الغربي المناطق مواتية ومعرفة الغرب» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    11,
+    12
+   ],
+   "regionId": "ma-fm",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones favorables du Nord ouest Gharb et Sais » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “North West favorable areas and know Gharb” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «الشمالي الغربي المناطق مواتية ومعرفة الغرب» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    8,
+    9
+   ],
+   "regionId": "ma-mar",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zone de Haut Atlas Occidental, Haouz et Haha » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Le semis en pépinière et la plantation se fait apès deux mois",
+    "en": "FAO Crop Calendar, agro-ecological zone “Area Western High Atlas, Haouz and Haha” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Le semis en pépinière et la plantation se fait apès deux mois",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «المنطقة الغربية الأطلس الكبير، والحوز هههه» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Le semis en pépinière et la plantation se fait apès deux mois"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    9,
+    10
+   ],
+   "regionId": "ma-mar",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zone de Haut Atlas Occidental, Haouz et Haha » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Le semis en pépinière et la plantation se fait apès deux mois Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “Area Western High Atlas, Haouz and Haha” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Le semis en pépinière et la plantation se fait apès deux mois Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «المنطقة الغربية الأطلس الكبير، والحوز هههه» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Le semis en pépinière et la plantation se fait apès deux mois الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    11,
+    12
+   ],
+   "regionId": "ma-mar",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zone de Haut Atlas Occidental, Haouz et Haha » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Le semis en pépinière et la plantation se fait apès deux mois",
+    "en": "FAO Crop Calendar, agro-ecological zone “Area Western High Atlas, Haouz and Haha” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Le semis en pépinière et la plantation se fait apès deux mois",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «المنطقة الغربية الأطلس الكبير، والحوز هههه» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Le semis en pépinière et la plantation se fait apès deux mois"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    8,
+    9
+   ],
+   "regionId": "ma-dt",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones sahariennes et présahariennes » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Le semis en pépinière et la plantation se fait apès deux mois",
+    "en": "FAO Crop Calendar, agro-ecological zone “Saharan and presaharic areas” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Le semis en pépinière et la plantation se fait apès deux mois",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «المناطق الصحراوية وpresaharic» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Le semis en pépinière et la plantation se fait apès deux mois"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    9,
+    10
+   ],
+   "regionId": "ma-dt",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones sahariennes et présahariennes » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Le semis en pépinière et la plantation se fait apès deux mois Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “Saharan and presaharic areas” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Le semis en pépinière et la plantation se fait apès deux mois Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «المناطق الصحراوية وpresaharic» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Le semis en pépinière et la plantation se fait apès deux mois الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    11,
+    12
+   ],
+   "regionId": "ma-dt",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Zones sahariennes et présahariennes » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Le semis en pépinière et la plantation se fait apès deux mois",
+    "en": "FAO Crop Calendar, agro-ecological zone “Saharan and presaharic areas” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Le semis en pépinière et la plantation se fait apès deux mois",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «المناطق الصحراوية وpresaharic» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Le semis en pépinière et la plantation se fait apès deux mois"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    1,
+    11,
+    12
+   ],
+   "regionId": "dz-alg",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : primeur",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: primeur",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: primeur"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    1,
+    2,
+    12
+   ],
+   "regionId": "dz-alg",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : primeur Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: primeur Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: primeur الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    4,
+    5,
+    6
+   ],
+   "regionId": "dz-alg",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : primeur",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: primeur",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: primeur"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    4,
+    5
+   ],
+   "regionId": "dz-alg",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : saison",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: saison",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: saison"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    5,
+    6
+   ],
+   "regionId": "dz-alg",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : saison Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: saison Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: saison الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "regionId": "dz-alg",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : saison",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: saison",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: saison"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    7,
+    8
+   ],
+   "regionId": "dz-alg",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : arrière saison",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: arrière saison",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: arrière saison"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    8,
+    9
+   ],
+   "regionId": "dz-alg",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : arrière saison Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: arrière saison Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: arrière saison الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    1,
+    11,
+    12
+   ],
+   "regionId": "dz-alg",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : arrière saison",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: arrière saison",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: arrière saison"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    1,
+    2,
+    12
+   ],
+   "regionId": "dz-alg",
+   "methodId": "greenhouse",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : sous/serre",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: sous/serre",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: sous/serre"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    1,
+    2,
+    3
+   ],
+   "regionId": "dz-alg",
+   "methodId": "greenhouse",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : sous/serre Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: sous/serre Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: sous/serre الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    4,
+    5,
+    6
+   ],
+   "regionId": "dz-alg",
+   "methodId": "greenhouse",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Littoral Centre et Est » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : sous/serre",
+    "en": "FAO Crop Calendar, agro-ecological zone “Littoral Center and East” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: sous/serre",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «مركز الساحلية والشرقية» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: sous/serre"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "regionId": "tn-tun",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Nord Est et Cap Bon (semi aride à hiver doux) » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Culture de saison",
+    "en": "FAO Crop Calendar, agro-ecological zone “North East and Cap Bon (semi arid with mild winters)” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Culture de saison",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «شمال شرق والوطن القبلي (شبه قاحل مع شتاء معتدل)» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Culture de saison"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "regionId": "tn-tun",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Nord Est et Cap Bon (semi aride à hiver doux) » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Culture de saison Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “North East and Cap Bon (semi arid with mild winters)” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Culture de saison Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «شمال شرق والوطن القبلي (شبه قاحل مع شتاء معتدل)» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Culture de saison الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    7,
+    8,
+    9
+   ],
+   "regionId": "tn-tun",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Nord Est et Cap Bon (semi aride à hiver doux) » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Culture de saison",
+    "en": "FAO Crop Calendar, agro-ecological zone “North East and Cap Bon (semi arid with mild winters)” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Culture de saison",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «شمال شرق والوطن القبلي (شبه قاحل مع شتاء معتدل)» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Culture de saison"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    7,
+    8
+   ],
+   "regionId": "tn-tun",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Nord Est et Cap Bon (semi aride à hiver doux) » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Culture Arrière saison",
+    "en": "FAO Crop Calendar, agro-ecological zone “North East and Cap Bon (semi arid with mild winters)” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Culture Arrière saison",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «شمال شرق والوطن القبلي (شبه قاحل مع شتاء معتدل)» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Culture Arrière saison"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    8,
+    9
+   ],
+   "regionId": "tn-tun",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Nord Est et Cap Bon (semi aride à hiver doux) » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Culture Arrière saison Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “North East and Cap Bon (semi arid with mild winters)” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Culture Arrière saison Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «شمال شرق والوطن القبلي (شبه قاحل مع شتاء معتدل)» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Culture Arrière saison الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    1,
+    10,
+    11,
+    12
+   ],
+   "regionId": "tn-tun",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Nord Est et Cap Bon (semi aride à hiver doux) » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Culture Arrière saison",
+    "en": "FAO Crop Calendar, agro-ecological zone “North East and Cap Bon (semi arid with mild winters)” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Culture Arrière saison",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «شمال شرق والوطن القبلي (شبه قاحل مع شتاء معتدل)» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Culture Arrière saison"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "regionId": "tn-tun",
+   "methodId": "greenhouse",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Nord Est et Cap Bon (semi aride à hiver doux) » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Culture Primeur sous serre",
+    "en": "FAO Crop Calendar, agro-ecological zone “North East and Cap Bon (semi arid with mild winters)” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Culture Primeur sous serre",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «شمال شرق والوطن القبلي (شبه قاحل مع شتاء معتدل)» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Culture Primeur sous serre"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    1,
+    10,
+    11,
+    12
+   ],
+   "regionId": "tn-tun",
+   "methodId": "greenhouse",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Nord Est et Cap Bon (semi aride à hiver doux) » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Culture Primeur sous serre Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “North East and Cap Bon (semi arid with mild winters)” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Culture Primeur sous serre Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «شمال شرق والوطن القبلي (شبه قاحل مع شتاء معتدل)» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Culture Primeur sous serre الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "regionId": "tn-tun",
+   "methodId": "greenhouse",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Nord Est et Cap Bon (semi aride à hiver doux) » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Culture Primeur sous serre",
+    "en": "FAO Crop Calendar, agro-ecological zone “North East and Cap Bon (semi arid with mild winters)” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Culture Primeur sous serre",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «شمال شرق والوطن القبلي (شبه قاحل مع شتاء معتدل)» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Culture Primeur sous serre"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "regionId": "tn-tun",
+   "methodId": "greenhouse",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Nord Est et Cap Bon (semi aride à hiver doux) » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Culture Primeur sous tunnels",
+    "en": "FAO Crop Calendar, agro-ecological zone “North East and Cap Bon (semi arid with mild winters)” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Culture Primeur sous tunnels",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «شمال شرق والوطن القبلي (شبه قاحل مع شتاء معتدل)» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Culture Primeur sous tunnels"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    1,
+    10,
+    11,
+    12
+   ],
+   "regionId": "tn-tun",
+   "methodId": "greenhouse",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Nord Est et Cap Bon (semi aride à hiver doux) » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Culture Primeur sous tunnels Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “North East and Cap Bon (semi arid with mild winters)” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Culture Primeur sous tunnels Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «شمال شرق والوطن القبلي (شبه قاحل مع شتاء معتدل)» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Culture Primeur sous tunnels الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "regionId": "tn-tun",
+   "methodId": "greenhouse",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « Nord Est et Cap Bon (semi aride à hiver doux) » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : Culture Primeur sous tunnels",
+    "en": "FAO Crop Calendar, agro-ecological zone “North East and Cap Bon (semi arid with mild winters)” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: Culture Primeur sous tunnels",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «شمال شرق والوطن القبلي (شبه قاحل مع شتاء معتدل)» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: Culture Primeur sous tunnels"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    3,
+    4,
+    5
+   ],
+   "regionId": "eg-cai",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « région du Delta » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : traditional nurseries method is the main application",
+    "en": "FAO Crop Calendar, agro-ecological zone “Delta region” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: traditional nurseries method is the main application",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «منطقة الدلتا» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: traditional nurseries method is the main application"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    4,
+    5,
+    6
+   ],
+   "regionId": "eg-cai",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « région du Delta » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : traditional nurseries method is the main application Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “Delta region” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: traditional nurseries method is the main application Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «منطقة الدلتا» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: traditional nurseries method is the main application الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "regionId": "eg-cai",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « région du Delta » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Note FAO : traditional nurseries method is the main application",
+    "en": "FAO Crop Calendar, agro-ecological zone “Delta region” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. FAO note: traditional nurseries method is the main application",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «منطقة الدلتا» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. ملاحظة الفاو: traditional nurseries method is the main application"
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regionId": "sn-dkr",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « NIAYES » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “niayes” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «niayes» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regionId": "sn-dkr",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « NIAYES » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “niayes” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «niayes» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "nursery_sowing",
+   "months": [
+    1,
+    10,
+    11,
+    12
+   ],
+   "regionId": "sn-kao",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « BASSIN ARACHIDIER » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “groundnut Basin” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «حوض الفول السوداني» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "transplanting",
+   "months": [
+    1,
+    2,
+    11,
+    12
+   ],
+   "regionId": "sn-kao",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « BASSIN ARACHIDIER » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près. Repiquage déduit : semis FAO + 1 mois de pépinière (durée minimale de la fiche).",
+    "en": "FAO Crop Calendar, agro-ecological zone “groundnut Basin” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month. Transplanting derived: FAO sowing + 1 month(s) in nursery (minimum duration of the sheet).",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «حوض الفول السوداني» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر. الشتل مستنتج: بذر الفاو + 1 شهر في المشتل (المدة الدنيا في البطاقة)."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
+   ]
+  },
+  {
+   "activity": "harvest",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    12
+   ],
+   "regionId": "sn-kao",
+   "methodId": "open_field",
+   "status": "indicative",
+   "assumptions": {
+    "fr": "FAO Crop Calendar, zone agro-écologique « BASSIN ARACHIDIER » (mise à jour FAO : 26/02/2021) : période de semis ou de plantation et période de récolte, au mois près.",
+    "en": "FAO Crop Calendar, agro-ecological zone “groundnut Basin” (FAO update: 26/02/2021): sowing or planting period and harvest period, to the nearest month.",
+    "ar": "تقويم المحاصيل لمنظمة الأغذية والزراعة، المنطقة الزراعية البيئية «حوض الفول السوداني» (تحديث الفاو: 26/02/2021): فترة البذر أو الغرس وفترة الحصاد، بدقة الشهر."
+   },
+   "sourceIds": [
+    "fao-crop-calendar"
    ]
   }
  ],
@@ -434,7 +1307,8 @@
  "sourceIds": [
   "agripedia-demo",
   "powo",
-  "fao-ecocrop"
+  "fao-ecocrop",
+  "fao-crop-calendar"
  ],
  "lastReviewed": "2026-10-12",
  "isDemo": true

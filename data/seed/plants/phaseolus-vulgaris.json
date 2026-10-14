@@ -42,7 +42,7 @@
   "silty"
  ],
  "ph": {
-  "min": 6.0,
+  "min": 5.5,
   "max": 7.5
  },
  "water": "medium",
