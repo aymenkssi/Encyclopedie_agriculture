@@ -14,6 +14,7 @@ AgriPedia is a farming encyclopedia that tells you which crops suit your region,
 • Choose your country and region, or use your location (optional)
 • Suggested crops for the month or season, including the rainy season in tropical climates
 • Calendar computed from the local climate: frost, heat, rain, greenhouse or container
+• FAO crop calendars for regions of Morocco, Algeria, Tunisia, Egypt and Senegal
 • Always shown as indicative, with its assumptions and limits
 
 📖 COMPLETE PLANT SHEETS

@@ -17,6 +17,36 @@ calendrier régional, tâches et rappels, mode sombre.
 > ⚠️ Avant une diffusion large, lisez la section « Données » du README principal : les fiches actuelles sont des données de
 > démonstration, signalées comme telles dans l'application et dans la description.
 
+## Récapitulatif (à copier-coller)
+
+| Élément | Valeur |
+|---|---|
+| Nom du paquet | `com.aymen.agripedia` |
+| Version / code de version | `1.0.0` / `1` (`app.json` › `expo.version`, `expo.android.versionCode`) |
+| Nom sur Google Play | `AgriPedia : potager & cultures` (fr), voir `textes/` pour en et ar |
+| Catégorie | Éducation (ou Maison et intérieur) |
+| E-mail de contact | `aymenkssi@gmail.com` |
+| Site web | `https://agripedia.creationapp.academy` |
+| Politique de confidentialité | `https://agripedia.creationapp.academy/privacy` |
+| AdMob · ID d'application | `ca-app-pub-7488746561313974~5179184724` |
+| AdMob · bloc bannière « Bannière bas » | `ca-app-pub-7488746561313974/2730396616` |
+| `app-ads.txt` | `google.com, pub-7488746561313974, DIRECT, f08c47fec0942fa0` (`site/app-ads.txt`) |
+| Autorisations | localisation approximative (au premier plan, à la demande), notifications, Internet (publicité) |
+| Annonces | oui (bannière AdMob, consentement UMP en Europe) |
+| Public cible | 18 ans et plus (recommandé) |
+
+### Ordre de publication
+
+1. Mettre le site en ligne (`deploy/README.md`) et vérifier `/privacy` et `/app-ads.txt` (étape 0.1).
+2. Publier le message de consentement européen dans AdMob (étape 0.2).
+3. Construire le `.aab` avec EAS (étape 1) et un APK de test pour vérifier l'application sur un téléphone.
+4. Créer l'application dans la Play Console (étape 2), remplir la fiche (étape 3) et les déclarations (étape 4).
+5. Test interne, puis test fermé si le compte l'exige (étape 5), puis production (étape 6).
+6. Relier l'application publiée dans AdMob (étape 7).
+
+> Les annonces réelles ne s'affichent que dans les builds `preview` et `production` ; les builds de développement
+> affichent toujours les annonces de test de Google. Ne cliquez jamais sur vos propres annonces.
+
 ---
 
 ## 0. Avant de commencer (une seule fois)
@@ -24,15 +54,12 @@ calendrier régional, tâches et rappels, mode sombre.
 1. **Site en ligne** (politique de confidentialité obligatoire : localisation + publicité ; `app-ads.txt` pour AdMob) :
    suivre `deploy/README.md` (DNS `agripedia` puis `docker compose up -d`). Vérifier que
    https://agripedia.creationapp.academy/privacy et https://agripedia.creationapp.academy/app-ads.txt s'ouvrent.
-2. **AdMob** (même compte éditeur `pub-7488746561313974` que vos autres apps) :
-   - AdMob › **Applications** › **Ajouter une application** › Android › « Non publiée sur Google Play » › nom `AgriPedia`.
-     Notez l'**ID d'application** (`ca-app-pub-7488746561313974~…`).
-   - Dans l'app : **Blocs d'annonces** › **Bannière** › nom `Bannière bas`. Notez l'**ID du bloc** (`ca-app-pub-7488746561313974/…`).
+2. **AdMob** ✅ fait : application `AgriPedia` (Android) et bloc bannière `Bannière bas` créés, IDs intégrés au projet
+   (`app.json` et `constants/ads.ts`, voir le récapitulatif ci-dessus). Reste à faire dans AdMob :
    - **Confidentialité et messages** › **Réglementations européennes** › **Créer un message** pour AgriPedia
      (français, anglais, arabe) › **Publier**. Sans ce message, presque aucune annonce n'est diffusée en Europe.
-   - Envoyez-moi les deux IDs : je les mets dans le projet (`app.json` › plugin `react-native-google-mobile-ads`
-     › `androidAppId`, et `constants/ads.ts` › `BANNER_AD_UNIT_IDS.android`). Tant qu'ils ne sont pas renseignés,
-     l'application affiche les **annonces de test** de Google.
+   - Le statut « Requires review » de l'application AdMob passe à « Approuvé » une fois l'application publiée sur
+     Google Play et reliée dans AdMob (étape 7).
 3. **Compte Expo** (gratuit) : https://expo.dev/signup, puis sur l'ordinateur (ou le serveur) qui lance les builds :
    `npx eas-cli login`. Au premier build, accepter la création du projet EAS (`eas init` est proposé automatiquement).
 
