@@ -14,6 +14,7 @@ AgriPedia est une encyclopédie agricole qui vous dit quelles cultures convienne
 • Choisissez votre pays et votre région, ou utilisez votre position (facultatif)
 • Cultures conseillées pour le mois ou la saison, y compris la saison des pluies en climat tropical
 • Calendrier calculé à partir du climat local : gel, chaleur, pluies, serre ou pot
+• Calendriers de la FAO pour des régions du Maroc, d'Algérie, de Tunisie, d'Égypte et du Sénégal
 • Toujours présenté comme indicatif, avec ses hypothèses et ses limites
 
 📖 DES FICHES COMPLÈTES
